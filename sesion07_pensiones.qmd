@@ -1,0 +1,10 @@
+---
+title: "Sesión 7: Módulo 5 – Pensiones y planificación de jubilación"
+format: html
+---
+
+::: {.callout-note}
+## Material de la sesión
+
+Aquí puedes incluir los vídeos, enlaces y materiales descargables.
+:::

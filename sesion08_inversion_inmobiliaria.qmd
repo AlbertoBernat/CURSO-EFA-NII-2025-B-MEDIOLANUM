@@ -1,0 +1,10 @@
+---
+title: "Sesión 8: Módulo 6 – Inversión inmobiliaria"
+format: html
+---
+
+::: {.callout-note}
+## Material de la sesión
+
+Aquí puedes incluir los vídeos, enlaces y materiales descargables.
+:::

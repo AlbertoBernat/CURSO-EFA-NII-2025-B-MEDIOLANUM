@@ -1,0 +1,10 @@
+---
+title: "Sesión 3: Módulo 1 – Parte II: Renta variable"
+format: html
+---
+
+::: {.callout-note}
+## Material de la sesión
+
+Aquí puedes incluir los vídeos, enlaces y materiales descargables.
+:::

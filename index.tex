@@ -167,6 +167,22 @@
 
 \KOMAoption{captions}{tableheading}
 \makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
+\@ifpackageloaded{fontawesome5}{}{\usepackage{fontawesome5}}
+\definecolor{quarto-callout-color}{HTML}{909090}
+\definecolor{quarto-callout-note-color}{HTML}{0758E5}
+\definecolor{quarto-callout-important-color}{HTML}{CC1914}
+\definecolor{quarto-callout-warning-color}{HTML}{EB9113}
+\definecolor{quarto-callout-tip-color}{HTML}{00A047}
+\definecolor{quarto-callout-caution-color}{HTML}{FC5300}
+\definecolor{quarto-callout-color-frame}{HTML}{acacac}
+\definecolor{quarto-callout-note-color-frame}{HTML}{4582ec}
+\definecolor{quarto-callout-important-color-frame}{HTML}{d9534f}
+\definecolor{quarto-callout-warning-color-frame}{HTML}{f0ad4e}
+\definecolor{quarto-callout-tip-color-frame}{HTML}{02b875}
+\definecolor{quarto-callout-caution-color-frame}{HTML}{fd7e14}
+\makeatother
+\makeatletter
 \@ifpackageloaded{bookmark}{}{\usepackage{bookmark}}
 \makeatother
 \makeatletter
@@ -219,8 +235,8 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same} % disable monospaced font for URLs
 \hypersetup{
-  pdftitle={LIBRO},
-  pdfauthor={Norah Jones},
+  pdftitle={European Financial Planning Association   Certificación EFA™ (European Financial Advisor)},
+  pdfauthor={Alberto Bernat},
   colorlinks=true,
   linkcolor={blue},
   filecolor={Maroon},
@@ -229,8 +245,16 @@
   pdfcreator={LaTeX via pandoc}}
 
 
-\title{LIBRO}
-\author{Norah Jones}
+\title{\emph{European Financial Planning Association} Certificación EFA™
+(European Financial Advisor)}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{ \textbf{Ejercicios y exámenes resueltos}}
+\author{Alberto Bernat}
 \date{2025-03-25}
 
 \begin{document}
@@ -250,22 +274,351 @@
 
 \markboth{Preface}{Preface}
 
-This is a Quarto book.
+\includegraphics{images/EFA_logo.jpg}
 
-To learn more about Quarto books visit
-\url{https://quarto.org/docs/books}.
+\section*{Propuesta formativa 🎓}\label{propuesta-formativa}
+\addcontentsline{toc}{section}{Propuesta formativa 🎓}
 
-\begin{Shaded}
-\begin{Highlighting}[]
-\DecValTok{1} \SpecialCharTok{+} \DecValTok{1}
-\end{Highlighting}
-\end{Shaded}
+\markright{Propuesta formativa 🎓}
 
-\begin{verbatim}
-[1] 2
-\end{verbatim}
+Esta propuesta formativa está diseñada para preparar a un grupo de 5
+personas para la certificación \textbf{EFA Nivel II (NII) de EFPA},
+abarcando todos los contenidos avanzados (excluyendo el módulo 4 de
+seguros y el módulo 9 de cumplimiento normativo y regulador).\\
+El programa consta de 12 sesiones de 1,5 horas cada una, impartidas
+todos los martes, de \textbf{10:00 a 11:30}, a partir del próximo
+martes.
 
-\bookmarksetup{startatroot}
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Sesión 1:} Prueba de nivel inicial y repaso del nivel I.\\
+\item
+  \textbf{Sesiones 2 a 11:} Sesiones centrales que cubrirán los
+  contenidos del nivel II.\\
+\item
+  \textbf{Sesión 6:} Evaluación del progreso y determinación para acudir
+  a la convocatoria de junio (se habrán visto lo más exigente del
+  examen).\\
+\item
+  \textbf{Sesión 12:} Simulación de examen corregido y comentado en
+  clase.
+\end{itemize}
+
+El precio total del programa es de \textbf{2.500 €}. Una vez formalizado
+el pago, se enviará una prueba de nivel inicial en los próximos días y
+la formación dará comienzo el próximo martes.
+
+\subsection*{📅 Calendario de sesiones}\label{calendario-de-sesiones}
+\addcontentsline{toc}{subsection}{📅 Calendario de sesiones}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1250}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1250}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1250}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.6250}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Sesión
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Fecha
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Horario
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Contenido/Objetivo
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+1 & 25 de marzo 2025 & 10:00 -- 11:30 & Prueba de nivel inicial y repaso
+del nivel I. 😊 \\
+2 & 1 de abril 2025 & 10:00 -- 11:30 & \textbf{Módulo 1 -- Parte I:
+Renta fija}Curva de tipos, teorías de la ETTI y gestión del riesgo
+(sensibilidad, duración, duración corregida, inmunización). \\
+3 & 8 de abril 2025 & 10:00 -- 11:30 & \textbf{Módulo 1 -- Parte II:
+Renta variable}Análisis fundamental, ratios bursátiles (Earning Yield
+Gap, precio cash flow, precio sobre valor contable, ROA, ROE),
+valoración y análisis técnico. \\
+4 & 15 de abril 2025 & 10:00 -- 11:30 & \textbf{Módulo 2: Fondos y
+sociedades de inversión mobiliaria}.Fondos de inversión libre (hedge
+funds), estilos de gestión y análisis/selección de fondos. \\
+5 & 22 de abril 2025 & 10:00 -- 11:30 & \textbf{Módulo 3: Gestión de
+carteras}- Riesgo y marco de rendimiento (riesgo de cartera,
+diversificación).- Mercados de capital eficientes (concepto, hipótesis y
+anomalías).- Teoría de carteras (fundamentos, selección de cartera
+óptima, modelo de Sharpe, CAPM y otros modelos).- Proceso de asignación
+de activos y medición/atribución de resultados (incluyendo normas
+GIPS). \\
+6 & 29 de abril 2025 & 10:00 -- 11:30 & \textbf{Módulo 8:
+Fiscalidad}Aplicación de la normativa fiscal y estrategias de
+optimización tributaria. \\
+6.5 & 29 de abril 2025 & 11:30 -- 11:40 & \textbf{Evaluación para la
+convocatoria de junio}Revisión y valoración de la preparación del
+grupo. \\
+7 & 6 de mayo 2025 & 10:00 -- 11:30 & \textbf{Módulo 5: Pensiones y
+planificación de jubilación}Fundamentos para planificar la jubilación:
+definición de necesidades, coberturas de pensiones públicas,
+establecimiento de prioridades financieras, inicio del ahorro y análisis
+de ingresos y gastos. \\
+8 & 13 de mayo 2025 & 10:00 -- 11:30 & \textbf{Módulo 6: Inversión
+inmobiliaria}Análisis de características, clasificación, vehículos y
+planificación en el sector inmobiliario. \\
+9 & 20 de mayo 2025 & 10:00 -- 11:30 & \textbf{Módulo 7: Crédito y
+financiación}Análisis de tipos de préstamos, evaluación del riesgo de
+crédito y métodos de financiación. \\
+10 & 27 de mayo 2025 & 10:00 -- 11:30 & \textbf{Módulo 10: Asesoramiento
+y planificación financiera}Estrategias de asesoramiento integral, diseño
+de planes financieros y seguimiento. \\
+11 & 3 de junio 2025 & 10:00 -- 11:30 & Repaso integral y ajustes de
+contenidos.Evaluación final para determinar la asistencia a la
+convocatoria de septiembre. \\
+12 & 10 de junio 2025 & 10:00 -- 11:30 & Simulación de examen corregido
+y comentado en clase.Evaluación final de la formación. \\
+\end{longtable}
+
+\subsection*{Estructura del examen EFA NII
+📊}\label{estructura-del-examen-efa-nii}
+\addcontentsline{toc}{subsection}{Estructura del examen EFA NII 📊}
+
+La Asociación Europea no facilita una estructura detallada y concreta de
+la ponderación relativa de los contenidos en el examen EFA NII. No
+obstante, se acepta que aproximadamente el \textbf{60\%} del temario
+corresponde al nivel uno (conocimientos básicos) y el \textbf{40\%}
+restante se destina a los aspectos avanzados o de nivel dos.
+
+La siguiente tabla, que muestra la ponderación aproximada de cada módulo
+en el examen EFA completo, nos permite visualizar de forma gráfica cómo
+se distribuyen los contenidos en términos de peso:
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3836}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4110}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2055}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Módulo
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Contenido
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Peso (\%)
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Módulo 1: Instrumentos y mercados financieros & Instrumentos y mercados
+financieros & 25,00\% \\
+Módulo 2: Fondos y sociedades de inversión mobiliaria & Fondos y
+sociedades de inversión mobiliaria & 10,00\% \\
+Módulo 3: Gestión de carteras & Gestión de carteras & 17,50\% \\
+Módulo 4: Seguros & Seguros & 7,50\% \\
+Módulo 5: Pensiones y planificación de jubilación & Pensiones y
+planificación de jubilación & 5,00\% \\
+Módulo 6: Inversión inmobiliaria & Inversión inmobiliaria & 5,00\% \\
+Módulo 7: Crédito y financiación & Crédito y financiación & 5,00\% \\
+Módulo 8: Fiscalidad & Fiscalidad & 10,00\% \\
+Módulo 9: Cumplimiento normativo y regulador & Cumplimiento normativo y
+regulador & 7,50\% \\
+Módulo 10: Asesoramiento y planificación financiera & Asesoramiento y
+planificación financiera & 7,50\% \\
+\end{longtable}
+
+\emph{Nota:} En la formación \textbf{EFA Nivel II (NII)} se excluyen los
+contenidos del Módulo 4 (Seguros) y del Módulo 9 (Cumplimiento normativo
+y regulador). Así, el 40\% de los contenidos avanzados se orienta a los
+módulos restantes, lo que nos ayuda a focalizar nuestra preparación para
+la parte de nivel dos del examen.
+
+\subsection*{Detalles adicionales 💰}\label{detalles-adicionales}
+\addcontentsline{toc}{subsection}{Detalles adicionales 💰}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Precio total:} 2.500 €\\
+\item
+  \textbf{Modalidad:} Sesiones online, todos los martes de 10:00 a
+  11:30\\
+\item
+  \textbf{Grupo:} 5 personas\\
+\item
+  Los alumnos recibirán una prueba de nivel inicial en los próximos
+  días, una vez formalizado el pago.\\
+\item
+  La formación dará comienzo el próximo martes, 25 de marzo de 2025.
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section*{Conclusión 🔔}\label{conclusiuxf3n}
+\addcontentsline{toc}{section}{Conclusión 🔔}
+
+\markright{Conclusión 🔔}
+
+Esta propuesta está diseñada para ofrecer una preparación intensiva que
+cubra los contenidos avanzados del examen \textbf{EFA (EFA NII)}. Se
+opta por iniciar la formación de forma parcial, acreditando primero la
+parte común y más importante del contenido (aproximadamente el 70\% del
+temario) y, posteriormente, mediante una valoración conjunta entre los
+alumnos y el profesor (30\% restante), acceder al EFA NII.
+
+La evaluación intermedia en la sesión 6 permitirá, de forma conjunta,
+valorar si el grupo está en condiciones de afrontar la convocatoria de
+junio (26 de junio) o, en su defecto, optar por la de septiembre (25 de
+septiembre).
+
+Nuestra estrategia formativa se orienta a evaluar la preparación del
+grupo en dos momentos clave:
+
+\begin{itemize}
+\item
+  \textbf{Convocatoria de junio (26 de junio):}\\
+  Las primeras seis sesiones serán determinantes para valorar el nivel
+  del grupo y decidir si se acude a esta convocatoria. En la sesión 6
+  (junto con la evaluación intermedia) se analizarán los contenidos más
+  exigentes del examen. 🚀
+\item
+  \textbf{Convocatoria de septiembre (25 de septiembre):}\\
+  En la sesión 10 se realizará un repaso integral que, en función del
+  rendimiento del grupo, permitirá decidir si se apunta a la
+  convocatoria de septiembre. 📆
+\end{itemize}
+
+Este enfoque garantiza que la formación se ajuste a las necesidades del
+grupo, permitiendo acreditar inicialmente la parte común del temario y,
+mediante la evaluación conjunta, determinar la mejor opción de
+convocatoria para maximizar las posibilidades de éxito en el examen EFA
+NII.
+
+\begin{quote}
+\textbf{Continuidad formativa:}\\
+Los candidatos que, habiendo consumido las 12 sesiones, deseen continuar
+con la formación, podrán negociar su continuidad siempre que el grupo
+mínimo sea de 3 personas. En este caso, se aplicará un \textbf{descuento
+del 20\%} sobre el precio total del programa. 💼🎉
+\end{quote}
+
+\part{SESIONES (vídeos y materiales)}
+
+\chapter{Sesión 1: Repaso del Nivel I y prueba
+inicial}\label{sesiuxf3n-1-repaso-del-nivel-i-y-prueba-inicial}
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, breakable, opacitybacktitle=0.6, coltitle=black, rightrule=.15mm, colframe=quarto-callout-note-color-frame, titlerule=0mm, toprule=.15mm, colback=white, arc=.35mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Material de la sesión}, toptitle=1mm, bottomrule=.15mm, colbacktitle=quarto-callout-note-color!10!white, left=2mm, opacityback=0, bottomtitle=1mm]
+
+Aquí puedes incluir los vídeos, enlaces y materiales descargables.
+
+\end{tcolorbox}
+
+\chapter{Sesión 2: Módulo 1 -- Parte I: Renta
+fija}\label{sesiuxf3n-2-muxf3dulo-1-parte-i-renta-fija}
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, breakable, opacitybacktitle=0.6, coltitle=black, rightrule=.15mm, colframe=quarto-callout-note-color-frame, titlerule=0mm, toprule=.15mm, colback=white, arc=.35mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Material de la sesión}, toptitle=1mm, bottomrule=.15mm, colbacktitle=quarto-callout-note-color!10!white, left=2mm, opacityback=0, bottomtitle=1mm]
+
+Aquí puedes incluir los vídeos, enlaces y materiales descargables.
+
+\end{tcolorbox}
+
+\chapter{Sesión 3: Módulo 1 -- Parte II: Renta
+variable}\label{sesiuxf3n-3-muxf3dulo-1-parte-ii-renta-variable}
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, breakable, opacitybacktitle=0.6, coltitle=black, rightrule=.15mm, colframe=quarto-callout-note-color-frame, titlerule=0mm, toprule=.15mm, colback=white, arc=.35mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Material de la sesión}, toptitle=1mm, bottomrule=.15mm, colbacktitle=quarto-callout-note-color!10!white, left=2mm, opacityback=0, bottomtitle=1mm]
+
+Aquí puedes incluir los vídeos, enlaces y materiales descargables.
+
+\end{tcolorbox}
+
+\chapter{Sesión 4: Módulo 2 -- Fondos y sociedades de
+inversión}\label{sesiuxf3n-4-muxf3dulo-2-fondos-y-sociedades-de-inversiuxf3n}
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, breakable, opacitybacktitle=0.6, coltitle=black, rightrule=.15mm, colframe=quarto-callout-note-color-frame, titlerule=0mm, toprule=.15mm, colback=white, arc=.35mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Material de la sesión}, toptitle=1mm, bottomrule=.15mm, colbacktitle=quarto-callout-note-color!10!white, left=2mm, opacityback=0, bottomtitle=1mm]
+
+Aquí puedes incluir los vídeos, enlaces y materiales descargables.
+
+\end{tcolorbox}
+
+\chapter{Sesión 5: Módulo 3 -- Gestión de
+carteras}\label{sesiuxf3n-5-muxf3dulo-3-gestiuxf3n-de-carteras}
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, breakable, opacitybacktitle=0.6, coltitle=black, rightrule=.15mm, colframe=quarto-callout-note-color-frame, titlerule=0mm, toprule=.15mm, colback=white, arc=.35mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Material de la sesión}, toptitle=1mm, bottomrule=.15mm, colbacktitle=quarto-callout-note-color!10!white, left=2mm, opacityback=0, bottomtitle=1mm]
+
+Aquí puedes incluir los vídeos, enlaces y materiales descargables.
+
+\end{tcolorbox}
+
+\chapter{Sesión 6: Módulo 8 --
+Fiscalidad}\label{sesiuxf3n-6-muxf3dulo-8-fiscalidad}
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, breakable, opacitybacktitle=0.6, coltitle=black, rightrule=.15mm, colframe=quarto-callout-note-color-frame, titlerule=0mm, toprule=.15mm, colback=white, arc=.35mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Material de la sesión}, toptitle=1mm, bottomrule=.15mm, colbacktitle=quarto-callout-note-color!10!white, left=2mm, opacityback=0, bottomtitle=1mm]
+
+Aquí puedes incluir los vídeos, enlaces y materiales descargables.
+
+\end{tcolorbox}
+
+\chapter{Sesión 6.5: Evaluación para la convocatoria de
+junio}\label{sesiuxf3n-6.5-evaluaciuxf3n-para-la-convocatoria-de-junio}
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, breakable, opacitybacktitle=0.6, coltitle=black, rightrule=.15mm, colframe=quarto-callout-note-color-frame, titlerule=0mm, toprule=.15mm, colback=white, arc=.35mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Material de la sesión}, toptitle=1mm, bottomrule=.15mm, colbacktitle=quarto-callout-note-color!10!white, left=2mm, opacityback=0, bottomtitle=1mm]
+
+Aquí puedes incluir los vídeos, enlaces y materiales descargables.
+
+\end{tcolorbox}
+
+\chapter{Sesión 7: Módulo 5 -- Pensiones y planificación de
+jubilación}\label{sesiuxf3n-7-muxf3dulo-5-pensiones-y-planificaciuxf3n-de-jubilaciuxf3n}
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, breakable, opacitybacktitle=0.6, coltitle=black, rightrule=.15mm, colframe=quarto-callout-note-color-frame, titlerule=0mm, toprule=.15mm, colback=white, arc=.35mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Material de la sesión}, toptitle=1mm, bottomrule=.15mm, colbacktitle=quarto-callout-note-color!10!white, left=2mm, opacityback=0, bottomtitle=1mm]
+
+Aquí puedes incluir los vídeos, enlaces y materiales descargables.
+
+\end{tcolorbox}
+
+\chapter{Sesión 8: Módulo 6 -- Inversión
+inmobiliaria}\label{sesiuxf3n-8-muxf3dulo-6-inversiuxf3n-inmobiliaria}
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, breakable, opacitybacktitle=0.6, coltitle=black, rightrule=.15mm, colframe=quarto-callout-note-color-frame, titlerule=0mm, toprule=.15mm, colback=white, arc=.35mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Material de la sesión}, toptitle=1mm, bottomrule=.15mm, colbacktitle=quarto-callout-note-color!10!white, left=2mm, opacityback=0, bottomtitle=1mm]
+
+Aquí puedes incluir los vídeos, enlaces y materiales descargables.
+
+\end{tcolorbox}
+
+\chapter{Sesión 9: Módulo 7 -- Crédito y
+financiación}\label{sesiuxf3n-9-muxf3dulo-7-cruxe9dito-y-financiaciuxf3n}
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, breakable, opacitybacktitle=0.6, coltitle=black, rightrule=.15mm, colframe=quarto-callout-note-color-frame, titlerule=0mm, toprule=.15mm, colback=white, arc=.35mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Material de la sesión}, toptitle=1mm, bottomrule=.15mm, colbacktitle=quarto-callout-note-color!10!white, left=2mm, opacityback=0, bottomtitle=1mm]
+
+Aquí puedes incluir los vídeos, enlaces y materiales descargables.
+
+\end{tcolorbox}
+
+\chapter{Sesión 10: Módulo 10 -- Asesoramiento y planificación
+financiera}\label{sesiuxf3n-10-muxf3dulo-10-asesoramiento-y-planificaciuxf3n-financiera}
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, breakable, opacitybacktitle=0.6, coltitle=black, rightrule=.15mm, colframe=quarto-callout-note-color-frame, titlerule=0mm, toprule=.15mm, colback=white, arc=.35mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Material de la sesión}, toptitle=1mm, bottomrule=.15mm, colbacktitle=quarto-callout-note-color!10!white, left=2mm, opacityback=0, bottomtitle=1mm]
+
+Aquí puedes incluir los vídeos, enlaces y materiales descargables.
+
+\end{tcolorbox}
+
+\chapter{Sesión 11: Repaso integral y evaluación
+final}\label{sesiuxf3n-11-repaso-integral-y-evaluaciuxf3n-final}
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, breakable, opacitybacktitle=0.6, coltitle=black, rightrule=.15mm, colframe=quarto-callout-note-color-frame, titlerule=0mm, toprule=.15mm, colback=white, arc=.35mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Material de la sesión}, toptitle=1mm, bottomrule=.15mm, colbacktitle=quarto-callout-note-color!10!white, left=2mm, opacityback=0, bottomtitle=1mm]
+
+Aquí puedes incluir los vídeos, enlaces y materiales descargables.
+
+\end{tcolorbox}
+
+\chapter{Sesión 12: Simulación de examen y cierre del
+curso}\label{sesiuxf3n-12-simulaciuxf3n-de-examen-y-cierre-del-curso}
+
+\begin{tcolorbox}[enhanced jigsaw, leftrule=.75mm, breakable, opacitybacktitle=0.6, coltitle=black, rightrule=.15mm, colframe=quarto-callout-note-color-frame, titlerule=0mm, toprule=.15mm, colback=white, arc=.35mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Material de la sesión}, toptitle=1mm, bottomrule=.15mm, colbacktitle=quarto-callout-note-color!10!white, left=2mm, opacityback=0, bottomtitle=1mm]
+
+Aquí puedes incluir los vídeos, enlaces y materiales descargables.
+
+\end{tcolorbox}
+
+\part{TEST}
 
 \chapter{Introduction}\label{introduction}
 
@@ -283,11 +636,13 @@ See Knuth (1984) for additional discussion of literate programming.
 [1] 2
 \end{verbatim}
 
-\bookmarksetup{startatroot}
+\part{EXÁMENES}
 
-\chapter{Summary}\label{summary}
+\chapter{Introduction}\label{introduction-1}
 
-In summary, this book has no content whatsoever.
+This is a book created from markdown and executable code.
+
+See Knuth (1984) for additional discussion of literate programming.
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -298,13 +653,6 @@ In summary, this book has no content whatsoever.
 \begin{verbatim}
 [1] 2
 \end{verbatim}
-
-\bookmarksetup{startatroot}
-
-\chapter*{References}\label{references}
-\addcontentsline{toc}{chapter}{References}
-
-\markboth{References}{References}
 
 \phantomsection\label{refs}
 \begin{CSLReferences}{1}{0}

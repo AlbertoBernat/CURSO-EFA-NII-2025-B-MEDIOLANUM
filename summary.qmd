@@ -1,7 +1,35 @@
-# Summary
+---
+title: "Resumen del contenido"
+format: html
+---
 
-In summary, this book has no content whatsoever.
+## Estructura del libro
 
-```{r}
-1 + 1
-```
+Este libro está organizado en tres bloques principales que permiten una preparación progresiva, ordenada y práctica para el examen parcial **Nivel II de la Certificación EFA™**:
+
+### 1. SESIONES 📚
+
+13 sesiones organizadas cronológicamente, donde se explican los contenidos avanzados del programa EFA Nivel II, incluyendo materiales, vídeos y recursos de apoyo.
+
+### 2. TEST ✅
+
+Batería de preguntas tipo test por módulo y simulacros de examen, con el objetivo de entrenar la comprensión teórica y la agilidad en la resolución de casos tipo EFPA.
+
+### 3. EXÁMENES 💡
+
+Exámenes reales resueltos y comentados, simulacros completos con clave de respuestas y explicación didáctica, ideales para la autoevaluación final.
+
+------------------------------------------------------------------------
+
+## Recomendaciones de uso
+
+-   📅 **Empieza por las sesiones** en orden, viendo los vídeos y tomando apuntes.
+-   🧠 **Haz los test después de cada sesión** para afianzar los conceptos.
+-   📝 **Usa los simulacros como entrenamiento final** antes del examen real.
+-   🕒 **Evalúa tu progreso** en la sesión 6.5 y al terminar la sesión 12.
+
+------------------------------------------------------------------------
+
+## Objetivo final
+
+El objetivo de este libro es ofrecer una experiencia formativa práctica y eficaz, adaptada a profesionales del sector financiero que buscan **superar con éxito el examen EFA Nivel II en la convocatoria de 2025**.

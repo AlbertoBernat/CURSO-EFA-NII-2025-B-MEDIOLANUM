@@ -1,9 +1,81 @@
-# Preface {.unnumbered}
+# Propuesta formativa 🎓 {.unnumbered}
 
-This is a Quarto book.
+## Propuesta formativa 🎓
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+Esta propuesta formativa está diseñada para preparar a un grupo de 5 personas para la certificación **EFA Nivel II (NII) de EFPA**, abarcando todos los contenidos avanzados (excluyendo el módulo 4 de seguros y el módulo 9 de cumplimiento normativo y regulador).\
+El programa consta de 12 sesiones de 1,5 horas cada una, impartidas todos los martes, de **10:00 a 11:30**, a partir del próximo martes.
 
-```{r}
-1 + 1
-```
+-   **Sesión 1:** Prueba de nivel inicial y repaso del nivel I.\
+-   **Sesiones 2 a 11:** Sesiones centrales que cubrirán los contenidos del nivel II.\
+-   **Sesión 6:** Evaluación del progreso y determinación para acudir a la convocatoria de junio (se habrán visto lo más exigente del examen).\
+-   **Sesión 12:** Simulación de examen corregido y comentado en clase.
+
+El precio total del programa es de **2.500 €**. Una vez formalizado el pago, se enviará una prueba de nivel inicial en los próximos días y la formación dará comienzo el próximo martes.
+
+### 📅 Calendario de sesiones
+
+| Sesión | Fecha | Horario | Contenido/Objetivo |
+|------------|------------|------------|-------------------------------------|
+| 1 | 25 de marzo 2025 | 10:00 – 11:30 | Prueba de nivel inicial y repaso del nivel I. 😊 |
+| 2 | 1 de abril 2025 | 10:00 – 11:30 | **Módulo 1 – Parte I: Renta fija**<br>Curva de tipos, teorías de la ETTI y gestión del riesgo (sensibilidad, duración, duración corregida, inmunización). |
+| 3 | 8 de abril 2025 | 10:00 – 11:30 | **Módulo 1 – Parte II: Renta variable**<br>Análisis fundamental, ratios bursátiles (Earning Yield Gap, precio cash flow, precio sobre valor contable, ROA, ROE), valoración y análisis técnico. |
+| 4 | 15 de abril 2025 | 10:00 – 11:30 | **Módulo 2: Fondos y sociedades de inversión mobiliaria**.<br>Fondos de inversión libre (hedge funds), estilos de gestión y análisis/selección de fondos. |
+| 5 | 22 de abril 2025 | 10:00 – 11:30 | **Módulo 3: Gestión de carteras**<br>- Riesgo y marco de rendimiento (riesgo de cartera, diversificación).<br>- Mercados de capital eficientes (concepto, hipótesis y anomalías).<br>- Teoría de carteras (fundamentos, selección de cartera óptima, modelo de Sharpe, CAPM y otros modelos).<br>- Proceso de asignación de activos y medición/atribución de resultados (incluyendo normas GIPS). |
+| 6 | 29 de abril 2025 | 10:00 – 11:30 | **Módulo 8: Fiscalidad**<br>Aplicación de la normativa fiscal y estrategias de optimización tributaria. |
+| 6.5 | 29 de abril 2025 | 11:30 – 11:40 | **Evaluación para la convocatoria de junio**<br>Revisión y valoración de la preparación del grupo. |
+| 7 | 6 de mayo 2025 | 10:00 – 11:30 | **Módulo 5: Pensiones y planificación de jubilación**<br>Fundamentos para planificar la jubilación: definición de necesidades, coberturas de pensiones públicas, establecimiento de prioridades financieras, inicio del ahorro y análisis de ingresos y gastos. |
+| 8 | 13 de mayo 2025 | 10:00 – 11:30 | **Módulo 6: Inversión inmobiliaria**<br>Análisis de características, clasificación, vehículos y planificación en el sector inmobiliario. |
+| 9 | 20 de mayo 2025 | 10:00 – 11:30 | **Módulo 7: Crédito y financiación**<br>Análisis de tipos de préstamos, evaluación del riesgo de crédito y métodos de financiación. |
+| 10 | 27 de mayo 2025 | 10:00 – 11:30 | **Módulo 10: Asesoramiento y planificación financiera**<br>Estrategias de asesoramiento integral, diseño de planes financieros y seguimiento. |
+| 11 | 3 de junio 2025 | 10:00 – 11:30 | Repaso integral y ajustes de contenidos.<br>Evaluación final para determinar la asistencia a la convocatoria de septiembre. |
+| 12 | 10 de junio 2025 | 10:00 – 11:30 | Simulación de examen corregido y comentado en clase.<br>Evaluación final de la formación. |
+
+### Estructura del examen EFA NII 📊
+
+La Asociación Europea no facilita una estructura detallada y concreta de la ponderación relativa de los contenidos en el examen EFA NII. No obstante, se acepta que aproximadamente el **60%** del temario corresponde al nivel uno (conocimientos básicos) y el **40%** restante se destina a los aspectos avanzados o de nivel dos.
+
+La siguiente tabla, que muestra la ponderación aproximada de cada módulo en el examen EFA completo, nos permite visualizar de forma gráfica cómo se distribuyen los contenidos en términos de peso:
+
+| Módulo | Contenido | Peso (%) |
+|---------------------------|----------------------------|-----------------|
+| Módulo 1: Instrumentos y mercados financieros | Instrumentos y mercados financieros | 25,00% |
+| Módulo 2: Fondos y sociedades de inversión mobiliaria | Fondos y sociedades de inversión mobiliaria | 10,00% |
+| Módulo 3: Gestión de carteras | Gestión de carteras | 17,50% |
+| Módulo 4: Seguros | Seguros | 7,50% |
+| Módulo 5: Pensiones y planificación de jubilación | Pensiones y planificación de jubilación | 5,00% |
+| Módulo 6: Inversión inmobiliaria | Inversión inmobiliaria | 5,00% |
+| Módulo 7: Crédito y financiación | Crédito y financiación | 5,00% |
+| Módulo 8: Fiscalidad | Fiscalidad | 10,00% |
+| Módulo 9: Cumplimiento normativo y regulador | Cumplimiento normativo y regulador | 7,50% |
+| Módulo 10: Asesoramiento y planificación financiera | Asesoramiento y planificación financiera | 7,50% |
+
+*Nota:* En la formación **EFA Nivel II (NII)** se excluyen los contenidos del Módulo 4 (Seguros) y del Módulo 9 (Cumplimiento normativo y regulador). Así, el 40% de los contenidos avanzados se orienta a los módulos restantes, lo que nos ayuda a focalizar nuestra preparación para la parte de nivel dos del examen.
+
+### Detalles adicionales 💰
+
+-   **Precio total:** 2.500 €\
+-   **Modalidad:** Sesiones online, todos los martes de 10:00 a 11:30\
+-   **Grupo:** 5 personas\
+-   Los alumnos recibirán una prueba de nivel inicial en los próximos días, una vez formalizado el pago.\
+-   La formación dará comienzo el próximo martes, 25 de marzo de 2025.
+
+------------------------------------------------------------------------
+
+## Conclusión 🔔
+
+Esta propuesta está diseñada para ofrecer una preparación intensiva que cubra los contenidos avanzados del examen **EFA (EFA NII)**. Se opta por iniciar la formación de forma parcial, acreditando primero la parte común y más importante del contenido (aproximadamente el 70% del temario) y, posteriormente, mediante una valoración conjunta entre los alumnos y el profesor (30% restante), acceder al EFA NII.
+
+La evaluación intermedia en la sesión 6 permitirá, de forma conjunta, valorar si el grupo está en condiciones de afrontar la convocatoria de junio (26 de junio) o, en su defecto, optar por la de septiembre (25 de septiembre).
+
+Nuestra estrategia formativa se orienta a evaluar la preparación del grupo en dos momentos clave:
+
+-   **Convocatoria de junio (26 de junio):**\
+    Las primeras seis sesiones serán determinantes para valorar el nivel del grupo y decidir si se acude a esta convocatoria. En la sesión 6 (junto con la evaluación intermedia) se analizarán los contenidos más exigentes del examen. 🚀
+
+-   **Convocatoria de septiembre (25 de septiembre):**\
+    En la sesión 10 se realizará un repaso integral que, en función del rendimiento del grupo, permitirá decidir si se apunta a la convocatoria de septiembre. 📆
+
+Este enfoque garantiza que la formación se ajuste a las necesidades del grupo, permitiendo acreditar inicialmente la parte común del temario y, mediante la evaluación conjunta, determinar la mejor opción de convocatoria para maximizar las posibilidades de éxito en el examen EFA NII.
+
+> **Continuidad formativa:**\
+> Los candidatos que, habiendo consumido las 12 sesiones, deseen continuar con la formación, podrán negociar su continuidad siempre que el grupo mínimo sea de 3 personas. En este caso, se aplicará un **descuento del 20%** sobre el precio total del programa. 💼🎉

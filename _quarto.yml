@@ -2,22 +2,57 @@ project:
   type: book
 
 book:
-  title: "LIBRO"
-  author: "Norah Jones"
-  date: "3/25/2025"
+  title: "Certificación EFA™ – Examen Parcial Nivel II (2025)"
+  subtitle: "**Preparación avanzada con sesiones, ejercicios y simulacros resueltos**"
+  author: "Alberto Bernat"
+  date: "now"
   chapters:
     - index.qmd
-    - intro.qmd
     - summary.qmd
     - references.qmd
+    
+    
+    - part: SESIONES (vídeos y materiales)
+      chapters: 
+        - sesion01_repaso_nivel1.qmd
+        - sesion02_renta_fija.qmd
+        - sesion03_renta_variable.qmd
+        - sesion04_fondos_inversion.qmd
+        - sesion05_gestion_carteras.qmd
+        - sesion06_fiscalidad.qmd
+        - sesion06b_evaluacion_junio.qmd
+        - sesion07_pensiones.qmd
+        - sesion08_inversion_inmobiliaria.qmd
+        - sesion09_credito.qmd
+        - sesion10_planificacion_financiera.qmd
+        - sesion11_repaso_final.qmd
+        - sesion12_simulacion_examen.qmd
 
+    - part: TEST
+      chapters:
+        - sesion01_repaso_nivel1.qmd
+
+    - part: EXÁMENES 
+      chapters:
+        - sesion01_repaso_nivel1.qmd
 bibliography: references.bib
+csl: apa-5th-edition
 
 format:
   html:
-    theme: cosmo
+    lang: "es"
+    number-sections: false
+    title-block-author-single: ""
+    theme: [cosmo, style.scss]
+    cover-image: images/PORTADA-ISEFI.png
+    css: styles.css
+    apple-touch-icon: "images/touch-icon.png"
+    apple-touch-icon-size: 120
+    favicon: "images/favicon.ico"
+    execute:
+      echo: false
+      warning: false
   pdf:
     documentclass: scrreprt
 
-editor: visual
-
+editor: source

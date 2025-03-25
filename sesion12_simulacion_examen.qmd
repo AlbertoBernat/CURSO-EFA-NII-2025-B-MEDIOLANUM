@@ -1,0 +1,10 @@
+---
+title: "Sesión 12: Simulación de examen y cierre del curso"
+format: html
+---
+
+::: {.callout-note}
+## Material de la sesión
+
+Aquí puedes incluir los vídeos, enlaces y materiales descargables.
+:::

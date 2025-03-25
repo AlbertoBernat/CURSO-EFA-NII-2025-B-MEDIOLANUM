@@ -1,0 +1,14 @@
+---
+title: "Sesión 1: Repaso del Nivel I y prueba inicial"
+format: html
+---
+
+::: {.callout-note}
+## Material de la sesión
+
+Aquí puedes incluir los vídeos, enlaces y materiales descargables.
+:::
+
+## Vídeo de la sesión
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/fbehQgXTZ30" frameborder="0" allowfullscreen></iframe>

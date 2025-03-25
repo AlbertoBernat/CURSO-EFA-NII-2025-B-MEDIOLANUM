@@ -1,0 +1,10 @@
+---
+title: "Sesión 11: Repaso integral y evaluación final"
+format: html
+---
+
+::: {.callout-note}
+## Material de la sesión
+
+Aquí puedes incluir los vídeos, enlaces y materiales descargables.
+:::
