@@ -1,5 +1,6 @@
 ---
 title: "Sesión 1: Repaso del Nivel I y prueba inicial"
+subtitle: "![](images/EFPA_logo.jpg){width=300px}"
 format: html
 ---
 
@@ -8,6 +9,21 @@ format: html
 
 Aquí puedes incluir los vídeos, enlaces y materiales descargables.
 :::
+
+
+
+
+## Certificaciones EFPA
+
+![](images/EFPA_logo.jpg){width=300px}
+
+Las certificaciones ofrecidas por EFPA se dividen en tres niveles:
+
+- ![EIP](images/EIP_logo.jpg){width=120px} **EIP – European Investment Practitioner**  
+- ![EFA](images/EFA_logo.jpg){width=120px} **EFA – European Financial Advisor**  
+- ![EFP](images/EFP_logo.jpg){width=120px} **EFP – European Financial Planner** 
+
+
 
 ## Vídeo de la sesión
 

@@ -2,9 +2,9 @@ project:
   type: book
 
 book:
-  title: "Certificación EFA™ – Examen Parcial Nivel II (2025)"
+  title: "Certificación EFA™ – Examen Parcial Nivel II ![](images/EFPA_logo.jpg){width=300px}"
   subtitle: "**Preparación avanzada con sesiones, ejercicios y simulacros resueltos**"
-  author: "Alberto Bernat"
+  author: "Alberto Bernat "
   date: "now"
   chapters:
     - index.qmd
