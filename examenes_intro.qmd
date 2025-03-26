@@ -1,0 +1,10 @@
+---
+title: "Introducción a los exámenes"
+format: html
+---
+
+## Exámenes resueltos y simulacros 💡
+
+Aquí se incluyen exámenes reales de convocatorias anteriores, corregidos y comentados, junto con simulacros completos para practicar bajo condiciones similares al examen oficial.
+
+Es recomendable realizar al menos un simulacro completo antes de presentarse al examen.

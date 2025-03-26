@@ -3,7 +3,7 @@ title: "Sesión 4: Módulo 2 – Fondos y sociedades de inversión"
 format: html
 ---
 
-::: {.callout-note}
+::: callout-note
 ## Material de la sesión
 
 Aquí puedes incluir los vídeos, enlaces y materiales descargables.

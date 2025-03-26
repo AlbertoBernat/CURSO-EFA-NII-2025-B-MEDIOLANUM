@@ -1,0 +1,13 @@
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+
+    cache-control = '''
+    max-age=0,
+    no-cache,
+    no-store,
+    must-revalidate'''
+
+    Basic-Auth = "alberto:PMNOX9IF carmen:efa2025 alvaro:efa2025 marc:efa2025 ainhoa:efa2025 j.serrano.arconada@gmail.com:142890281"

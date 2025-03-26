@@ -1,7 +1,9 @@
-# References {.unnumbered}
+---
+title: "Referencias y bibliografía 📚"
+format: html
+numbered: false
+---
 
 ::: {#refs}
-
 Según la información oficial publicada por EFPA España [@efpa2025], el examen parcial Nivel II evalúa los módulos avanzados de la planificación financiera.
-
 :::

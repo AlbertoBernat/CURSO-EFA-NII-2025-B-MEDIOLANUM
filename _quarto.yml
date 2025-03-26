@@ -2,17 +2,13 @@ project:
   type: book
 
 book:
-  title: "Certificación EFA™ – Examen Parcial Nivel II ![](images/EFPA_logo.jpg){width=300px}"
-  subtitle: "**Preparación avanzada con sesiones, ejercicios y simulacros resueltos**"
-  author: "Alberto Bernat "
-  date: "now"
+  title: ""
+
   chapters:
     - index.qmd
-    - summary.qmd
     - references.qmd
-    
-    
-    - part: SESIONES (vídeos y materiales)
+
+    - part: "🎬 SESIONES (vídeos y materiales)"
       chapters: 
         - sesion01_repaso_nivel1.qmd
         - sesion02_renta_fija.qmd
@@ -28,23 +24,30 @@ book:
         - sesion11_repaso_final.qmd
         - sesion12_simulacion_examen.qmd
 
-    - part: TEST
+    - part: "✅ TEST"
       chapters:
-        - sesion01_repaso_nivel1.qmd
+        - test_intro.qmd
 
-    - part: EXÁMENES 
+    - part: "📝 EXÁMENES"
       chapters:
-        - sesion01_repaso_nivel1.qmd
+        - examenes_intro.qmd
+
+    - part: "📐 FÓRMULAS"
+      chapters:
+        - formulas_intro.qmd
+
 bibliography: references.bib
 csl: apa-5th-edition
 
 format:
   html:
+    toc-title: "![](TOC_logo_EFA_compacto.png)"
+    title-block: false
+    include-before-body: cover.html
     lang: "es"
     number-sections: false
     title-block-author-single: ""
     theme: [cosmo, style.scss]
-    cover-image: images/PORTADA-ISEFI.png
     css: styles.css
     apple-touch-icon: "images/touch-icon.png"
     apple-touch-icon-size: 120
@@ -52,6 +55,7 @@ format:
     execute:
       echo: false
       warning: false
+
   pdf:
     documentclass: scrreprt
 

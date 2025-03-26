@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Profesor de Finanzas">
 
-<title>Sesión 1: Repaso del Nivel I y prueba inicial – Certificación EFA™ – Examen Parcial Nivel II ![](images/EFPA_logo.jpg){width=300px}</title>
+<title>De EIP a EFA: repaso estratégico para afrontar el Nivel II</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -69,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -82,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./sesion01_repaso_nivel1.html">SESIONES (vídeos y materiales)</a></li><li class="breadcrumb-item"><a href="./sesion01_repaso_nivel1.html"><span class="chapter-title">Sesión 1: Repaso del Nivel I y prueba inicial</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./sesion01_repaso_nivel1.html">🎬 SESIONES (vídeos y materiales)</a></li><li class="breadcrumb-item"><a href="./sesion01_repaso_nivel1.html"><span class="chapter-title">Sesión 1: Repaso del Nivel I y prueba inicial</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Buscar" onclick="window.quartoOpenSearch();">
@@ -95,11 +125,6 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
-    <div class="sidebar-title mb-0 py-0">
-      <a href="./">Certificación EFA™ – Examen Parcial Nivel II <img src="images/EFPA_logo.jpg" class="img-fluid" width="300"></a> 
-    </div>
-      </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Buscar"></div>
@@ -109,25 +134,18 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Propuesta formativa 🎓</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">🎓Propuesta formativa</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Resumen del contenido</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">References</span></a>
+  <a href="./references.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Referencias y bibliografía 📚</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">SESIONES (vídeos y materiales)</span></a>
+ <span class="menu-text">🎬 SESIONES (vídeos y materiales)</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Alternar sección">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -203,7 +221,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
- <span class="menu-text">TEST</span></a>
+ <span class="menu-text">✅ TEST</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Alternar sección">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -211,7 +229,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./sesion01_repaso_nivel1.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Sesión 1: Repaso del Nivel I y prueba inicial</span></a>
+  <a href="./test_intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Introducción a los test</span></a>
   </div>
 </li>
       </ul>
@@ -219,7 +237,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
- <span class="menu-text">EXÁMENES</span></a>
+ <span class="menu-text">📝 EXÁMENES</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Alternar sección">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -227,7 +245,23 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./sesion01_repaso_nivel1.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Sesión 1: Repaso del Nivel I y prueba inicial</span></a>
+  <a href="./examenes_intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Introducción a los exámenes</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+ <span class="menu-text">📐 FÓRMULAS</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./formulas_intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Fórmulas y referencias clave</span></a>
   </div>
 </li>
       </ul>
@@ -239,21 +273,55 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Tabla de contenidos</h2>
+    <h2 id="toc-title"><img src="TOC_logo_EFA_compacto.png" class="img-fluid"></h2>
    
   <ul>
-  <li><a href="#certificaciones-efpa" id="toc-certificaciones-efpa" class="nav-link active" data-scroll-target="#certificaciones-efpa">Certificaciones EFPA</a></li>
-  <li><a href="#vídeo-de-la-sesión" id="toc-vídeo-de-la-sesión" class="nav-link" data-scroll-target="#vídeo-de-la-sesión">Vídeo de la sesión</a></li>
+  <li><a href="#presentación-de-repaso-estratégico" id="toc-presentación-de-repaso-estratégico" class="nav-link active" data-scroll-target="#presentación-de-repaso-estratégico">🧭 Presentación de repaso estratégico</a></li>
+  <li><a href="#introducción-y-objetivos-de-la-sesión" id="toc-introducción-y-objetivos-de-la-sesión" class="nav-link" data-scroll-target="#introducción-y-objetivos-de-la-sesión">Introducción y objetivos de la sesión</a></li>
+  <li><a href="#qué-se-espera-del-asesor-financiero-efa" id="toc-qué-se-espera-del-asesor-financiero-efa" class="nav-link" data-scroll-target="#qué-se-espera-del-asesor-financiero-efa">¿Qué se espera del asesor financiero EFA?</a></li>
+  <li><a href="#renta-variable-qué-no-se-puede-olvidar" id="toc-renta-variable-qué-no-se-puede-olvidar" class="nav-link" data-scroll-target="#renta-variable-qué-no-se-puede-olvidar">Renta Variable: Qué no se puede olvidar</a></li>
+  <li><a href="#derivados-aplicaciones-esenciales" id="toc-derivados-aplicaciones-esenciales" class="nav-link" data-scroll-target="#derivados-aplicaciones-esenciales">Derivados: Aplicaciones esenciales</a></li>
+  <li><a href="#gestión-de-carteras-repaso-y-conexión-con-el-nivel-ii" id="toc-gestión-de-carteras-repaso-y-conexión-con-el-nivel-ii" class="nav-link" data-scroll-target="#gestión-de-carteras-repaso-y-conexión-con-el-nivel-ii">Gestión de Carteras: repaso y conexión con el Nivel II</a></li>
+  <li><a href="#ratios-de-rentabilidad-riesgo" id="toc-ratios-de-rentabilidad-riesgo" class="nav-link" data-scroll-target="#ratios-de-rentabilidad-riesgo">Ratios de rentabilidad-riesgo</a>
+  <ul class="collapse">
+  <li><a href="#sharpe" id="toc-sharpe" class="nav-link" data-scroll-target="#sharpe">1. Sharpe</a></li>
+  <li><a href="#treynor" id="toc-treynor" class="nav-link" data-scroll-target="#treynor">2. Treynor</a></li>
+  <li><a href="#alfa-de-jensen" id="toc-alfa-de-jensen" class="nav-link" data-scroll-target="#alfa-de-jensen">3. Alfa de Jensen</a></li>
+  </ul></li>
+  <li><a href="#caso-práctico-comparación-de-fondos" id="toc-caso-práctico-comparación-de-fondos" class="nav-link" data-scroll-target="#caso-práctico-comparación-de-fondos">Caso práctico: comparación de fondos</a></li>
+  <li><a href="#fiscalidad-del-irpf-a-la-planificación-patrimonial" id="toc-fiscalidad-del-irpf-a-la-planificación-patrimonial" class="nav-link" data-scroll-target="#fiscalidad-del-irpf-a-la-planificación-patrimonial">Fiscalidad: del IRPF a la planificación patrimonial</a></li>
+  <li><a href="#conclusión-y-próximos-pasos" id="toc-conclusión-y-próximos-pasos" class="nav-link" data-scroll-target="#conclusión-y-próximos-pasos">Conclusión y próximos pasos</a></li>
+  <li><a href="#presentación-de-repaso-estratégico-1" id="toc-presentación-de-repaso-estratégico-1" class="nav-link" data-scroll-target="#presentación-de-repaso-estratégico-1">🧭 Presentación de repaso estratégico</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
+<div style="text-align: center; margin-top: 3rem; margin-bottom: 3rem;">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./sesion01_repaso_nivel1.html">SESIONES (vídeos y materiales)</a></li><li class="breadcrumb-item"><a href="./sesion01_repaso_nivel1.html"><span class="chapter-title">Sesión 1: Repaso del Nivel I y prueba inicial</span></a></li></ol></nav>
+  <h1 style="font-size: 2.5rem; color: #1f2e83; font-weight: bold; margin-bottom: 1rem;">
+    Certificación EFA™ – Examen Parcial Nivel II (2025)
+  </h1>
+  
+  <img src="images/EFPA_logo.jpg" alt="EFPA Logo" width="480px" style="margin: 1.5rem auto;">
+
+  <h2 style="font-size: 1.5rem; color: #555; font-weight: normal; margin-top: 1rem;" class="anchored">
+    Preparación avanzada con sesiones, ejercicios y simulacros resueltos
+  </h2>
+
+  <p style="font-size: 1.2rem; margin-top: 2rem; color: #555;">
+    Alberto Bernat · Mediolanum Formación
+  </p>
+
+  <p style="margin-top: 0.5rem; font-size: 1rem; color: #777;">
+    Curso intensivo · Marzo – Junio 2025
+  </p>
+
+</div>
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./sesion01_repaso_nivel1.html">🎬 SESIONES (vídeos y materiales)</a></li><li class="breadcrumb-item"><a href="./sesion01_repaso_nivel1.html"><span class="chapter-title">Sesión 1: Repaso del Nivel I y prueba inicial</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">Sesión 1: Repaso del Nivel I y prueba inicial</span></h1>
-<p class="subtitle lead"><img src="images/EFPA_logo.jpg" class="img-fluid" width="300"></p>
+<h1 class="title">De EIP a EFA: repaso estratégico para afrontar el Nivel II</h1>
 </div>
 
 
@@ -270,35 +338,170 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="vídeo-de-la-sesión" class="level4">
+<h4 class="anchored" data-anchor-id="vídeo-de-la-sesión">🎥 Vídeo de la sesión</h4>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/fbehQgXTZ30" frameborder="0" allowfullscreen="">
+</iframe>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Material de la sesión
+📎 Material de la sesión
 </div>
 </div>
 <div class="callout-body-container callout-body">
 <p>Aquí puedes incluir los vídeos, enlaces y materiales descargables.</p>
 </div>
 </div>
-<section id="certificaciones-efpa" class="level2">
-<h2 class="anchored" data-anchor-id="certificaciones-efpa">Certificaciones EFPA</h2>
-<p><img src="images/EFPA_logo.jpg" class="img-fluid" width="300"></p>
-<p>Las certificaciones ofrecidas por EFPA se dividen en tres niveles:</p>
-<ul>
-<li><img src="images/EIP_logo.jpg" class="img-fluid" width="120" alt="EIP"> <strong>EIP – European Investment Practitioner</strong><br>
-</li>
-<li><img src="images/EFA_logo.jpg" class="img-fluid" width="120" alt="EFA"> <strong>EFA – European Financial Advisor</strong><br>
-</li>
-<li><img src="images/EFP_logo.jpg" class="img-fluid" width="120" alt="EFP"> <strong>EFP – European Financial Planner</strong></li>
-</ul>
+<hr>
 </section>
-<section id="vídeo-de-la-sesión" class="level2">
-<h2 class="anchored" data-anchor-id="vídeo-de-la-sesión">Vídeo de la sesión</h2>
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/fbehQgXTZ30" frameborder="0" allowfullscreen="">
+<section id="presentación-de-repaso-estratégico" class="level2">
+<h2 class="anchored" data-anchor-id="presentación-de-repaso-estratégico">🧭 Presentación de repaso estratégico</h2>
+<p>Esta presentación recoge los principales conceptos del Nivel I (EIP) que servirán como base para afrontar con éxito el Nivel II (EFA). Puedes visualizarla a continuación o descargarla.</p>
+<iframe src="presentacion_repaso_efa.qmd" width="100%" height="600" frameborder="0">
 </iframe>
+<blockquote class="blockquote">
+<p>También puedes acceder a la versión descargable desde el siguiente botón:</p>
+</blockquote>
+<p><a href="presentacion_repaso_efa.qmd">📄 Descargar presentación en formato .qmd</a></p>
+</section>
+<section id="introducción-y-objetivos-de-la-sesión" class="level2">
+<h2 class="anchored" data-anchor-id="introducción-y-objetivos-de-la-sesión">Introducción y objetivos de la sesión</h2>
+<ul>
+<li>Consolidar los conocimientos fundamentales del Nivel I (EIP).</li>
+<li>Preparar el terreno para afrontar con éxito el examen del Nivel II (EFA).</li>
+<li>Conectar teoría con práctica en un formato dinámico y participativo.</li>
+</ul>
+<hr>
+</section>
+<section id="qué-se-espera-del-asesor-financiero-efa" class="level2">
+<h2 class="anchored" data-anchor-id="qué-se-espera-del-asesor-financiero-efa">¿Qué se espera del asesor financiero EFA?</h2>
+<ul>
+<li>Dominio de instrumentos financieros, fiscalidad, gestión y normativa.</li>
+<li>Capacidad de análisis y aplicación en contextos reales.</li>
+<li>Enfoque ético y orientado al cliente en todo el proceso de asesoramiento.</li>
+</ul>
+<hr>
+</section>
+<section id="renta-variable-qué-no-se-puede-olvidar" class="level2">
+<h2 class="anchored" data-anchor-id="renta-variable-qué-no-se-puede-olvidar">Renta Variable: Qué no se puede olvidar</h2>
+<ul>
+<li><strong>PER (Price / Earnings)</strong>: mide cuánto paga el mercado por cada euro de beneficio.</li>
+<li><strong>Rentabilidad por dividendo</strong>: dividendo / precio de la acción.</li>
+<li><strong>Otros ratios útiles</strong>: Precio / Valor contable, ROE y ROA, Earning Yield Gap.</li>
+<li><strong>Modelos de valoración</strong>: Descuento de dividendos (Gordon-Shapiro), Descuento de flujos de caja.</li>
+</ul>
+<blockquote class="blockquote">
+<p>En el examen, te pedirán interpretar ratios, justificar decisiones de inversión o valorar si una acción está cara o barata.</p>
+</blockquote>
+<hr>
+</section>
+<section id="derivados-aplicaciones-esenciales" class="level2">
+<h2 class="anchored" data-anchor-id="derivados-aplicaciones-esenciales">Derivados: Aplicaciones esenciales</h2>
+<ul>
+<li><strong>Futuros</strong>: cobertura, especulación, precio teórico ≈ spot + coste de carry.</li>
+<li><strong>Opciones</strong>: derecho a comprar o vender, valor intrínseco + temporal, variables clave: spot, strike, tiempo, interés, volatilidad.</li>
+</ul>
+<blockquote class="blockquote">
+<p>En Nivel II, es frecuente tener que plantear estrategias de cobertura o calcular beneficios/pérdidas con derivados.</p>
+</blockquote>
+<hr>
+</section>
+<section id="gestión-de-carteras-repaso-y-conexión-con-el-nivel-ii" class="level2">
+<h2 class="anchored" data-anchor-id="gestión-de-carteras-repaso-y-conexión-con-el-nivel-ii">Gestión de Carteras: repaso y conexión con el Nivel II</h2>
+<p><span class="math display">\[
+E(R_p) = \sum_{i=1}^{n} w_i \cdot E(R_i)
+\]</span></p>
+<ul>
+<li>Justificar decisiones de asignación de activos.</li>
+<li>Evaluar carteras eficientes según perfil cliente.</li>
+<li>Cuantificar diversificación: volatilidad, correlaciones, betas.</li>
+</ul>
+<hr>
+</section>
+<section id="ratios-de-rentabilidad-riesgo" class="level2">
+<h2 class="anchored" data-anchor-id="ratios-de-rentabilidad-riesgo">Ratios de rentabilidad-riesgo</h2>
+<section id="sharpe" class="level3">
+<h3 class="anchored" data-anchor-id="sharpe">1. Sharpe</h3>
+<p><span class="math display">\[
+S = \frac{R_p - R_f}{\sigma_p}
+\]</span></p>
+</section>
+<section id="treynor" class="level3">
+<h3 class="anchored" data-anchor-id="treynor">2. Treynor</h3>
+<p><span class="math display">\[
+T = \frac{R_p - R_f}{\beta_p}
+\]</span></p>
+</section>
+<section id="alfa-de-jensen" class="level3">
+<h3 class="anchored" data-anchor-id="alfa-de-jensen">3. Alfa de Jensen</h3>
+<p><span class="math display">\[
+\alpha_p = R_p - [R_f + \beta_p (R_m - R_f)]
+\]</span></p>
+<hr>
+</section>
+</section>
+<section id="caso-práctico-comparación-de-fondos" class="level2">
+<h2 class="anchored" data-anchor-id="caso-práctico-comparación-de-fondos">Caso práctico: comparación de fondos</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>Fondo A</th>
+<th>Fondo B</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Rentabilidad (%)</td>
+<td>8,0</td>
+<td>7,5</td>
+</tr>
+<tr class="even">
+<td>Volatilidad (%)</td>
+<td>10,0</td>
+<td>8,0</td>
+</tr>
+<tr class="odd">
+<td>Beta</td>
+<td>1,2</td>
+<td>0,9</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Mercado: 6 %, Libre de riesgo: 2 %.</li>
+</ul>
+<p><strong>¿Qué fondo es más eficiente según Sharpe, Treynor y Alfa?</strong></p>
+<hr>
+</section>
+<section id="fiscalidad-del-irpf-a-la-planificación-patrimonial" class="level2">
+<h2 class="anchored" data-anchor-id="fiscalidad-del-irpf-a-la-planificación-patrimonial">Fiscalidad: del IRPF a la planificación patrimonial</h2>
+<ul>
+<li>Nivel I: IRPF, rendimientos del capital mobiliario, ganancias patrimoniales.</li>
+<li>Nivel II: Patrimonio, sucesiones y donaciones, no residentes.</li>
+</ul>
+<hr>
+</section>
+<section id="conclusión-y-próximos-pasos" class="level2">
+<h2 class="anchored" data-anchor-id="conclusión-y-próximos-pasos">Conclusión y próximos pasos</h2>
+<ul>
+<li>Reforzar la base técnica del Nivel I.</li>
+<li>Identificar áreas a profundizar.</li>
+<li>Empezar con casos aplicados y diagnóstico financiero profesional.</li>
+</ul>
+<hr>
+</section>
+<section id="presentación-de-repaso-estratégico-1" class="level2">
+<h2 class="anchored" data-anchor-id="presentación-de-repaso-estratégico-1">🧭 Presentación de repaso estratégico</h2>
+<p>Puedes visualizar la presentación interactiva directamente aquí:</p>
+<iframe src="presentacion_reveal.html" width="100%" height="600" frameborder="0" allowfullscreen="">
+</iframe>
+<blockquote class="blockquote">
+<p>También puedes abrirla en una pestaña nueva o descargarla si la necesitas en formato local.</p>
+</blockquote>
 
 
 </section>
@@ -726,8 +929,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./references.html" class="pagination-link" aria-label="References">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">References</span>
+      <a href="./references.html" class="pagination-link" aria-label="Referencias y bibliografía 📚">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Referencias y bibliografía 📚</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">

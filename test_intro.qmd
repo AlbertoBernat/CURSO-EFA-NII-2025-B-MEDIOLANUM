@@ -1,0 +1,10 @@
+---
+title: "Introducción a los test"
+format: html
+---
+
+## Test por módulo ✅
+
+En esta sección encontrarás test de repaso por módulo y preguntas tipo EFPA para practicar lo aprendido en las sesiones.
+
+Se recomienda realizar los test después de estudiar cada módulo para afianzar los conceptos y familiarizarse con el estilo del examen parcial Nivel II.

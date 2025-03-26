@@ -1,0 +1,62 @@
+project:
+  type: book
+
+book:
+  title: "![](TOC_logo_EFA_compacto.png)"
+
+  chapters:
+    - index.qmd
+    - references.qmd
+
+    - part: "📚 SESIONES (vídeos y materiales)"
+      chapters: 
+        - sesion01_repaso_nivel1.qmd
+        - sesion02_renta_fija.qmd
+        - sesion03_renta_variable.qmd
+        - sesion04_fondos_inversion.qmd
+        - sesion05_gestion_carteras.qmd
+        - sesion06_fiscalidad.qmd
+        - sesion06b_evaluacion_junio.qmd
+        - sesion07_pensiones.qmd
+        - sesion08_inversion_inmobiliaria.qmd
+        - sesion09_credito.qmd
+        - sesion10_planificacion_financiera.qmd
+        - sesion11_repaso_final.qmd
+        - sesion12_simulacion_examen.qmd
+
+    - part: "✅ TEST"
+  chapters:
+    - test_intro.qmd
+
+    - part: "📝 EXÁMENES"
+  chapters:
+    - examenes_intro.qmd
+
+   - part: "📐 FÓRMULAS"
+  chapters:
+    - formulas_intro.qmd
+
+bibliography: references.bib
+csl: apa-5th-edition
+
+format:
+  html:
+    toc-title: "![](TOC_logo_EFA_compacto.png)"
+    title-block: false
+    include-before-body: cover.html
+    lang: "es"
+    number-sections: false
+    title-block-author-single: ""
+    theme: [cosmo, style.scss]
+    css: styles.css
+    apple-touch-icon: "images/touch-icon.png"
+    apple-touch-icon-size: 120
+    favicon: "images/favicon.ico"
+    execute:
+      echo: false
+      warning: false
+
+  pdf:
+    documentclass: scrreprt
+
+editor: source

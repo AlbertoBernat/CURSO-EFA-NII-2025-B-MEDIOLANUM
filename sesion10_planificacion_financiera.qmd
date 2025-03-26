@@ -3,7 +3,7 @@ title: "Sesión 10: Módulo 10 – Asesoramiento y planificación financiera"
 format: html
 ---
 
-::: {.callout-note}
+::: callout-note
 ## Material de la sesión
 
 Aquí puedes incluir los vídeos, enlaces y materiales descargables.

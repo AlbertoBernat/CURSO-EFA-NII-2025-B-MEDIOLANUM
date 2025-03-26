@@ -1,0 +1,18 @@
+---
+title: "Fórmulas y referencias clave"
+format: html
+---
+
+## 📐 Fórmulas y relaciones esenciales
+
+Esta sección recoge las principales fórmulas que pueden aparecer en el examen parcial Nivel II de la certificación EFA™.
+
+Están organizadas por módulo e incluyen ejemplos de aplicación cuando es relevante.
+
+- Cálculo de duración y sensibilidad en renta fija  
+- Ratios bursátiles (PER, ROE, ROA, etc.)  
+- Fórmulas de diversificación y varianza de carteras  
+- Fórmulas de fiscalidad y rentabilidad neta  
+- Cálculo de valor actual, tasa interna de rendimiento y otros indicadores  
+
+> Esta sección se irá ampliando progresivamente conforme se desarrollen las sesiones.
