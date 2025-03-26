@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "🎓Propuesta formativa",
+    "title": "📘 Inicio",
     "section": "",
     "text": "Calendario de sesiones\nEl curso se imparte los martes de 10:00 a 11:30. A continuación, se muestra la planificación general:",
     "crumbs": [
@@ -12,7 +12,7 @@
   {
     "objectID": "index.html#estructura-del-libro",
     "href": "index.html#estructura-del-libro",
-    "title": "🎓Propuesta formativa",
+    "title": "📘 Inicio",
     "section": "Estructura del libro",
     "text": "Estructura del libro\nEste libro está organizado en tres bloques principales que permiten una preparación progresiva, ordenada y práctica para el examen parcial Nivel II de la Certificación EFA™:\n\n📚 SESIONES\n13 sesiones organizadas cronológicamente, donde se explican los contenidos avanzados del programa EFA Nivel II, incluyendo materiales, vídeos y recursos de apoyo.\n✅ TEST\nBatería de preguntas tipo test por módulo y simulacros de examen, con el objetivo de entrenar la comprensión teórica y la agilidad en la resolución de casos tipo EFPA.\n💡 EXÁMENES\nExámenes reales resueltos y comentados, simulacros completos con clave de respuestas y explicación didáctica, ideales para la autoevaluación final.",
     "crumbs": [
@@ -22,7 +22,7 @@
   {
     "objectID": "index.html#recomendaciones-de-uso",
     "href": "index.html#recomendaciones-de-uso",
-    "title": "🎓Propuesta formativa",
+    "title": "📘 Inicio",
     "section": "Recomendaciones de uso",
     "text": "Recomendaciones de uso\n\n📅 Empieza por las sesiones en orden, viendo los vídeos y tomando apuntes.\n\n🧠 Haz los test después de cada sesión para afianzar los conceptos.\n\n📝 Usa los simulacros como entrenamiento final antes del examen real.\n\n🕒 Evalúa tu progreso en la sesión 6.5 y al terminar la sesión 12.\n\n🖨️ Puedes imprimir la página que estás visualizando directamente desde el navegador Google Chrome:\nVe a Archivo &gt; Imprimir y selecciona Guardar como PDF o tu impresora.\nEsta opción es útil para conservar o anotar materiales concretos de una sesión o bloque.",
     "crumbs": [
@@ -32,7 +32,7 @@
   {
     "objectID": "index.html#objetivo-final",
     "href": "index.html#objetivo-final",
-    "title": "🎓Propuesta formativa",
+    "title": "📘 Inicio",
     "section": "Objetivo final",
     "text": "Objetivo final\nEl objetivo de este libro es ofrecer una experiencia formativa práctica y eficaz, adaptada a profesionales del sector financiero que buscan superar con éxito el examen EFA Nivel II en la convocatoria de 2025.\n\n\n 👉 Comenzar el curso",
     "crumbs": [
@@ -42,143 +42,22 @@
   {
     "objectID": "references.html",
     "href": "references.html",
-    "title": "Referencias y bibliografía 📚",
+    "title": "📚 Referencias y bibliografía",
     "section": "",
     "text": "Certificación EFA™ – Examen Parcial Nivel II (2025)\n  \n  \n  \n\n  \n    Preparación avanzada con sesiones, ejercicios y simulacros resueltos\n  \n\n  \n    Alberto Bernat · Mediolanum Formación\n  \n\n  \n    Curso intensivo · Marzo – Junio 2025\n  \n\n\n\n\n\n\n\n\nEFPA España. (2025). Exámenes de certificación EFA. Retrieved from https://www.efpa.es/examenes-certificacion-efa",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Referencias y bibliografía 📚</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>📚 Referencias y bibliografía</span>"
     ]
   },
   {
     "objectID": "sesion01_repaso_nivel1.html",
     "href": "sesion01_repaso_nivel1.html",
-    "title": "De EIP a EFA: repaso estratégico para afrontar el Nivel II",
+    "title": "Sesión 1: Repaso del Nivel I y prueba inicial",
     "section": "",
-    "text": "🎥 Vídeo de la sesión",
+    "text": "Certificación EFA™ – Examen Parcial Nivel II (2025)\n  \n  \n  \n\n  \n    Preparación avanzada con sesiones, ejercicios y simulacros resueltos\n  \n\n  \n    Alberto Bernat · Mediolanum Formación\n  \n\n  \n    Curso intensivo · Marzo – Junio 2025\n  \n\n\n\n\n\n\n\n🎥 Vídeo de la sesión\n\n\n\n\n\n\n\n\n\n📎 Material de la sesión\n\n\n\n\n\nTu navegador no puede mostrar PDF embebidos. Puedes descargarlo aquí.",
     "crumbs": [
       "🎬 SESIONES (vídeos y materiales)",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Sesión 1: Repaso del Nivel I y prueba inicial</span>"
-    ]
-  },
-  {
-    "objectID": "sesion01_repaso_nivel1.html#presentación-de-repaso-estratégico",
-    "href": "sesion01_repaso_nivel1.html#presentación-de-repaso-estratégico",
-    "title": "De EIP a EFA: repaso estratégico para afrontar el Nivel II",
-    "section": "🧭 Presentación de repaso estratégico",
-    "text": "🧭 Presentación de repaso estratégico\nEsta presentación recoge los principales conceptos del Nivel I (EIP) que servirán como base para afrontar con éxito el Nivel II (EFA). Puedes visualizarla a continuación o descargarla.\n\n\n\nTambién puedes acceder a la versión descargable desde el siguiente botón:\n\n📄 Descargar presentación en formato .qmd",
-    "crumbs": [
-      "🎬 SESIONES (vídeos y materiales)",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Sesión 1: Repaso del Nivel I y prueba inicial</span>"
-    ]
-  },
-  {
-    "objectID": "sesion01_repaso_nivel1.html#introducción-y-objetivos-de-la-sesión",
-    "href": "sesion01_repaso_nivel1.html#introducción-y-objetivos-de-la-sesión",
-    "title": "De EIP a EFA: repaso estratégico para afrontar el Nivel II",
-    "section": "Introducción y objetivos de la sesión",
-    "text": "Introducción y objetivos de la sesión\n\nConsolidar los conocimientos fundamentales del Nivel I (EIP).\nPreparar el terreno para afrontar con éxito el examen del Nivel II (EFA).\nConectar teoría con práctica en un formato dinámico y participativo.",
-    "crumbs": [
-      "🎬 SESIONES (vídeos y materiales)",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Sesión 1: Repaso del Nivel I y prueba inicial</span>"
-    ]
-  },
-  {
-    "objectID": "sesion01_repaso_nivel1.html#qué-se-espera-del-asesor-financiero-efa",
-    "href": "sesion01_repaso_nivel1.html#qué-se-espera-del-asesor-financiero-efa",
-    "title": "De EIP a EFA: repaso estratégico para afrontar el Nivel II",
-    "section": "¿Qué se espera del asesor financiero EFA?",
-    "text": "¿Qué se espera del asesor financiero EFA?\n\nDominio de instrumentos financieros, fiscalidad, gestión y normativa.\nCapacidad de análisis y aplicación en contextos reales.\nEnfoque ético y orientado al cliente en todo el proceso de asesoramiento.",
-    "crumbs": [
-      "🎬 SESIONES (vídeos y materiales)",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Sesión 1: Repaso del Nivel I y prueba inicial</span>"
-    ]
-  },
-  {
-    "objectID": "sesion01_repaso_nivel1.html#renta-variable-qué-no-se-puede-olvidar",
-    "href": "sesion01_repaso_nivel1.html#renta-variable-qué-no-se-puede-olvidar",
-    "title": "De EIP a EFA: repaso estratégico para afrontar el Nivel II",
-    "section": "Renta Variable: Qué no se puede olvidar",
-    "text": "Renta Variable: Qué no se puede olvidar\n\nPER (Price / Earnings): mide cuánto paga el mercado por cada euro de beneficio.\nRentabilidad por dividendo: dividendo / precio de la acción.\nOtros ratios útiles: Precio / Valor contable, ROE y ROA, Earning Yield Gap.\nModelos de valoración: Descuento de dividendos (Gordon-Shapiro), Descuento de flujos de caja.\n\n\nEn el examen, te pedirán interpretar ratios, justificar decisiones de inversión o valorar si una acción está cara o barata.",
-    "crumbs": [
-      "🎬 SESIONES (vídeos y materiales)",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Sesión 1: Repaso del Nivel I y prueba inicial</span>"
-    ]
-  },
-  {
-    "objectID": "sesion01_repaso_nivel1.html#derivados-aplicaciones-esenciales",
-    "href": "sesion01_repaso_nivel1.html#derivados-aplicaciones-esenciales",
-    "title": "De EIP a EFA: repaso estratégico para afrontar el Nivel II",
-    "section": "Derivados: Aplicaciones esenciales",
-    "text": "Derivados: Aplicaciones esenciales\n\nFuturos: cobertura, especulación, precio teórico ≈ spot + coste de carry.\nOpciones: derecho a comprar o vender, valor intrínseco + temporal, variables clave: spot, strike, tiempo, interés, volatilidad.\n\n\nEn Nivel II, es frecuente tener que plantear estrategias de cobertura o calcular beneficios/pérdidas con derivados.",
-    "crumbs": [
-      "🎬 SESIONES (vídeos y materiales)",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Sesión 1: Repaso del Nivel I y prueba inicial</span>"
-    ]
-  },
-  {
-    "objectID": "sesion01_repaso_nivel1.html#gestión-de-carteras-repaso-y-conexión-con-el-nivel-ii",
-    "href": "sesion01_repaso_nivel1.html#gestión-de-carteras-repaso-y-conexión-con-el-nivel-ii",
-    "title": "De EIP a EFA: repaso estratégico para afrontar el Nivel II",
-    "section": "Gestión de Carteras: repaso y conexión con el Nivel II",
-    "text": "Gestión de Carteras: repaso y conexión con el Nivel II\n\\[\nE(R_p) = \\sum_{i=1}^{n} w_i \\cdot E(R_i)\n\\]\n\nJustificar decisiones de asignación de activos.\nEvaluar carteras eficientes según perfil cliente.\nCuantificar diversificación: volatilidad, correlaciones, betas.",
-    "crumbs": [
-      "🎬 SESIONES (vídeos y materiales)",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Sesión 1: Repaso del Nivel I y prueba inicial</span>"
-    ]
-  },
-  {
-    "objectID": "sesion01_repaso_nivel1.html#ratios-de-rentabilidad-riesgo",
-    "href": "sesion01_repaso_nivel1.html#ratios-de-rentabilidad-riesgo",
-    "title": "De EIP a EFA: repaso estratégico para afrontar el Nivel II",
-    "section": "Ratios de rentabilidad-riesgo",
-    "text": "Ratios de rentabilidad-riesgo\n\n1. Sharpe\n\\[\nS = \\frac{R_p - R_f}{\\sigma_p}\n\\]\n\n\n2. Treynor\n\\[\nT = \\frac{R_p - R_f}{\\beta_p}\n\\]\n\n\n3. Alfa de Jensen\n\\[\n\\alpha_p = R_p - [R_f + \\beta_p (R_m - R_f)]\n\\]",
-    "crumbs": [
-      "🎬 SESIONES (vídeos y materiales)",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Sesión 1: Repaso del Nivel I y prueba inicial</span>"
-    ]
-  },
-  {
-    "objectID": "sesion01_repaso_nivel1.html#caso-práctico-comparación-de-fondos",
-    "href": "sesion01_repaso_nivel1.html#caso-práctico-comparación-de-fondos",
-    "title": "De EIP a EFA: repaso estratégico para afrontar el Nivel II",
-    "section": "Caso práctico: comparación de fondos",
-    "text": "Caso práctico: comparación de fondos\n\n\n\n\nFondo A\nFondo B\n\n\n\n\nRentabilidad (%)\n8,0\n7,5\n\n\nVolatilidad (%)\n10,0\n8,0\n\n\nBeta\n1,2\n0,9\n\n\n\n\nMercado: 6 %, Libre de riesgo: 2 %.\n\n¿Qué fondo es más eficiente según Sharpe, Treynor y Alfa?",
-    "crumbs": [
-      "🎬 SESIONES (vídeos y materiales)",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Sesión 1: Repaso del Nivel I y prueba inicial</span>"
-    ]
-  },
-  {
-    "objectID": "sesion01_repaso_nivel1.html#fiscalidad-del-irpf-a-la-planificación-patrimonial",
-    "href": "sesion01_repaso_nivel1.html#fiscalidad-del-irpf-a-la-planificación-patrimonial",
-    "title": "De EIP a EFA: repaso estratégico para afrontar el Nivel II",
-    "section": "Fiscalidad: del IRPF a la planificación patrimonial",
-    "text": "Fiscalidad: del IRPF a la planificación patrimonial\n\nNivel I: IRPF, rendimientos del capital mobiliario, ganancias patrimoniales.\nNivel II: Patrimonio, sucesiones y donaciones, no residentes.",
-    "crumbs": [
-      "🎬 SESIONES (vídeos y materiales)",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Sesión 1: Repaso del Nivel I y prueba inicial</span>"
-    ]
-  },
-  {
-    "objectID": "sesion01_repaso_nivel1.html#conclusión-y-próximos-pasos",
-    "href": "sesion01_repaso_nivel1.html#conclusión-y-próximos-pasos",
-    "title": "De EIP a EFA: repaso estratégico para afrontar el Nivel II",
-    "section": "Conclusión y próximos pasos",
-    "text": "Conclusión y próximos pasos\n\nReforzar la base técnica del Nivel I.\nIdentificar áreas a profundizar.\nEmpezar con casos aplicados y diagnóstico financiero profesional.",
-    "crumbs": [
-      "🎬 SESIONES (vídeos y materiales)",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Sesión 1: Repaso del Nivel I y prueba inicial</span>"
-    ]
-  },
-  {
-    "objectID": "sesion01_repaso_nivel1.html#presentación-de-repaso-estratégico-1",
-    "href": "sesion01_repaso_nivel1.html#presentación-de-repaso-estratégico-1",
-    "title": "De EIP a EFA: repaso estratégico para afrontar el Nivel II",
-    "section": "🧭 Presentación de repaso estratégico",
-    "text": "🧭 Presentación de repaso estratégico\nPuedes visualizar la presentación interactiva directamente aquí:\n\n\n\nTambién puedes abrirla en una pestaña nueva o descargarla si la necesitas en formato local.",
-    "crumbs": [
-      "🎬 SESIONES (vídeos y materiales)",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Sesión 1: Repaso del Nivel I y prueba inicial</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>**Sesión 1: Repaso del Nivel I y prueba inicial**</span>"
     ]
   },
   {

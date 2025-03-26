@@ -1,0 +1,357 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  ignorenonframetext,
+]{beamer}
+\usepackage{pgfpages}
+\setbeamertemplate{caption}[numbered]
+\setbeamertemplate{caption label separator}{: }
+\setbeamercolor{caption name}{fg=normal text.fg}
+\beamertemplatenavigationsymbolsempty
+% Prevent slide breaks in the middle of a paragraph
+\widowpenalties 1 10000
+\raggedbottom
+\setbeamertemplate{part page}{
+  \centering
+  \begin{beamercolorbox}[sep=16pt,center]{part title}
+    \usebeamerfont{part title}\insertpart\par
+  \end{beamercolorbox}
+}
+\setbeamertemplate{section page}{
+  \centering
+  \begin{beamercolorbox}[sep=12pt,center]{part title}
+    \usebeamerfont{section title}\insertsection\par
+  \end{beamercolorbox}
+}
+\setbeamertemplate{subsection page}{
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center]{part title}
+    \usebeamerfont{subsection title}\insertsubsection\par
+  \end{beamercolorbox}
+}
+\AtBeginPart{
+  \frame{\partpage}
+}
+\AtBeginSection{
+  \ifbibliography
+  \else
+    \frame{\sectionpage}
+  \fi
+}
+\AtBeginSubsection{
+  \frame{\subsectionpage}
+}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\newif\ifbibliography
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+\usepackage{caption}
+% Make caption package work with longtable
+\makeatletter
+\def\fnum@table{\tablename~\thetable}
+\makeatother
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Tabla de contenidos}
+\else
+  \newcommand\contentsname{Tabla de contenidos}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{Listado de Figuras}
+\else
+  \newcommand\listfigurename{Listado de Figuras}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{Listado de Tablas}
+\else
+  \newcommand\listtablename{Listado de Tablas}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figura}
+\else
+  \newcommand\figurename{Figura}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Tabla}
+\else
+  \newcommand\tablename{Tabla}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listado}
+\newcommand*\listoflistings{\listof{codelisting}{Listado de Listados}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+
+\ifLuaTeX
+\usepackage[bidi=basic]{babel}
+\else
+\usepackage[bidi=default]{babel}
+\fi
+\babelprovide[main,import]{spanish}
+% get rid of language-specific shorthands (see #6817):
+\let\LanguageShortHands\languageshorthands
+\def\languageshorthands#1{}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={De EIP a EFA: repaso estratégico para afrontar el Nivel II},
+  pdfauthor={Profesor Alberto Bernat},
+  pdflang={es},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+
+\title{De EIP a EFA: repaso estratégico para afrontar el Nivel II}
+\author{Profesor Alberto Bernat}
+\date{}
+
+\begin{document}
+\frame{\titlepage}
+
+
+\begin{frame}{Introducción y objetivos de la sesión}
+\phantomsection\label{introducciuxf3n-y-objetivos-de-la-sesiuxf3n}
+\begin{itemize}
+\tightlist
+\item
+  Consolidar los conocimientos fundamentales del Nivel I (EIP).
+\item
+  Preparar el terreno para afrontar con éxito el examen del Nivel II
+  (EFA).
+\item
+  Conectar teoría con práctica en un formato dinámico y participativo.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{¿Qué se espera del asesor financiero EFA?}
+\phantomsection\label{quuxe9-se-espera-del-asesor-financiero-efa}
+\begin{itemize}
+\tightlist
+\item
+  Dominio de instrumentos financieros, fiscalidad, gestión y normativa.
+\item
+  Capacidad de análisis y aplicación en contextos reales.
+\item
+  Enfoque ético y orientado al cliente en todo el proceso de
+  asesoramiento.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Renta Variable: Qué no se puede olvidar}
+\phantomsection\label{renta-variable-quuxe9-no-se-puede-olvidar}
+\begin{itemize}
+\tightlist
+\item
+  \textbf{PER (Price / Earnings)}: cuánto paga el mercado por cada euro
+  de beneficio.
+\item
+  \textbf{Rentabilidad por dividendo}: dividendo / precio de la acción.
+\item
+  \textbf{Otros ratios útiles}: Precio / Valor contable, ROE, ROA,
+  Earning Yield Gap.
+\item
+  \textbf{Modelos de valoración}: Descuento de dividendos
+  (Gordon-Shapiro), flujos de caja.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Derivados: Aplicaciones esenciales}
+\phantomsection\label{derivados-aplicaciones-esenciales}
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Futuros}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Negociados en mercados organizados.
+  \item
+    Cobertura o especulación.
+  \item
+    Precio teórico ≈ spot + coste de carry.
+  \end{itemize}
+\item
+  \textbf{Opciones}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Derecho (no obligación) a comprar o vender.
+  \item
+    Prima = valor intrínseco + valor temporal.
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Gestión de carteras}
+\phantomsection\label{gestiuxf3n-de-carteras}
+\[
+E(R_p) = \sum_{i=1}^{n} w_i \cdot E(R_i)
+\]
+
+\begin{itemize}
+\tightlist
+\item
+  Asignación de activos.
+\item
+  Identificar carteras eficientes.
+\item
+  Evaluar riesgo con volatilidad, correlaciones y betas.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Ratios rentabilidad-riesgo}
+\phantomsection\label{ratios-rentabilidad-riesgo}
+\begin{itemize}
+\item
+  \textbf{Sharpe}: \[
+  S = \frac{R_p - R_f}{\sigma_p}
+  \]
+\item
+  \textbf{Treynor}: \[
+  T = \frac{R_p - R_f}{\beta_p}
+  \]
+\item
+  \textbf{Alfa de Jensen}: \[
+  \alpha_p = R_p - [R_f + \beta_p (R_m - R_f)]
+  \]
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Estadística aplicada a carteras}
+\phantomsection\label{estaduxedstica-aplicada-a-carteras}
+\begin{itemize}
+\tightlist
+\item
+  Rentabilidad esperada, volatilidad, correlación.
+\item
+  Evaluar con Sharpe, Treynor y Alfa.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{CASO: ¿Qué fondo ha sido más eficiente?}
+\phantomsection\label{caso-quuxe9-fondo-ha-sido-muxe1s-eficiente}
+\begin{longtable}[]{@{}llll@{}}
+\toprule\noalign{}
+Fondo & Rentabilidad (\%) & Volatilidad (\%) & Beta \\
+\midrule\noalign{}
+\endhead
+A & 8.0 & 10.0 & 1.2 \\
+B & 7.5 & 8.0 & 0.9 \\
+\bottomrule\noalign{}
+\end{longtable}
+
+Riesgo libre: 2\,\%\\
+Rentabilidad mercado: 6\,\%
+\end{frame}
+
+\begin{frame}{Renta fija: repaso técnico}
+\phantomsection\label{renta-fija-repaso-tuxe9cnico}
+\begin{itemize}
+\tightlist
+\item
+  Precio y TIR inversamente relacionados.
+\item
+  Principios de Malkiel.
+\item
+  Duración y sensibilidad al tipo de interés.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Fiscalidad: de la teoría a la planificación}
+\phantomsection\label{fiscalidad-de-la-teoruxeda-a-la-planificaciuxf3n}
+\begin{itemize}
+\tightlist
+\item
+  Nivel I: IRPF, ganancias patrimoniales.
+\item
+  Nivel II: patrimonio, sucesiones, no residentes.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Conclusión y próximos pasos}
+\phantomsection\label{conclusiuxf3n-y-pruxf3ximos-pasos}
+\begin{itemize}
+\tightlist
+\item
+  Reforzar base técnica del Nivel I.
+\item
+  Profundizar en áreas clave del Nivel II.
+\item
+  Enfocar la preparación hacia escenarios reales.
+\end{itemize}
+\end{frame}
+
+
+
+
+\end{document}

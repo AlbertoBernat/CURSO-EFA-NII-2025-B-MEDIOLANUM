@@ -13,6 +13,35 @@ El programa formativo incluye:
 -   ✅ Prueba de nivel, ejercicios, test, y simulacros corregidos
 -   ✅ Evaluaciones intermedias para optar entre convocatoria de junio o septiembre
 
+::: {.callout-warning icon="false"}
+## 📆 Enlace recurrente para las sesiones semanales
+
+¡No olvides conectarte cada martes a través del siguiente enlace de Zoom! Este es **el enlace oficial para todas las sesiones en directo** del curso:
+
+**ID de la reunión:** `975 8656 1629`
+
+::: {style="text-align: center; margin-top: 2em;"}
+
+<a href="https://zoom.us/j/97586561629" target="_blank" style="
+    background-color: #2D8CFF;
+    color: white;
+    padding: 14px 28px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+  ">
+  🔗 Unirse a la reunión Zoom
+</a>
+
+:::
+
+
+> Te recomendamos guardar este enlace como favorito o añadirlo a tu calendario. ¡Nos vemos en clase! 🎓
+:::
+
 ### Calendario de sesiones
 
 El curso se imparte los martes de 10:00 a 11:30. A continuación, se muestra la planificación general:
@@ -64,14 +93,13 @@ Este libro está organizado en tres bloques principales que permiten una prepara
 
 ## Recomendaciones de uso
 
-- 📅 Empieza por las sesiones en orden, viendo los vídeos y tomando apuntes.  
-- 🧠 Haz los test después de cada sesión para afianzar los conceptos.  
-- 📝 Usa los simulacros como entrenamiento final antes del examen real.  
-- 🕒 Evalúa tu progreso en la sesión 6.5 y al terminar la sesión 12.  
-- 🖨️ Puedes **imprimir la página que estás visualizando** directamente desde el navegador Google Chrome:  
-  Ve a `Archivo > Imprimir` y selecciona **Guardar como PDF** o tu impresora.  
-  Esta opción es útil para conservar o anotar materiales concretos de una sesión o bloque.
-
+-   📅 Empieza por las sesiones en orden, viendo los vídeos y tomando apuntes.\
+-   🧠 Haz los test después de cada sesión para afianzar los conceptos.\
+-   📝 Usa los simulacros como entrenamiento final antes del examen real.\
+-   🕒 Evalúa tu progreso en la sesión 6.5 y al terminar la sesión 12.\
+-   🖨️ Puedes **imprimir la página que estás visualizando** directamente desde el navegador Google Chrome:\
+    Ve a `Archivo > Imprimir` y selecciona **Guardar como PDF** o tu impresora.\
+    Esta opción es útil para conservar o anotar materiales concretos de una sesión o bloque.
 
 ## Objetivo final
 

@@ -1,0 +1,250 @@
+### 1. ¿Qué gastos asume el prestatario en una operación de préstamo hipotecario?
+
+I. Gastos de Gestoría.
+
+II. Gastos de Registro.
+
+III. Gastos de Notaría.
+
+a.  Sólo la I y la II.
+
+b.  Sólo la II.
+
+c.  I, II y III.
+
+d.  Ninguno de ellos.
+
+<details>
+<summary>
+</summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta **correcta es la c**.
+
+Desde 2019, el prestatario asume solo los gastos de tasación y copia de escritura. El resto los asume la entidad. Correcta: c.
+:::
+
+</details>
+
+---
+
+### 2. ¿Cuál de los siguientes indicadores se utiliza para medir la eficiencia con la que se utilizan los recursos en la producción de bienes y servicios?
+
+a.  PIB
+
+b.  Inflación
+
+c.  Productividad
+
+d.  Tasa de interés
+
+<details>
+<summary>
+</summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta **correcta es la c**.
+
+La productividad mide la eficiencia en el uso de recursos para producir bienes y servicios. Correcta: c.
+:::
+
+</details>
+
+---
+
+### 3. Compramos 100 acciones a 17,20€, cobramos 2€/acción en dividendos y vendemos a 20,50€. ¿Qué rentabilidad simple hemos obtenido?
+
+a.  33,00%
+
+b.  30,81%
+
+c.  8,39%
+
+d.  16,22%
+
+<details>
+<summary>
+</summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta **correcta es la d**.
+
+Rentabilidad = ((20,5 + 2 - 17,2)/17,2) ≈ 16,22%. Correcta: d.
+:::
+
+</details>
+
+---
+
+### 4. Compramos acciones a 12€ y bajan a 2€. ¿Cuál es la caída y cuánto debe subir para recuperar?
+
+a.  Caída del 83%, subida del 500%
+
+b.  Caída del 83%, subida del 83%
+
+c.  Caída del 17%, subida del 17%
+
+d.  Caída del 10%, subida del 12%
+
+<details>
+<summary>
+</summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta **correcta es la a**.
+
+Pérdida del 83% requiere subida del 500% para recuperar. Correcta: a.
+:::
+
+</details>
+
+---
+
+### 5. El índice de confianza del consumidor es un indicador económico de:
+
+a.  Precios
+
+b.  Demanda
+
+c.  Monetario
+
+d.  Renta
+
+<details>
+<summary>
+</summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta **correcta es la b**.
+
+Mide la percepción y disposición de los consumidores a gastar. Correcta: b.
+:::
+
+</details>
+
+---
+
+### 6. ¿Qué implica un alto nivel de riesgo en un fondo de inversión?
+
+a.  Mayor probabilidad de obtener altas rentabilidades
+
+b.  Mayor volatilidad
+
+c.  Menor posibilidad de perder dinero
+
+d.  Mayor seguridad
+
+<details>
+<summary>
+</summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta **correcta es la b**.
+
+Alto riesgo implica mayor volatilidad. Correcta: b.
+:::
+
+</details>
+
+---
+
+### 7. ¿Para qué servicios se exige el test de idoneidad?
+
+I. Asesoramiento
+II. Recepción y transmisión de órdenes
+III. Gestión de carteras
+IV. Ejecución de órdenes
+
+a.  I y III
+
+b.  Sólo la I
+
+c.  Sólo la II
+
+d.  I, II y III
+
+<details>
+<summary>
+</summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta **correcta es la d**.
+
+Test de idoneidad: I, II y III. Correcta: d.
+:::
+
+</details>
+
+---
+
+### 8. ¿Qué rentas están sujetas a retención en el IRPF?
+
+a.  I, III y IV
+
+b.  Sólo la III
+
+c.  II y III
+
+d.  I y III
+
+<details>
+<summary>
+</summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta **correcta es la a**.
+
+Ganancias en suscripción, reembolso de fondos y transmisión cotizada tienen retención. Correcta: a.
+:::
+
+</details>
+
+---
+
+### 9. Rentabilidad nominal 9 %, inflación 4 %. ¿Cuál es la rentabilidad real anual?
+
+a.  5%
+
+b.  +4,80%
+
+c.  -5%
+
+d.  -4,80%
+
+<details>
+<summary>
+</summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta **correcta es la b**.
+
+Fórmula aproximada: (1+0,09)/(1+0,04)-1 ≈ 4,8%. Correcta: b.
+:::
+
+</details>
+
+---
+
+### 10. ¿Qué significa que el sistema público de pensiones sea de reparto?
+
+a.  Rendimientos atribuidos proporcionalmente
+
+b.  Activos pagan pensiones actuales
+
+c.  Dependen de cotizaciones y rentabilidad
+
+d.  Dependen del reparto territorial
+
+<details>
+<summary>
+</summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta **correcta es la b**.
+
+El sistema de reparto se basa en que los activos financian a los pensionistas actuales. Correcta: b.
+:::
+
+</details>
+
+---

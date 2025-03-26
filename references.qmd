@@ -1,5 +1,5 @@
 ---
-title: "Referencias y bibliografía 📚"
+title: "📚 Referencias y bibliografía"
 format: html
 numbered: false
 ---

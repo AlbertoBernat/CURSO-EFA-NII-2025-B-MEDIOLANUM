@@ -1,0 +1,115 @@
+---
+title: "De EIP a EFA: repaso estratégico para afrontar el Nivel II"
+author: "Profesor Alberto Bernat"
+format: beamer
+lang: es
+---
+
+## Introducción y objetivos de la sesión
+
+- Consolidar los conocimientos fundamentales del Nivel I (EIP).
+- Preparar el terreno para afrontar con éxito el examen del Nivel II (EFA).
+- Conectar teoría con práctica en un formato dinámico y participativo.
+
+---
+
+## ¿Qué se espera del asesor financiero EFA?
+
+- Dominio de instrumentos financieros, fiscalidad, gestión y normativa.
+- Capacidad de análisis y aplicación en contextos reales.
+- Enfoque ético y orientado al cliente en todo el proceso de asesoramiento.
+
+---
+
+## Renta Variable: Qué no se puede olvidar
+
+- **PER (Price / Earnings)**: cuánto paga el mercado por cada euro de beneficio.
+- **Rentabilidad por dividendo**: dividendo / precio de la acción.
+- **Otros ratios útiles**: Precio / Valor contable, ROE, ROA, Earning Yield Gap.
+- **Modelos de valoración**: Descuento de dividendos (Gordon-Shapiro), flujos de caja.
+
+---
+
+## Derivados: Aplicaciones esenciales
+
+- **Futuros**:
+  - Negociados en mercados organizados.
+  - Cobertura o especulación.
+  - Precio teórico ≈ spot + coste de carry.
+- **Opciones**:
+  - Derecho (no obligación) a comprar o vender.
+  - Prima = valor intrínseco + valor temporal.
+
+---
+
+## Gestión de carteras
+
+$$
+E(R_p) = \sum_{i=1}^{n} w_i \cdot E(R_i)
+$$
+
+- Asignación de activos.
+- Identificar carteras eficientes.
+- Evaluar riesgo con volatilidad, correlaciones y betas.
+
+---
+
+## Ratios rentabilidad-riesgo
+
+- **Sharpe**:
+$$
+S = \frac{R_p - R_f}{\sigma_p}
+$$
+
+- **Treynor**:
+$$
+T = \frac{R_p - R_f}{\beta_p}
+$$
+
+- **Alfa de Jensen**:
+$$
+\alpha_p = R_p - [R_f + \beta_p (R_m - R_f)]
+$$
+
+---
+
+## Estadística aplicada a carteras
+
+- Rentabilidad esperada, volatilidad, correlación.
+- Evaluar con Sharpe, Treynor y Alfa.
+
+---
+
+## CASO: ¿Qué fondo ha sido más eficiente?
+
+| Fondo | Rentabilidad (%) | Volatilidad (%) | Beta |
+|-------|-------------------|------------------|------|
+| A     | 8.0               | 10.0             | 1.2  |
+| B     | 7.5               | 8.0              | 0.9  |
+
+Riesgo libre: 2 %  
+Rentabilidad mercado: 6 %
+
+---
+
+## Renta fija: repaso técnico
+
+- Precio y TIR inversamente relacionados.
+- Principios de Malkiel.
+- Duración y sensibilidad al tipo de interés.
+
+---
+
+## Fiscalidad: de la teoría a la planificación
+
+- Nivel I: IRPF, ganancias patrimoniales.
+- Nivel II: patrimonio, sucesiones, no residentes.
+
+---
+
+## Conclusión y próximos pasos
+
+- Reforzar base técnica del Nivel I.
+- Profundizar en áreas clave del Nivel II.
+- Enfocar la preparación hacia escenarios reales.
+

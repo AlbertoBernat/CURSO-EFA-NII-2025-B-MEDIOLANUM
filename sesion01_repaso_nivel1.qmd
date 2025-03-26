@@ -1,5 +1,5 @@
 ---
-title: "Sesión 1: Repaso del Nivel I y prueba inicial"
+title: "**Sesión 1: Repaso del Nivel I y prueba inicial**"
 format: html
 ---
 
@@ -7,139 +7,14 @@ format: html
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/fbehQgXTZ30" frameborder="0" allowfullscreen></iframe>
 
+---
+
 ::: {.callout-note}
 ## 📎 Material de la sesión
 
-Aquí puedes incluir los vídeos, enlaces y materiales descargables.
-:::
-
----
-
-## 🧭 Presentación de repaso estratégico
-
-Esta presentación recoge los principales conceptos del Nivel I (EIP) que servirán como base para afrontar con éxito el Nivel II (EFA). Puedes visualizarla a continuación o descargarla.
-
-<iframe src="presentacion_repaso_efa.qmd" width="100%" height="600" frameborder="0"></iframe>
-
-> También puedes acceder a la versión descargable desde el siguiente botón:
-
-[📄 Descargar presentación en formato .qmd](presentacion_repaso_efa.qmd)
 
 
----
-title: "De EIP a EFA: repaso estratégico para afrontar el Nivel II"
-author: "Profesor de Finanzas"
-format: 
-  html:
-    toc: true
-    toc-depth: 2
-    number-sections: false
-lang: es
----
-
-## Introducción y objetivos de la sesión
-
-- Consolidar los conocimientos fundamentales del Nivel I (EIP).
-- Preparar el terreno para afrontar con éxito el examen del Nivel II (EFA).
-- Conectar teoría con práctica en un formato dinámico y participativo.
-
----
-
-## ¿Qué se espera del asesor financiero EFA?
-
-- Dominio de instrumentos financieros, fiscalidad, gestión y normativa.
-- Capacidad de análisis y aplicación en contextos reales.
-- Enfoque ético y orientado al cliente en todo el proceso de asesoramiento.
-
----
-
-## Renta Variable: Qué no se puede olvidar
-
-- **PER (Price / Earnings)**: mide cuánto paga el mercado por cada euro de beneficio.
-- **Rentabilidad por dividendo**: dividendo / precio de la acción.
-- **Otros ratios útiles**: Precio / Valor contable, ROE y ROA, Earning Yield Gap.
-- **Modelos de valoración**: Descuento de dividendos (Gordon-Shapiro), Descuento de flujos de caja.
-
-> En el examen, te pedirán interpretar ratios, justificar decisiones de inversión o valorar si una acción está cara o barata.
-
----
-
-## Derivados: Aplicaciones esenciales
-
-- **Futuros**: cobertura, especulación, precio teórico ≈ spot + coste de carry.
-- **Opciones**: derecho a comprar o vender, valor intrínseco + temporal, variables clave: spot, strike, tiempo, interés, volatilidad.
-
-> En Nivel II, es frecuente tener que plantear estrategias de cobertura o calcular beneficios/pérdidas con derivados.
-
----
-
-## Gestión de Carteras: repaso y conexión con el Nivel II
-
-$$
-E(R_p) = \sum_{i=1}^{n} w_i \cdot E(R_i)
-$$
-
-- Justificar decisiones de asignación de activos.
-- Evaluar carteras eficientes según perfil cliente.
-- Cuantificar diversificación: volatilidad, correlaciones, betas.
-
----
-
-## Ratios de rentabilidad-riesgo
-
-### 1. Sharpe
-
-$$
-S = \frac{R_p - R_f}{\sigma_p}
-$$
-
-### 2. Treynor
-
-$$
-T = \frac{R_p - R_f}{\beta_p}
-$$
-
-### 3. Alfa de Jensen
-
-$$
-\alpha_p = R_p - [R_f + \beta_p (R_m - R_f)]
-$$
-
----
-
-## Caso práctico: comparación de fondos
-
-|                         | Fondo A | Fondo B |
-|-------------------------|---------|---------|
-| Rentabilidad (%)        | 8,0     | 7,5     |
-| Volatilidad (%)         | 10,0    | 8,0     |
-| Beta                    | 1,2     | 0,9     |
-
-- Mercado: 6 %, Libre de riesgo: 2 %.
-
-**¿Qué fondo es más eficiente según Sharpe, Treynor y Alfa?**
-
----
-
-## Fiscalidad: del IRPF a la planificación patrimonial
-
-- Nivel I: IRPF, rendimientos del capital mobiliario, ganancias patrimoniales.
-- Nivel II: Patrimonio, sucesiones y donaciones, no residentes.
-
----
-
-## Conclusión y próximos pasos
-
-- Reforzar la base técnica del Nivel I.
-- Identificar áreas a profundizar.
-- Empezar con casos aplicados y diagnóstico financiero profesional.
-
----
-
-## 🧭 Presentación de repaso estratégico
-
-Puedes visualizar la presentación interactiva directamente aquí:
-
-<iframe src="presentacion_reveal.html" width="100%" height="600" frameborder="0" allowfullscreen></iframe>
-
-> También puedes abrirla en una pestaña nueva o descargarla si la necesitas en formato local.
+```{=html}
+<object data="presentacion_repaso_efa_beamer.pdf" type="application/pdf" width="100%" height="800px" style="min-height:100vh;">
+  <p>Tu navegador no puede mostrar PDF embebidos. Puedes <a href="presentacion_repaso_efa_beamer.pdf" target="_blank">descargarlo aquí</a>.</p>
+</object>
