@@ -17,9 +17,9 @@ El programa formativo incluye:
 ::: {.callout-warning icon="false"}
 ## 📆 Enlace recurrente para las sesiones semanales
 
-¡No olvides conectarte cada martes a través del siguiente enlace de Zoom! Este es **el enlace oficial para todas las sesiones en directo** del curso:
 
-**ID de la reunión:** `975 8656 1629`
+
+Este es **el enlace oficial para todas las sesiones en directo** del curso:
 
 ::: {style="text-align: center; margin-top: 2em;"}
 
@@ -40,8 +40,16 @@ El programa formativo incluye:
 :::
 
 
-> Te recomendamos guardar este enlace como favorito o añadirlo a tu calendario. ¡Nos vemos en clase! 🎓
+**ID de la reunión:** `975 8656 1629`
+
+
+¡No olvides conectarte cada martes a través del siguiente enlace de Zoom! 
+
+
 :::
+
+
+
 
 ### Calendario de sesiones
 
