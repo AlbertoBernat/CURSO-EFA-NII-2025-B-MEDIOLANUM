@@ -40,6 +40,7 @@ book:
 bibliography: references.bib
 csl: apa-5th-edition
 
+
 format:
   html:
     favicon: "images/favicon_efpa_academico.png"
@@ -50,9 +51,12 @@ format:
     title-block-author-single: ""
     theme: [cosmo, style.scss]
     css: styles.css
+    include-before-body:
+      - auth.html
     execute:
       echo: false
       warning: false
+
 
   pdf:
     documentclass: scrreprt
