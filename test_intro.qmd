@@ -26,13 +26,9 @@ c.  La cartera esta perfectamente inmunizada.
 
 d.  Para inmunizar es necesario reducir la duración de la cartera.
 
-<details>
 
-<summary>
-
-</summary>
-
-::: {.callout-note appearance="simple"}
+::: {.callout-tip collapse="true"}
+### Solución
 La respuesta **correcta es la d**.
 
 La **inmunización** busca **igualar la duración de la cartera con el horizonte temporal** del inversor para conseguir que el valor final de la inversión sea el previsto al inicio.
@@ -51,7 +47,7 @@ Cuando llevamos a cabo una inversión en activos de renta fija o monetarios, pue
 
 :::
 
-</details>
+
 
 ------------------------------------------------------------------------
 
@@ -67,19 +63,14 @@ c.  1.5
 
 d.  No se dan datos suficientes para contestar la pregunta.
 
-<details>
-
-<summary>
-
-</summary>
-
-::: {.callout-note appearance="simple"}
+::: {.callout-tip collapse="true"}
+### Solución
 La respuesta **correcta es la a**.
 
 De la expresión general para el cálculo de la duración, se puede deducir que un **bono cupón cero** (un solo flujo en la fecha de vencimiento) tiene una **duración igual a su vencimiento**.
 :::
 
-</details>
+
 
 ------------------------------------------------------------------------
 
@@ -95,13 +86,8 @@ c.  El precio del bono A se verá menos afectado que el del bono B.
 
 d.  Todas las respuestas son correctas.
 
-<details>
-
-<summary>
-
-</summary>
-
-::: {.callout-note appearance="simple"}
+::: {.callout-tip collapse="true"}
+### Solución
 La respuesta **correcta es la d**.
 
 Calculamos la variación relativa del precio del bono A y del B, para ello empleamos la siguiente fórmula:
@@ -120,7 +106,6 @@ Por el segundo **principio de Malkiel** una variación dada en la TIR de un bono
 De forma que, si se produce una subida de la TIR (homogénea para todos los tramos de la curva) del 0.25%, podemos afirmar que las tres repuestas (a, b y c) son correctas.
 :::
 
-</details>
 
 ------------------------------------------------------------------------
 
@@ -136,13 +121,8 @@ c.  Si la duración y el horizonte temporal del bono coinciden, no se puede pred
 
 d.  En una cartera inmunizada, la rentabilidad no depende de variaciones en la duración de los bonos que la componen.
 
-<details>
-
-<summary>
-
-</summary>
-
-::: {.callout-note appearance="simple"}
+::: {.callout-tip collapse="true"}
+### Solución
 La respuesta **correcta es la b**.
 
 Cuando la **duración es menor que el horizonte temporal** de la cartera (D \> HT), diremos que el **riesgo de reinversión** domina sobre el riesgo de precio, con lo que la rentabilidad efectiva de la cartera aumentará a medida que se incrementan los tipos de interés, y viceversa. (a es incorrecta)
@@ -154,7 +134,7 @@ Cuando la **duración es mayor que el horizonte temporal** de la cartera (D \> H
 La **inmunización** es una técnica que exigirá **reequilibrar permanentemente la cartera** para mantener la igualdad entre horizonte temporal y duración, **a causa de las variaciones de la duración de los bonos que la componen**, pero también a causa de posibles **cambios en el horizonte temporal**, lo que, en realidad, limita su aplicación.(d es incorrecta)
 :::
 
-</details>
+
 
 ------------------------------------------------------------------------
 
@@ -170,13 +150,8 @@ c.  El día 1 de enero la duración será mayor que el día 30 de diciembre del 
 
 d.  El día 1 de enero el bono tendrá una duración menor que el día 30 de junio del mismo ejercicio.
 
-<details>
-
-<summary>
-
-</summary>
-
-::: {.callout-note appearance="simple"}
+::: {.callout-tip collapse="true"}
+### Solución
 La respuesta **correcta es la d**.
 
 Cuando **aumenta la TIR, disminuye la duración** (a, es verdadera).
@@ -194,7 +169,7 @@ Veamos, en el caso de nuestro bono, si cotiza bajo par:
 $$TIR > Cupón => Precio < 100\%$$ Luego por propiedades, **sabemos que como cotiza bajo par y el vencimiento no es corto (5 años)**, de forma que la **respuesta d es falsa**. Si bien para determinarlo con **mayor precisión debemos antes calcular su duración para ambos momentos del tiempo**.
 :::
 
-</details>
+
 
 ------------------------------------------------------------------------
 
@@ -210,13 +185,8 @@ c.  Desde un punto de vista del precio, si esperamos bajadas en los tipos de int
 
 d.  La duración de un bono es una medida de sensibilidad de éste.
 
-<details>
-
-<summary>
-
-</summary>
-
-::: {.callout-note appearance="simple"}
+::: {.callout-tip collapse="true"}
+### Solución
 La respuesta **correcta es la b**.
 
 La **sensibilidad** de un bono es una medida que relaciona las **variaciones absolutas del precio** de un bono con las **variaciones absolutas de su TIR**. Por lo tanto, la sensibilidad nos proporciona información en términos absolutos acerca de cual será la variación del precio de un bono.
@@ -228,7 +198,7 @@ Ante la misma variación de tipos de interés del mercado, la mayoría de los pr
 La **duración** es la media de los periodos de pago de los flujos de un bono ponderados por el peso que representa el valor actual de los mismos en el precio del bono. La duración **puede definirse también como una medida de la sensibilidad relativa de un bono**. Es decir, relaciona las variaciones relativas del precio con las variaciones relativas de la TIR.
 :::
 
-</details>
+
 
 ------------------------------------------------------------------------
 
@@ -248,13 +218,8 @@ c)  -13,59%
 
 d)  -14,30%
 
-<details>
-
-<summary>
-
-</summary>
-
-::: {.callout-note appearance="simple"}
+::: {.callout-tip collapse="true"}
+### Solución
 La respuesta **correcta es la c**.
 
 En primer lugar vamos a recordar la fórmula de la duración de Macaulay (o simplemente la "duración"):
@@ -280,7 +245,7 @@ $$D.C.=\frac{D}{(1+TIR)}\cdot \frac{1}{100}=\frac{14.3}{(1+0.0525)}=0.1359$$ $$\
 En definitiva, este bono se estima que experimentará una caída del precio entero en torno al 13,59%.
 :::
 
-</details>
+
 
 ------------------------------------------------------------------------
 
@@ -296,13 +261,8 @@ c.  98,806%.
 
 d.  99.442%.
 
-<details>
-
-<summary>
-
-</summary>
-
-::: {.callout-note appearance="simple"}
+::: {.callout-tip collapse="true"}
+### Solución
 La respuesta **correcta es la b**.
 
 En primer lugar, calcularemos la Duración corregida utilizando la siguiente fórmula:
@@ -322,7 +282,7 @@ donde, al sustituir y calcular tenemos un resultado de:
 $$P_1\simeq 0.98735\cdot\left[1+((-2.2427)\cdot (-0.0023))\right]=0.99244(99.244\%)$$
 :::
 
-</details>
+
 
 ------------------------------------------------------------------------
 
@@ -338,19 +298,14 @@ c.  El tipo de interés de reinversión es superior a su TIR de adquisición
 
 d.  El tipo de interés de reinversión es inferior a su TIR de adquisición.
 
-<details>
-
-<summary>
-
-</summary>
-
-::: {.callout-note appearance="simple"}
+::: {.callout-tip collapse="true"}
+### Solución
 La respuesta **correcta es la c**.
 
 La TIR es una buena medida de la rentabilidad a vencimiento de un bono si se reinvierten los cupones a una tasa igual a la propia TIR. Si la reinversión se hace a tipos superiores, la rentabilidad efectiva a vencimiento será superior a la TIR de adquisición.
 :::
 
-</details>
+
 
 ------------------------------------------------------------------------
 
@@ -379,13 +334,8 @@ c)  4,380%.
 
 d)  3,750%.
 
-<details>
-
-<summary>
-
-</summary>
-
-::: {.callout-note appearance="simple"}
+::: {.callout-tip collapse="true"}
+### Solución
 La respuesta **correcta es la a**.
 
 Recordemos que la Tasa de Rentabilidad Efectiva (TRE) se define como aquella rentabilidad media anual que tiene en cuenta las tasas de reinversión de los ingresos de una operación, medida mediante capitalización compuesta.Y su expresión es la siguiente:
@@ -415,7 +365,7 @@ $$i_{TRE}=\left(\frac{V_f }{V_0 }\right)^{\frac{1 }{n }}-1$$ Que al sustituir y 
 $$i_{TRE}=\left(\frac{ 1160.8826}{977.33 }\right)^{\frac{1 }{4 }}-1=0.04399(4.399\%)$$
 :::
 
-</details>
+
 
 ------------------------------------------------------------------------
 
@@ -431,13 +381,8 @@ c.  Son operaciones de agregación y desagregación sobre bonos y obligaciones d
 
 d.  Son operaciones de agregación y desagregación sobre bonos y obligaciones del Estado (cupones y principal) que llevan a cabo los "markets makers".
 
-<details>
-
-<summary>
-
-</summary>
-
-::: {.callout-note appearance="simple"}
+::: {.callout-tip collapse="true"}
+### Solución
 La respuesta **correcta es la d**.
 
 Los bonos y Obligaciones del Estado denominados "segregables" o "S.T.R.I.P.S., presentan las siguientes características:
@@ -453,7 +398,7 @@ En España, el Tesoro comenzó a emitir valores segregables en julio de 1997. La
 Las entidades que poseen la autorización y potestad para llevar a cabo la segregación y reconstitución de bonos, son los llamados Creadores de Mercado o "markets makers". Los creadores de mercado, son un conjunto de entidades y agentes financieros, que ayudan y facilitan a que haya mucha más liquidez en el mercado tanto primario como secundario de deuda pública.
 :::
 
-</details>
+
 
 ------------------------------------------------------------------------
 
@@ -469,13 +414,8 @@ c.  El valor nominal se sitúa por debajo del precio de suscripción: decimos qu
 
 d.  Todas las anteriores.
 
-<details>
-
-<summary>
-
-</summary>
-
-::: {.callout-note appearance="simple"}
+::: {.callout-tip collapse="true"}
+### Solución
 La respuesta **correcta es la d**.
 
 En el momento de emisión de un bono del Estado en el mercado primario, pueden darse tres circunstancias:
@@ -487,7 +427,7 @@ En el momento de emisión de un bono del Estado en el mercado primario, pueden d
 -   El valor nominal se sitúa por debajo del precio de suscripción: emisión sobre la par o con prima. Al revés que en el caso anterior, aquí existe una rentabilidad negativa implícita a vencimiento que también debe ser considerada.
 :::
 
-</details>
+
 
 ------------------------------------------------------------------------
 
@@ -503,13 +443,8 @@ c.  Si proceden de la percepción de intereses por el cobro de cupones sería re
 
 d.  Si proceden de la venta del activo financiero sería rendimiento del capital mobiliario sujeto a retención.
 
-<details>
-
-<summary>
-
-</summary>
-
-::: {.callout-note appearance="simple"}
+::: {.callout-tip collapse="true"}
+### Solución
 La respuesta **correcta es la c**.
 
 Tributación de los Bonos y Obligaciones del Estado
@@ -547,7 +482,7 @@ El rendimiento neto tributará al 19% hasta los 6.000 €, el tramo de la base l
 **Los rendimientos derivados de la transmisión o amortización de Bonos y Obligaciones del Estado no están sometidos a retención a cuenta del IRPF**, salvo el los casos de contratos de cuentas basadas en operaciones sobre dichos valores ("cuentas financieras") o cuando opere la norma "anti-lavado" de cupón.
 :::
 
-</details>
+
 
 ------------------------------------------------------------------------
 
@@ -563,13 +498,8 @@ c.  4,02%
 
 d.  Ninguna de las anteriores
 
-<details>
-
-<summary>
-
-</summary>
-
-::: {.callout-note appearance="simple"}
+::: {.callout-tip collapse="true"}
+### Solución
 La respuesta **correcta es la a**.
 
 Aplicamos el precio de una letra para plazo superior al año (capitalización compuesta):
@@ -593,7 +523,6 @@ Sustituimos y calculamos,
 $$i=\left(\frac{100}{95.425}\right)^{\left(\frac{365}{437}\right) }-1=0.0398(3.99\%)$$
 :::
 
-</details>
 
 ------------------------------------------------------------------------
 
@@ -609,13 +538,8 @@ c.  El spread entre plazos nos indica la calidad crediticia de cada emisor en ca
 
 d.  Ninguna de las anteriores
 
-<details>
-
-<summary>
-
-</summary>
-
-::: {.callout-note appearance="simple"}
+::: {.callout-tip collapse="true"}
+### Solución
 La respuesta **correcta es la d**.
 
 El spread de curvas de tipos de interés se clasifican en:
@@ -625,7 +549,7 @@ El spread de curvas de tipos de interés se clasifican en:
 -   Spread entre curvas, que indica la diferencia en la calidad crediticia de cada emisor para cada plazo.
 :::
 
-</details>
+
 
 ------------------------------------------------------------------------
 
@@ -641,13 +565,8 @@ c.  La Teoría del Hábitat Preferido.
 
 d.  Todas las anteriores.
 
-<details>
-
-<summary>
-
-</summary>
-
-::: {.callout-note appearance="simple"}
+::: {.callout-tip collapse="true"}
+### Solución
 La respuesta **correcta es la d**.
 
 Las teorías explicativas de la estructura temporal de los tipos de interés (ETTI) son:
@@ -661,7 +580,7 @@ Las teorías explicativas de la estructura temporal de los tipos de interés (ET
 Nota: encontramos también en algunos textos la llamada Teoría de la Segmentación de Mercados, según la cual los mercados de renta fija están segmentados por productos, cuyos precios se establecen mediante las leyes de la oferta y la demanda de cada mercado. En base a esto, la forma de la curva podrá variar según los mercados (corto plazo, medio plazo o largo plazo), y tener cualquier forma. Si se demanda más a corto que a largo, la curva estaría invertida; si fuera al revés sería ascendente.
 :::
 
-</details>
+
 
 ------------------------------------------------------------------------
 
@@ -677,19 +596,15 @@ c.  Se mantendrá el diferencial de rentabilidad (spread) con el que cotiza resp
 
 d.  Ninguna de las anteriores es correcta.
 
-<details>
 
-<summary>
 
-</summary>
-
-::: {.callout-note appearance="simple"}
+::: {.callout-tip collapse="true"}
+### Solución
 La respuesta **correcta es la a**.
 
 Se ampliará el diferencial de rentabilidad con el que cotiza respecto a la deuda pública como consecuencia de una ampliación de la prima de riesgo descontada por el mercado.
 :::
 
-</details>
 
 ------------------------------------------------------------------------
 
@@ -705,13 +620,8 @@ c.  La duración dividida entre (1 + TIR) del bono.
 
 d.  La duración del bono multiplicada por un punto básico.
 
-<details>
-
-<summary>
-
-</summary>
-
-::: {.callout-note appearance="simple"}
+::: {.callout-tip collapse="true"}
+### Solución
 La respuesta **correcta es la c**.
 
 Por definición la duración corregida es, como podemos ver en su fórmula, la duración (de Macaulay) dividida entre 1 + la TIR del bono:
@@ -719,7 +629,8 @@ Por definición la duración corregida es, como podemos ver en su fórmula, la d
 $$D_{corregida}=\frac{Duracion\,de\, Macaulay}{\left(1+TIR\right)}=\frac{D}{\left(1+TIR\right)} $$
 :::
 
-</details>
+
+
 
 ------------------------------------------------------------------------
 
@@ -735,13 +646,9 @@ c.  Como la duración modificada dividida por 1 más la TIR y multiplicada por e
 
 d.  Ninguna de las anteriores.
 
-<details>
+::: {.callout-tip collapse="true"}
+### Solución
 
-<summary>
-
-</summary>
-
-::: {.callout-note appearance="simple"}
 La respuesta **correcta es la a**.
 
 La Sensibilidad absoluta refleja variaciones absolutas del precio de un activo de renta fija, ante variaciones absolutas de la TIR; siendo su expresión matemática la siguiente:
@@ -761,7 +668,7 @@ $$S= Duracion\,corregida \cdot \frac{Precio\,entero}{100}$$ Y NO así:
 $$S={Duracion\,corregida }\cdot{Precio\,entero}$$
 :::
 
-</details>
+
 
 ------------------------------------------------------------------------
 
@@ -777,13 +684,8 @@ c.  95,322%.
 
 d.  Ninguna de las anteriores.
 
-<details>
-
-<summary>
-
-</summary>
-
-::: {.callout-note appearance="simple"}
+::: {.callout-tip collapse="true"}
+### Solución
 La respuesta **correcta es la a**.
 
 En primer lugar, calcularemos la Duración corregida utilizando la siguiente fórmula:
@@ -801,7 +703,7 @@ donde, al sustituir y calcular tenemos un resultado de:
 $$P_1\simeq 1.02505\cdot\left[1+((-4.2857)\cdot 0.01)\right]=0.981119(98.112\%)$$
 :::
 
-</details>
+
 
 ------------------------------------------------------------------------
 

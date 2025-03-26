@@ -3,12 +3,9 @@ title: "Ejercicios de desarrollo"
 format: html
 ---
 
-
 ::: {.callout-note title="Objetivo de esta sección"}
 Aplicar los conocimientos adquiridos mediante la resolución de **casos reales o simulados** relacionados con el asesoramiento financiero. Cada caso plantea una situación concreta que requiere análisis, cálculo y toma de decisiones.
 :::
-
-
 
 ## Ejercicios prácticos
 
@@ -31,8 +28,6 @@ a.  101063,9461
 b.  100660,8685
 
 c.  102432,2342
-
-
 
 ::: {.callout-tip collapse="true"}
 ### Solución
@@ -527,9 +522,9 @@ $$
 | Intereses       | 8.829,68 €     | 9.189,41 €     |
 | Capital         | 150.000,00 €   | 150.000,00 €   |
 
-+----------------------------+---+
-| ### Cuadro de Amortización |   |
-+----------------------------+---+
++----------------------------+---------+
+| ### Cuadro de Amortización |         |
++----------------------------+---------+
 
 | Periodo | Cuota    | Capital  | Intereses | Pendiente  |
 |---------|----------|----------|-----------|------------|
@@ -689,9 +684,8 @@ Se pide:
 
 1.  Calcular la duración modificada del bono
 
-```{=html}
 <!-- -->
-```
+
 a.  4,47
 
 b.  4,62
@@ -722,9 +716,8 @@ $$D_c=4.47204$$
 
 2.  Calcular el precio si la TIR de mercado disminuye en 75 puntos básicos utilizando la duración modificada.
 
-```{=html}
 <!-- -->
-```
+
 a.  1.079,57
 
 b.  1.009,50
@@ -747,9 +740,8 @@ $$P_1\simeq 1079.55530$$
 
 29. ¿Cuál es la cuota mensual de un préstamo de 135.000 euros a 60 meses, tipo de interés 8,20% anual, método de amortización sistema francés?
 
-```{=html}
 <!-- -->
-```
+
 a.  11.168,71€
 
 b.  2.750,25€
@@ -782,11 +774,10 @@ Esta fórmula se utiliza para calcular el valor presente de una renta periódica
 
 En este caso, V (0) es el valor estimado de una compañía, D(1) es el dividendo esperado del año siguiente, K es el coste de los recursos propios de la compañía considerada y g es su tasa perpetua de crecimiento de los dividendos.
 
-1. Calcular la tasa de descuento que debería haber en el mercado para que las acciones de una empresa que ha prometido un dividendo constante durante toda su vida de 0,25€, estén cotizando a 3,10€ en el momento actual.
+1.  Calcular la tasa de descuento que debería haber en el mercado para que las acciones de una empresa que ha prometido un dividendo constante durante toda su vida de 0,25€, estén cotizando a 3,10€ en el momento actual.
 
-```{=html}
 <!-- -->
-```
+
 a.  Menor que 8%.
 
 b.  8%
@@ -823,94 +814,102 @@ La tasa de descuento requerida (o tasa de rendimiento requerida) para que las ac
 
 ------------------------------------------------------------------------
 
-
----
+------------------------------------------------------------------------
 
 ## 📁 Caso 1: Análisis de la viabilidad de un préstamo personal
 
-:::: {.accordion}
+::: accordion
 ### 🧾 Enunciado
+
 Un cliente solicita un préstamo personal de **15.000 €** para financiar una reforma en su vivienda. El banco le ofrece diferentes opciones de financiación con diversos plazos e intereses. El asesor debe analizar cuál es la opción más adecuada según la capacidad de pago del cliente.
-::::
+:::
 
-:::: {.accordion}
+::: accordion
 ### 📊 Datos disponibles
-- Capital solicitado: 15.000 €
-- Plazos posibles: 3, 5 y 8 años
-- Tipo de interés nominal anual (TIN): 6 %, 5,5 % y 5 % respectivamente
-- Comisiones: 1,5 % de apertura
-- Sistema de amortización: Francés
-::::
 
-:::: {.accordion}
+-   Capital solicitado: 15.000 €
+-   Plazos posibles: 3, 5 y 8 años
+-   Tipo de interés nominal anual (TIN): 6 %, 5,5 % y 5 % respectivamente
+-   Comisiones: 1,5 % de apertura
+-   Sistema de amortización: Francés
+:::
+
+::: accordion
 ### 🎯 Objetivos
-1. Calcular la cuota mensual en cada una de las opciones.
-2. Comparar el coste total del préstamo en cada escenario.
-3. Evaluar la carga financiera mensual en función de los ingresos del cliente.
-4. Redactar una recomendación justificando la opción más adecuada.
-::::
 
----
+1.  Calcular la cuota mensual en cada una de las opciones.
+2.  Comparar el coste total del préstamo en cada escenario.
+3.  Evaluar la carga financiera mensual en función de los ingresos del cliente.
+4.  Redactar una recomendación justificando la opción más adecuada.
+:::
+
+------------------------------------------------------------------------
 
 ## 📁 Caso 2: Comparativa entre productos de inversión y ahorro
 
-:::: {.accordion}
+::: accordion
 ### 🧾 Enunciado
+
 Una clienta dispone de **25.000 €** y está valorando entre invertir en un depósito a plazo fijo o en un fondo de inversión conservador. Quiere conocer los rendimientos esperados y los riesgos de cada alternativa.
-::::
+:::
 
-:::: {.accordion}
+::: accordion
 ### 📊 Datos disponibles
-- Depósito a plazo fijo: 12 meses al 2,25 % TAE
-- Fondo de inversión conservador: rentabilidad estimada 3,5 % anual, con volatilidad media
-- Comisión de gestión del fondo: 1 %
-::::
 
-:::: {.accordion}
+-   Depósito a plazo fijo: 12 meses al 2,25 % TAE
+-   Fondo de inversión conservador: rentabilidad estimada 3,5 % anual, con volatilidad media
+-   Comisión de gestión del fondo: 1 %
+:::
+
+::: accordion
 ### 🎯 Objetivos
-1. Calcular el rendimiento neto en cada opción.
-2. Comparar el riesgo y la liquidez de ambas alternativas.
-3. Formular una recomendación basada en el perfil del cliente.
-::::
 
----
+1.  Calcular el rendimiento neto en cada opción.
+2.  Comparar el riesgo y la liquidez de ambas alternativas.
+3.  Formular una recomendación basada en el perfil del cliente.
+:::
+
+------------------------------------------------------------------------
 
 ## 📁 Caso 3: Reestructuración de deudas
 
-:::: {.accordion}
+::: accordion
 ### 🧾 Enunciado
+
 Un cliente acude a la entidad financiera porque no puede hacer frente a tres préstamos distintos que mantiene con diferentes entidades. El asesor debe estudiar la posibilidad de una reunificación o reestructuración de la deuda para aliviar la carga mensual.
-::::
+:::
 
-:::: {.accordion}
+::: accordion
 ### 📊 Datos disponibles
-- Préstamo 1: 5.000 € al 8 %, 2 años restantes
-- Préstamo 2: 10.000 € al 6 %, 4 años restantes
-- Préstamo 3: 3.000 € al 12 %, 1 año restante
-- Ingresos mensuales netos del cliente: 1.200 €
-::::
 
-:::: {.accordion}
+-   Préstamo 1: 5.000 € al 8 %, 2 años restantes
+-   Préstamo 2: 10.000 € al 6 %, 4 años restantes
+-   Préstamo 3: 3.000 € al 12 %, 1 año restante
+-   Ingresos mensuales netos del cliente: 1.200 €
+:::
+
+::: accordion
 ### 🎯 Objetivos
-1. Calcular las cuotas actuales y la carga total mensual.
-2. Proponer un nuevo préstamo unificado, con condiciones asumibles.
-3. Justificar si la reunificación es aconsejable y bajo qué condiciones.
-::::
 
----
+1.  Calcular las cuotas actuales y la carga total mensual.
+2.  Proponer un nuevo préstamo unificado, con condiciones asumibles.
+3.  Justificar si la reunificación es aconsejable y bajo qué condiciones.
+:::
+
+------------------------------------------------------------------------
 
 ## 📝 Recomendaciones para el alumno
 
 ::: {.callout-tip title="¿Cómo abordar los casos?"}
-- Presenta cada caso con su análisis estructurado.
-- Usa Quarto o R Markdown para incluir cálculos y gráficos.
-- Documenta el razonamiento y justifica tus decisiones.
+-   Presenta cada caso con su análisis estructurado.
+-   Usa Quarto o R Markdown para incluir cálculos y gráficos.
+-   Documenta el razonamiento y justifica tus decisiones.
 :::
 
----
+------------------------------------------------------------------------
 
 ## 📎 Recursos útiles
 
-- [Calculadora de préstamos del Banco de España](https://clientebancario.bde.es/pcb/es/)
-- [Glosario financiero CNMV](https://www.cnmv.es/portal/Glossary.aspx)
-- Consulta el apartado 📐 *FÓRMULAS* para repasar las ecuaciones necesarias.
+-   [Calculadora de préstamos del Banco de España](https://clientebancario.bde.es/pcb/es/)
+-   [Glosario financiero CNMV](https://www.cnmv.es/portal/Glossary.aspx)
+-   Consulta el apartado 📐 *FÓRMULAS* para repasar las ecuaciones necesarias.
