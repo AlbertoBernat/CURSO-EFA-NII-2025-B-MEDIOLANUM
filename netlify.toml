@@ -1,19 +1,11 @@
 [build]
-publish = "_book"
-command = "quarto render"
-
-[build.environment]
-QUARTO_VERSION = "1.4.553"
-
-[build.processing]
-  skip_processing = false
-
-[context.production]
-command = '''
-wget -q https://github.com/quarto-dev/quarto-cli/releases/download/v${QUARTO_VERSION}/quarto-${QUARTO_VERSION}-linux-amd64.deb &&
-sudo dpkg -i quarto-${QUARTO_VERSION}-linux-amd64.deb &&
-quarto render
-'''
+  publish = "_book"
+  command = """
+  curl -LO https://quarto.org/download/latest/quarto-linux-amd64.deb
+  dpkg -x quarto-linux-amd64.deb quarto-bin
+  export PATH=$(pwd)/quarto-bin/usr/local/bin:$PATH
+  quarto render
+  """
 
 [[headers]]
   for = "/*"
