@@ -1,9 +1,8 @@
 ---
-title: "Introducción a los exámenes"
+title: "Exámenes y simulacros"
 format: html
 ---
 
-## Exámenes resueltos y simulacros 💡
 
 Aquí se incluyen exámenes reales de convocatorias anteriores, corregidos y comentados, junto con simulacros completos para practicar bajo condiciones similares al examen oficial.
 

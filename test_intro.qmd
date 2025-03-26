@@ -1,10 +1,97 @@
 ---
-title: "Introducción a los test"
+title: "Ejercicios tipo test"
 format: html
 ---
 
-## Test por módulo ✅
 
-En esta sección encontrarás test de repaso por módulo y preguntas tipo EFPA para practicar lo aprendido en las sesiones.
+
+En esta sección encontrarás test de repaso por módulos y temas y preguntas tipo EFPA para practicar lo aprendido en las sesiones.
 
 Se recomienda realizar los test después de estudiar cada módulo para afianzar los conceptos y familiarizarse con el estilo del examen parcial Nivel II.
+
+
+
+12. La cartera de inversión de un cliente ha obtenido una rentabilidad acumulada a tres años del 18,90% y su benchmark, del 13%. Además, sabemos que, para el mismo período de tiempo, la beta de la cartera fue del 1,20, y el tracking error del 7%. Calcular la ratio de información, si el tipo de interés del activo sin riesgo fue del 1,25%.
+
+```{=html}
+<!-- -->
+```
+a.  0,8429
+
+b.  0,0492
+
+c.  3,8750
+
+d.  0,6643
+
+::: {.callout-tip collapse="true"}
+### Solución
+
+$$RI=\frac{E_p-E_m}{TE}$$ $$RI=\frac{18.9-13}{7}=0.84285$$
+:::
+
+------------------------------------------------------------------------
+
+13. El tipo de interés del dólar de Estados Unidos a 6 meses es del 2,75%, y el del euro para el mismo período es del 1,80%. El tipo de cambio al contado es EUR/USD 1,0566. Calcular el seguro de cambio a un año entre estas dos divisas:
+
+```{=html}
+<!-- -->
+```
+a.  EUR/USD 1,0665
+
+b.  EUR/USD 1,0616
+
+c.  EUR/USD 1,0856
+
+d.  EUR/USD 1,0756
+
+::: {.callout-tip collapse="true"}
+### Solución
+
+La fórmula que aplicamos es la del seguro de cambio
+
+$$F_{EUR/USD}=S_{EUR/USD}\cdot \frac{1+i_{USD}\cdot \frac{6}{12}}{1+i_{EUR\:\:}\cdot \frac{6}{12}}$$
+
+Aplicamos con los datos del enunciado, y calculamos
+
+$$F_{EUR/USD}=1.0566\cdot \frac{1+0.0275\cdot \frac{6}{12}}{1+0.0180\:\:\cdot \frac{6}{12}}$$ obteniendo como resultado $$EUR/USD = 1.06157...$$
+:::
+
+------------------------------------------------------------------------
+
+18. Un inversor adquiere una acción cuya desviación estándar es 9% y una covarianza con el mercado de 0,02. La rentabilidad esperada del activo sin riesgo es del 1,25%. Asumiendo que las expectativas de rentabilidad del mercado son del 12% y su desviación estándar de 8%. Según el Capital Asset Pricing Model (CAPM), ¿cuál será la rentabilidad esperada de la acción?
+
+```{=html}
+<!-- -->
+```
+a.  34,84%
+
+b.  3,48%
+
+c.  3,94%
+
+d.  27,79%
+
+::: {.callout-tip collapse="true"}
+### Solución
+
+Utilizaremos la SML, ya que es la ecuación que no sirve para calcular la rentabilidad esperada de una acción:
+
+$$E_i=R_f+\left(E_m−R_f\right)⋅β_{i,m}$$
+
+Calculamos, primero, la beta entre la acción y el mercado:
+
+$$\beta _{i,\:m}=\frac{\sigma _{i,\:m}}{\sigma _m^2}=\frac{0.02}{0.08^{2\:}}=3.125$$
+
+Y, la SML
+
+$$E_i=0.0125+\left(0.12−0.0125\right)\cdot 3.125$$
+
+nos da como resultado:
+
+$$E_i=0.3484375=34.84\%$$
+:::
+
+------------------------------------------------------------------------
+
+

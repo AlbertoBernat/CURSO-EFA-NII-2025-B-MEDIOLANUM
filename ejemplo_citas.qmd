@@ -1,0 +1,18 @@
+---
+title: "Prueba de citas en español"
+format: html
+bibliography: references.bib
+csl: apa-es-completo.csl
+lang: es
+---
+
+EFPA establece los requisitos para la certificación EFA Nivel II [@efpa2025].
+
+El sitio oficial del Tesoro Público explica la fiscalidad de las Letras, Bonos y Obligaciones del Estado [@tesoro_fiscalidad_2025].
+
+El enfoque basado en la diversificación de activos ha sido ampliamente tratado por autores como Bernstein [@bernstein2012].
+
+En el ámbito académico, destaca el trabajo de Fama y French sobre la rentabilidad esperada de las acciones [@fama1992].
+
+::: {#refs}
+:::

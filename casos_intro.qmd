@@ -1,0 +1,914 @@
+---
+title: "Ejercicios de desarrollo"
+format: html
+---
+
+
+::: {.callout-note title="Objetivo de esta sección"}
+Aplicar los conocimientos adquiridos mediante la resolución de **casos reales o simulados** relacionados con el asesoramiento financiero. Cada caso plantea una situación concreta que requiere análisis, cálculo y toma de decisiones.
+:::
+
+
+
+## Ejercicios prácticos
+
+### Renta Fija I (2021)
+
+Disponemos de la siguiente información relativa a un bono de la empresa DELTA
+
+-   NOMINAL 100.000 EUR
+-   CUPON ANUAL 4,50
+-   TIR A VENCIMIENTO 5%
+-   FECHA VALOR 1-08-2021
+-   FECHA VENCMIENTO 31-12-2024
+
+1.  Hallar el precio del bono a 1-08-2021
+
+<!-- -->
+
+a.  101063,9461
+
+b.  100660,8685
+
+c.  102432,2342
+
+::: {.callout-tip collapse="true"}
+### Solución
+
+La respuesta **correcta es la a**.
+
+En primer lugar tenemos que calcular el precio entero de este bono. Para ello utilizaremos la siguiente metodología de cálculo:
+
+$$P_0=\sum_{ t=1}^{ n}\frac{F_t}{(1+r)^{t}}$$
+
+donde,
+
+-   $P_0$, es el precio entero de un bono o valor actual del mismo ($V_0$).
+
+-   $F_t$, Flujos a percibir por la tenencia de un bono (cupón y principal).
+
+-   $r$, es la TIR.
+
+-   $t$, es el tiempo.
+
+Donde si sustituimos por los datos del problema y calculamos, tenemos que el precio actual (a fecha 1-08-2021) del bono es de:
+
+$$P_{(1-08-21)}=\frac{4500}{\left(1+0.05\right)^{\frac{152}{365}}}+\frac{4500}{\left(1+0.05\right)^{1+\frac{152}{365}}}+\frac{4500}{\left(1+0.05\right)^{2+\frac{152}{365}}}+\frac{104500}{\left(1+0.05\right)^{3+\frac{152}{365}}}$$ $$P_{(1-08-21)}=101063.94618$$
+:::
+
+------------------------------------------------------------------------
+
+2.  Calcular la duración del bono
+
+<!-- -->
+
+a.  3,16286
+
+b.  3,85122
+
+c.  4,02241
+
+::: {.callout-tip collapse="true"}
+### Solución
+
+La respuesta **correcta es la a**.
+
+En este caso para calcular la Duración de Macaulay (o simplemente, la "Duración"), vamos a realizar el siguiente cálculo:
+
+$$D=\frac{\sum_{t=1}^{n}\frac{F_t\cdot t}{\left(1+r\right)^t}}{P}$$
+
+donde,
+
+-   $D$, Duración de Macaulay.
+
+-   $F_t$, Flujos a percibir por la tenencia de un bono (cupón y principal).
+
+-   $P$, es el precio entero de un bono o valor actual del mismo ($V_0$).
+
+-   $r$, es la TIR.
+
+-   $t$, es el tiempo.
+
+De manera que si sustituimos por los datos del problema y calculamos, tenemos que la Duración del bono es de:
+
+$$D=\frac{\left(\frac{152}{365}\right)\frac{4500}{\left(1+0.05\right)^{\frac{152}{365}}}+\left(1+\frac{152}{365}\right)\frac{4500}{\left(1+0.05\right)^{1+\frac{152}{365}}}+\left(2+\frac{152}{365}\right)\frac{4500}{\left(1+0.05\right)^{2+\frac{152}{365}}}+\left(3+\frac{152}{365}\right)\frac{104500}{\left(1+0.05\right)^{3+\frac{152}{365}}}}{101063.94618}$$
+
+$$D=3.162$$
+:::
+
+------------------------------------------------------------------------
+
+3.  Si la TIR sube 40 p.b. calcular el nuevo precio del bono
+
+<!-- -->
+
+a.  99142,747
+
+b.  101025,372
+
+c.  99846.562
+
+::: {.callout-tip collapse="true"}
+### Solución
+
+La respuesta **correcta es la c**.
+
+En primer lugar calculamos la duración corregida a partir de la duración que hemos calculado en el apartado anterior:
+
+$$D_{corregida}=\frac{Duracion\,de\, Macaulay}{\left(1+TIR\right)}=\frac{D}{\left(1+TIR\right)} $$ De forma que nuestra duración corregida será:
+
+$$D_{corregida}=\frac{3.162}{1+0.05}=3.01142$$ Para estimar la variación del precio ante variaciones en la TIR emplearemos la siguiente expresión,
+
+$$P_1\simeq P_0\cdot\left[1+((-D_{corregida})\cdot\Delta TIR)\right]$$
+
+donde,
+
+-   $P_1$, es el precio estimado del bono ante una variación de la TIR.
+
+-   $P_0$, es el precio actual del bono .
+
+-   $D_{corregida}$, es la duración corregida.
+
+Si sustituimos por los datos del problema y calculamos, tenemos que el nuevo precio del bono ante una subida de la TIR sube de 40 p.b. será de:
+
+$$P_1\simeq 101063.94618\left(1+\left(\left(-3.01142\right)\cdot \:0.004\right)\right)=99846.56222$$
+:::
+
+------------------------------------------------------------------------
+
+### Renta Fija II (2021)
+
+1.  La empresa ALFA quiere comprar un paquete de bonos de la empresa DELTA. La información de la que disponemos es la siguiente:
+
+-   Nominal: 100.000 eur
+
+-   Cupón anual: 9%
+
+-   TIR a vencimiento: 5.75%
+
+-   Fecha valor: 2-10-2021
+
+-   Fecha vencimiento: 31-12-2024
+
+Para la compra de este paquete de bonos la de 500.000 euros. La entidad le ofrece dos empresa ALFA acude a su entidad bancaria y solicita una financiación propuestas:
+
+1.  Préstamo de 500.000 euros a 30 meses, periodicidad de cuotas mensuales, tipo de interés nominal 4,15%, comisiones 0.
+
+2.  Préstamo de 500.000 euros a 36 meses, periodicidad de cuotas mensuales, tipo de interés nominal 4%, comisión de apertura 0,25%.
+
+3.  Hallar el precio del bono a 2-10-2021:
+
+<!-- -->
+
+a.  116.115,8357
+
+b.  117.054,9150
+
+c.  115.633,1742
+
+::: {.callout-tip collapse="true"}
+### Solución
+
+La respuesta **correcta es la a**.
+
+Para realizar los cálculos a mano debemos de usar la siguiente fórmula que describe un descuento de flujos:
+
+$$P_0=\sum_{ t=1}^{ n}\frac{F_t}{(1+r)^{t}}$$
+
+donde,
+
+-   $P_0$, es el precio entero de un bono o valor actual del mismo ($V_0$).
+
+-   $F_t$, Flujos a percibir por la tenencia de un bono (cupón y principal).
+
+-   $r$, es la TIR.
+
+-   $t$, es el tiempo.
+
+Si sustituimos los valores y calculamos
+
+$$P_0=\frac{9}{\left(1+0.0575\right)^{\frac{90}{365}}}+\frac{9}{\left(1+0.0575\right)^{1+\frac{90}{365}}}+\frac{9}{\left(1+0.0575\right)^{2+\frac{90}{365}}}+\frac{109}{\left(1+0.0575\right)^{3+\frac{90}{365}}}$$ el precio del bono en el momento actual, tenemos que:
+
+$$P_0=116.11583$$
+
+Obtenemos el mismo resultado con la calculadora Casio FC 200v:
+
+Función: BOND
+
+Set: Annu/Date
+
+d1= 02102021 + EXE
+
+d2= 31122024 + EXE
+
+RDV= 100 + EXE
+
+CPN= 9 + EXE
+
+PRC= 0 + EXE
+
+YLD= 5.75 + EXE
+
+PRC= SOLVE #vuelves sobre "PRC" y pulsas "SOLVE" para obtener los siguientes resultados:
+
+PRC= -109.335 #es el precio ex cupón
+
+INT= -6.7808 #es el cupón corrido
+
+**CST= -116.1158 #es el precio + cupón corrido**
+
+Nota: siempre devuelve en negativo por que entiende que es un desembolso (compra).
+:::
+
+------------------------------------------------------------------------
+
+2.  Calcular la duración del bono:
+
+<!-- -->
+
+a.  2,745312480
+
+b.  2,90232678
+
+c.  2,804290364
+
+::: {.callout-tip collapse="true"}
+### Solución
+
+La respuesta **correcta es la c**.
+
+Para calcular la Duración de Macaulay (o simplemente Duración)
+
+$$D=\frac{\sum_{t=1}^{n}\frac{F_t\cdot t}{\left(1+r\right)^t}}{P}$$
+
+donde,
+
+-   $D$, Duración de Macaulay.
+
+-   $F_t$, Flujos a percibir por la tenencia de un bono (cupón y principal).
+
+-   $P$, es el precio entero de un bono o valor actual del mismo ($V_0$).
+
+-   $r$, es la TIR.
+
+-   $t$, es el tiempo.
+
+De forma que si sustituimos y calculamos,
+
+$$D=\frac{\left(\frac{90}{365}\right)\frac{9}{\left(1+0.0575\right)^{\frac{90}{365}}}+\left(1+\frac{90}{365}\right)\frac{9}{\left(1+0.0575\right)^{1+\frac{90}{365}}}+\left(2+\frac{90}{365}\right)\frac{9}{\left(1+0.0575\right)^{2+\frac{90}{365}}}+\left(3+\frac{90}{365}\right)\frac{109}{\left(1+0.0575\right)^{3+\frac{90}{365}}}}{116.11583}$$
+
+tenemos q ue la Duracuón es de:
+
+$$D=2.80429$$
+:::
+
+------------------------------------------------------------------------
+
+3.  ¿En función de la TAE. ¿cuál es la propuesta de financiación más favorable para la empresa ALFA?
+
+    1.  Préstamo de comisiones 0. 500.000 euros a 30 meses, periodicidad de cuotas mensuales, tipo de interés nominal 4,15%,
+
+    2.  Préstamo de 500.000 euros a 36 meses, periodicidad de cuotas mensuales, tipo de interés nominal 4 %, comisión de apertura 0,25%.
+
+<!-- -->
+
+a.  1
+
+b.  2
+
+c.  Son idénticas
+
+::: {.callout-tip collapse="true"}
+### Solución
+
+La respuesta **correcta es la a**.
+
+En primer lugar vamos a calcular cuál sería la talla S con comisiones cero, ya que en este caso sabemos que la tasa actual equivalente coincidirá con la tira anual. Es decir que nos están pidiendo calcular cuál será el tipo de interés anual efectivo en capitalización compuesta.
+
+Si lo calculamos empleando la fórmula:
+
+$$TAE=\left(1+\frac{j\left(m\right)}{m}\right)^m-1$$ simplemente, susutituimos y calculamos:
+
+$$TAE=\left(1+\frac{0.0415}{12}\right)^{12}-1=0.04229\left(\approx 4.23\%\right)$$
+
+Podemos usar la calculadora financiera Casio FC200V y FC100V,
+
+-   Función: "CNVR"
+
+-   n = 12
+
+-   I% = 4.15
+
+-   EFF = variable a resolver (pulsamos sobre la tecla "SOLVE")
+
+Y, nos devueve un resultado de:
+
+$$EFF = 4.2299\% = TAE$$
+
+Para calcular la TAE con comisiones usaremos la calculadora financiera con la función CMPD. De esta forma nos permitirá llevar a cabo el **primer paso hallar la cuota**:
+
+CALCULADORA FC-100V/200V
+
+Modo: CMPD
+
+Set: Begin/End (Pagos al inicio o al final del periodo)
+
+n: 36 (Número de periodos)
+
+I%: 4 (Tipo de interés nominal)
+
+**PV: 500000 (Valor presente o principal sin aplicar la comisión)**
+
+PMT: 0 (Importe de los pagos periódicos, **es lo que buscamos¿¿??**)
+
+FV: 0 (Valor futuro)
+
+P/Y: 12 (Número de pagos anuales)
+
+C/Y: 12 (Número de periodos dentro de un año)
+
+Cálculo: Podemos calcular n, I, PV, PMT o FV con el SOLVE, dando los otros datos De forma que si **resolvemos por PMT tenemos que el resultado es de: 14761.9925 €**
+
+Conocida la cuota, **el segundo paso será hallar el tipo de interés efectivo anual, pagadero mensual**:
+
+Modo: CMPD
+
+Set: Begin/End (Pagos al inicio o al final del periodo)
+
+n: 36 (Número de periodos)
+
+**I%: 0 (Tipo de interés efectivo)**
+
+**PV: 500000(1-0.0025) (Valor presente o principal tras aplicar la comisión de apertura)**
+
+**PMT: 14761.9925 (dejamos el PMT que hemos calculado)**
+
+FV: 0 (Valor futuro)
+
+P/Y: 12 (Número de pagos anuales)
+
+**C/Y: 1 (Número de compuestos dentro de un año, introducimos el valor 1 ya que buscamos el efectivo anual o TAE)**
+
+Cálculo: Podemos calcular n, I, PV, PMT o FV con el SOLVE, dando los otros datos De forma que si **resolvemos por I% y tenemos que el resultado es de: 4.2467%**
+
+De la misma forma, **podemos plantear una ecuación donde conocemos el valor actual y el importe a pagar durante las próximas 36 mensualidades**. Es decir, que si **despejamos cuál es el tipo de interés que equivale** a esta operación; en donde lo que que tenemos a la parte izquierda de la **igualdad es lo efectivamente recibido desde la entidad** financiera (500000-0.0025 x 5000000), y al lado derecho, **lo que efectivamente acabaremos pagando**: la renta constante de 36 términos (de 14761.992 euros) que deberemos de amortizar:
+
+$$\left(500000\left(1-0.0025\right)\right)=14761.9925\left(\frac{1-\left(1+\frac{i_{12}}{12}\right)^{-36}}{\frac{i_{12}}{12}}\right)$$
+
+donde el tipo efectivo mensual es igual a 0.003472
+
+$$TAE=(1+0.003472)^{12}-1=0.0424(4.247\%)$$
+:::
+
+------------------------------------------------------------------------
+
+### Crédito y TAE
+
+El cliente se plantea realizar otra inversión en carteras por valor de 150.000 y pretende solicitar financiación por el citado importe a su entidad financiera ALFA. Esta le ofrece las siguientes condiciones:
+
+-   Importe 150.000 euros
+
+-   Plazo 36 meses. Amortización por el sistema de mensualidad constante o sistema francés
+
+-   Tipo interés 3,75%
+
+-   Comisión apertura 0,25%
+
+Se pide:
+
+1.  ¿A cuánto ascienden los costes de la operación que pagará el cliente si solicita el crédito?
+
+<!-- -->
+
+a.  9.204,68
+
+b.  17.250
+
+c.  12.380,42
+
+d.  8.425,40
+
+::: {.callout-tip collapse="true"}
+### Solución
+
+**Respuesta correcta la a.**
+
+| Cuadro resumen |              |
+|----------------|--------------|
+| Cuota          | 4.411,94 €   |
+| TAE            | 3,99 %       |
+| TIN anual      | 3,82 %       |
+| Coste Total    | 9.204,68 €   |
+| Comisiones     | 375,00 €     |
+| Intereses      | 8.829,68 €   |
+| Capital        | 150.000,00 € |
+
+Calculamos la cuota,
+
+$$150000=c\cdot\frac{1-\left(1+\frac{0.0375}{12}\right)^{-36}}{\frac{0.0375}{12}}$$
+
+$$c=4411.93545\dots $$ Calculamos la TAE,
+
+$$(150000(1-0.0025))=4411.93545\cdot\frac{1-\left(1+\frac{TAE}{12}\right)^{-36}}{\frac{TAE}{12}}$$
+
+$$TAE=3.99\% $$
+
+Calculamos la comisión de apertura,
+
+$$C=150000\cdot \:0.0025=375$$ El pago total de cuotas,
+
+$$T_C= 36\cdot \:4411.93545=158829.6762$$
+
+Sumamos ahora, la comisión de apertura y el pago total de cuotas, y
+
+$$C_T=75+158829.6762=159204.6762$$
+
+por diferencia, obtenemos "A cuánto ascienden los costes de la operación que pagará el cliente si solicita el crédito":
+
+$$159204.6762-150000=9204.6762$$
+
+Siendo el **cuadro de amortización** de la operación el siguiente:
+
+| Periodo | Cuota    | Capital  | Intereses | Pendiente  |
+|---------|----------|----------|-----------|------------|
+| 1       | 4.411,94 | 3.943,19 | 468,75    | 146.056,81 |
+| 2       | 4.411,94 | 3.955,51 | 456,43    | 142.101,31 |
+| 3       | 4.411,94 | 3.967,87 | 444,07    | 138.133,44 |
+| 4       | 4.411,94 | 3.980,27 | 431,67    | 134.153,17 |
+| 5       | 4.411,94 | 3.992,71 | 419,23    | 130.160,46 |
+| 6       | 4.411,94 | 4.005,18 | 406,75    | 126.155,28 |
+| 7       | 4.411,94 | 4.017,70 | 394,24    | 122.137,58 |
+| 8       | 4.411,94 | 4.030,26 | 381,68    | 118.107,32 |
+| 9       | 4.411,94 | 4.042,85 | 369,09    | 114.064,47 |
+| 10      | 4.411,94 | 4.055,48 | 356,45    | 110.008,99 |
+| 11      | 4.411,94 | 4.068,16 | 343,78    | 105.940,83 |
+| 12      | 4.411,94 | 4.080,87 | 331,07    | 101.859,96 |
+| 13      | 4.411,94 | 4.093,62 | 318,31    | 97.766,34  |
+| 14      | 4.411,94 | 4.106,42 | 305,52    | 93.659,92  |
+| 15      | 4.411,94 | 4.119,25 | 292,69    | 89.540,67  |
+| 16      | 4.411,94 | 4.132,12 | 279,81    | 85.408,55  |
+| 17      | 4.411,94 | 4.145,03 | 266,90    | 81.263,52  |
+| 18      | 4.411,94 | 4.157,99 | 253,95    | 77.105,53  |
+| 19      | 4.411,94 | 4.170,98 | 240,95    | 72.934,55  |
+| 20      | 4.411,94 | 4.184,01 | 227,92    | 68.750,54  |
+| 21      | 4.411,94 | 4.197,09 | 214,85    | 64.553,45  |
+| 22      | 4.411,94 | 4.210,21 | 201,73    | 60.343,24  |
+| 23      | 4.411,94 | 4.223,36 | 188,57    | 56.119,88  |
+| 24      | 4.411,94 | 4.236,56 | 175,37    | 51.883,32  |
+| 25      | 4.411,94 | 4.249,80 | 162,14    | 47.633,52  |
+| 26      | 4.411,94 | 4.263,08 | 148,85    | 43.370,44  |
+| 27      | 4.411,94 | 4.276,40 | 135,53    | 39.094,03  |
+| 28      | 4.411,94 | 4.289,77 | 122,17    | 34.804,27  |
+| 29      | 4.411,94 | 4.303,17 | 108,76    | 30.501,09  |
+| 30      | 4.411,94 | 4.316,62 | 95,32     | 26.184,48  |
+| 31      | 4.411,94 | 4.330,11 | 81,83     | 21.854,37  |
+| 32      | 4.411,94 | 4.343,64 | 68,29     | 17.510,73  |
+| 33      | 4.411,94 | 4.357,21 | 54,72     | 13.153,51  |
+| 34      | 4.411,94 | 4.370,83 | 41,10     | 8.782,68   |
+| 35      | 4.411,94 | 4.384,49 | 27,45     | 4.398,19   |
+| 36      | 4.411,94 | 4.398,19 | 13,74     | 0,00       |
+:::
+
+------------------------------------------------------------------------
+
+2.  Otra entidad financiera, BETA, le ofrece financiar la operación con las siguientes condiciones:
+
+-   Importe 150.000 euros
+
+-   Plazo 36 meses con el mismo sistema de amortización que el préstamo anterior
+
+-   Tipo interés 3,90%
+
+-   Comisión apertura 0
+
+En función de la TAE, ¿cuál es la opción más favorable para el cliente?
+
+a.  Opción ALFA
+
+b.  Opción BETA
+
+c.  Son iguales
+
+::: {.callout-tip collapse="true"}
+### Solución
+
+La respuesta **correcta es la b.**
+
+Si calculamos la cuota:
+
+$$
+150000=c\frac{1-\left(1+\frac{0.039}{12}\right)^{-36}}{\frac{0.039}{12}} 
+$$
+
+$$
+c=4421.92817\dots
+$$
+
+Calculamos la TAE:
+
+$$
+150000=4421.92817\cdot \frac{1-\left(1+\frac{TAE}{12}\right)^{-36}}{\frac{TAE}{12}}
+$$
+
+$$
+TAE=3.97 \%
+$$
+
+|                 |                |                |
+|-----------------|----------------|----------------|
+|                 | Opción ALFA    | Opción BETA    |
+| Cuota           | 4.411,94 €     | 4.421,93 €     |
+| **TAE**         | **3,99 %**     | **3,97 %**     |
+| TIN anual       | 3,82 %         | 3,97 %         |
+| **Coste Total** | **9.204,68 €** | **9.189,41 €** |
+| Comisiones      | 375,00 €       | 0,00 €         |
+| Intereses       | 8.829,68 €     | 9.189,41 €     |
+| Capital         | 150.000,00 €   | 150.000,00 €   |
+
++----------------------------+---+
+| ### Cuadro de Amortización |   |
++----------------------------+---+
+
+| Periodo | Cuota    | Capital  | Intereses | Pendiente  |
+|---------|----------|----------|-----------|------------|
+| 1       | 4.421,93 | 3.934,43 | 487,50    | 146.065,57 |
+| 2       | 4.421,93 | 3.947,22 | 474,71    | 142.118,36 |
+| 3       | 4.421,93 | 3.960,04 | 461,88    | 138.158,31 |
+| 4       | 4.421,93 | 3.972,91 | 449,01    | 134.185,40 |
+| 5       | 4.421,93 | 3.985,83 | 436,10    | 130.199,57 |
+| 6       | 4.421,93 | 3.998,78 | 423,15    | 126.200,79 |
+| 7       | 4.421,93 | 4.011,78 | 410,15    | 122.189,02 |
+| 8       | 4.421,93 | 4.024,81 | 397,11    | 118.164,20 |
+| 9       | 4.421,93 | 4.037,89 | 384,03    | 114.126,31 |
+| 10      | 4.421,93 | 4.051,02 | 370,91    | 110.075,29 |
+| 11      | 4.421,93 | 4.064,18 | 357,74    | 106.011,11 |
+| 12      | 4.421,93 | 4.077,39 | 344,54    | 101.933,72 |
+| 13      | 4.421,93 | 4.090,64 | 331,28    | 97.843,07  |
+| 14      | 4.421,93 | 4.103,94 | 317,99    | 93.739,14  |
+| 15      | 4.421,93 | 4.117,28 | 304,65    | 89.621,86  |
+| 16      | 4.421,93 | 4.130,66 | 291,27    | 85.491,20  |
+| 17      | 4.421,93 | 4.144,08 | 277,85    | 81.347,12  |
+| 18      | 4.421,93 | 4.157,55 | 264,38    | 77.189,57  |
+| 19      | 4.421,93 | 4.171,06 | 250,87    | 73.018,51  |
+| 20      | 4.421,93 | 4.184,62 | 237,31    | 68.833,89  |
+| 21      | 4.421,93 | 4.198,22 | 223,71    | 64.635,67  |
+| 22      | 4.421,93 | 4.211,86 | 210,07    | 60.423,81  |
+| 23      | 4.421,93 | 4.225,55 | 196,38    | 56.198,26  |
+| 24      | 4.421,93 | 4.239,28 | 182,64    | 51.958,98  |
+| 25      | 4.421,93 | 4.253,06 | 168,87    | 47.705,91  |
+| 26      | 4.421,93 | 4.266,88 | 155,04    | 43.439,03  |
+| 27      | 4.421,93 | 4.280,75 | 141,18    | 39.158,28  |
+| 28      | 4.421,93 | 4.294,66 | 127,26    | 34.863,61  |
+| 29      | 4.421,93 | 4.308,62 | 113,31    | 30.554,99  |
+| 30      | 4.421,93 | 4.322,62 | 99,30     | 26.232,37  |
+| 31      | 4.421,93 | 4.336,67 | 85,26     | 21.895,70  |
+| 32      | 4.421,93 | 4.350,77 | 71,16     | 17.544,93  |
+| 33      | 4.421,93 | 4.364,91 | 57,02     | 13.180,02  |
+| 34      | 4.421,93 | 4.379,09 | 42,84     | 8.800,93   |
+| 35      | 4.421,93 | 4.393,33 | 28,60     | 4.407,60   |
+| 36      | 4.421,93 | 4.407,60 | 14,32     | 0,00       |
+:::
+
+------------------------------------------------------------------------
+
+### Renta Fija (valoración y fiscalidad IRPF)
+
+La empresa Palmira SA realizar una emisión de bonos que cotizará en el Mercado AIAF de Renta Fija. El vencimiento programado es a 2,5 años y ofrece un cupón cuya rentabilidad es del 5,75%. El pago del cupón es semestral. El nominal de cada título es de 600€.
+
+Se pide:
+
+<!-- -->
+
+1.  Si pasados 6 meses la rentabilidad anual de mercado es del 7,00% y la semestral es del 3,441% ¿Cuál será su precio de mercado?
+
+<!-- -->
+
+a.  587,51€
+
+b.  516,17€
+
+c.  650,96€
+
+::: {.callout-tip collapse="true"}
+### Solución
+
+La respuesta **correcta es la a**.
+
+Pasados 6 meses el **precio de mercado** de este bono, expresado como un **porcentaje** sobre el valor nominal, es de:
+
+$$P_0=\frac{\frac{5.75}{2}}{\left(1+0.03441\right)^1}+\frac{\frac{5.75}{2}}{\left(1+0.03441\right)^2}+\frac{\frac{5.75}{2}}{\left(1+0.03441\right)^3}+\frac{\frac{5.75}{2}+100}{\left(1+0.03441\right)^4}$$
+
+$$P_0=97.91812\% $$
+
+Si el precio obtenido del bono **ahora lo expresamos en euros**, tenemos que:
+
+$$P_0=\frac{97.91812}{100}\cdot \:\:600=587.50872\ euros$$
+:::
+
+------------------------------------------------------------------------
+
+2.  ¿Cuál será su duración y su duración modificada?
+
+<!-- -->
+
+a.  1,917 y 1,791
+
+b.  1,850 y 1,729
+
+c.  1,871 y 1,748
+
+::: {.callout-tip collapse="true"}
+### Solución
+
+La respuesta **correcta es la a**.
+
+Donde su duración será de:
+
+$$D=\frac{0.5\cdot \frac{\frac{5.75}{2}}{\left(1+0.03441\right)^1}+1\cdot \frac{\frac{5.75}{2}}{\left(1+0.03441\right)^2}+1.5\cdot \frac{\frac{5.75}{2}}{\left(1+0.03441\right)^3}+2\cdot \frac{\frac{5.75}{2}+100}{\left(1+0.03441\right)^4}}{97.91812}=1.91671$$
+
+$$D=1.91671$$
+
+y, la duración modificada de
+
+$$D_m=\frac{1.91671}{\left(1+0.07\right)}=1,791317757$$
+:::
+
+------------------------------------------------------------------------
+
+3.  Calcule el coste fiscal derivado de las siguientes operaciones realizadas en el mismo período impositivo por un contribuyente del Impuesto sobre la Renta de las Personas Físicas que fuese titular de 50 bonos adquiridos a un precio unitario de 650€:
+
+<!-- -->
+
+-   Cobro del primer cupón semestral.
+
+-   Transmisión de 50 bonos,una vez percibido el primer cupón semestral, a un precio unitario de 625€, y pagando una comisión de venta del 0,10% sobre el efectivo de venta.
+
+a.  -243,43€
+
+b.  23,15625€
+
+c.  142,5€
+
+::: {.callout-tip collapse="true"}
+### Solución
+
+La respuesta **correcta es la a**.
+
+Por el importe de los intereses percibidos, es decir, el cobro del primer cupón semestral (nominal= 600 euros y cupón del 5,75%), se aplicará una **retención a cuenta del IRPF del 19%**, esto es:
+
+$$50\left(600\cdot \:0.0575\right)\left(0.19\right)=327.75$$
+
+Luego, como se cobrará el **importe NETO de impuestos**, no supone un coste fiscal de carácter explícito, sino implícito; y que no tendremos que considerar en la resolución del ejercicio planteado:
+
+$$50\left(600\cdot \:0.0575\right)\left(1-0.19\right)=1397.25$$
+
+Sin embargo, el rendimiento obtenido por la transmisión del título (diferencia entre el valor de transmisión y el de adquisición, minorado por los gastos de compra y venta justificados) no está sujeto a retención. De forma que, supondrá un coste fiscal para un contribuyente en el Impuesto sobre la Renta de las Personas Físicas, teniendo la consideración de un rendimiento de capital mobiliario, sujeto y que tributará al 19%.
+
+$$\left(50\left(625-650\right)-\left(0.001\cdot \:50\cdot \:625\right)\right)\cdot \:0.19=-243.4375$$ Como los rendimientos obtenidos por el contribuyente son negativos, se podrán compensarán con el saldo positivo de otros rendimientos del capital mobiliario obtenidos en este mismo período impositivo, teniendo como límite ese saldo positivo. Y, si este fuera insuficiente, su importe se podrá compensará con el saldo positivo de las ganancias y pérdidas patrimoniales que se declaren en el otro componente de la base imponible del ahorro, con el límite del 25 por ciento de dicho saldo positivo.
+:::
+
+------------------------------------------------------------------------
+
+### Renta Fija (Duración modificada y nuevo precio ante variación de la TIR)
+
+Se dispone de la siguiente información relativa a un bono de la empresa ABC:
+
+Fecha Valor: 15/10/2022
+
+Fecha de Vencimiento: 15/10/2027
+
+Cupón anual: 4,25%
+
+TIR: 3,27%
+
+Nominal: 1.000 euros
+
+Se pide:
+
+1.  Calcular la duración modificada del bono
+
+```{=html}
+<!-- -->
+```
+a.  4,47
+
+b.  4,62
+
+c.  4,22
+
+::: {.callout-tip collapse="true"}
+### Solución
+
+Calculamos el precio entero:
+
+$$P_0=\frac{4.25}{\left(1+0.0327\right)^{1\:}}+\frac{4.25}{\left(1+0.0327\right)^{2\:}}+\frac{4.25}{\left(1+0.0327\right)^{3\:}}+\frac{4.25}{\left(1+0.0327\right)^{4\:}}+\frac{104.25}{\left(1+0.0327\right)^{5\:}}$$
+
+$$P_0=104.45372$$
+
+Calculamos la Duración:
+
+$$D=\frac{1\cdot \frac{4.25}{\left(1+0.0327\right)^{1\:}}+2\cdot \frac{4.25}{\left(1+0.0327\right)^{2\:}}+3\cdot \frac{4.25}{\left(1+0.0327\right)^{3\:}}+4\cdot \frac{4.25}{\left(1+0.0327\right)^{4\:}}+5\cdot \frac{104.25}{\left(1+0.0327\right)^{5\:}}}{104.45372}$$ $$D=4.61828$$
+
+Calculamos la Duración corregida:
+
+$$D_c=\frac{\frac{1\cdot \frac{4.25}{\left(1+0.0327\right)^{1\:}}+2\cdot \frac{4.25}{\left(1+0.0327\right)^{2\:}}+3\cdot \frac{4.25}{\left(1+0.0327\right)^{3\:}}+4\cdot \frac{4.25}{\left(1+0.0327\right)^{4\:}}+5\cdot \frac{104.25}{\left(1+0.0327\right)^{5\:}}}{104.45372}}{\left(1+0.0327\right)}$$
+
+$$D_c=4.47204$$
+:::
+
+------------------------------------------------------------------------
+
+2.  Calcular el precio si la TIR de mercado disminuye en 75 puntos básicos utilizando la duración modificada.
+
+```{=html}
+<!-- -->
+```
+a.  1.079,57
+
+b.  1.009,50
+
+c.  1.044,54
+
+::: {.callout-tip collapse="true"}
+### Solución
+
+Aplicamos la siguiente fórmula donde se indica, cual será aproximadamente el nuevo precio tras la variación de la TIR:
+
+$$P_1\simeq P_0\cdot\left[1+((-D_{corregida})\cdot\Delta TIR)\right]$$ Calculamos, $$P_1\simeq \left(104.45372\cdot 10\right)\cdot \left[1+\left(\left(-4.47\right)\cdot -0.0075\right)\right]=1079.55530$$ Y obtenemos como resultado:
+
+$$P_1\simeq 1079.55530$$
+:::
+
+------------------------------------------------------------------------
+
+### Renta préstamo francés
+
+29. ¿Cuál es la cuota mensual de un préstamo de 135.000 euros a 60 meses, tipo de interés 8,20% anual, método de amortización sistema francés?
+
+```{=html}
+<!-- -->
+```
+a.  11.168,71€
+
+b.  2.750,25€
+
+c.  11.070,00€
+
+d.  922,50€
+
+::: {.callout-tip collapse="true"}
+### Solución
+
+La fórmula general para calcular el **valor actual de una renta constante** es:
+
+$$V_0=c\cdot\frac{1-\left(1+i\right)^{-n}}{i}$$ Sustituimos los datos del problema y calculamos:
+
+$$135000=c\cdot \frac{1-\left(1+\frac{0.0820}{12}\right)^{-60}}{\frac{0.0820}{12}}$$ Obtenemos como resultado la cuota mensual en euros:
+
+$$c=2750.25326$$
+:::
+
+------------------------------------------------------------------------
+
+### Renta perpetua (modelo de Gordon)
+
+El modelo de crecimiento constante del dividendo, también conocido como modelo de Gordon, establece que el valor de una acción se determina por la fórmula cuando el dividendo tiene una tasa de crecimiento constante:
+
+$$V_0 = \frac{D_1}{K_e- g}$$
+
+Esta fórmula se utiliza para calcular el valor presente de una renta periódica perpetua de una cuantía D (1), creciente geométricamente a una tasa g, y descontada a un tipo K.
+
+En este caso, V (0) es el valor estimado de una compañía, D(1) es el dividendo esperado del año siguiente, K es el coste de los recursos propios de la compañía considerada y g es su tasa perpetua de crecimiento de los dividendos.
+
+1. Calcular la tasa de descuento que debería haber en el mercado para que las acciones de una empresa que ha prometido un dividendo constante durante toda su vida de 0,25€, estén cotizando a 3,10€ en el momento actual.
+
+```{=html}
+<!-- -->
+```
+a.  Menor que 8%.
+
+b.  8%
+
+c.  Entre 8% y 9%.
+
+d.  Mayor que 9%.
+
+::: {.callout-tip collapse="true"}
+### Solución
+
+La tasa de descuento requerida (o tasa de rendimiento requerida) para que las acciones de esta empresa coticen a 3,10€ con un dividendo constante de 0,25€ es aproximadamente 8,06%.
+
+Para calcular la tasa de descuento requerida para que las acciones de una empresa que paga un dividendo constante cotizen a un precio específico, puedes utilizar el modelo de valoración de acciones llamado el Modelo de Gordon-Shapiro o el Modelo de Gordon. La fórmula básica para calcular la tasa de descuento (tasa de rendimiento requerida) es la siguiente:
+
+$$P_0 = \frac{D} {K_e - g}$$
+
+Donde:
+
+-   $P_0$ es el precio actual de la acción (3,10€ en este caso).
+
+-   $D$ es el dividendo constante que la empresa paga (0,25€ en este caso).
+
+-   $K_e$ es la tasa de descuento o tasa de rendimiento requerida.
+
+-   $g$ es la tasa de crecimiento de los dividendos (como se indica en el enunciado, en este caso, se asume constante, por lo que $g$ es igual a cero).
+
+Ahora, podemos resolver para $K_e$:
+
+$$3.1=\:\frac{0.25}{K_e} \:;\:K_e=0.080645161290323$$
+
+La tasa de descuento requerida (o tasa de rendimiento requerida) para que las acciones de esta empresa coticen a 3,10€ con un dividendo constante de 0,25€ es aproximadamente 8,06%.
+:::
+
+------------------------------------------------------------------------
+
+
+---
+
+## 📁 Caso 1: Análisis de la viabilidad de un préstamo personal
+
+:::: {.accordion}
+### 🧾 Enunciado
+Un cliente solicita un préstamo personal de **15.000 €** para financiar una reforma en su vivienda. El banco le ofrece diferentes opciones de financiación con diversos plazos e intereses. El asesor debe analizar cuál es la opción más adecuada según la capacidad de pago del cliente.
+::::
+
+:::: {.accordion}
+### 📊 Datos disponibles
+- Capital solicitado: 15.000 €
+- Plazos posibles: 3, 5 y 8 años
+- Tipo de interés nominal anual (TIN): 6 %, 5,5 % y 5 % respectivamente
+- Comisiones: 1,5 % de apertura
+- Sistema de amortización: Francés
+::::
+
+:::: {.accordion}
+### 🎯 Objetivos
+1. Calcular la cuota mensual en cada una de las opciones.
+2. Comparar el coste total del préstamo en cada escenario.
+3. Evaluar la carga financiera mensual en función de los ingresos del cliente.
+4. Redactar una recomendación justificando la opción más adecuada.
+::::
+
+---
+
+## 📁 Caso 2: Comparativa entre productos de inversión y ahorro
+
+:::: {.accordion}
+### 🧾 Enunciado
+Una clienta dispone de **25.000 €** y está valorando entre invertir en un depósito a plazo fijo o en un fondo de inversión conservador. Quiere conocer los rendimientos esperados y los riesgos de cada alternativa.
+::::
+
+:::: {.accordion}
+### 📊 Datos disponibles
+- Depósito a plazo fijo: 12 meses al 2,25 % TAE
+- Fondo de inversión conservador: rentabilidad estimada 3,5 % anual, con volatilidad media
+- Comisión de gestión del fondo: 1 %
+::::
+
+:::: {.accordion}
+### 🎯 Objetivos
+1. Calcular el rendimiento neto en cada opción.
+2. Comparar el riesgo y la liquidez de ambas alternativas.
+3. Formular una recomendación basada en el perfil del cliente.
+::::
+
+---
+
+## 📁 Caso 3: Reestructuración de deudas
+
+:::: {.accordion}
+### 🧾 Enunciado
+Un cliente acude a la entidad financiera porque no puede hacer frente a tres préstamos distintos que mantiene con diferentes entidades. El asesor debe estudiar la posibilidad de una reunificación o reestructuración de la deuda para aliviar la carga mensual.
+::::
+
+:::: {.accordion}
+### 📊 Datos disponibles
+- Préstamo 1: 5.000 € al 8 %, 2 años restantes
+- Préstamo 2: 10.000 € al 6 %, 4 años restantes
+- Préstamo 3: 3.000 € al 12 %, 1 año restante
+- Ingresos mensuales netos del cliente: 1.200 €
+::::
+
+:::: {.accordion}
+### 🎯 Objetivos
+1. Calcular las cuotas actuales y la carga total mensual.
+2. Proponer un nuevo préstamo unificado, con condiciones asumibles.
+3. Justificar si la reunificación es aconsejable y bajo qué condiciones.
+::::
+
+---
+
+## 📝 Recomendaciones para el alumno
+
+::: {.callout-tip title="¿Cómo abordar los casos?"}
+- Presenta cada caso con su análisis estructurado.
+- Usa Quarto o R Markdown para incluir cálculos y gráficos.
+- Documenta el razonamiento y justifica tus decisiones.
+:::
+
+---
+
+## 📎 Recursos útiles
+
+- [Calculadora de préstamos del Banco de España](https://clientebancario.bde.es/pcb/es/)
+- [Glosario financiero CNMV](https://www.cnmv.es/portal/Glossary.aspx)
+- Consulta el apartado 📐 *FÓRMULAS* para repasar las ecuaciones necesarias.

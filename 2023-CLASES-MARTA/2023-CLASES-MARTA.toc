@@ -1,0 +1,42 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Rentas financieras}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Concepto}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Objetivos}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Teoría}{3}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Cálculos}{6}{subsection.1.4}%
+\contentsline {section}{\numberline {2}Renta Fija}{8}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Concepto}{8}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Características generales de la renta fija}{8}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Estructura del mercado de deuda pública}{10}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Activos que se negocian}{10}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Miembros del mercado}{11}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Mercado primario: procedimiento de emisión de los valores del Tesoro}{11}{subsubsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.4}Mercado secundario}{11}{subsubsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.4}Mercado de renta fija privada}{12}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Rating}{12}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Otros riesgos asociados a la renta fija}{12}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Relación precio-TIR: principios de Malkiel}{13}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Curva y estructura temporal de los tipos de interés (ETTI)}{13}{subsection.2.8}%
+\contentsline {subsubsection}{\numberline {2.8.1}Concepto}{13}{subsubsection.2.8.1}%
+\contentsline {subsubsection}{\numberline {2.8.2}Teorías explicativas de la ETTI}{14}{subsubsection.2.8.2}%
+\contentsline {subsubsection}{\numberline {2.8.3}Ejemplo ETTI}{15}{subsubsection.2.8.3}%
+\contentsline {subsection}{\numberline {2.9}Medición y gestión del riesgo de tipo de interés}{15}{subsection.2.9}%
+\contentsline {subsubsection}{\numberline {2.9.1}Sensibilidad}{15}{subsubsection.2.9.1}%
+\contentsline {subsubsection}{\numberline {2.9.2}Duración}{16}{subsubsection.2.9.2}%
+\contentsline {subsubsection}{\numberline {2.9.3}Propiedades de la Duración}{17}{subsubsection.2.9.3}%
+\contentsline {subsubsection}{\numberline {2.9.4}Duración corregida o modificada}{18}{subsubsection.2.9.4}%
+\contentsline {subsubsection}{\numberline {2.9.5}Inmunización}{20}{subsubsection.2.9.5}%
+\contentsline {subsubsection}{\numberline {2.9.6}Resumen de fórmulas}{21}{subsubsection.2.9.6}%
+\contentsline {section}{\numberline {3}Valoración de activos de renta fija a corto y a largo plazo}{21}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Resumen}{23}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Cálculos}{25}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Ejemplos de valoración}{28}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Fiscalidad}{34}{section.4}%
+\contentsline {section}{\numberline {5}Ejercicios tipo test}{35}{section.5}%
+\contentsline {section}{\numberline {6}Ejercicios prácticos}{55}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Renta Fija I (2021)}{55}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Renta Fija II (2021)}{58}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Crédito y TAE}{63}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Cuadro de Amortización}{67}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Renta Fija (valoración y fiscalidad IRPF)}{69}{subsection.6.5}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

@@ -1,9 +1,9 @@
 ---
-title: "Fórmulas y referencias clave"
+title: "Fórmulas"
 format: html
 ---
 
-## 📐 Fórmulas y relaciones esenciales
+
 
 Esta sección recoge las principales fórmulas que pueden aparecer en el examen parcial Nivel II de la certificación EFA™.
 
@@ -16,3 +16,536 @@ Están organizadas por módulo e incluyen ejemplos de aplicación cuando es rele
 - Cálculo de valor actual, tasa interna de rendimiento y otros indicadores  
 
 > Esta sección se irá ampliando progresivamente conforme se desarrollen las sesiones.
+
+
+
+
+## **Renta Fija** {#renta-fija}
+
+
+### Precio de una letra hasta un año (capitalización simple) {-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$$P_0=\frac{100}{\left(1+i\cdot\frac{d}{360}\right)}$$
+
+donde,  
+
++ $P_0$, es el precio de la letra, expresado en porcentaje sobre el nominal.
+
++ $i$, es el tipo de interés en tantos por uno.
+
++ $d$, es el número de días que ha mantenido el inversor la letra en su poder.
+
+
+
+
+
+
+
+
+### Precio de una letra para plazo superior al año (capitalización compuesta): {-}
+
+
+
+
+
+
+
+
+$$P_0=\frac{100}{(1+i)^{d/360}}$$
+
+donde,  
+
++ $P_0$, es el precio de la letra, expresado en porcentaje sobre el nominal.
+
++ $i$, es el tipo de interés en tantos por uno.
+
++ $d$, es el número de días que ha mantenido el inversor la letra en su poder.
+
+
+
+
+
+
+
+
+
+
+
+### Precio entero de un bono (capitalización compuesta) {-}
+
+
+
+
+
+
+
+
+
+$$P_0=\sum_{ t=1}^{ n}\frac{F_t}{(1+r)^{t}}$$
+
+donde,  
+
++ $P_0$, es el precio entero de un bono o valor actual del mismo ($V_0$).
+
++ $F_t$, Flujos a percibir por la tenencia de un bono (cupón y principal).
+
++ $r$, es la TIR.
+
++ $t$, es el tiempo.
+
+
+
+
+
+
+### Duración de Macaulay (o simplemente Duración) {-}
+
+
+
+
+
+
+
+
+
+
+
+
+$$D=\frac{\sum_{t=1}^{n}\frac{F_t\cdot t}{\left(1+r\right)^t}}{P}$$
+
+
+
+
+donde,  
+
++ $D$, Duración de Macaulay.
+
++ $F_t$, Flujos a percibir por la tenencia de un bono (cupón y principal).
+
++ $P$, es el precio entero de un bono o valor actual del mismo ($V_0$).
+
++ $r$, es la TIR.
+
++ $t$, es el tiempo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Duración corregida expresada en años {-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$$D_{corregida}=\frac{Duracion\,de\, Macaulay}{\left(1+TIR\right)}=\frac{D}{\left(1+TIR\right)} $$
+
+
+
+
+
+
+
+
+### Duración corregida expresada en porcentaje {-}
+
+
+
+
+
+
+
+
+
+
+
+
+$$D_{corregida}=\frac{Duracion\,de\, Macaulay}{\left(1+TIR\right)}\cdot\frac{1}{100}$$
+
+
+
+
+
+
+
+
+
+
+
+### Duración corregida para estimar el efecto en precio de variaciones en la TIR {-}
+
+
+
+
+
+
+
+
+
+
+$$\frac{\Delta P}{P}\simeq  \frac{P_1-P_0}{P_0}\simeq \left(-D_{corregida}\right)\cdot\Delta TIR$$
+
+Alternativamente, la Duración corregida para estimar el efecto en precio de variaciones en la TIR la podemos expresar como, 
+
+$$P_1\simeq P_0\cdot\left[1+((-D_{corregida})\cdot\Delta TIR)\right]$$
+
+
+
+
+donde,
+
++ $P_1$, es el precio estimado del bono ante una variación de la TIR.
+
++ $P_0$, es el precio actual del bono .
+
++ $D_{corregida}$, es la duración corregida.
+
+
+
+
+
+
+
+
+
+### Sensibilidad (o sensibilidad absoluta) ante cambios en el precio: {-}
+
+
+
+
+
+
+
+
+
+
+
+
+$$S=\frac{Duracion\,Macaulay}{\left(1+TIR\right)}\cdot\frac{Precio\,entero}{100}$$
+
+o,
+
+
+
+$$S= Duracion\,corregida \cdot \frac{Precio\,entero}{100}$$
+
+
+
+
+
+
+Alternativamente, la sensibilidad (o sensibilidad absoluta) ante cambios en el precio la podemos expresar como,
+
+
+
+$$S={Duracion\,corregida }\cdot{Precio\,entero}$$
+
+>**Nota**: esta expresión se utiliza el caso de haber tomado como la duración corregida la siguiente fórmula:
+
+$$D_{corregida}=\frac{Duracion\,de\, Macaulay}{\left(1+TIR\right)}\cdot\frac{1}{100}$$
+
+
+En el caso de haber tomado como la duración corregida esta otra fórmula:
+
+$$D_{corregida}=\frac{Duracion\,de\, Macaulay}{\left(1+TIR\right)}=\frac{D}{\left(1+TIR\right)} $$
+
+
+Entonces la sensibilidad, necesariamente, debería expresarse así:
+
+
+$$S= Duracion\,corregida \cdot \frac{Precio\,entero}{100}$$
+
+
+
+
+
+
+
+
+
+### Sensibilidad del precio de un bono ante cambios de la TIR {-}
+
+
+
+
+
+
+
+
+
+
+
+$$P_1-P_0\simeq (-S)\cdot\Delta TIR$$
+
+
+donde,
+
++ $P_1$, es el precio estimado del bono ante una variación de la TIR.
+
++ $P_0$, es el precio actual del bono .
+
++ $S$, es la sensibilidad o sensibilidad absoluta.
+
++ $\Delta TIR$, variación porcentual de la TIR.
+
+Alternativamente, si despejamos $P_1$ de la fórmula anterior, la sensibilidad del precio de un bono ante cambios de la TIR también la podemos expresar como,
+
+
+
+$$P_1\simeq P_0 + ((-S)\cdot\Delta TIR)$$
+
+
+
+
+
+
+
+
+### Convexidad {-}
+
+
+
+
+
+
+
+$$C=\sum_{t=1}^n\frac{F_t\cdot t\cdot\left(t+1\right)}{\left(1+r\right)^{\left(t+2\right)}}$$
+donde,  
+
++ $C$, es la convexidad o convexidad absoluta .
+
++ $F_t$, Flujos a percibir por la tenencia del bono (cupón y principal).
+
++ $r$, es la TIR.
+
++ $t$, es el tiempo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Precio entero; precio ex-cupón y cupón corrido {-}
+
+
+
+
+
+
+
+
+
+
+
+**$\text{Precio entero (o sucio)} = \text{Precio ex-cupón (o limpio)} + \text{cupón corrido}$**
+
+donde, 
+
+* **Precio entero** = Importe que realmente se desembolsa al comprar una emisión.
+
+* **Precio ex-cupón** = Importe que se cotiza en el mercado y que realmente sirve de referencia para negociar una transacción.  
+
+* **Cupón corrido** = Importe que se añade al precio excupón para determinar el precio entero. Refleja el montante del cupón devengado y pendiente de pago, que está incorporado en el valor del instrumento financiero.
+
+>**nota**: es común encontrar la nomenclatura en inglés, como: Dirty price (precio sucio o entero) = Clean price (precio límpio o excupón) + Accrued interest (cupón corrido).
+
+
+
+
+
+
+
+
+
+
+### Cálculo del cupón corrido {-}
+
+
+
+
+
+
+
+
+
+
+
+$$CC=\frac{D_c}{D_t}\cdot C$$
+
+
+donde,
+
+
+* $CC$, es el cupón corrido.
+
+* $D_{c}$, es el tiempo transcurrido desde el pago del último cupón.
+
+* $D_{t}$, es el tiempo que transcurre entre el pago de dos cupones consecutivos 
+
+* $C$, es el importe del cupón que se paga periódicamente.
+
+
+
+
+
+
+
+
+
+
+
+
+### Liquidación contrato FRA {-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+$$FRA=\frac{N\cdot D\cdot\left(TL-TF\right)}{360+\left(TL\cdot D\right)}$$
+
+
+donde,
+
+
+* $N$, importe nominal o nocional del contrato.
+
+* $D$, número de días del período de garantía.
+
+* $TL$, tipo de liquidación del FRA (Reuters/otros). 
+
+* $TF$, tipo negociado en la compra venta del FRA
+
+
+
+
+
+
+
+
+
+
+
+### Fórmula para pasar los tipos de interés en base 365 a 360 y viceversa {-}
+
+
+
+
+
+
+
+
+
+
+
+$$i_{365}=\frac{365 }{360 }\cdot i_{360}$$
+
+</BR>
+
+$$i_{360}=\frac{360 }{365 }\cdot i_{365}$$
+
+
+
+
+
+
+
+
+### Tipo forward o implícito {-}
+
+
+
+
+
+
+
+
+
++ Para periodos inferiores al año: 
+
+
+$$(1+_{0}S_{2} \cdot \frac{2 }{12 })=(1+_{0}S_{1} \cdot \frac{1 }{12 })\cdot(1+f_{1,2}\cdot \frac{1 }{12 })$$
+
+
++ Para periodos superiores al año: 
+
+
+$$(1+_{0}S_{2})^{2}=(1+_{0}S_{1})^1\cdot(1+f_{1,2})^1$$
+donde,
+
++ $_{0}S_{1}$, es el tipo spot o de contado; el subíndice que aparece a la derecha nos indica el momento en que dicho interés está vigente y, el de la derecha, el número de periodos de vigencia.
+
++ $f_{1,2}$, es el tipo forward obtenido a partir de los tipos spot; el subíndice nos indica el periodo en que dicho interés estará vigente.
+
+>**Nota**: en este ejemplo la ecuación representa un tipo forward o implícito a un año dentro de un año; asimismo se podrían calcular cualquier otro siempre que la **Estructura Temporal de los Tipos de Interés (ETTI)** tenga los tipos spot necesarios para ello.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

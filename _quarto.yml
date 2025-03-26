@@ -2,11 +2,11 @@ project:
   type: book
 
 book:
-  title: " 📘 **Inicio**"
+  title: "📘 **Inicio**"
 
   chapters:
     - index.qmd
-    - references.qmd
+    - referencias.qmd
 
     - part: "🎬 SESIONES (vídeos y materiales)"
       chapters: 
@@ -28,6 +28,10 @@ book:
       chapters:
         - test_intro.qmd
 
+    - part: "🛠️ CASOS PRÁCTICOS"
+      chapters:
+        - casos_intro.qmd
+
     - part: "📝 EXÁMENES"
       chapters:
         - examenes_intro.qmd
@@ -36,10 +40,9 @@ book:
       chapters:
         - formulas_intro.qmd
 
-
 bibliography: references.bib
-csl: apa-5th-edition
-
+csl: apa-es-definitivo-final.csl
+lang: es
 
 format:
   html:
@@ -57,8 +60,8 @@ format:
       echo: false
       warning: false
 
-
   pdf:
     documentclass: scrreprt
 
 editor: source
+

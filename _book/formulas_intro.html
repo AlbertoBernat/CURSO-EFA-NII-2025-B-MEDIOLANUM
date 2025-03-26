@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Fórmulas y referencias clave –  📘 **Inicio**</title>
+<title>Fórmulas – 📘 **Inicio**</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -68,6 +68,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -81,7 +110,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./formulas_intro.html">📐 FÓRMULAS</a></li><li class="breadcrumb-item"><a href="./formulas_intro.html"><span class="chapter-title">Fórmulas y referencias clave</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./formulas_intro.html">📐 FÓRMULAS</a></li><li class="breadcrumb-item"><a href="./formulas_intro.html"><span class="chapter-title">Fórmulas</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Buscar" onclick="window.quartoOpenSearch();">
@@ -113,7 +142,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">📚 Referencias y bibliografía</span></a>
+  <a href="./referencias.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">📚 Referencias y bibliografía</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -203,7 +232,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./test_intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Introducción a los test</span></a>
+  <a href="./test_intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Ejercicios tipo test</span></a>
   </div>
 </li>
       </ul>
@@ -211,7 +240,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
- <span class="menu-text">📝 EXÁMENES</span></a>
+ <span class="menu-text">🛠️ CASOS PRÁCTICOS</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Alternar sección">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -219,7 +248,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./examenes_intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Introducción a los exámenes</span></a>
+  <a href="./casos_intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Ejercicios de desarrollo</span></a>
   </div>
 </li>
       </ul>
@@ -227,7 +256,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
- <span class="menu-text">📐 FÓRMULAS</span></a>
+ <span class="menu-text">📝 EXÁMENES</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Alternar sección">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -235,7 +264,23 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./formulas_intro.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Fórmulas y referencias clave</span></a>
+  <a href="./examenes_intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Exámenes y simulacros</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
+ <span class="menu-text">📐 FÓRMULAS</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./formulas_intro.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Fórmulas</span></a>
   </div>
 </li>
       </ul>
@@ -250,7 +295,24 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title"><img src="TOC_logo_EFA_compacto.png" class="img-fluid"></h2>
    
   <ul>
-  <li><a href="#fórmulas-y-relaciones-esenciales" id="toc-fórmulas-y-relaciones-esenciales" class="nav-link active" data-scroll-target="#fórmulas-y-relaciones-esenciales">📐 Fórmulas y relaciones esenciales</a></li>
+  <li><a href="#renta-fija" id="toc-renta-fija" class="nav-link active" data-scroll-target="#renta-fija"><strong>Renta Fija</strong></a>
+  <ul class="collapse">
+  <li><a href="#precio-de-una-letra-hasta-un-año-capitalización-simple" id="toc-precio-de-una-letra-hasta-un-año-capitalización-simple" class="nav-link" data-scroll-target="#precio-de-una-letra-hasta-un-año-capitalización-simple">Precio de una letra hasta un año (capitalización simple)</a></li>
+  <li><a href="#precio-de-una-letra-para-plazo-superior-al-año-capitalización-compuesta" id="toc-precio-de-una-letra-para-plazo-superior-al-año-capitalización-compuesta" class="nav-link" data-scroll-target="#precio-de-una-letra-para-plazo-superior-al-año-capitalización-compuesta">Precio de una letra para plazo superior al año (capitalización compuesta):</a></li>
+  <li><a href="#precio-entero-de-un-bono-capitalización-compuesta" id="toc-precio-entero-de-un-bono-capitalización-compuesta" class="nav-link" data-scroll-target="#precio-entero-de-un-bono-capitalización-compuesta">Precio entero de un bono (capitalización compuesta)</a></li>
+  <li><a href="#duración-de-macaulay-o-simplemente-duración" id="toc-duración-de-macaulay-o-simplemente-duración" class="nav-link" data-scroll-target="#duración-de-macaulay-o-simplemente-duración">Duración de Macaulay (o simplemente Duración)</a></li>
+  <li><a href="#duración-corregida-expresada-en-años" id="toc-duración-corregida-expresada-en-años" class="nav-link" data-scroll-target="#duración-corregida-expresada-en-años">Duración corregida expresada en años</a></li>
+  <li><a href="#duración-corregida-expresada-en-porcentaje" id="toc-duración-corregida-expresada-en-porcentaje" class="nav-link" data-scroll-target="#duración-corregida-expresada-en-porcentaje">Duración corregida expresada en porcentaje</a></li>
+  <li><a href="#duración-corregida-para-estimar-el-efecto-en-precio-de-variaciones-en-la-tir" id="toc-duración-corregida-para-estimar-el-efecto-en-precio-de-variaciones-en-la-tir" class="nav-link" data-scroll-target="#duración-corregida-para-estimar-el-efecto-en-precio-de-variaciones-en-la-tir">Duración corregida para estimar el efecto en precio de variaciones en la TIR</a></li>
+  <li><a href="#sensibilidad-o-sensibilidad-absoluta-ante-cambios-en-el-precio" id="toc-sensibilidad-o-sensibilidad-absoluta-ante-cambios-en-el-precio" class="nav-link" data-scroll-target="#sensibilidad-o-sensibilidad-absoluta-ante-cambios-en-el-precio">Sensibilidad (o sensibilidad absoluta) ante cambios en el precio:</a></li>
+  <li><a href="#sensibilidad-del-precio-de-un-bono-ante-cambios-de-la-tir" id="toc-sensibilidad-del-precio-de-un-bono-ante-cambios-de-la-tir" class="nav-link" data-scroll-target="#sensibilidad-del-precio-de-un-bono-ante-cambios-de-la-tir">Sensibilidad del precio de un bono ante cambios de la TIR</a></li>
+  <li><a href="#convexidad" id="toc-convexidad" class="nav-link" data-scroll-target="#convexidad">Convexidad</a></li>
+  <li><a href="#precio-entero-precio-ex-cupón-y-cupón-corrido" id="toc-precio-entero-precio-ex-cupón-y-cupón-corrido" class="nav-link" data-scroll-target="#precio-entero-precio-ex-cupón-y-cupón-corrido">Precio entero; precio ex-cupón y cupón corrido</a></li>
+  <li><a href="#cálculo-del-cupón-corrido" id="toc-cálculo-del-cupón-corrido" class="nav-link" data-scroll-target="#cálculo-del-cupón-corrido">Cálculo del cupón corrido</a></li>
+  <li><a href="#liquidación-contrato-fra" id="toc-liquidación-contrato-fra" class="nav-link" data-scroll-target="#liquidación-contrato-fra">Liquidación contrato FRA</a></li>
+  <li><a href="#fórmula-para-pasar-los-tipos-de-interés-en-base-365-a-360-y-viceversa" id="toc-fórmula-para-pasar-los-tipos-de-interés-en-base-365-a-360-y-viceversa" class="nav-link" data-scroll-target="#fórmula-para-pasar-los-tipos-de-interés-en-base-365-a-360-y-viceversa">Fórmula para pasar los tipos de interés en base 365 a 360 y viceversa</a></li>
+  <li><a href="#tipo-forward-o-implícito" id="toc-tipo-forward-o-implícito" class="nav-link" data-scroll-target="#tipo-forward-o-implícito">Tipo forward o implícito</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -277,9 +339,9 @@ ul.task-list li input[type="checkbox"] {
 
 </div>
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./formulas_intro.html">📐 FÓRMULAS</a></li><li class="breadcrumb-item"><a href="./formulas_intro.html"><span class="chapter-title">Fórmulas y referencias clave</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./formulas_intro.html">📐 FÓRMULAS</a></li><li class="breadcrumb-item"><a href="./formulas_intro.html"><span class="chapter-title">Fórmulas</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">Fórmulas y referencias clave</span></h1>
+<h1 class="title"><span class="chapter-title">Fórmulas</span></h1>
 </div>
 
 
@@ -296,8 +358,6 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="fórmulas-y-relaciones-esenciales" class="level2">
-<h2 class="anchored" data-anchor-id="fórmulas-y-relaciones-esenciales">📐 Fórmulas y relaciones esenciales</h2>
 <p>Esta sección recoge las principales fórmulas que pueden aparecer en el examen parcial Nivel II de la certificación EFA™.</p>
 <p>Están organizadas por módulo e incluyen ejemplos de aplicación cuando es relevante.</p>
 <ul>
@@ -314,8 +374,171 @@ ul.task-list li input[type="checkbox"] {
 <blockquote class="blockquote">
 <p>Esta sección se irá ampliando progresivamente conforme se desarrollen las sesiones.</p>
 </blockquote>
+<section id="renta-fija" class="level2">
+<h2 class="anchored" data-anchor-id="renta-fija"><strong>Renta Fija</strong></h2>
+<section id="precio-de-una-letra-hasta-un-año-capitalización-simple" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="precio-de-una-letra-hasta-un-año-capitalización-simple">Precio de una letra hasta un año (capitalización simple)</h3>
+<p><span class="math display">\[P_0=\frac{100}{\left(1+i\cdot\frac{d}{360}\right)}\]</span></p>
+<p>donde,</p>
+<ul>
+<li><p><span class="math inline">\(P_0\)</span>, es el precio de la letra, expresado en porcentaje sobre el nominal.</p></li>
+<li><p><span class="math inline">\(i\)</span>, es el tipo de interés en tantos por uno.</p></li>
+<li><p><span class="math inline">\(d\)</span>, es el número de días que ha mantenido el inversor la letra en su poder.</p></li>
+</ul>
+</section>
+<section id="precio-de-una-letra-para-plazo-superior-al-año-capitalización-compuesta" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="precio-de-una-letra-para-plazo-superior-al-año-capitalización-compuesta">Precio de una letra para plazo superior al año (capitalización compuesta):</h3>
+<p><span class="math display">\[P_0=\frac{100}{(1+i)^{d/360}}\]</span></p>
+<p>donde,</p>
+<ul>
+<li><p><span class="math inline">\(P_0\)</span>, es el precio de la letra, expresado en porcentaje sobre el nominal.</p></li>
+<li><p><span class="math inline">\(i\)</span>, es el tipo de interés en tantos por uno.</p></li>
+<li><p><span class="math inline">\(d\)</span>, es el número de días que ha mantenido el inversor la letra en su poder.</p></li>
+</ul>
+</section>
+<section id="precio-entero-de-un-bono-capitalización-compuesta" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="precio-entero-de-un-bono-capitalización-compuesta">Precio entero de un bono (capitalización compuesta)</h3>
+<p><span class="math display">\[P_0=\sum_{ t=1}^{ n}\frac{F_t}{(1+r)^{t}}\]</span></p>
+<p>donde,</p>
+<ul>
+<li><p><span class="math inline">\(P_0\)</span>, es el precio entero de un bono o valor actual del mismo (<span class="math inline">\(V_0\)</span>).</p></li>
+<li><p><span class="math inline">\(F_t\)</span>, Flujos a percibir por la tenencia de un bono (cupón y principal).</p></li>
+<li><p><span class="math inline">\(r\)</span>, es la TIR.</p></li>
+<li><p><span class="math inline">\(t\)</span>, es el tiempo.</p></li>
+</ul>
+</section>
+<section id="duración-de-macaulay-o-simplemente-duración" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="duración-de-macaulay-o-simplemente-duración">Duración de Macaulay (o simplemente Duración)</h3>
+<p><span class="math display">\[D=\frac{\sum_{t=1}^{n}\frac{F_t\cdot t}{\left(1+r\right)^t}}{P}\]</span></p>
+<p>donde,</p>
+<ul>
+<li><p><span class="math inline">\(D\)</span>, Duración de Macaulay.</p></li>
+<li><p><span class="math inline">\(F_t\)</span>, Flujos a percibir por la tenencia de un bono (cupón y principal).</p></li>
+<li><p><span class="math inline">\(P\)</span>, es el precio entero de un bono o valor actual del mismo (<span class="math inline">\(V_0\)</span>).</p></li>
+<li><p><span class="math inline">\(r\)</span>, es la TIR.</p></li>
+<li><p><span class="math inline">\(t\)</span>, es el tiempo.</p></li>
+</ul>
+</section>
+<section id="duración-corregida-expresada-en-años" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="duración-corregida-expresada-en-años">Duración corregida expresada en años</h3>
+<p><span class="math display">\[D_{corregida}=\frac{Duracion\,de\, Macaulay}{\left(1+TIR\right)}=\frac{D}{\left(1+TIR\right)} \]</span></p>
+</section>
+<section id="duración-corregida-expresada-en-porcentaje" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="duración-corregida-expresada-en-porcentaje">Duración corregida expresada en porcentaje</h3>
+<p><span class="math display">\[D_{corregida}=\frac{Duracion\,de\, Macaulay}{\left(1+TIR\right)}\cdot\frac{1}{100}\]</span></p>
+</section>
+<section id="duración-corregida-para-estimar-el-efecto-en-precio-de-variaciones-en-la-tir" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="duración-corregida-para-estimar-el-efecto-en-precio-de-variaciones-en-la-tir">Duración corregida para estimar el efecto en precio de variaciones en la TIR</h3>
+<p><span class="math display">\[\frac{\Delta P}{P}\simeq  \frac{P_1-P_0}{P_0}\simeq \left(-D_{corregida}\right)\cdot\Delta TIR\]</span></p>
+<p>Alternativamente, la Duración corregida para estimar el efecto en precio de variaciones en la TIR la podemos expresar como,</p>
+<p><span class="math display">\[P_1\simeq P_0\cdot\left[1+((-D_{corregida})\cdot\Delta TIR)\right]\]</span></p>
+<p>donde,</p>
+<ul>
+<li><p><span class="math inline">\(P_1\)</span>, es el precio estimado del bono ante una variación de la TIR.</p></li>
+<li><p><span class="math inline">\(P_0\)</span>, es el precio actual del bono .</p></li>
+<li><p><span class="math inline">\(D_{corregida}\)</span>, es la duración corregida.</p></li>
+</ul>
+</section>
+<section id="sensibilidad-o-sensibilidad-absoluta-ante-cambios-en-el-precio" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="sensibilidad-o-sensibilidad-absoluta-ante-cambios-en-el-precio">Sensibilidad (o sensibilidad absoluta) ante cambios en el precio:</h3>
+<p><span class="math display">\[S=\frac{Duracion\,Macaulay}{\left(1+TIR\right)}\cdot\frac{Precio\,entero}{100}\]</span></p>
+<p>o,</p>
+<p><span class="math display">\[S= Duracion\,corregida \cdot \frac{Precio\,entero}{100}\]</span></p>
+<p>Alternativamente, la sensibilidad (o sensibilidad absoluta) ante cambios en el precio la podemos expresar como,</p>
+<p><span class="math display">\[S={Duracion\,corregida }\cdot{Precio\,entero}\]</span></p>
+<blockquote class="blockquote">
+<p><strong>Nota</strong>: esta expresión se utiliza el caso de haber tomado como la duración corregida la siguiente fórmula:</p>
+</blockquote>
+<p><span class="math display">\[D_{corregida}=\frac{Duracion\,de\, Macaulay}{\left(1+TIR\right)}\cdot\frac{1}{100}\]</span></p>
+<p>En el caso de haber tomado como la duración corregida esta otra fórmula:</p>
+<p><span class="math display">\[D_{corregida}=\frac{Duracion\,de\, Macaulay}{\left(1+TIR\right)}=\frac{D}{\left(1+TIR\right)} \]</span></p>
+<p>Entonces la sensibilidad, necesariamente, debería expresarse así:</p>
+<p><span class="math display">\[S= Duracion\,corregida \cdot \frac{Precio\,entero}{100}\]</span></p>
+</section>
+<section id="sensibilidad-del-precio-de-un-bono-ante-cambios-de-la-tir" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="sensibilidad-del-precio-de-un-bono-ante-cambios-de-la-tir">Sensibilidad del precio de un bono ante cambios de la TIR</h3>
+<p><span class="math display">\[P_1-P_0\simeq (-S)\cdot\Delta TIR\]</span></p>
+<p>donde,</p>
+<ul>
+<li><p><span class="math inline">\(P_1\)</span>, es el precio estimado del bono ante una variación de la TIR.</p></li>
+<li><p><span class="math inline">\(P_0\)</span>, es el precio actual del bono .</p></li>
+<li><p><span class="math inline">\(S\)</span>, es la sensibilidad o sensibilidad absoluta.</p></li>
+<li><p><span class="math inline">\(\Delta TIR\)</span>, variación porcentual de la TIR.</p></li>
+</ul>
+<p>Alternativamente, si despejamos <span class="math inline">\(P_1\)</span> de la fórmula anterior, la sensibilidad del precio de un bono ante cambios de la TIR también la podemos expresar como,</p>
+<p><span class="math display">\[P_1\simeq P_0 + ((-S)\cdot\Delta TIR)\]</span></p>
+</section>
+<section id="convexidad" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="convexidad">Convexidad</h3>
+<p><span class="math display">\[C=\sum_{t=1}^n\frac{F_t\cdot t\cdot\left(t+1\right)}{\left(1+r\right)^{\left(t+2\right)}}\]</span> donde,</p>
+<ul>
+<li><p><span class="math inline">\(C\)</span>, es la convexidad o convexidad absoluta .</p></li>
+<li><p><span class="math inline">\(F_t\)</span>, Flujos a percibir por la tenencia del bono (cupón y principal).</p></li>
+<li><p><span class="math inline">\(r\)</span>, es la TIR.</p></li>
+<li><p><span class="math inline">\(t\)</span>, es el tiempo.</p></li>
+</ul>
+</section>
+<section id="precio-entero-precio-ex-cupón-y-cupón-corrido" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="precio-entero-precio-ex-cupón-y-cupón-corrido">Precio entero; precio ex-cupón y cupón corrido</h3>
+<p><strong><span class="math inline">\(\text{Precio entero (o sucio)} = \text{Precio ex-cupón (o limpio)} + \text{cupón corrido}\)</span></strong></p>
+<p>donde,</p>
+<ul>
+<li><p><strong>Precio entero</strong> = Importe que realmente se desembolsa al comprar una emisión.</p></li>
+<li><p><strong>Precio ex-cupón</strong> = Importe que se cotiza en el mercado y que realmente sirve de referencia para negociar una transacción.</p></li>
+<li><p><strong>Cupón corrido</strong> = Importe que se añade al precio excupón para determinar el precio entero. Refleja el montante del cupón devengado y pendiente de pago, que está incorporado en el valor del instrumento financiero.</p></li>
+</ul>
+<blockquote class="blockquote">
+<p><strong>nota</strong>: es común encontrar la nomenclatura en inglés, como: Dirty price (precio sucio o entero) = Clean price (precio límpio o excupón) + Accrued interest (cupón corrido).</p>
+</blockquote>
+</section>
+<section id="cálculo-del-cupón-corrido" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="cálculo-del-cupón-corrido">Cálculo del cupón corrido</h3>
+<p><span class="math display">\[CC=\frac{D_c}{D_t}\cdot C\]</span></p>
+<p>donde,</p>
+<ul>
+<li><p><span class="math inline">\(CC\)</span>, es el cupón corrido.</p></li>
+<li><p><span class="math inline">\(D_{c}\)</span>, es el tiempo transcurrido desde el pago del último cupón.</p></li>
+<li><p><span class="math inline">\(D_{t}\)</span>, es el tiempo que transcurre entre el pago de dos cupones consecutivos</p></li>
+<li><p><span class="math inline">\(C\)</span>, es el importe del cupón que se paga periódicamente.</p></li>
+</ul>
+</section>
+<section id="liquidación-contrato-fra" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="liquidación-contrato-fra">Liquidación contrato FRA</h3>
+<p><span class="math display">\[FRA=\frac{N\cdot D\cdot\left(TL-TF\right)}{360+\left(TL\cdot D\right)}\]</span></p>
+<p>donde,</p>
+<ul>
+<li><p><span class="math inline">\(N\)</span>, importe nominal o nocional del contrato.</p></li>
+<li><p><span class="math inline">\(D\)</span>, número de días del período de garantía.</p></li>
+<li><p><span class="math inline">\(TL\)</span>, tipo de liquidación del FRA (Reuters/otros).</p></li>
+<li><p><span class="math inline">\(TF\)</span>, tipo negociado en la compra venta del FRA</p></li>
+</ul>
+</section>
+<section id="fórmula-para-pasar-los-tipos-de-interés-en-base-365-a-360-y-viceversa" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="fórmula-para-pasar-los-tipos-de-interés-en-base-365-a-360-y-viceversa">Fórmula para pasar los tipos de interés en base 365 a 360 y viceversa</h3>
+<p><span class="math display">\[i_{365}=\frac{365 }{360 }\cdot i_{360}\]</span></p>
+<p><br></p>
+<p><span class="math display">\[i_{360}=\frac{360 }{365 }\cdot i_{365}\]</span></p>
+</section>
+<section id="tipo-forward-o-implícito" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="tipo-forward-o-implícito">Tipo forward o implícito</h3>
+<ul>
+<li>Para periodos inferiores al año:</li>
+</ul>
+<p><span class="math display">\[(1+_{0}S_{2} \cdot \frac{2 }{12 })=(1+_{0}S_{1} \cdot \frac{1 }{12 })\cdot(1+f_{1,2}\cdot \frac{1 }{12 })\]</span></p>
+<ul>
+<li>Para periodos superiores al año:</li>
+</ul>
+<p><span class="math display">\[(1+_{0}S_{2})^{2}=(1+_{0}S_{1})^1\cdot(1+f_{1,2})^1\]</span> donde,</p>
+<ul>
+<li><p><span class="math inline">\(_{0}S_{1}\)</span>, es el tipo spot o de contado; el subíndice que aparece a la derecha nos indica el momento en que dicho interés está vigente y, el de la derecha, el número de periodos de vigencia.</p></li>
+<li><p><span class="math inline">\(f_{1,2}\)</span>, es el tipo forward obtenido a partir de los tipos spot; el subíndice nos indica el periodo en que dicho interés estará vigente.</p></li>
+</ul>
+<blockquote class="blockquote">
+<p><strong>Nota</strong>: en este ejemplo la ecuación representa un tipo forward o implícito a un año dentro de un año; asimismo se podrían calcular cualquier otro siempre que la <strong>Estructura Temporal de los Tipos de Interés (ETTI)</strong> tenga los tipos spot necesarios para ello.</p>
+</blockquote>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -741,8 +964,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./examenes_intro.html" class="pagination-link" aria-label="Introducción a los exámenes">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Introducción a los exámenes</span></span>
+      <a href="./examenes_intro.html" class="pagination-link" aria-label="Exámenes y simulacros">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Exámenes y simulacros</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">

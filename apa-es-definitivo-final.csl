@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0">
+  <info>
+    <title>APA 6ª edición (español definitivo)</title>
+    <id>https://www.zotero.org/styles/apa-6th-edition-spanish-definitivo</id>
+    <author>
+      <name>Versión definitiva corregida</name>
+    </author>
+    <category citation-format="author-date"/>
+    <updated>2025-03-26</updated>
+    <language>es</language>
+    <rights license="http://creativecommons.org/licenses/by-sa/3.0/"/>
+  </info>
+
+  <locale xml:lang="es">
+    <terms>
+      <term name="no date">s.f.</term>
+      <term name="and">y</term>
+    </terms>
+  </locale>
+
+  <macro name="author">
+    <names variable="author">
+      <name and="text" initialize-with=". " delimiter=", " name-as-sort-order="all"/>
+      <label form="short" prefix=" (" suffix=")"/>
+      <substitute>
+        <names variable="editor"/>
+        <names variable="translator"/>
+        <text variable="title"/>
+      </substitute>
+    </names>
+  </macro>
+
+  <macro name="issued">
+    <choose>
+      <if variable="issued">
+        <date variable="issued">
+          <date-part name="year"/>
+        </date>
+      </if>
+      <else>
+        <text term="no date"/>
+      </else>
+    </choose>
+  </macro>
+
+  <macro name="title">
+    <text variable="title" font-style="italic"/>
+  </macro>
+
+  <macro name="container-title">
+    <text variable="container-title" font-style="italic"/>
+  </macro>
+
+  <macro name="URL">
+    <group delimiter=" ">
+      <text value="Recuperado"/>
+      <text value="de"/>
+      <text variable="URL"/>
+    </group>
+  </macro>
+
+  <citation>
+    <layout prefix="(" suffix=")" delimiter="; ">
+      <text macro="author"/>
+      <text macro="issued" prefix=", "/>
+    </layout>
+  </citation>
+
+  <bibliography hanging-indent="true" line-spacing="2" entry-spacing="0">
+    <sort>
+      <key macro="author"/>
+      <key macro="issued"/>
+    </sort>
+    <layout>
+      <group suffix=".">
+        <text macro="author"/>
+        <text macro="issued" prefix=" (" suffix=")."/>
+        <text macro="title" prefix=" "/>
+        <text macro="container-title" prefix=". "/>
+        <choose>
+          <if variable="URL">
+            <text macro="URL" prefix=". "/>
+          </if>
+        </choose>
+      </group>
+    </layout>
+  </bibliography>
+</style>

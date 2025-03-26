@@ -1,0 +1,2215 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Ejercicios de desarrollo – 📘 **Inicio**</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./examenes_intro.html" rel="next">
+<link href="./test_intro.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Sin resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./casos_intro.html">🛠️ CASOS PRÁCTICOS</a></li><li class="breadcrumb-item"><a href="./casos_intro.html"><span class="chapter-title">Ejercicios de desarrollo</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Buscar" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">📘 <strong>Inicio</strong></a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Buscar"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">🎓Propuesta formativa</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./referencias.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">📚 Referencias y bibliografía</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">🎬 SESIONES (vídeos y materiales)</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sesion01_repaso_nivel1.html" class="sidebar-item-text sidebar-link"><span class="chapter-title"><strong>Sesión 1: Repaso del Nivel I y prueba inicial</strong></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sesion02_renta_fija.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Sesión 2: Módulo 1 – Parte I: Renta fija</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sesion03_renta_variable.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Sesión 3: Módulo 1 – Parte II: Renta variable</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sesion04_fondos_inversion.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Sesión 4: Módulo 2 – Fondos y sociedades de inversión</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sesion05_gestion_carteras.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Sesión 5: Módulo 3 – Gestión de carteras</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sesion06_fiscalidad.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Sesión 6: Módulo 8 – Fiscalidad</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sesion06b_evaluacion_junio.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Sesión 6.5: Evaluación para la convocatoria de junio</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sesion07_pensiones.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Sesión 7: Módulo 5 – Pensiones y planificación de jubilación</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sesion08_inversion_inmobiliaria.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Sesión 8: Módulo 6 – Inversión inmobiliaria</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sesion09_credito.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Sesión 9: Módulo 7 – Crédito y financiación</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sesion10_planificacion_financiera.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Sesión 10: Módulo 10 – Asesoramiento y planificación financiera</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sesion11_repaso_final.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Sesión 11: Repaso integral y evaluación final</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sesion12_simulacion_examen.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Sesión 12: Simulación de examen y cierre del curso</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">✅ TEST</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./test_intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Ejercicios tipo test</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">🛠️ CASOS PRÁCTICOS</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./casos_intro.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Ejercicios de desarrollo</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+ <span class="menu-text">📝 EXÁMENES</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./examenes_intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Exámenes y simulacros</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
+ <span class="menu-text">📐 FÓRMULAS</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./formulas_intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Fórmulas</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title"><img src="TOC_logo_EFA_compacto.png" class="img-fluid"></h2>
+   
+  <ul>
+  <li><a href="#ejercicios-prácticos" id="toc-ejercicios-prácticos" class="nav-link active" data-scroll-target="#ejercicios-prácticos">Ejercicios prácticos</a>
+  <ul class="collapse">
+  <li><a href="#renta-fija-i-2021" id="toc-renta-fija-i-2021" class="nav-link" data-scroll-target="#renta-fija-i-2021">Renta Fija I (2021)</a></li>
+  <li><a href="#renta-fija-ii-2021" id="toc-renta-fija-ii-2021" class="nav-link" data-scroll-target="#renta-fija-ii-2021">Renta Fija II (2021)</a></li>
+  <li><a href="#crédito-y-tae" id="toc-crédito-y-tae" class="nav-link" data-scroll-target="#crédito-y-tae">Crédito y TAE</a></li>
+  <li><a href="#renta-fija-valoración-y-fiscalidad-irpf" id="toc-renta-fija-valoración-y-fiscalidad-irpf" class="nav-link" data-scroll-target="#renta-fija-valoración-y-fiscalidad-irpf">Renta Fija (valoración y fiscalidad IRPF)</a></li>
+  <li><a href="#renta-fija-duración-modificada-y-nuevo-precio-ante-variación-de-la-tir" id="toc-renta-fija-duración-modificada-y-nuevo-precio-ante-variación-de-la-tir" class="nav-link" data-scroll-target="#renta-fija-duración-modificada-y-nuevo-precio-ante-variación-de-la-tir">Renta Fija (Duración modificada y nuevo precio ante variación de la TIR)</a></li>
+  <li><a href="#renta-préstamo-francés" id="toc-renta-préstamo-francés" class="nav-link" data-scroll-target="#renta-préstamo-francés">Renta préstamo francés</a></li>
+  <li><a href="#renta-perpetua-modelo-de-gordon" id="toc-renta-perpetua-modelo-de-gordon" class="nav-link" data-scroll-target="#renta-perpetua-modelo-de-gordon">Renta perpetua (modelo de Gordon)</a></li>
+  </ul></li>
+  <li><a href="#caso-1-análisis-de-la-viabilidad-de-un-préstamo-personal" id="toc-caso-1-análisis-de-la-viabilidad-de-un-préstamo-personal" class="nav-link" data-scroll-target="#caso-1-análisis-de-la-viabilidad-de-un-préstamo-personal">📁 Caso 1: Análisis de la viabilidad de un préstamo personal</a>
+  <ul class="collapse">
+  <li><a href="#enunciado" id="toc-enunciado" class="nav-link" data-scroll-target="#enunciado">🧾 Enunciado</a></li>
+  <li><a href="#datos-disponibles" id="toc-datos-disponibles" class="nav-link" data-scroll-target="#datos-disponibles">📊 Datos disponibles</a></li>
+  <li><a href="#objetivos" id="toc-objetivos" class="nav-link" data-scroll-target="#objetivos">🎯 Objetivos</a></li>
+  </ul></li>
+  <li><a href="#caso-2-comparativa-entre-productos-de-inversión-y-ahorro" id="toc-caso-2-comparativa-entre-productos-de-inversión-y-ahorro" class="nav-link" data-scroll-target="#caso-2-comparativa-entre-productos-de-inversión-y-ahorro">📁 Caso 2: Comparativa entre productos de inversión y ahorro</a>
+  <ul class="collapse">
+  <li><a href="#enunciado-1" id="toc-enunciado-1" class="nav-link" data-scroll-target="#enunciado-1">🧾 Enunciado</a></li>
+  <li><a href="#datos-disponibles-1" id="toc-datos-disponibles-1" class="nav-link" data-scroll-target="#datos-disponibles-1">📊 Datos disponibles</a></li>
+  <li><a href="#objetivos-1" id="toc-objetivos-1" class="nav-link" data-scroll-target="#objetivos-1">🎯 Objetivos</a></li>
+  </ul></li>
+  <li><a href="#caso-3-reestructuración-de-deudas" id="toc-caso-3-reestructuración-de-deudas" class="nav-link" data-scroll-target="#caso-3-reestructuración-de-deudas">📁 Caso 3: Reestructuración de deudas</a>
+  <ul class="collapse">
+  <li><a href="#enunciado-2" id="toc-enunciado-2" class="nav-link" data-scroll-target="#enunciado-2">🧾 Enunciado</a></li>
+  <li><a href="#datos-disponibles-2" id="toc-datos-disponibles-2" class="nav-link" data-scroll-target="#datos-disponibles-2">📊 Datos disponibles</a></li>
+  <li><a href="#objetivos-2" id="toc-objetivos-2" class="nav-link" data-scroll-target="#objetivos-2">🎯 Objetivos</a></li>
+  </ul></li>
+  <li><a href="#recomendaciones-para-el-alumno" id="toc-recomendaciones-para-el-alumno" class="nav-link" data-scroll-target="#recomendaciones-para-el-alumno">📝 Recomendaciones para el alumno</a></li>
+  <li><a href="#recursos-útiles" id="toc-recursos-útiles" class="nav-link" data-scroll-target="#recursos-útiles">📎 Recursos útiles</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+<div style="text-align: center; margin-top: 3rem; margin-bottom: 3rem;">
+  <h1 style="font-size: 2.5rem; color: #1f2e83; font-weight: bold; margin-bottom: 1rem;">
+    European Financial Advisor (EFA)™ 
+  </h1>
+  
+  <img src="images/EFPA_logo.jpg" alt="EFPA Logo" width="480px" style="margin: 1.5rem auto;">
+
+  <h2 style="font-size: 1.5rem; color: #555; font-weight: normal; margin-top: 1rem;" class="anchored">
+    Preparación avanzada con sesiones, ejercicios y simulacros resueltos
+  </h2>
+
+  <p style="font-size: 1.2rem; margin-top: 2rem; color: #555;">
+    Alberto Bernat · Mediolanum Formación
+  </p>
+
+  <p style="margin-top: 0.5rem; font-size: 1rem; color: #777;">
+    Curso intensivo · Marzo – Junio 2025
+  </p>
+
+</div>
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./casos_intro.html">🛠️ CASOS PRÁCTICOS</a></li><li class="breadcrumb-item"><a href="./casos_intro.html"><span class="chapter-title">Ejercicios de desarrollo</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-title">Ejercicios de desarrollo</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="callout callout-style-default callout-note callout-titled" title="Objetivo de esta sección">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Objetivo de esta sección
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Aplicar los conocimientos adquiridos mediante la resolución de <strong>casos reales o simulados</strong> relacionados con el asesoramiento financiero. Cada caso plantea una situación concreta que requiere análisis, cálculo y toma de decisiones.</p>
+</div>
+</div>
+<section id="ejercicios-prácticos" class="level2">
+<h2 class="anchored" data-anchor-id="ejercicios-prácticos">Ejercicios prácticos</h2>
+<section id="renta-fija-i-2021" class="level3">
+<h3 class="anchored" data-anchor-id="renta-fija-i-2021">Renta Fija I (2021)</h3>
+<p>Disponemos de la siguiente información relativa a un bono de la empresa DELTA</p>
+<ul>
+<li>NOMINAL 100.000 EUR</li>
+<li>CUPON ANUAL 4,50</li>
+<li>TIR A VENCIMIENTO 5%</li>
+<li>FECHA VALOR 1-08-2021</li>
+<li>FECHA VENCMIENTO 31-12-2024</li>
+</ul>
+<ol type="1">
+<li>Hallar el precio del bono a 1-08-2021</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li><p>101063,9461</p></li>
+<li><p>100660,8685</p></li>
+<li><p>102432,2342</p></li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Solución
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la a</strong>.</p>
+<p>En primer lugar tenemos que calcular el precio entero de este bono. Para ello utilizaremos la siguiente metodología de cálculo:</p>
+<p><span class="math display">\[P_0=\sum_{ t=1}^{ n}\frac{F_t}{(1+r)^{t}}\]</span></p>
+<p>donde,</p>
+<ul>
+<li><p><span class="math inline">\(P_0\)</span>, es el precio entero de un bono o valor actual del mismo (<span class="math inline">\(V_0\)</span>).</p></li>
+<li><p><span class="math inline">\(F_t\)</span>, Flujos a percibir por la tenencia de un bono (cupón y principal).</p></li>
+<li><p><span class="math inline">\(r\)</span>, es la TIR.</p></li>
+<li><p><span class="math inline">\(t\)</span>, es el tiempo.</p></li>
+</ul>
+<p>Donde si sustituimos por los datos del problema y calculamos, tenemos que el precio actual (a fecha 1-08-2021) del bono es de:</p>
+<p><span class="math display">\[P_{(1-08-21)}=\frac{4500}{\left(1+0.05\right)^{\frac{152}{365}}}+\frac{4500}{\left(1+0.05\right)^{1+\frac{152}{365}}}+\frac{4500}{\left(1+0.05\right)^{2+\frac{152}{365}}}+\frac{104500}{\left(1+0.05\right)^{3+\frac{152}{365}}}\]</span> <span class="math display">\[P_{(1-08-21)}=101063.94618\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+<ol start="2" type="1">
+<li>Calcular la duración del bono</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li><p>3,16286</p></li>
+<li><p>3,85122</p></li>
+<li><p>4,02241</p></li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Solución
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la a</strong>.</p>
+<p>En este caso para calcular la Duración de Macaulay (o simplemente, la “Duración”), vamos a realizar el siguiente cálculo:</p>
+<p><span class="math display">\[D=\frac{\sum_{t=1}^{n}\frac{F_t\cdot t}{\left(1+r\right)^t}}{P}\]</span></p>
+<p>donde,</p>
+<ul>
+<li><p><span class="math inline">\(D\)</span>, Duración de Macaulay.</p></li>
+<li><p><span class="math inline">\(F_t\)</span>, Flujos a percibir por la tenencia de un bono (cupón y principal).</p></li>
+<li><p><span class="math inline">\(P\)</span>, es el precio entero de un bono o valor actual del mismo (<span class="math inline">\(V_0\)</span>).</p></li>
+<li><p><span class="math inline">\(r\)</span>, es la TIR.</p></li>
+<li><p><span class="math inline">\(t\)</span>, es el tiempo.</p></li>
+</ul>
+<p>De manera que si sustituimos por los datos del problema y calculamos, tenemos que la Duración del bono es de:</p>
+<p><span class="math display">\[D=\frac{\left(\frac{152}{365}\right)\frac{4500}{\left(1+0.05\right)^{\frac{152}{365}}}+\left(1+\frac{152}{365}\right)\frac{4500}{\left(1+0.05\right)^{1+\frac{152}{365}}}+\left(2+\frac{152}{365}\right)\frac{4500}{\left(1+0.05\right)^{2+\frac{152}{365}}}+\left(3+\frac{152}{365}\right)\frac{104500}{\left(1+0.05\right)^{3+\frac{152}{365}}}}{101063.94618}\]</span></p>
+<p><span class="math display">\[D=3.162\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+<ol start="3" type="1">
+<li>Si la TIR sube 40 p.b. calcular el nuevo precio del bono</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li><p>99142,747</p></li>
+<li><p>101025,372</p></li>
+<li><p>99846.562</p></li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Solución
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la c</strong>.</p>
+<p>En primer lugar calculamos la duración corregida a partir de la duración que hemos calculado en el apartado anterior:</p>
+<p><span class="math display">\[D_{corregida}=\frac{Duracion\,de\, Macaulay}{\left(1+TIR\right)}=\frac{D}{\left(1+TIR\right)} \]</span> De forma que nuestra duración corregida será:</p>
+<p><span class="math display">\[D_{corregida}=\frac{3.162}{1+0.05}=3.01142\]</span> Para estimar la variación del precio ante variaciones en la TIR emplearemos la siguiente expresión,</p>
+<p><span class="math display">\[P_1\simeq P_0\cdot\left[1+((-D_{corregida})\cdot\Delta TIR)\right]\]</span></p>
+<p>donde,</p>
+<ul>
+<li><p><span class="math inline">\(P_1\)</span>, es el precio estimado del bono ante una variación de la TIR.</p></li>
+<li><p><span class="math inline">\(P_0\)</span>, es el precio actual del bono .</p></li>
+<li><p><span class="math inline">\(D_{corregida}\)</span>, es la duración corregida.</p></li>
+</ul>
+<p>Si sustituimos por los datos del problema y calculamos, tenemos que el nuevo precio del bono ante una subida de la TIR sube de 40 p.b. será de:</p>
+<p><span class="math display">\[P_1\simeq 101063.94618\left(1+\left(\left(-3.01142\right)\cdot \:0.004\right)\right)=99846.56222\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+</section>
+<section id="renta-fija-ii-2021" class="level3">
+<h3 class="anchored" data-anchor-id="renta-fija-ii-2021">Renta Fija II (2021)</h3>
+<ol type="1">
+<li>La empresa ALFA quiere comprar un paquete de bonos de la empresa DELTA. La información de la que disponemos es la siguiente:</li>
+</ol>
+<ul>
+<li><p>Nominal: 100.000 eur</p></li>
+<li><p>Cupón anual: 9%</p></li>
+<li><p>TIR a vencimiento: 5.75%</p></li>
+<li><p>Fecha valor: 2-10-2021</p></li>
+<li><p>Fecha vencimiento: 31-12-2024</p></li>
+</ul>
+<p>Para la compra de este paquete de bonos la de 500.000 euros. La entidad le ofrece dos empresa ALFA acude a su entidad bancaria y solicita una financiación propuestas:</p>
+<ol type="1">
+<li><p>Préstamo de 500.000 euros a 30 meses, periodicidad de cuotas mensuales, tipo de interés nominal 4,15%, comisiones 0.</p></li>
+<li><p>Préstamo de 500.000 euros a 36 meses, periodicidad de cuotas mensuales, tipo de interés nominal 4%, comisión de apertura 0,25%.</p></li>
+<li><p>Hallar el precio del bono a 2-10-2021:</p></li>
+</ol>
+<!-- -->
+<ol type="a">
+<li><p>116.115,8357</p></li>
+<li><p>117.054,9150</p></li>
+<li><p>115.633,1742</p></li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Solución
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la a</strong>.</p>
+<p>Para realizar los cálculos a mano debemos de usar la siguiente fórmula que describe un descuento de flujos:</p>
+<p><span class="math display">\[P_0=\sum_{ t=1}^{ n}\frac{F_t}{(1+r)^{t}}\]</span></p>
+<p>donde,</p>
+<ul>
+<li><p><span class="math inline">\(P_0\)</span>, es el precio entero de un bono o valor actual del mismo (<span class="math inline">\(V_0\)</span>).</p></li>
+<li><p><span class="math inline">\(F_t\)</span>, Flujos a percibir por la tenencia de un bono (cupón y principal).</p></li>
+<li><p><span class="math inline">\(r\)</span>, es la TIR.</p></li>
+<li><p><span class="math inline">\(t\)</span>, es el tiempo.</p></li>
+</ul>
+<p>Si sustituimos los valores y calculamos</p>
+<p><span class="math display">\[P_0=\frac{9}{\left(1+0.0575\right)^{\frac{90}{365}}}+\frac{9}{\left(1+0.0575\right)^{1+\frac{90}{365}}}+\frac{9}{\left(1+0.0575\right)^{2+\frac{90}{365}}}+\frac{109}{\left(1+0.0575\right)^{3+\frac{90}{365}}}\]</span> el precio del bono en el momento actual, tenemos que:</p>
+<p><span class="math display">\[P_0=116.11583\]</span></p>
+<p>Obtenemos el mismo resultado con la calculadora Casio FC 200v:</p>
+<p>Función: BOND</p>
+<p>Set: Annu/Date</p>
+<p>d1= 02102021 + EXE</p>
+<p>d2= 31122024 + EXE</p>
+<p>RDV= 100 + EXE</p>
+<p>CPN= 9 + EXE</p>
+<p>PRC= 0 + EXE</p>
+<p>YLD= 5.75 + EXE</p>
+<p>PRC= SOLVE #vuelves sobre “PRC” y pulsas “SOLVE” para obtener los siguientes resultados:</p>
+<p>PRC= -109.335 #es el precio ex cupón</p>
+<p>INT= -6.7808 #es el cupón corrido</p>
+<p><strong>CST= -116.1158 #es el precio + cupón corrido</strong></p>
+<p>Nota: siempre devuelve en negativo por que entiende que es un desembolso (compra).</p>
+</div>
+</div>
+</div>
+<hr>
+<ol start="2" type="1">
+<li>Calcular la duración del bono:</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li><p>2,745312480</p></li>
+<li><p>2,90232678</p></li>
+<li><p>2,804290364</p></li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Solución
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la c</strong>.</p>
+<p>Para calcular la Duración de Macaulay (o simplemente Duración)</p>
+<p><span class="math display">\[D=\frac{\sum_{t=1}^{n}\frac{F_t\cdot t}{\left(1+r\right)^t}}{P}\]</span></p>
+<p>donde,</p>
+<ul>
+<li><p><span class="math inline">\(D\)</span>, Duración de Macaulay.</p></li>
+<li><p><span class="math inline">\(F_t\)</span>, Flujos a percibir por la tenencia de un bono (cupón y principal).</p></li>
+<li><p><span class="math inline">\(P\)</span>, es el precio entero de un bono o valor actual del mismo (<span class="math inline">\(V_0\)</span>).</p></li>
+<li><p><span class="math inline">\(r\)</span>, es la TIR.</p></li>
+<li><p><span class="math inline">\(t\)</span>, es el tiempo.</p></li>
+</ul>
+<p>De forma que si sustituimos y calculamos,</p>
+<p><span class="math display">\[D=\frac{\left(\frac{90}{365}\right)\frac{9}{\left(1+0.0575\right)^{\frac{90}{365}}}+\left(1+\frac{90}{365}\right)\frac{9}{\left(1+0.0575\right)^{1+\frac{90}{365}}}+\left(2+\frac{90}{365}\right)\frac{9}{\left(1+0.0575\right)^{2+\frac{90}{365}}}+\left(3+\frac{90}{365}\right)\frac{109}{\left(1+0.0575\right)^{3+\frac{90}{365}}}}{116.11583}\]</span></p>
+<p>tenemos q ue la Duracuón es de:</p>
+<p><span class="math display">\[D=2.80429\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+<ol start="3" type="1">
+<li><p>¿En función de la TAE. ¿cuál es la propuesta de financiación más favorable para la empresa ALFA?</p>
+<ol type="1">
+<li><p>Préstamo de comisiones 0. 500.000 euros a 30 meses, periodicidad de cuotas mensuales, tipo de interés nominal 4,15%,</p></li>
+<li><p>Préstamo de 500.000 euros a 36 meses, periodicidad de cuotas mensuales, tipo de interés nominal 4 %, comisión de apertura 0,25%.</p></li>
+</ol></li>
+</ol>
+<!-- -->
+<ol type="a">
+<li><p>1</p></li>
+<li><p>2</p></li>
+<li><p>Son idénticas</p></li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Solución
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la a</strong>.</p>
+<p>En primer lugar vamos a calcular cuál sería la talla S con comisiones cero, ya que en este caso sabemos que la tasa actual equivalente coincidirá con la tira anual. Es decir que nos están pidiendo calcular cuál será el tipo de interés anual efectivo en capitalización compuesta.</p>
+<p>Si lo calculamos empleando la fórmula:</p>
+<p><span class="math display">\[TAE=\left(1+\frac{j\left(m\right)}{m}\right)^m-1\]</span> simplemente, susutituimos y calculamos:</p>
+<p><span class="math display">\[TAE=\left(1+\frac{0.0415}{12}\right)^{12}-1=0.04229\left(\approx 4.23\%\right)\]</span></p>
+<p>Podemos usar la calculadora financiera Casio FC200V y FC100V,</p>
+<ul>
+<li><p>Función: “CNVR”</p></li>
+<li><p>n = 12</p></li>
+<li><p>I% = 4.15</p></li>
+<li><p>EFF = variable a resolver (pulsamos sobre la tecla “SOLVE”)</p></li>
+</ul>
+<p>Y, nos devueve un resultado de:</p>
+<p><span class="math display">\[EFF = 4.2299\% = TAE\]</span></p>
+<p>Para calcular la TAE con comisiones usaremos la calculadora financiera con la función CMPD. De esta forma nos permitirá llevar a cabo el <strong>primer paso hallar la cuota</strong>:</p>
+<p>CALCULADORA FC-100V/200V</p>
+<p>Modo: CMPD</p>
+<p>Set: Begin/End (Pagos al inicio o al final del periodo)</p>
+<p>n: 36 (Número de periodos)</p>
+<p>I%: 4 (Tipo de interés nominal)</p>
+<p><strong>PV: 500000 (Valor presente o principal sin aplicar la comisión)</strong></p>
+<p>PMT: 0 (Importe de los pagos periódicos, <strong>es lo que buscamos¿¿??</strong>)</p>
+<p>FV: 0 (Valor futuro)</p>
+<p>P/Y: 12 (Número de pagos anuales)</p>
+<p>C/Y: 12 (Número de periodos dentro de un año)</p>
+<p>Cálculo: Podemos calcular n, I, PV, PMT o FV con el SOLVE, dando los otros datos De forma que si <strong>resolvemos por PMT tenemos que el resultado es de: 14761.9925 €</strong></p>
+<p>Conocida la cuota, <strong>el segundo paso será hallar el tipo de interés efectivo anual, pagadero mensual</strong>:</p>
+<p>Modo: CMPD</p>
+<p>Set: Begin/End (Pagos al inicio o al final del periodo)</p>
+<p>n: 36 (Número de periodos)</p>
+<p><strong>I%: 0 (Tipo de interés efectivo)</strong></p>
+<p><strong>PV: 500000(1-0.0025) (Valor presente o principal tras aplicar la comisión de apertura)</strong></p>
+<p><strong>PMT: 14761.9925 (dejamos el PMT que hemos calculado)</strong></p>
+<p>FV: 0 (Valor futuro)</p>
+<p>P/Y: 12 (Número de pagos anuales)</p>
+<p><strong>C/Y: 1 (Número de compuestos dentro de un año, introducimos el valor 1 ya que buscamos el efectivo anual o TAE)</strong></p>
+<p>Cálculo: Podemos calcular n, I, PV, PMT o FV con el SOLVE, dando los otros datos De forma que si <strong>resolvemos por I% y tenemos que el resultado es de: 4.2467%</strong></p>
+<p>De la misma forma, <strong>podemos plantear una ecuación donde conocemos el valor actual y el importe a pagar durante las próximas 36 mensualidades</strong>. Es decir, que si <strong>despejamos cuál es el tipo de interés que equivale</strong> a esta operación; en donde lo que que tenemos a la parte izquierda de la <strong>igualdad es lo efectivamente recibido desde la entidad</strong> financiera (500000-0.0025 x 5000000), y al lado derecho, <strong>lo que efectivamente acabaremos pagando</strong>: la renta constante de 36 términos (de 14761.992 euros) que deberemos de amortizar:</p>
+<p><span class="math display">\[\left(500000\left(1-0.0025\right)\right)=14761.9925\left(\frac{1-\left(1+\frac{i_{12}}{12}\right)^{-36}}{\frac{i_{12}}{12}}\right)\]</span></p>
+<p>donde el tipo efectivo mensual es igual a 0.003472</p>
+<p><span class="math display">\[TAE=(1+0.003472)^{12}-1=0.0424(4.247\%)\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+</section>
+<section id="crédito-y-tae" class="level3">
+<h3 class="anchored" data-anchor-id="crédito-y-tae">Crédito y TAE</h3>
+<p>El cliente se plantea realizar otra inversión en carteras por valor de 150.000 y pretende solicitar financiación por el citado importe a su entidad financiera ALFA. Esta le ofrece las siguientes condiciones:</p>
+<ul>
+<li><p>Importe 150.000 euros</p></li>
+<li><p>Plazo 36 meses. Amortización por el sistema de mensualidad constante o sistema francés</p></li>
+<li><p>Tipo interés 3,75%</p></li>
+<li><p>Comisión apertura 0,25%</p></li>
+</ul>
+<p>Se pide:</p>
+<ol type="1">
+<li>¿A cuánto ascienden los costes de la operación que pagará el cliente si solicita el crédito?</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li><p>9.204,68</p></li>
+<li><p>17.250</p></li>
+<li><p>12.380,42</p></li>
+<li><p>8.425,40</p></li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Solución
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Respuesta correcta la a.</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Cuadro resumen</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cuota</td>
+<td>4.411,94 €</td>
+</tr>
+<tr class="even">
+<td>TAE</td>
+<td>3,99 %</td>
+</tr>
+<tr class="odd">
+<td>TIN anual</td>
+<td>3,82 %</td>
+</tr>
+<tr class="even">
+<td>Coste Total</td>
+<td>9.204,68 €</td>
+</tr>
+<tr class="odd">
+<td>Comisiones</td>
+<td>375,00 €</td>
+</tr>
+<tr class="even">
+<td>Intereses</td>
+<td>8.829,68 €</td>
+</tr>
+<tr class="odd">
+<td>Capital</td>
+<td>150.000,00 €</td>
+</tr>
+</tbody>
+</table>
+<p>Calculamos la cuota,</p>
+<p><span class="math display">\[150000=c\cdot\frac{1-\left(1+\frac{0.0375}{12}\right)^{-36}}{\frac{0.0375}{12}}\]</span></p>
+<p><span class="math display">\[c=4411.93545\dots \]</span> Calculamos la TAE,</p>
+<p><span class="math display">\[(150000(1-0.0025))=4411.93545\cdot\frac{1-\left(1+\frac{TAE}{12}\right)^{-36}}{\frac{TAE}{12}}\]</span></p>
+<p><span class="math display">\[TAE=3.99\% \]</span></p>
+<p>Calculamos la comisión de apertura,</p>
+<p><span class="math display">\[C=150000\cdot \:0.0025=375\]</span> El pago total de cuotas,</p>
+<p><span class="math display">\[T_C= 36\cdot \:4411.93545=158829.6762\]</span></p>
+<p>Sumamos ahora, la comisión de apertura y el pago total de cuotas, y</p>
+<p><span class="math display">\[C_T=75+158829.6762=159204.6762\]</span></p>
+<p>por diferencia, obtenemos “A cuánto ascienden los costes de la operación que pagará el cliente si solicita el crédito”:</p>
+<p><span class="math display">\[159204.6762-150000=9204.6762\]</span></p>
+<p>Siendo el <strong>cuadro de amortización</strong> de la operación el siguiente:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Periodo</th>
+<th>Cuota</th>
+<th>Capital</th>
+<th>Intereses</th>
+<th>Pendiente</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>4.411,94</td>
+<td>3.943,19</td>
+<td>468,75</td>
+<td>146.056,81</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>4.411,94</td>
+<td>3.955,51</td>
+<td>456,43</td>
+<td>142.101,31</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>4.411,94</td>
+<td>3.967,87</td>
+<td>444,07</td>
+<td>138.133,44</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>4.411,94</td>
+<td>3.980,27</td>
+<td>431,67</td>
+<td>134.153,17</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>4.411,94</td>
+<td>3.992,71</td>
+<td>419,23</td>
+<td>130.160,46</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>4.411,94</td>
+<td>4.005,18</td>
+<td>406,75</td>
+<td>126.155,28</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>4.411,94</td>
+<td>4.017,70</td>
+<td>394,24</td>
+<td>122.137,58</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>4.411,94</td>
+<td>4.030,26</td>
+<td>381,68</td>
+<td>118.107,32</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>4.411,94</td>
+<td>4.042,85</td>
+<td>369,09</td>
+<td>114.064,47</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>4.411,94</td>
+<td>4.055,48</td>
+<td>356,45</td>
+<td>110.008,99</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>4.411,94</td>
+<td>4.068,16</td>
+<td>343,78</td>
+<td>105.940,83</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>4.411,94</td>
+<td>4.080,87</td>
+<td>331,07</td>
+<td>101.859,96</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>4.411,94</td>
+<td>4.093,62</td>
+<td>318,31</td>
+<td>97.766,34</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>4.411,94</td>
+<td>4.106,42</td>
+<td>305,52</td>
+<td>93.659,92</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>4.411,94</td>
+<td>4.119,25</td>
+<td>292,69</td>
+<td>89.540,67</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>4.411,94</td>
+<td>4.132,12</td>
+<td>279,81</td>
+<td>85.408,55</td>
+</tr>
+<tr class="odd">
+<td>17</td>
+<td>4.411,94</td>
+<td>4.145,03</td>
+<td>266,90</td>
+<td>81.263,52</td>
+</tr>
+<tr class="even">
+<td>18</td>
+<td>4.411,94</td>
+<td>4.157,99</td>
+<td>253,95</td>
+<td>77.105,53</td>
+</tr>
+<tr class="odd">
+<td>19</td>
+<td>4.411,94</td>
+<td>4.170,98</td>
+<td>240,95</td>
+<td>72.934,55</td>
+</tr>
+<tr class="even">
+<td>20</td>
+<td>4.411,94</td>
+<td>4.184,01</td>
+<td>227,92</td>
+<td>68.750,54</td>
+</tr>
+<tr class="odd">
+<td>21</td>
+<td>4.411,94</td>
+<td>4.197,09</td>
+<td>214,85</td>
+<td>64.553,45</td>
+</tr>
+<tr class="even">
+<td>22</td>
+<td>4.411,94</td>
+<td>4.210,21</td>
+<td>201,73</td>
+<td>60.343,24</td>
+</tr>
+<tr class="odd">
+<td>23</td>
+<td>4.411,94</td>
+<td>4.223,36</td>
+<td>188,57</td>
+<td>56.119,88</td>
+</tr>
+<tr class="even">
+<td>24</td>
+<td>4.411,94</td>
+<td>4.236,56</td>
+<td>175,37</td>
+<td>51.883,32</td>
+</tr>
+<tr class="odd">
+<td>25</td>
+<td>4.411,94</td>
+<td>4.249,80</td>
+<td>162,14</td>
+<td>47.633,52</td>
+</tr>
+<tr class="even">
+<td>26</td>
+<td>4.411,94</td>
+<td>4.263,08</td>
+<td>148,85</td>
+<td>43.370,44</td>
+</tr>
+<tr class="odd">
+<td>27</td>
+<td>4.411,94</td>
+<td>4.276,40</td>
+<td>135,53</td>
+<td>39.094,03</td>
+</tr>
+<tr class="even">
+<td>28</td>
+<td>4.411,94</td>
+<td>4.289,77</td>
+<td>122,17</td>
+<td>34.804,27</td>
+</tr>
+<tr class="odd">
+<td>29</td>
+<td>4.411,94</td>
+<td>4.303,17</td>
+<td>108,76</td>
+<td>30.501,09</td>
+</tr>
+<tr class="even">
+<td>30</td>
+<td>4.411,94</td>
+<td>4.316,62</td>
+<td>95,32</td>
+<td>26.184,48</td>
+</tr>
+<tr class="odd">
+<td>31</td>
+<td>4.411,94</td>
+<td>4.330,11</td>
+<td>81,83</td>
+<td>21.854,37</td>
+</tr>
+<tr class="even">
+<td>32</td>
+<td>4.411,94</td>
+<td>4.343,64</td>
+<td>68,29</td>
+<td>17.510,73</td>
+</tr>
+<tr class="odd">
+<td>33</td>
+<td>4.411,94</td>
+<td>4.357,21</td>
+<td>54,72</td>
+<td>13.153,51</td>
+</tr>
+<tr class="even">
+<td>34</td>
+<td>4.411,94</td>
+<td>4.370,83</td>
+<td>41,10</td>
+<td>8.782,68</td>
+</tr>
+<tr class="odd">
+<td>35</td>
+<td>4.411,94</td>
+<td>4.384,49</td>
+<td>27,45</td>
+<td>4.398,19</td>
+</tr>
+<tr class="even">
+<td>36</td>
+<td>4.411,94</td>
+<td>4.398,19</td>
+<td>13,74</td>
+<td>0,00</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr>
+<ol start="2" type="1">
+<li>Otra entidad financiera, BETA, le ofrece financiar la operación con las siguientes condiciones:</li>
+</ol>
+<ul>
+<li><p>Importe 150.000 euros</p></li>
+<li><p>Plazo 36 meses con el mismo sistema de amortización que el préstamo anterior</p></li>
+<li><p>Tipo interés 3,90%</p></li>
+<li><p>Comisión apertura 0</p></li>
+</ul>
+<p>En función de la TAE, ¿cuál es la opción más favorable para el cliente?</p>
+<ol type="a">
+<li><p>Opción ALFA</p></li>
+<li><p>Opción BETA</p></li>
+<li><p>Son iguales</p></li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Solución
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la b.</strong></p>
+<p>Si calculamos la cuota:</p>
+<p><span class="math display">\[
+150000=c\frac{1-\left(1+\frac{0.039}{12}\right)^{-36}}{\frac{0.039}{12}}
+\]</span></p>
+<p><span class="math display">\[
+c=4421.92817\dots
+\]</span></p>
+<p>Calculamos la TAE:</p>
+<p><span class="math display">\[
+150000=4421.92817\cdot \frac{1-\left(1+\frac{TAE}{12}\right)^{-36}}{\frac{TAE}{12}}
+\]</span></p>
+<p><span class="math display">\[
+TAE=3.97 \%
+\]</span></p>
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td></td>
+<td>Opción ALFA</td>
+<td>Opción BETA</td>
+</tr>
+<tr class="even">
+<td>Cuota</td>
+<td>4.411,94 €</td>
+<td>4.421,93 €</td>
+</tr>
+<tr class="odd">
+<td><strong>TAE</strong></td>
+<td><strong>3,99 %</strong></td>
+<td><strong>3,97 %</strong></td>
+</tr>
+<tr class="even">
+<td>TIN anual</td>
+<td>3,82 %</td>
+<td>3,97 %</td>
+</tr>
+<tr class="odd">
+<td><strong>Coste Total</strong></td>
+<td><strong>9.204,68 €</strong></td>
+<td><strong>9.189,41 €</strong></td>
+</tr>
+<tr class="even">
+<td>Comisiones</td>
+<td>375,00 €</td>
+<td>0,00 €</td>
+</tr>
+<tr class="odd">
+<td>Intereses</td>
+<td>8.829,68 €</td>
+<td>9.189,41 €</td>
+</tr>
+<tr class="even">
+<td>Capital</td>
+<td>150.000,00 €</td>
+<td>150.000,00 €</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 40%">
+<col style="width: 5%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><h3 id="cuadro-de-amortización" class="anchored">Cuadro de Amortización</h3></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Periodo</th>
+<th>Cuota</th>
+<th>Capital</th>
+<th>Intereses</th>
+<th>Pendiente</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>4.421,93</td>
+<td>3.934,43</td>
+<td>487,50</td>
+<td>146.065,57</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>4.421,93</td>
+<td>3.947,22</td>
+<td>474,71</td>
+<td>142.118,36</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>4.421,93</td>
+<td>3.960,04</td>
+<td>461,88</td>
+<td>138.158,31</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>4.421,93</td>
+<td>3.972,91</td>
+<td>449,01</td>
+<td>134.185,40</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>4.421,93</td>
+<td>3.985,83</td>
+<td>436,10</td>
+<td>130.199,57</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>4.421,93</td>
+<td>3.998,78</td>
+<td>423,15</td>
+<td>126.200,79</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>4.421,93</td>
+<td>4.011,78</td>
+<td>410,15</td>
+<td>122.189,02</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>4.421,93</td>
+<td>4.024,81</td>
+<td>397,11</td>
+<td>118.164,20</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>4.421,93</td>
+<td>4.037,89</td>
+<td>384,03</td>
+<td>114.126,31</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>4.421,93</td>
+<td>4.051,02</td>
+<td>370,91</td>
+<td>110.075,29</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>4.421,93</td>
+<td>4.064,18</td>
+<td>357,74</td>
+<td>106.011,11</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>4.421,93</td>
+<td>4.077,39</td>
+<td>344,54</td>
+<td>101.933,72</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>4.421,93</td>
+<td>4.090,64</td>
+<td>331,28</td>
+<td>97.843,07</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>4.421,93</td>
+<td>4.103,94</td>
+<td>317,99</td>
+<td>93.739,14</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>4.421,93</td>
+<td>4.117,28</td>
+<td>304,65</td>
+<td>89.621,86</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>4.421,93</td>
+<td>4.130,66</td>
+<td>291,27</td>
+<td>85.491,20</td>
+</tr>
+<tr class="odd">
+<td>17</td>
+<td>4.421,93</td>
+<td>4.144,08</td>
+<td>277,85</td>
+<td>81.347,12</td>
+</tr>
+<tr class="even">
+<td>18</td>
+<td>4.421,93</td>
+<td>4.157,55</td>
+<td>264,38</td>
+<td>77.189,57</td>
+</tr>
+<tr class="odd">
+<td>19</td>
+<td>4.421,93</td>
+<td>4.171,06</td>
+<td>250,87</td>
+<td>73.018,51</td>
+</tr>
+<tr class="even">
+<td>20</td>
+<td>4.421,93</td>
+<td>4.184,62</td>
+<td>237,31</td>
+<td>68.833,89</td>
+</tr>
+<tr class="odd">
+<td>21</td>
+<td>4.421,93</td>
+<td>4.198,22</td>
+<td>223,71</td>
+<td>64.635,67</td>
+</tr>
+<tr class="even">
+<td>22</td>
+<td>4.421,93</td>
+<td>4.211,86</td>
+<td>210,07</td>
+<td>60.423,81</td>
+</tr>
+<tr class="odd">
+<td>23</td>
+<td>4.421,93</td>
+<td>4.225,55</td>
+<td>196,38</td>
+<td>56.198,26</td>
+</tr>
+<tr class="even">
+<td>24</td>
+<td>4.421,93</td>
+<td>4.239,28</td>
+<td>182,64</td>
+<td>51.958,98</td>
+</tr>
+<tr class="odd">
+<td>25</td>
+<td>4.421,93</td>
+<td>4.253,06</td>
+<td>168,87</td>
+<td>47.705,91</td>
+</tr>
+<tr class="even">
+<td>26</td>
+<td>4.421,93</td>
+<td>4.266,88</td>
+<td>155,04</td>
+<td>43.439,03</td>
+</tr>
+<tr class="odd">
+<td>27</td>
+<td>4.421,93</td>
+<td>4.280,75</td>
+<td>141,18</td>
+<td>39.158,28</td>
+</tr>
+<tr class="even">
+<td>28</td>
+<td>4.421,93</td>
+<td>4.294,66</td>
+<td>127,26</td>
+<td>34.863,61</td>
+</tr>
+<tr class="odd">
+<td>29</td>
+<td>4.421,93</td>
+<td>4.308,62</td>
+<td>113,31</td>
+<td>30.554,99</td>
+</tr>
+<tr class="even">
+<td>30</td>
+<td>4.421,93</td>
+<td>4.322,62</td>
+<td>99,30</td>
+<td>26.232,37</td>
+</tr>
+<tr class="odd">
+<td>31</td>
+<td>4.421,93</td>
+<td>4.336,67</td>
+<td>85,26</td>
+<td>21.895,70</td>
+</tr>
+<tr class="even">
+<td>32</td>
+<td>4.421,93</td>
+<td>4.350,77</td>
+<td>71,16</td>
+<td>17.544,93</td>
+</tr>
+<tr class="odd">
+<td>33</td>
+<td>4.421,93</td>
+<td>4.364,91</td>
+<td>57,02</td>
+<td>13.180,02</td>
+</tr>
+<tr class="even">
+<td>34</td>
+<td>4.421,93</td>
+<td>4.379,09</td>
+<td>42,84</td>
+<td>8.800,93</td>
+</tr>
+<tr class="odd">
+<td>35</td>
+<td>4.421,93</td>
+<td>4.393,33</td>
+<td>28,60</td>
+<td>4.407,60</td>
+</tr>
+<tr class="even">
+<td>36</td>
+<td>4.421,93</td>
+<td>4.407,60</td>
+<td>14,32</td>
+<td>0,00</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr>
+</section>
+<section id="renta-fija-valoración-y-fiscalidad-irpf" class="level3">
+<h3 class="anchored" data-anchor-id="renta-fija-valoración-y-fiscalidad-irpf">Renta Fija (valoración y fiscalidad IRPF)</h3>
+<p>La empresa Palmira SA realizar una emisión de bonos que cotizará en el Mercado AIAF de Renta Fija. El vencimiento programado es a 2,5 años y ofrece un cupón cuya rentabilidad es del 5,75%. El pago del cupón es semestral. El nominal de cada título es de 600€.</p>
+<p>Se pide:</p>
+<!-- -->
+<ol type="1">
+<li>Si pasados 6 meses la rentabilidad anual de mercado es del 7,00% y la semestral es del 3,441% ¿Cuál será su precio de mercado?</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li><p>587,51€</p></li>
+<li><p>516,17€</p></li>
+<li><p>650,96€</p></li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Solución
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-10" class="callout-10-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la a</strong>.</p>
+<p>Pasados 6 meses el <strong>precio de mercado</strong> de este bono, expresado como un <strong>porcentaje</strong> sobre el valor nominal, es de:</p>
+<p><span class="math display">\[P_0=\frac{\frac{5.75}{2}}{\left(1+0.03441\right)^1}+\frac{\frac{5.75}{2}}{\left(1+0.03441\right)^2}+\frac{\frac{5.75}{2}}{\left(1+0.03441\right)^3}+\frac{\frac{5.75}{2}+100}{\left(1+0.03441\right)^4}\]</span></p>
+<p><span class="math display">\[P_0=97.91812\% \]</span></p>
+<p>Si el precio obtenido del bono <strong>ahora lo expresamos en euros</strong>, tenemos que:</p>
+<p><span class="math display">\[P_0=\frac{97.91812}{100}\cdot \:\:600=587.50872\ euros\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+<ol start="2" type="1">
+<li>¿Cuál será su duración y su duración modificada?</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li><p>1,917 y 1,791</p></li>
+<li><p>1,850 y 1,729</p></li>
+<li><p>1,871 y 1,748</p></li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Solución
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-11" class="callout-11-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la a</strong>.</p>
+<p>Donde su duración será de:</p>
+<p><span class="math display">\[D=\frac{0.5\cdot \frac{\frac{5.75}{2}}{\left(1+0.03441\right)^1}+1\cdot \frac{\frac{5.75}{2}}{\left(1+0.03441\right)^2}+1.5\cdot \frac{\frac{5.75}{2}}{\left(1+0.03441\right)^3}+2\cdot \frac{\frac{5.75}{2}+100}{\left(1+0.03441\right)^4}}{97.91812}=1.91671\]</span></p>
+<p><span class="math display">\[D=1.91671\]</span></p>
+<p>y, la duración modificada de</p>
+<p><span class="math display">\[D_m=\frac{1.91671}{\left(1+0.07\right)}=1,791317757\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+<ol start="3" type="1">
+<li>Calcule el coste fiscal derivado de las siguientes operaciones realizadas en el mismo período impositivo por un contribuyente del Impuesto sobre la Renta de las Personas Físicas que fuese titular de 50 bonos adquiridos a un precio unitario de 650€:</li>
+</ol>
+<!-- -->
+<ul>
+<li><p>Cobro del primer cupón semestral.</p></li>
+<li><p>Transmisión de 50 bonos,una vez percibido el primer cupón semestral, a un precio unitario de 625€, y pagando una comisión de venta del 0,10% sobre el efectivo de venta.</p></li>
+</ul>
+<ol type="a">
+<li><p>-243,43€</p></li>
+<li><p>23,15625€</p></li>
+<li><p>142,5€</p></li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Solución
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-12" class="callout-12-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la a</strong>.</p>
+<p>Por el importe de los intereses percibidos, es decir, el cobro del primer cupón semestral (nominal= 600 euros y cupón del 5,75%), se aplicará una <strong>retención a cuenta del IRPF del 19%</strong>, esto es:</p>
+<p><span class="math display">\[50\left(600\cdot \:0.0575\right)\left(0.19\right)=327.75\]</span></p>
+<p>Luego, como se cobrará el <strong>importe NETO de impuestos</strong>, no supone un coste fiscal de carácter explícito, sino implícito; y que no tendremos que considerar en la resolución del ejercicio planteado:</p>
+<p><span class="math display">\[50\left(600\cdot \:0.0575\right)\left(1-0.19\right)=1397.25\]</span></p>
+<p>Sin embargo, el rendimiento obtenido por la transmisión del título (diferencia entre el valor de transmisión y el de adquisición, minorado por los gastos de compra y venta justificados) no está sujeto a retención. De forma que, supondrá un coste fiscal para un contribuyente en el Impuesto sobre la Renta de las Personas Físicas, teniendo la consideración de un rendimiento de capital mobiliario, sujeto y que tributará al 19%.</p>
+<p><span class="math display">\[\left(50\left(625-650\right)-\left(0.001\cdot \:50\cdot \:625\right)\right)\cdot \:0.19=-243.4375\]</span> Como los rendimientos obtenidos por el contribuyente son negativos, se podrán compensarán con el saldo positivo de otros rendimientos del capital mobiliario obtenidos en este mismo período impositivo, teniendo como límite ese saldo positivo. Y, si este fuera insuficiente, su importe se podrá compensará con el saldo positivo de las ganancias y pérdidas patrimoniales que se declaren en el otro componente de la base imponible del ahorro, con el límite del 25 por ciento de dicho saldo positivo.</p>
+</div>
+</div>
+</div>
+<hr>
+</section>
+<section id="renta-fija-duración-modificada-y-nuevo-precio-ante-variación-de-la-tir" class="level3">
+<h3 class="anchored" data-anchor-id="renta-fija-duración-modificada-y-nuevo-precio-ante-variación-de-la-tir">Renta Fija (Duración modificada y nuevo precio ante variación de la TIR)</h3>
+<p>Se dispone de la siguiente información relativa a un bono de la empresa ABC:</p>
+<p>Fecha Valor: 15/10/2022</p>
+<p>Fecha de Vencimiento: 15/10/2027</p>
+<p>Cupón anual: 4,25%</p>
+<p>TIR: 3,27%</p>
+<p>Nominal: 1.000 euros</p>
+<p>Se pide:</p>
+<ol type="1">
+<li>Calcular la duración modificada del bono</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li><p>4,47</p></li>
+<li><p>4,62</p></li>
+<li><p>4,22</p></li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Solución
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-13" class="callout-13-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Calculamos el precio entero:</p>
+<p><span class="math display">\[P_0=\frac{4.25}{\left(1+0.0327\right)^{1\:}}+\frac{4.25}{\left(1+0.0327\right)^{2\:}}+\frac{4.25}{\left(1+0.0327\right)^{3\:}}+\frac{4.25}{\left(1+0.0327\right)^{4\:}}+\frac{104.25}{\left(1+0.0327\right)^{5\:}}\]</span></p>
+<p><span class="math display">\[P_0=104.45372\]</span></p>
+<p>Calculamos la Duración:</p>
+<p><span class="math display">\[D=\frac{1\cdot \frac{4.25}{\left(1+0.0327\right)^{1\:}}+2\cdot \frac{4.25}{\left(1+0.0327\right)^{2\:}}+3\cdot \frac{4.25}{\left(1+0.0327\right)^{3\:}}+4\cdot \frac{4.25}{\left(1+0.0327\right)^{4\:}}+5\cdot \frac{104.25}{\left(1+0.0327\right)^{5\:}}}{104.45372}\]</span> <span class="math display">\[D=4.61828\]</span></p>
+<p>Calculamos la Duración corregida:</p>
+<p><span class="math display">\[D_c=\frac{\frac{1\cdot \frac{4.25}{\left(1+0.0327\right)^{1\:}}+2\cdot \frac{4.25}{\left(1+0.0327\right)^{2\:}}+3\cdot \frac{4.25}{\left(1+0.0327\right)^{3\:}}+4\cdot \frac{4.25}{\left(1+0.0327\right)^{4\:}}+5\cdot \frac{104.25}{\left(1+0.0327\right)^{5\:}}}{104.45372}}{\left(1+0.0327\right)}\]</span></p>
+<p><span class="math display">\[D_c=4.47204\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+<ol start="2" type="1">
+<li>Calcular el precio si la TIR de mercado disminuye en 75 puntos básicos utilizando la duración modificada.</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li><p>1.079,57</p></li>
+<li><p>1.009,50</p></li>
+<li><p>1.044,54</p></li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-14-contents" aria-controls="callout-14" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Solución
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-14" class="callout-14-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Aplicamos la siguiente fórmula donde se indica, cual será aproximadamente el nuevo precio tras la variación de la TIR:</p>
+<p><span class="math display">\[P_1\simeq P_0\cdot\left[1+((-D_{corregida})\cdot\Delta TIR)\right]\]</span> Calculamos, <span class="math display">\[P_1\simeq \left(104.45372\cdot 10\right)\cdot \left[1+\left(\left(-4.47\right)\cdot -0.0075\right)\right]=1079.55530\]</span> Y obtenemos como resultado:</p>
+<p><span class="math display">\[P_1\simeq 1079.55530\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+</section>
+<section id="renta-préstamo-francés" class="level3">
+<h3 class="anchored" data-anchor-id="renta-préstamo-francés">Renta préstamo francés</h3>
+<ol start="29" type="1">
+<li>¿Cuál es la cuota mensual de un préstamo de 135.000 euros a 60 meses, tipo de interés 8,20% anual, método de amortización sistema francés?</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li><p>11.168,71€</p></li>
+<li><p>2.750,25€</p></li>
+<li><p>11.070,00€</p></li>
+<li><p>922,50€</p></li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-15-contents" aria-controls="callout-15" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Solución
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-15" class="callout-15-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La fórmula general para calcular el <strong>valor actual de una renta constante</strong> es:</p>
+<p><span class="math display">\[V_0=c\cdot\frac{1-\left(1+i\right)^{-n}}{i}\]</span> Sustituimos los datos del problema y calculamos:</p>
+<p><span class="math display">\[135000=c\cdot \frac{1-\left(1+\frac{0.0820}{12}\right)^{-60}}{\frac{0.0820}{12}}\]</span> Obtenemos como resultado la cuota mensual en euros:</p>
+<p><span class="math display">\[c=2750.25326\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+</section>
+<section id="renta-perpetua-modelo-de-gordon" class="level3">
+<h3 class="anchored" data-anchor-id="renta-perpetua-modelo-de-gordon">Renta perpetua (modelo de Gordon)</h3>
+<p>El modelo de crecimiento constante del dividendo, también conocido como modelo de Gordon, establece que el valor de una acción se determina por la fórmula cuando el dividendo tiene una tasa de crecimiento constante:</p>
+<p><span class="math display">\[V_0 = \frac{D_1}{K_e- g}\]</span></p>
+<p>Esta fórmula se utiliza para calcular el valor presente de una renta periódica perpetua de una cuantía D (1), creciente geométricamente a una tasa g, y descontada a un tipo K.</p>
+<p>En este caso, V (0) es el valor estimado de una compañía, D(1) es el dividendo esperado del año siguiente, K es el coste de los recursos propios de la compañía considerada y g es su tasa perpetua de crecimiento de los dividendos.</p>
+<ol type="1">
+<li>Calcular la tasa de descuento que debería haber en el mercado para que las acciones de una empresa que ha prometido un dividendo constante durante toda su vida de 0,25€, estén cotizando a 3,10€ en el momento actual.</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li><p>Menor que 8%.</p></li>
+<li><p>8%</p></li>
+<li><p>Entre 8% y 9%.</p></li>
+<li><p>Mayor que 9%.</p></li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-16-contents" aria-controls="callout-16" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Solución
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-16" class="callout-16-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La tasa de descuento requerida (o tasa de rendimiento requerida) para que las acciones de esta empresa coticen a 3,10€ con un dividendo constante de 0,25€ es aproximadamente 8,06%.</p>
+<p>Para calcular la tasa de descuento requerida para que las acciones de una empresa que paga un dividendo constante cotizen a un precio específico, puedes utilizar el modelo de valoración de acciones llamado el Modelo de Gordon-Shapiro o el Modelo de Gordon. La fórmula básica para calcular la tasa de descuento (tasa de rendimiento requerida) es la siguiente:</p>
+<p><span class="math display">\[P_0 = \frac{D} {K_e - g}\]</span></p>
+<p>Donde:</p>
+<ul>
+<li><p><span class="math inline">\(P_0\)</span> es el precio actual de la acción (3,10€ en este caso).</p></li>
+<li><p><span class="math inline">\(D\)</span> es el dividendo constante que la empresa paga (0,25€ en este caso).</p></li>
+<li><p><span class="math inline">\(K_e\)</span> es la tasa de descuento o tasa de rendimiento requerida.</p></li>
+<li><p><span class="math inline">\(g\)</span> es la tasa de crecimiento de los dividendos (como se indica en el enunciado, en este caso, se asume constante, por lo que <span class="math inline">\(g\)</span> es igual a cero).</p></li>
+</ul>
+<p>Ahora, podemos resolver para <span class="math inline">\(K_e\)</span>:</p>
+<p><span class="math display">\[3.1=\:\frac{0.25}{K_e} \:;\:K_e=0.080645161290323\]</span></p>
+<p>La tasa de descuento requerida (o tasa de rendimiento requerida) para que las acciones de esta empresa coticen a 3,10€ con un dividendo constante de 0,25€ es aproximadamente 8,06%.</p>
+</div>
+</div>
+</div>
+<hr>
+<hr>
+</section>
+</section>
+<section id="caso-1-análisis-de-la-viabilidad-de-un-préstamo-personal" class="level2">
+<h2 class="anchored" data-anchor-id="caso-1-análisis-de-la-viabilidad-de-un-préstamo-personal">📁 Caso 1: Análisis de la viabilidad de un préstamo personal</h2>
+<section id="enunciado" class="level3 accordion">
+<h3 class="anchored" data-anchor-id="enunciado">🧾 Enunciado</h3>
+<p>Un cliente solicita un préstamo personal de <strong>15.000 €</strong> para financiar una reforma en su vivienda. El banco le ofrece diferentes opciones de financiación con diversos plazos e intereses. El asesor debe analizar cuál es la opción más adecuada según la capacidad de pago del cliente.</p>
+</section>
+<section id="datos-disponibles" class="level3 accordion">
+<h3 class="anchored" data-anchor-id="datos-disponibles">📊 Datos disponibles</h3>
+<ul>
+<li>Capital solicitado: 15.000 €</li>
+<li>Plazos posibles: 3, 5 y 8 años</li>
+<li>Tipo de interés nominal anual (TIN): 6 %, 5,5 % y 5 % respectivamente</li>
+<li>Comisiones: 1,5 % de apertura</li>
+<li>Sistema de amortización: Francés</li>
+</ul>
+</section>
+<section id="objetivos" class="level3 accordion">
+<h3 class="anchored" data-anchor-id="objetivos">🎯 Objetivos</h3>
+<ol type="1">
+<li>Calcular la cuota mensual en cada una de las opciones.</li>
+<li>Comparar el coste total del préstamo en cada escenario.</li>
+<li>Evaluar la carga financiera mensual en función de los ingresos del cliente.</li>
+<li>Redactar una recomendación justificando la opción más adecuada.</li>
+</ol>
+</section>
+<hr>
+</section>
+<section id="caso-2-comparativa-entre-productos-de-inversión-y-ahorro" class="level2">
+<h2 class="anchored" data-anchor-id="caso-2-comparativa-entre-productos-de-inversión-y-ahorro">📁 Caso 2: Comparativa entre productos de inversión y ahorro</h2>
+<section id="enunciado-1" class="level3 accordion">
+<h3 class="anchored" data-anchor-id="enunciado-1">🧾 Enunciado</h3>
+<p>Una clienta dispone de <strong>25.000 €</strong> y está valorando entre invertir en un depósito a plazo fijo o en un fondo de inversión conservador. Quiere conocer los rendimientos esperados y los riesgos de cada alternativa.</p>
+</section>
+<section id="datos-disponibles-1" class="level3 accordion">
+<h3 class="anchored" data-anchor-id="datos-disponibles-1">📊 Datos disponibles</h3>
+<ul>
+<li>Depósito a plazo fijo: 12 meses al 2,25 % TAE</li>
+<li>Fondo de inversión conservador: rentabilidad estimada 3,5 % anual, con volatilidad media</li>
+<li>Comisión de gestión del fondo: 1 %</li>
+</ul>
+</section>
+<section id="objetivos-1" class="level3 accordion">
+<h3 class="anchored" data-anchor-id="objetivos-1">🎯 Objetivos</h3>
+<ol type="1">
+<li>Calcular el rendimiento neto en cada opción.</li>
+<li>Comparar el riesgo y la liquidez de ambas alternativas.</li>
+<li>Formular una recomendación basada en el perfil del cliente.</li>
+</ol>
+</section>
+<hr>
+</section>
+<section id="caso-3-reestructuración-de-deudas" class="level2">
+<h2 class="anchored" data-anchor-id="caso-3-reestructuración-de-deudas">📁 Caso 3: Reestructuración de deudas</h2>
+<section id="enunciado-2" class="level3 accordion">
+<h3 class="anchored" data-anchor-id="enunciado-2">🧾 Enunciado</h3>
+<p>Un cliente acude a la entidad financiera porque no puede hacer frente a tres préstamos distintos que mantiene con diferentes entidades. El asesor debe estudiar la posibilidad de una reunificación o reestructuración de la deuda para aliviar la carga mensual.</p>
+</section>
+<section id="datos-disponibles-2" class="level3 accordion">
+<h3 class="anchored" data-anchor-id="datos-disponibles-2">📊 Datos disponibles</h3>
+<ul>
+<li>Préstamo 1: 5.000 € al 8 %, 2 años restantes</li>
+<li>Préstamo 2: 10.000 € al 6 %, 4 años restantes</li>
+<li>Préstamo 3: 3.000 € al 12 %, 1 año restante</li>
+<li>Ingresos mensuales netos del cliente: 1.200 €</li>
+</ul>
+</section>
+<section id="objetivos-2" class="level3 accordion">
+<h3 class="anchored" data-anchor-id="objetivos-2">🎯 Objetivos</h3>
+<ol type="1">
+<li>Calcular las cuotas actuales y la carga total mensual.</li>
+<li>Proponer un nuevo préstamo unificado, con condiciones asumibles.</li>
+<li>Justificar si la reunificación es aconsejable y bajo qué condiciones.</li>
+</ol>
+</section>
+<hr>
+</section>
+<section id="recomendaciones-para-el-alumno" class="level2">
+<h2 class="anchored" data-anchor-id="recomendaciones-para-el-alumno">📝 Recomendaciones para el alumno</h2>
+<div class="callout callout-style-default callout-tip callout-titled" title="¿Cómo abordar los casos?">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+¿Cómo abordar los casos?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Presenta cada caso con su análisis estructurado.</li>
+<li>Usa Quarto o R Markdown para incluir cálculos y gráficos.</li>
+<li>Documenta el razonamiento y justifica tus decisiones.</li>
+</ul>
+</div>
+</div>
+<hr>
+</section>
+<section id="recursos-útiles" class="level2">
+<h2 class="anchored" data-anchor-id="recursos-útiles">📎 Recursos útiles</h2>
+<ul>
+<li><a href="https://clientebancario.bde.es/pcb/es/">Calculadora de préstamos del Banco de España</a></li>
+<li><a href="https://www.cnmv.es/portal/Glossary.aspx">Glosario financiero CNMV</a></li>
+<li>Consulta el apartado 📐 <em>FÓRMULAS</em> para repasar las ecuaciones necesarias.</li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copiado");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copiado");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./test_intro.html" class="pagination-link" aria-label="Ejercicios tipo test">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Ejercicios tipo test</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./examenes_intro.html" class="pagination-link" aria-label="Exámenes y simulacros">
+        <span class="nav-page-text"><span class="chapter-title">Exámenes y simulacros</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

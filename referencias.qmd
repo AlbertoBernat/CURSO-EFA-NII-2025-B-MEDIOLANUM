@@ -1,0 +1,25 @@
+---
+title: "📚 Referencias y bibliografía"
+format: html
+bibliography: references.bib
+csl: apa-es-definitivo-final.csl
+lang: es
+---
+
+Este documento incluye ejemplos de citas bibliográficas que se presentan a lo largo del contenido.
+
+A lo largo del libro se irán incorporando referencias a documentos, estudios y fuentes institucionales que complementan o fundamentan los conceptos tratados en cada módulo.  
+Este apartado reúne algunas de las principales fuentes utilizadas hasta el momento, y sirve también como modelo de citación. No se trata de una bibliografía técnica exhaustiva, sino de un punto de consulta útil para profundizar o contrastar lo aprendido.
+
+* EFPA España establece los requisitos oficiales para la obtención de la certificación EFA Nivel II [@efpa2025].
+
+* La fiscalidad de las Letras, Bonos y Obligaciones del Estado está claramente definida por el Tesoro Público [@tesoro_fiscalidad_2025].
+
+* Bernstein desarrolla un enfoque racional de diversificación a largo plazo [@bernstein2012].
+
+* Fama y French analizan la relación entre rentabilidad esperada y características de las acciones [@fama1992].
+
+## 📖 Bibliografía
+
+::: {#refs}
+:::

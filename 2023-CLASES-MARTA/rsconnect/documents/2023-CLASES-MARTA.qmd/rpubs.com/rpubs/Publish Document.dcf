@@ -1,0 +1,11 @@
+name: Publish Document
+title:
+username:
+account: rpubs
+server: rpubs.com
+envVars: rpubs.com
+hostUrl: https://api.rpubs.com/api/v1/document/1061899/f36a623705fb4d4280f3fa7e05bb5cb6
+appId: https://api.rpubs.com/api/v1/document/1061899/f36a623705fb4d4280f3fa7e05bb5cb6
+bundleId: http://rpubs.com/albertoconb/1061899
+url: 1695144352.69106
+version: 1
