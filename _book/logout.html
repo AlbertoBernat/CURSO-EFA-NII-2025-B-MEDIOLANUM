@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cerrar sesión - EFA Nivel II</title>
+  <style>
+    body {
+      background-color: #f5f9ff;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .logout-container {
+      background: white;
+      padding: 2rem 3rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    h1 {
+      color: #1f2e83;
+    }
+    .button {
+      background-color: #1f2e83;
+      color: white;
+      padding: 12px 24px;
+      font-size: 16px;
+      border-radius: 6px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 1.5rem;
+    }
+    .button:hover {
+      background-color: #142063;
+    }
+    .top-link {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      font-size: 14px;
+      color: #1f2e83;
+      text-decoration: none;
+    }
+    .top-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <a href="/index.html" class="top-link">⬅️ Volver al inicio</a>
+  <div class="logout-container">
+    <h1>👋 ¿Seguro que quieres cerrar sesión?</h1>
+    <p>Al hacer clic abajo, se cerrará tu sesión y regresarás al inicio.</p>
+    <a href="https://dev-00lrsfyl7cbrzvkp.eu.auth0.com/v2/logout?returnTo=https%3A%2F%2Fcurso-efa-nii-2025.netlify.app" class="button">Cerrar sesión</a>
+  </div>
+</body>
+</html>
