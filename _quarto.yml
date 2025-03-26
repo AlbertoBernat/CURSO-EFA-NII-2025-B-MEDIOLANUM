@@ -46,6 +46,12 @@ lang: es
 
 format:
   html:
+    metadata:
+      description: "Curso intensivo para la preparación avanzada de la certificación EFA Nivel II. Sesiones, ejercicios resueltos y simulacros de examen."
+    include-in-header:
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     favicon: "images/favicon.ico"
     toc-title: "![](TOC_logo_EFA_compacto.png)"
     title-block: false
