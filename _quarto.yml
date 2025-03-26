@@ -41,6 +41,7 @@ csl: apa-5th-edition
 
 format:
   html:
+    favicon: "images/favicon_efpa_academico.png"
     toc-title: "![](TOC_logo_EFA_compacto.png)"
     title-block: false
     include-before-body: cover.html
@@ -49,9 +50,6 @@ format:
     title-block-author-single: ""
     theme: [cosmo, style.scss]
     css: styles.css
-    apple-touch-icon: "images/touch-icon.png"
-    apple-touch-icon-size: 120
-    favicon: "images/favicon.ico"
     execute:
       echo: false
       warning: false
