@@ -5,17 +5,15 @@ format: html
 
 
 
-Esta sección recoge las principales fórmulas que pueden aparecer en el examen parcial Nivel II de la certificación EFA™.
+Esta sección recoge las principales fórmulas que pueden aparecer en el examen parcial Nivel II de la certificación EFA™, incluyendo tanto las correspondientes al Nivel I como al Nivel II. Los contenidos se irán ampliando progresivamente a medida que avancemos en las distintas sesiones del curso.
 
-Están organizadas por módulo e incluyen ejemplos de aplicación cuando es relevante.
 
-- Cálculo de duración y sensibilidad en renta fija  
-- Ratios bursátiles (PER, ROE, ROA, etc.)  
-- Fórmulas de diversificación y varianza de carteras  
-- Fórmulas de fiscalidad y rentabilidad neta  
-- Cálculo de valor actual, tasa interna de rendimiento y otros indicadores  
 
-> Esta sección se irá ampliando progresivamente conforme se desarrollen las sesiones.
+
+
+
+
+
 
 
 

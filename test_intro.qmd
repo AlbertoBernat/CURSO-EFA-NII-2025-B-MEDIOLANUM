@@ -10,6 +10,807 @@ En esta sección encontrarás test de repaso por módulos y temas y preguntas ti
 Se recomienda realizar los test después de estudiar cada módulo para afianzar los conceptos y familiarizarse con el estilo del examen parcial Nivel II.
 
 
+## Sesión 2 (renta fija, rentas)
+
+
+
+1.  Si la duración de una cartera de renta fija es de 6,5 y el horizonte temporal del inversor es de 5 años, podemos afirmar que:
+
+<!-- -->
+
+a.  Nada de ello puede inferirse
+
+b.  El inversor está asumiendo un menor riesgo de precio con relación a una cartera perfectamente inmunizada.
+
+c.  La cartera esta perfectamente inmunizada.
+
+d.  Para inmunizar es necesario reducir la duración de la cartera.
+
+<details>
+
+<summary>
+
+</summary>
+
+::: {.callout-note appearance="simple"}
+La respuesta **correcta es la d**.
+
+La **inmunización** busca **igualar la duración de la cartera con el horizonte temporal** del inversor para conseguir que el valor final de la inversión sea el previsto al inicio.
+
+
+
+
+Cuando llevamos a cabo una inversión en activos de renta fija o monetarios, pueden ocurrir los siguientes casos:
+
++  Si $D > H$, esto es, **si la duración es mayor que el horizonte temporal de la inversión a cartera NO estará inmunizada** y en la medida que el horizonte temporal es inferior a la duración se incurre en una situación de **riesgo de precio**.
+
++ Si $D = H$, entonces la **duración de la cartera es igual al horizonte temporal de la inversión** y en consecuencia **la cartera estará inmunizada**.
+
++ Si $D < H$, esto es, **si la duración es menor que el horizonte temporal de la inversión la cartera NO estará inmunizada** y en la medida en que la duración de la inversión es menor que el horizonte temporal, se incurre en una situación de **riesgo de reinversión**.
+
+
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+2.  Dado un bono cupón cero que cotiza a la par, con vencimiento a 2 años y rentabilidad del 3%, ¿cuál será su duración?
+
+<!-- -->
+
+a.  2
+
+b.  1
+
+c.  1.5
+
+d.  No se dan datos suficientes para contestar la pregunta.
+
+<details>
+
+<summary>
+
+</summary>
+
+::: {.callout-note appearance="simple"}
+La respuesta **correcta es la a**.
+
+De la expresión general para el cálculo de la duración, se puede deducir que un **bono cupón cero** (un solo flujo en la fecha de vencimiento) tiene una **duración igual a su vencimiento**.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+3.  El bono A tiene una duración de 5 y el bono B de 8.75. Los dos cotizan a una TIR del 1.75%. Si se produce una subida de la TIR (homogénea para todos los tramos de la curva) del 0.25%.
+
+<!-- -->
+
+a.  El precio del bono A bajará un 1.23%
+
+b.  El precio del bono B bajará un 2.15%
+
+c.  El precio del bono A se verá menos afectado que el del bono B.
+
+d.  Todas las respuestas son correctas.
+
+<details>
+
+<summary>
+
+</summary>
+
+::: {.callout-note appearance="simple"}
+La respuesta **correcta es la d**.
+
+Calculamos la variación relativa del precio del bono A y del B, para ello empleamos la siguiente fórmula:
+
+$$\frac{\Delta P}{P}\simeq  \frac{P_1-P_0}{P_0}\simeq \left(-D_{corregida}\right)\cdot\Delta TIR$$ donde la Duración Corregida ($D_C$), se obtiene tras dividir la Duración entre uno más la TIR:
+
+$$D_{corregida}=\frac{D}{\left(1+TIR\right)}$$ Así, podemos calcular para el bono A:
+
+$$\frac{\Delta P}{P}\simeq-\left[\frac{5}{\:\left(1+0.0175\right)}\right]\cdot 0.25\simeq-1.22850\simeq-1.23\%$$ Y, para el bono B tenemos que:
+
+$$\frac{\Delta P}{P}\simeq-\left[\frac{8.75}{\:\left(1+0.0175\right)}\right]\cdot 0.25\simeq-2.14987\simeq
+-2.15\%$$
+
+Por el segundo **principio de Malkiel** una variación dada en la TIR de un bono, cuanto mayor sea el plazo hasta su vencimiento, mayor será su variación en el precio.
+
+De forma que, si se produce una subida de la TIR (homogénea para todos los tramos de la curva) del 0.25%, podemos afirmar que las tres repuestas (a, b y c) son correctas.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+4.  Respecto a la duración y el concepto de inmunización, determine cuál de las siguientes afirmaciones es correcta:
+
+<!-- -->
+
+a.  Dado un bono cuya duración es menor que el horizonte temporal, el incremento en su TIR supondrá una bajada en el rendimiento total de la inversión.
+
+b.  Dado un bono cuya duración es mayor que el horizonte temporal, el incremento en su TIR supondrá una bajada en el rendimiento total de la inversión.
+
+c.  Si la duración y el horizonte temporal del bono coinciden, no se puede predecir el impacto de un movimiento en la TIR.
+
+d.  En una cartera inmunizada, la rentabilidad no depende de variaciones en la duración de los bonos que la componen.
+
+<details>
+
+<summary>
+
+</summary>
+
+::: {.callout-note appearance="simple"}
+La respuesta **correcta es la b**.
+
+Cuando la **duración es menor que el horizonte temporal** de la cartera (D \> HT), diremos que el **riesgo de reinversión** domina sobre el riesgo de precio, con lo que la rentabilidad efectiva de la cartera aumentará a medida que se incrementan los tipos de interés, y viceversa. (a es incorrecta)
+
+Cuando la **duración es mayor que el horizonte temporal** de la cartera (D \> HT), el **riesgo de precio** domina al riesgo de reinversión, con lo que la **rentabilidad** efectiva de la cartera **disminuirá** a medida que **aumenten los tipos** de interés, y viceversa. (b es correcta)
+
+**Cualquier alteración de los tipos de interés modifica la duración de la cartera**. De esta forma, aunque la duración y el horizonte temporal del bono coincidan (inmunizado), **SÍ se puede predecir el impacto de un movimiento en la TIR calculando la duración corregida** del bono en cuestión.
+
+La **inmunización** es una técnica que exigirá **reequilibrar permanentemente la cartera** para mantener la igualdad entre horizonte temporal y duración, **a causa de las variaciones de la duración de los bonos que la componen**, pero también a causa de posibles **cambios en el horizonte temporal**, lo que, en realidad, limita su aplicación.(d es incorrecta)
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+5.  Suponga un bono con TIR del 4%, plazo de cinco años y cupones anuales del 3.5% pagaderos el 31 de diciembre de cada ejercicio. Determine cuál de las siguientes afirmaciones es falsa:
+
+<!-- -->
+
+a.  Un aumento de la TIR supondrá una disminución de la duración.
+
+b.  Si, en lugar de pagar los cupones anualmente, lo hiciera semestralmente, su duración sería menor.
+
+c.  El día 1 de enero la duración será mayor que el día 30 de diciembre del ejercicio anterior.
+
+d.  El día 1 de enero el bono tendrá una duración menor que el día 30 de junio del mismo ejercicio.
+
+<details>
+
+<summary>
+
+</summary>
+
+::: {.callout-note appearance="simple"}
+La respuesta **correcta es la d**.
+
+Cuando **aumenta la TIR, disminuye la duración** (a, es verdadera).
+
+A **mayor frecuencia en el pago de cupones menor duración** (b, es verdadera).
+
+A mayor plazo de amortización, mayor duración. **El corte del cupón (pago del cupón) provoca un aumento de la duración del bono**. Se da la paradoja que justamente **el día 1 de enero**, a pesar de haber transcurrido tan solo un día respecto al 31 de diciembre (pago/cobro del cupón), y que por tanto, el pazo a vencimiento será menor, **la duración aumenta en lugar de reducirse**. Esto se debe a la **proximidad o lejanía al pago del cupón** que al estar muy próximo el pago del cupón y, por tanto, haber mayor cupón corrido, la duración es menor. Por el contrario, si está lejano el pago del próximo cupón, el cupón corrido es reducido y la duración es mayor (c es verdadera).
+
+La respuesta d, a priori debería ser verdadera ya que a menor plazo de amortización, menor duración (ya que desde el mes de enero hasta el mes de junio del mismo ejercicio, lógicamente se reduce el plazo de amortización en 5 meses). Dicho de otro modo, **el día 1 de enero la duración debería de ser "mayor" que el día 30 de junio del mismo ejercicio**.
+
+Sin embargo esto, **no siempre es así**. Para **bonos que cotizan bajo la par con vencimientos largos, el incremento de la duración a medida que aumenta el plazo de amortización, presenta un punto de inflexión a partir del cual se invierte la tendencia inicial**.
+
+Veamos, en el caso de nuestro bono, si cotiza bajo par:
+
+$$TIR > Cupón => Precio < 100\%$$ Luego por propiedades, **sabemos que como cotiza bajo par y el vencimiento no es corto (5 años)**, de forma que la **respuesta d es falsa**. Si bien para determinarlo con **mayor precisión debemos antes calcular su duración para ambos momentos del tiempo**.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+6.  Determine cuál de las siguientes afirmaciones respecto a la sensibilidad de un bono NO es correcta:
+
+<!-- -->
+
+a.  La sensibilidad nos permite aproximar cuál será el impacto en el precio del bono de variaciones en la TIR.
+
+b.  La sensibilidad nos permite establecer con exactitud cuál será el nuevo precio de un bono, si la TIR cambia.
+
+c.  Desde un punto de vista del precio, si esperamos bajadas en los tipos de interés, buscaremos bonos con sensibilidad alta.
+
+d.  La duración de un bono es una medida de sensibilidad de éste.
+
+<details>
+
+<summary>
+
+</summary>
+
+::: {.callout-note appearance="simple"}
+La respuesta **correcta es la b**.
+
+La **sensibilidad** de un bono es una medida que relaciona las **variaciones absolutas del precio** de un bono con las **variaciones absolutas de su TIR**. Por lo tanto, la sensibilidad nos proporciona información en términos absolutos acerca de cual será la variación del precio de un bono.
+
+La **sensibilidad** nos permite **aproximar** cuál será el impacto en **el precio** del bono ante **variaciones en la TIR**.
+
+Ante la misma variación de tipos de interés del mercado, la mayoría de los productos de renta fija que **vencen más tarde son más sensibles en precio**. Por el contrario, los bonos y productos de renta fija que **vencen más pronto** tienen normalmente una **menor sensibilidad** en precio.
+
+La **duración** es la media de los periodos de pago de los flujos de un bono ponderados por el peso que representa el valor actual de los mismos en el precio del bono. La duración **puede definirse también como una medida de la sensibilidad relativa de un bono**. Es decir, relaciona las variaciones relativas del precio con las variaciones relativas de la TIR.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+7.  ¿Qué variación porcentual estima que tendrá el precio de un bono, suponiendo las siguientes características y que la TIR experimenta una subida de 100 p.b.?
+
+| **Datos:**            |
+|:----------------------|
+| Precio entero: 104,00 |
+| Duración: 14,3        |
+| TIR actual: 5,25%     |
+
+a)  14,30%
+
+b)  13,59%
+
+c)  -13,59%
+
+d)  -14,30%
+
+<details>
+
+<summary>
+
+</summary>
+
+::: {.callout-note appearance="simple"}
+La respuesta **correcta es la c**.
+
+En primer lugar vamos a recordar la fórmula de la duración de Macaulay (o simplemente la "duración"):
+
+$$D=1\cdot\frac{F_1\cdot\left(1+TIR\right)^{-1}}{P}+2\cdot\frac{F_2\cdot\left(1+TIR\right)^{-2}}{P}+.....+n\cdot\frac{F_n\cdot\left(1+TIR\right)^n}{P}$$
+
+Que, en este caso, es un dato que nos dan en el enunciado del ejercicio:
+
+$$D=Duración\ de\ Macaulay=14.3$$
+
+En segundo lugar, vamos a calcular la duración corregida $D.C.$ (también conocida como duración modificada o de Hicks), a partir de la duración de Macaulay $D$.
+
+$$D.C.=\frac{D}{(1+TIR)}=\frac{14.3}{(1+0.0525)}=13.59\%$$
+
+Y, en tercer y último lugar, calculamos la variación en el precio ante un aumento de la TIR de 100 p.b.(recordad, cada punto porcentual contiene 100 puntos básicos):
+
+$$\frac{\Delta\ P}{P}=-D_{corregida}\cdot\Delta TIR=(-13.59\%)\cdot 1\%=-13.59\% $$
+
+Notesé que también cabe la posibilidad de realizar los calculos anteriores en tantos por uno, en lugar de hacerlo en tantos por cien. De forma análoga, serían:
+
+$$D.C.=\frac{D}{(1+TIR)}\cdot \frac{1}{100}=\frac{14.3}{(1+0.0525)}=0.1359$$ $$\frac{\Delta\ P}{P}=-D_{corregida}\cdot\Delta TIR=(-0.1359)\cdot 1=-0.1359$$
+
+En definitiva, este bono se estima que experimentará una caída del precio entero en torno al 13,59%.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+8.  Hemos comprado un bono al 98,735%. Al cabo de un tiempola TIR del bono pasa del 5,23% al 5%. Siendo laa duración inicial de de 3 años y su duración en el momento actual de 2,36 años. ¿Cuál será el nuevo precio estimado del bono?:
+
+<!-- -->
+
+a.  99,582%.
+
+b.  99,244%.
+
+c.  98,806%.
+
+d.  99.442%.
+
+<details>
+
+<summary>
+
+</summary>
+
+::: {.callout-note appearance="simple"}
+La respuesta **correcta es la b**.
+
+En primer lugar, calcularemos la Duración corregida utilizando la siguiente fórmula:
+
+$$D_{corregida}=\frac{Duracion\,de\, Macaulay}{\left(1+TIR\right)}$$
+
+donde,
+
+$$D_{corregida}=\frac{2.36}{(1+0.0523)}=2.2427$$
+
+Ahora aplicamos la siguiente fórmula, la cuál nos permite estimar el efecto en el precio de un bono ante variaciones en la TIR una vez conocida la duración corregida, el precio inicial y la variación experimentada en la TIR:
+
+$$P_1\simeq P_0\cdot\left[1+((-D_{corregida})\cdot\Delta TIR)\right]$$
+
+donde, al sustituir y calcular tenemos un resultado de:
+
+$$P_1\simeq 0.98735\cdot\left[1+((-2.2427)\cdot (-0.0023))\right]=0.99244(99.244\%)$$
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+9.  Para un mismo bono, su tasa de rentabilidad efectiva a vencimiento es mayor cuando:
+
+<!-- -->
+
+a.  El tipo de interés de reinversión es igual a su TIR de adquisición.
+
+b.  Ninguna de las anteriores.
+
+c.  El tipo de interés de reinversión es superior a su TIR de adquisición
+
+d.  El tipo de interés de reinversión es inferior a su TIR de adquisición.
+
+<details>
+
+<summary>
+
+</summary>
+
+::: {.callout-note appearance="simple"}
+La respuesta **correcta es la c**.
+
+La TIR es una buena medida de la rentabilidad a vencimiento de un bono si se reinvierten los cupones a una tasa igual a la propia TIR. Si la reinversión se hace a tipos superiores, la rentabilidad efectiva a vencimiento será superior a la TIR de adquisición.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+10. ¿Cuál ha sido la rentabilidad efectiva de la siguiente operación si suponemos que el inversor reinvierte los cupones anuales, según las condiciones siguientes?:
+
+| **Datos:**                         |
+|:-----------------------------------|
+| Compra de bono en fecha: 15-5-2010 |
+| Vencimiento: 15-5-2014             |
+| Cupón anual: 3,75%                 |
+| Valor nominal: 1.000 euros         |
+| TIR de adquisición: 4,380%         |
+| Precio de compra del bono: 97,733% |
+
+| Tipos de interés a 1 año: |
+|:--------------------------|
+| 15-5-2011: 4,55%          |
+| 15-5-2012: 4,67%          |
+| 15-5-2013: 4,75%          |
+
+a)  4,399%.
+
+b)  4,425%.
+
+c)  4,380%.
+
+d)  3,750%.
+
+<details>
+
+<summary>
+
+</summary>
+
+::: {.callout-note appearance="simple"}
+La respuesta **correcta es la a**.
+
+Recordemos que la Tasa de Rentabilidad Efectiva (TRE) se define como aquella rentabilidad media anual que tiene en cuenta las tasas de reinversión de los ingresos de una operación, medida mediante capitalización compuesta.Y su expresión es la siguiente:
+
+$$V_f=V_0\left(1+i_{TRE}\right)^n$$
+
+Para calcular el valor final, primero tenemos que calcular los ingresos que fueron reinvertidos cada uno de los años 2011, 2012, 2013:
+
+$$F_1=C_1\cdot\left(1+i_1\right)\cdot\left(1+i_2\right)\cdot\left(1+i_3\right)=37.5\cdot1.0455\cdot1.0467\cdot1.0475=42.9896$$
+
+$$F_2=C_2\cdot\left(1+i_2\right)\cdot\left(1+i_3\right)=37.5\cdot1.0467\cdot1.0475=41.115$$
+
+$$F_3=C_3\cdot\left(1+i_3\right)=37.5\cdot1.0475=39.2812$$
+
+Calculamos también el flujo a vencimiento de 2014, esto es, el cupón percibido (que no se reinvierte) más el reembolso del nominal:
+
+$$F_4=N_4+C_4=1000+37.5=1037.5$$
+
+Una vez calculados todos los flujos generados durante el periodo de madurez del bono, los sumamos para conocer el valor final de la inversión:
+
+$$V_f=F_1+F_2+F_3+F_4=42.9896+41.115+39.2812+1037.5=1160.8826$$ Una vez que conocemos el valor final $V_f$ y el valor inicial $V_0$, planteamos la fórmula de la TRE y resolvemos por el tipo de interés $i_{TRE}$:
+
+$$V_f=V_0\left(1+i_{TRE}\right)^n$$ Donde,
+
+$$i_{TRE}=\left(\frac{V_f }{V_0 }\right)^{\frac{1 }{n }}-1$$ Que al sustituir y calcular, obtenemos un resultado de:
+
+$$i_{TRE}=\left(\frac{ 1160.8826}{977.33 }\right)^{\frac{1 }{4 }}-1=0.04399(4.399\%)$$
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+11. ¿Qué son los S.T.R.I.P.S. de deuda pública?
+
+<!-- -->
+
+a.  Son bonos con cupones emitidos por el Tesoro Público.
+
+b.  Son bonos cupón cero emitidos por el Tesoro Público.
+
+c.  Son operaciones de agregación y desagregación sobre bonos y obligaciones del Estado (cupones y principal) que lleva a cabo el propio Tesoro Público.
+
+d.  Son operaciones de agregación y desagregación sobre bonos y obligaciones del Estado (cupones y principal) que llevan a cabo los "markets makers".
+
+<details>
+
+<summary>
+
+</summary>
+
+::: {.callout-note appearance="simple"}
+La respuesta **correcta es la d**.
+
+Los bonos y Obligaciones del Estado denominados "segregables" o "S.T.R.I.P.S., presentan las siguientes características:
+
+-   Posibilidad de "segregación": esto es, posibilidad de separar cada bono en "n" valores (los llamados S.T.R.I.P.S. ), uno por cada pago que la posesión del bono dé derecho a recibir. Así, de un bono a 5 años podrían obtenerse 6 "strips": uno por cada pago de cupón anual, y un sexto por el principal , al cabo de los 5 años. Cada uno de estos strips puede ser posteriormente negociado de forma diferenciada del resto de strips procedentes del bono.
+
+-   Esta operación de segregación transforma un activo de rendimiento explícito (bono u obligación) en una serie de valores de rendimiento implícito - bonos cupón cero -, cuya fecha de vencimiento y valor de reembolso coinciden con los de los cupones y principal del activo originario. Los bonos cupón cero tienen unas características financieras peculiares que los hacen especialmente atractivos para determinados inversores. Los strips son una forma de cubrir esa demanda sin necesidad de aumentar la gama de valores emitidos por el Tesoro.
+
+-   Además, se permite realizar la operación inversa a la descrita, es decir, la reconstitución del activo originario a partir de los bonos cupón cero procedentes de su segregación.
+
+En España, el Tesoro comenzó a emitir valores segregables en julio de 1997. La segregación propiamente dicha y la negociación de los "S.T.R.I.P.S." resultantes se inició en enero de 1998.
+
+Las entidades que poseen la autorización y potestad para llevar a cabo la segregación y reconstitución de bonos, son los llamados Creadores de Mercado o "markets makers". Los creadores de mercado, son un conjunto de entidades y agentes financieros, que ayudan y facilitan a que haya mucha más liquidez en el mercado tanto primario como secundario de deuda pública.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+12. En el momento de emisión de un bono del Estado en el mercado primario (donde lo adquirimos directamente de su emisor, el Tesoro). Puede, o no, existir una diferencia entre el valor nominal y del precio de suscripción:
+
+<!-- -->
+
+a.  Si el valor nominal y el precio de suscripción coinciden: decimos que se trata de una emisión a la par.
+
+b.  El valor nominal está por encima del precio de suscripción: decimos que se trata de una emisión bajo la par o con descuento. Esto implica que hay una rentabilidad positiva implícita que se pondrá de manifiesto a vencimiento.
+
+c.  El valor nominal se sitúa por debajo del precio de suscripción: decimos que se trata de una emisión sobre la par o con prima. Esto implica que hay una rentabilidad negativa implícita a vencimiento que también debe ser considerada.
+
+d.  Todas las anteriores.
+
+<details>
+
+<summary>
+
+</summary>
+
+::: {.callout-note appearance="simple"}
+La respuesta **correcta es la d**.
+
+En el momento de emisión de un bono del Estado en el mercado primario, pueden darse tres circunstancias:
+
+-   El valor nominal y el precio de suscripción coinciden: es una emisión a la par.
+
+-   El valor nominal está por encima del precio de suscripción: emisión bajo la par o con descuento. Esto implica que hay una rentabilidad implícita que se pondrá de manifiesto a vencimiento.
+
+-   El valor nominal se sitúa por debajo del precio de suscripción: emisión sobre la par o con prima. Al revés que en el caso anterior, aquí existe una rentabilidad negativa implícita a vencimiento que también debe ser considerada.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+13. Los rendimientos de los bonos y obligaciones del Estado español se consideran en el ámbito del IRPF:
+
+<!-- -->
+
+a.  Si proceden de la venta del activo financiero sería ganancia o pérdida patrimonial sin estar sujeto a retención alguna.
+
+b.  Si proceden de la percepción de intereses por el cobro de cupones sería rendimiento del capital mobiliario sin estar sujeto a retención alguna.
+
+c.  Si proceden de la percepción de intereses por el cobro de cupones sería rendimiento del capital mobiliario estando sujeto a retención.
+
+d.  Si proceden de la venta del activo financiero sería rendimiento del capital mobiliario sujeto a retención.
+
+<details>
+
+<summary>
+
+</summary>
+
+::: {.callout-note appearance="simple"}
+La respuesta **correcta es la c**.
+
+Tributación de los Bonos y Obligaciones del Estado
+
+CUPÓN
+
+1.  Calificación
+
+El importe de los intereses percibidos -cupón- tiene la consideración de rendimiento de capital mobiliario del ejercicio en que se perciben.
+
+2.  Tributación
+
+Los intereses -cupón- generados por los Bonos y Obligaciones del Estado tributan al tipo del 19% hasta los 6.000 €, el tramo de la base liquidable entre 6.000 € y los 44.000 € tributa al 21% y el tramo que excede de 50.000 € tributa al 23% en el ejercicio 2016.
+
+3.  Retención
+
+Sobre este rendimiento se aplica **retención a cuenta del IRPF (19%)**.
+
+TRANSMISIÓN O AMORTIZACIÓN
+
+1.  Calificación
+
+Los rendimientos generados en la transmisión o amortización de los Bonos u Obligaciones del Estado tienen la consideración de **rendimiento de capital mobiliario, sujeto al IRPF**.
+
+2.  Tributación
+
+Dicho rendimiento se computará como la diferencia entre el valor de transmisión o amortización y el precio de adquisición o suscripción de los Bonos u Obligaciones que se transmiten o amortizan.
+
+No obstante, el rendimiento así calculado podrá reducirse en los gastos accesorios de adquisición y enajenación que se justifiquen adecuadamente.
+
+El rendimiento neto tributará al 19% hasta los 6.000 €, el tramo de la base liquidable entre 6.000 € y 44.000 € tributa al 21% y el tramo que excede de 50.000 € tributa al 23% en los ejercicios 2016
+
+3.  Retención
+
+**Los rendimientos derivados de la transmisión o amortización de Bonos y Obligaciones del Estado no están sometidos a retención a cuenta del IRPF**, salvo el los casos de contratos de cuentas basadas en operaciones sobre dichos valores ("cuentas financieras") o cuando opere la norma "anti-lavado" de cupón.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+14. Si tengo un bono cupón cero que actualmente está cotizando al 95,425% y su valor nominal es del 100% y además le quedan 437 días para vencimiento y la base es Act/365. ¿Cuál es su rentabilidad efectiva anual?:
+
+<!-- -->
+
+a.  3,99%
+
+b.  3,87%
+
+c.  4,02%
+
+d.  Ninguna de las anteriores
+
+<details>
+
+<summary>
+
+</summary>
+
+::: {.callout-note appearance="simple"}
+La respuesta **correcta es la a**.
+
+Aplicamos el precio de una letra para plazo superior al año (capitalización compuesta):
+
+$$P_0=\frac{100}{(1+i)^{d/365}}$$
+
+donde,
+
+-   $P_0$, es el precio de la letra, expresado en porcentaje sobre el nominal.
+
+-   $i$, es el tipo de interés en tantos por uno.
+
+-   $d$, es el número de días que ha mantenido el inversor la letra en su poder.
+
+Al desejar el tipo de interés, tenemos:
+
+$$i=\left(\frac{100}{P_0}\right)^{\left(\frac{365}{d}\right) }-1$$
+
+Sustituimos y calculamos,
+
+$$i=\left(\frac{100}{95.425}\right)^{\left(\frac{365}{437}\right) }-1=0.0398(3.99\%)$$
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+15. Dentro de la clasificación de los spread de curvas de tipos de interés, ¿Cuál de las siguientes afirmaciones es correcta?:
+
+<!-- -->
+
+a.  El spread entre plazos nos indica la diferencia en la calidad crediticia.
+
+b.  El spread entre curvas nos indica las expectativas de mercado en cuanto a la evolución del tipo de interés.
+
+c.  El spread entre plazos nos indica la calidad crediticia de cada emisor en cada plazo
+
+d.  Ninguna de las anteriores
+
+<details>
+
+<summary>
+
+</summary>
+
+::: {.callout-note appearance="simple"}
+La respuesta **correcta es la d**.
+
+El spread de curvas de tipos de interés se clasifican en:
+
+-   Spread entre plazos, que indica las expectativas de mercado en cuanto a la evolución del tipo de interés.
+
+-   Spread entre curvas, que indica la diferencia en la calidad crediticia de cada emisor para cada plazo.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+16. Cuál/es de las siguiente/s teoría/s explica/n la estructura temporal de los tipos de interés (ETTI):
+
+<!-- -->
+
+a.  La Teoría de las Expectativas del Mercado.
+
+b.  La Teoría de la Preferencia por la Liquidez.
+
+c.  La Teoría del Hábitat Preferido.
+
+d.  Todas las anteriores.
+
+<details>
+
+<summary>
+
+</summary>
+
+::: {.callout-note appearance="simple"}
+La respuesta **correcta es la d**.
+
+Las teorías explicativas de la estructura temporal de los tipos de interés (ETTI) son:
+
+-   De la Teoría de la Preferencia por la liquidez, se infiere que la curva de rendimientos de una inversión será siempre creciente en función del tiempo, ya que en principio un inversor preferirá invertir a corto plazo que a largo plazo, al poder conseguir convertir antes en liquidez los activos si así le fuera necesario.
+
+-   La Teoría de las Expectativas del Mercado, enuncia que la ETTI se forma de manera exclusiva en función de las expectativas que tienen los potenciales inversores en relación a cómo van a evolucionar los tipos de interés en el futuro. Por tanto, la curva sería creciente cuando se espere que los tipos vayan a subir debido a que haya por ejemplo una elevada inflación, y sería descendente cuando la expectativa fuera de bajada de la inflación.
+
+-   La Teoría del Hábitat Preferido, por su parte ha tratado de sintetizar estas teorías, estableciendo que el equilibrio de mercado obliga a que la oferta y la demanda de activos financieros debe ajustar sus plazos en cada momento, según el "hábitat" en el que nos encontremos, existiendo primas para aquellos vencimientos donde hay una demanda insuficiente, de tal manera que dichas primas serían las que inducirían a los inversores al abandono de sus hábitats preferidos, pasando de largo a corto plazo o viceversa.
+
+Nota: encontramos también en algunos textos la llamada Teoría de la Segmentación de Mercados, según la cual los mercados de renta fija están segmentados por productos, cuyos precios se establecen mediante las leyes de la oferta y la demanda de cada mercado. En base a esto, la forma de la curva podrá variar según los mercados (corto plazo, medio plazo o largo plazo), y tener cualquier forma. Si se demanda más a corto que a largo, la curva estaría invertida; si fuera al revés sería ascendente.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+17. Ante una percepción de mayor riesgo por parte del mercado respecto a una emisión de renta fija privada:
+
+<!-- -->
+
+a.  Se ampliará el diferencial de rentabilidad (spread) con el que cotiza respecto a la deuda pública.
+
+b.  Se reducirá el diferencial de rentabilidad (spread) con el que cotiza respecto a la deuda pública.
+
+c.  Se mantendrá el diferencial de rentabilidad (spread) con el que cotiza respecto a la deuda pública.
+
+d.  Ninguna de las anteriores es correcta.
+
+<details>
+
+<summary>
+
+</summary>
+
+::: {.callout-note appearance="simple"}
+La respuesta **correcta es la a**.
+
+Se ampliará el diferencial de rentabilidad con el que cotiza respecto a la deuda pública como consecuencia de una ampliación de la prima de riesgo descontada por el mercado.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+18. ¿La duración corregida de un bono la definimos cómo?
+
+<!-- -->
+
+a.  La duración dividida entre la TIR del bono.
+
+b.  La duración multiplicada por (1 + TIR) del bono.
+
+c.  La duración dividida entre (1 + TIR) del bono.
+
+d.  La duración del bono multiplicada por un punto básico.
+
+<details>
+
+<summary>
+
+</summary>
+
+::: {.callout-note appearance="simple"}
+La respuesta **correcta es la c**.
+
+Por definición la duración corregida es, como podemos ver en su fórmula, la duración (de Macaulay) dividida entre 1 + la TIR del bono:
+
+$$D_{corregida}=\frac{Duracion\,de\, Macaulay}{\left(1+TIR\right)}=\frac{D}{\left(1+TIR\right)} $$
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+19. ¿Cómo expresamos matemáticamente la sensibilidad absoluta de un bono?:
+
+<!-- -->
+
+a.  Como la duración corregida multiplicada por el precio entero del bono.
+
+b.  Como la duración multiplicada por el precio entero del bono.
+
+c.  Como la duración modificada dividida por 1 más la TIR y multiplicada por el precio entero del bono.
+
+d.  Ninguna de las anteriores.
+
+<details>
+
+<summary>
+
+</summary>
+
+::: {.callout-note appearance="simple"}
+La respuesta **correcta es la a**.
+
+La Sensibilidad absoluta refleja variaciones absolutas del precio de un activo de renta fija, ante variaciones absolutas de la TIR; siendo su expresión matemática la siguiente:
+
+$$S={Duracion\,corregida }\cdot{Precio\,entero}$$ Notesé que esta expresión se utiliza el caso de haber tomado como la duración corregida la siguiente fórmula:
+
+$$D_{corregida}=\frac{Duracion\,de\, Macaulay}{\left(1+TIR\right)}\cdot\frac{1}{100}$$
+
+En el caso de haber tomado como la duración corregida de la siguiente fórmula:
+
+$$D_{corregida}=\frac{Duracion\,de\, Macaulay}{\left(1+TIR\right)}=\frac{D}{\left(1+TIR\right)} $$
+
+Entonces la sensibilidad, necesariamente, debería expresarse así:
+
+$$S= Duracion\,corregida \cdot \frac{Precio\,entero}{100}$$ Y NO así:
+
+$$S={Duracion\,corregida }\cdot{Precio\,entero}$$
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+20. Compramos un bono al 102,505%. Pasado algún tiempo la TIR del bono pasa del 5% al 6%. Siendo la duración actual del bono de 4,5 años. ¿Cuál será el nuevo precio estimado del bono?:
+
+<!-- -->
+
+a.  98,112%.
+
+b.  97,624%.
+
+c.  95,322%.
+
+d.  Ninguna de las anteriores.
+
+<details>
+
+<summary>
+
+</summary>
+
+::: {.callout-note appearance="simple"}
+La respuesta **correcta es la a**.
+
+En primer lugar, calcularemos la Duración corregida utilizando la siguiente fórmula:
+
+$$D_{corregida}=\frac{Duracion\,de\, Macaulay}{\left(1+TIR\right)}$$ donde,
+
+$$D_{corregida}=\frac{4.5}{(1+0.05)}=4.2857$$
+
+Ahora aplicamos la siguiente fórmula, la cuál nos permite estimar el efecto en el precio de un bono ante variaciones en la TIR una vez conocida la duración corregida, el precio inicial y la variación experimentada en la TIR:
+
+$$P_1\simeq P_0\cdot\left[1+((-D_{corregida})\cdot\Delta TIR)\right]$$
+
+donde, al sustituir y calcular tenemos un resultado de:
+
+$$P_1\simeq 1.02505\cdot\left[1+((-4.2857)\cdot 0.01)\right]=0.981119(98.112\%)$$
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+
+
+## Varios
+
+
+
 
 12. La cartera de inversión de un cliente ha obtenido una rentabilidad acumulada a tres años del 18,90% y su benchmark, del 13%. Además, sabemos que, para el mismo período de tiempo, la beta de la cartera fue del 1,20, y el tracking error del 7%. Calcular la ratio de información, si el tipo de interés del activo sin riesgo fue del 1,25%.
 

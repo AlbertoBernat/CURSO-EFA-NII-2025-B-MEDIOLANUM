@@ -32,6 +32,8 @@ b.  100660,8685
 
 c.  102432,2342
 
+
+
 ::: {.callout-tip collapse="true"}
 ### Solución
 
