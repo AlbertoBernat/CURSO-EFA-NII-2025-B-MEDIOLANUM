@@ -898,12 +898,13 @@ Un cliente acude a la entidad financiera porque no puede hacer frente a tres pr�
 
 ------------------------------------------------------------------------
 
+
 ## 📝 Recomendaciones para el alumno
 
 ::: {.callout-tip title="¿Cómo abordar los casos?"}
 -   Presenta cada caso con su análisis estructurado.
--   Usa Quarto o R Markdown para incluir cálculos y gráficos.
 -   Documenta el razonamiento y justifica tus decisiones.
+-   Utiliza herramientas prácticas como la [Calculadora de préstamos de Financlick](https://www.financlick.es/calculadora-prestamos) para realizar simulaciones rápidas y validar tus resultados.
 :::
 
 ------------------------------------------------------------------------
@@ -911,5 +912,5 @@ Un cliente acude a la entidad financiera porque no puede hacer frente a tres pr�
 ## 📎 Recursos útiles
 
 -   [Calculadora de préstamos del Banco de España](https://clientebancario.bde.es/pcb/es/)
--   [Glosario financiero CNMV](https://www.cnmv.es/portal/Glossary.aspx)
--   Consulta el apartado 📐 *FÓRMULAS* para repasar las ecuaciones necesarias.
+
+-   Consulta el apartado [📐 **FÓRMULAS**](formulas_intro.qmd) para repasar las ecuaciones necesarias.
