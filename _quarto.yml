@@ -41,9 +41,6 @@ csl: apa-5th-edition
 
 format:
   html:
-    include-before-body: 
-      - auth.html
-      - cover.html
     favicon: "images/favicon_efpa_academico.png"
     toc-title: "![](TOC_logo_EFA_compacto.png)"
     title-block: false

@@ -4,25 +4,6 @@ format: html
 numbered: false
 ---
 
-::: {style="text-align: center; margin-top: 2em;"}
-
-<a href="logout.html" class="button" style="
-  background-color: #1f2e83;
-  color: white;
-  padding: 14px 28px;
-  text-decoration: none;
-  font-size: 18px;
-  border-radius: 6px;
-  display: inline-block;
-  font-weight: bold;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.15);
-">
-🚪 Cerrar sesión
-</a>
-
-:::
-
-
 
 Este libro está diseñado como una guía práctica y avanzada para preparar el **Examen Parcial Nivel II de la certificación EFA™** (European Financial Advisor), orientado a profesionales del sector financiero que ya disponen del nivel I (EIP).
 
