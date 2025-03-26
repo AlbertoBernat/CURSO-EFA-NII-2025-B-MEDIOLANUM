@@ -1,20 +1,28 @@
-[[headers]]
-  for = "/*"
-  [headers.values]
-    X-Frame-Options = "DENY"
-    X-XSS-Protection = "1; mode=block"
-
-    cache-control = '''
-    max-age=0,
-    no-cache,
-    no-store,
-    must-revalidate'''
-
-    Basic-Auth = "alberto:PMNOX9IF"
-
 [build]
 publish = "_book"
 command = "quarto render"
 
 [build.environment]
 QUARTO_VERSION = "1.4.553"
+
+[build.processing]
+  skip_processing = false
+
+[context.production]
+command = '''
+wget -q https://github.com/quarto-dev/quarto-cli/releases/download/v${QUARTO_VERSION}/quarto-${QUARTO_VERSION}-linux-amd64.deb &&
+sudo dpkg -i quarto-${QUARTO_VERSION}-linux-amd64.deb &&
+quarto render
+'''
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    cache-control = '''
+    max-age=0,
+    no-cache,
+    no-store,
+    must-revalidate'''
+    Basic-Auth = "alberto:PMNOX9IF"
