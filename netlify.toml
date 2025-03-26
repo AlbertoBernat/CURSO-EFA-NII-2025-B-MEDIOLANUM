@@ -11,5 +11,3 @@
 	no-store,
 	must-revalidate'''
 
-    # The Basic-Auth header may not be available on all plans.
-    Basic-Auth = "alberto:PMNOX9IF carmen:efa2025 alvaro:efa2025 marc:efa2025 ainhoa:efa2025 j.serrano.arconada@gmail.com:142890281" 
