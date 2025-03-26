@@ -50,7 +50,9 @@ format:
     number-sections: false
     title-block-author-single: ""
     theme: [cosmo, style.scss]
-    css: styles.css
+    css: styles.css    
+    include-before-body:
+      - cover.html
     execute:
       echo: false
       warning: false
