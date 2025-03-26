@@ -46,7 +46,7 @@ lang: es
 
 format:
   html:
-    favicon: "assets/favicon_efpa_academico.png"
+    favicon: "images/favicon.ico"
     toc-title: "![](TOC_logo_EFA_compacto.png)"
     title-block: false
     lang: "es"
