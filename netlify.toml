@@ -1,20 +1,15 @@
-[build]
-  publish = "_book"
-  command = """
-  curl -LO https://quarto.org/download/latest/quarto-linux-amd64.deb
-  dpkg -x quarto-linux-amd64.deb quarto-bin
-  export PATH=$(pwd)/quarto-bin/usr/local/bin:$PATH
-  quarto render
-  """
-
 [[headers]]
   for = "/*"
   [headers.values]
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
-    cache-control = '''
-    max-age=0,
-    no-cache,
-    no-store,
-    must-revalidate'''
-    Basic-Auth = "alberto:PMNOX9IF"
+
+    #  Multi-value headers are expressed with multi-line strings
+	cache-control = '''
+	max-age=0,
+	no-cache,
+	no-store,
+	must-revalidate'''
+
+    # The Basic-Auth header may not be available on all plans.
+    Basic-Auth = "alberto:PMNOX9IF carmen:efa2025 alvaro:efa2025 marc:efa2025 ainhoa:efa2025 j.serrano.arconada@gmail.com:142890281" 
