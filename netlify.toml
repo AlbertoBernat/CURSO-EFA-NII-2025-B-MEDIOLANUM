@@ -4,12 +4,17 @@
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
 
-    #  Multi-value headers are expressed with multi-line strings
-	cache-control = '''
-	max-age=0,
-	no-cache,
-	no-store,
-	must-revalidate'''
+    cache-control = '''
+    max-age=0,
+    no-cache,
+    no-store,
+    must-revalidate'''
 
-    # The Basic-Auth header may not be available on all plans.
-    Basic-Auth = "alberto:PMNOX9IF mediolanum:efa2025" 
+    Basic-Auth = "alberto:PMNOX9IF"
+
+[build]
+publish = "_book"
+command = "quarto render"
+
+[build.environment]
+QUARTO_VERSION = "1.4.553"
