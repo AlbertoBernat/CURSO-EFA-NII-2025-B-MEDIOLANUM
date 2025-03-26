@@ -51,8 +51,6 @@ format:
     title-block-author-single: ""
     theme: [cosmo, style.scss]
     css: styles.css
-    include-before-body:
-      - auth.html
     execute:
       echo: false
       warning: false
