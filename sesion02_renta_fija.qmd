@@ -6,9 +6,12 @@ format: html
 
 #### 🎥 Vídeo de la sesión
 
-<iframe width="100%" height="400" src="https://youtu.be/aqxqmUlEPKE?si=YpNIG0VO80BuXv9p" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/aqxqmUlEPKE" title="Vídeo de la sesión" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 
 ---
+
 
 ::: {.callout-note}
 ## 📎 Material de la sesión
@@ -20,7 +23,7 @@ format: html
 ```
 
 
-
+::: 
 
 ## Rentas financieras
 
