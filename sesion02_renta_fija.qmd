@@ -1075,3 +1075,700 @@ $$
 \text{Cuota íntegra} = 44.880 + 50.000 \times 0,27 = 44.880 + 13.500 = 58.380
 $$
 
+
+# Preguntas tipo test
+
+1.  ¿Cuál será la sensibilidad de un bono a 3 años, que paga un cupón del 4,75 si la TIR es del 3%?
+
+<!-- -->
+
+a.  3,234
+b.  2,923
+c.  4,809
+d.  Ninguna es correcta
+
+::: {.callout-tip collapse="true"}
+## Respuesta
+
+La respuesta **correcta es la b**.
+
+Calculamos el Precio
+
+$$P_0=\frac{4.75}{\left(1+0.03\right)^{1\:}}+\frac{4.75}{\left(1+0.03\right)^{2\:}}+\frac{104.75}{\left(1+0.03\right)^{3\:}}$$ $$P_0=104.95006$$
+
+Calculamos la Duración
+
+$$D=\frac{1\cdot \frac{4.75}{\left(1+0.03\right)^{1\:}}+2\cdot \frac{4.75}{\left(1+0.03\right)^{2\:}}+3\cdot \frac{104.75}{\left(1+0.03\right)^{3\:}}}{104.95006}$$ $$D=2.86945\dots$$
+
+Calculamos la Duración Corregida
+
+$$D_c=\frac{\left[\frac{1\cdot \frac{4.75}{\left(1+0.03\right)^{1\:}}+2\cdot \frac{4.75}{\left(1+0.03\right)^{2\:}}+3\cdot \frac{104.75}{\left(1+0.03\right)^{3\:}}}{104.95006}\right]}{\left(1+0.03\right)}$$
+
+$$D_c=2.78587\dots$$
+
+Calculamos la Sensibilidad
+
+$$S=\frac{\left[\frac{1\cdot \frac{4.75}{\left(1+0.03\right)^{1\:}}+2\cdot \frac{4.75}{\left(1+0.03\right)^{2\:}}+3\cdot \frac{104.75}{\left(1+0.03\right)^{3\:}}}{104.95006}\right]}{\left(1+0.03\right)}\cdot \left[\frac{104.95006}{100}\right]$$
+
+$$S=2.92378\dots$$
+:::
+
+------------------------------------------------------------------------
+
+2.  Si usted tiene una cartera de Renta Fija compuesta por 4 activos, cuyas duraciones y ponderaciones en el total de la cartera son:
+
+| Porcentaje | Duración |
+|:----------:|:--------:|
+|    10%     |   9,5    |
+|    40%     |    2     |
+|    30%     |   7,25   |
+|    20%     |    4     |
+
+¿Cuál es aproximadamente la **Duración Total de la cartera**?
+
+a.  3,888
+
+b.  4,725
+
+c.  6,588
+
+d.  Todas son falsas
+
+::: {.callout-tip collapse="true"}
+## Respuesta
+
+La respuesta **correcta es la b**.
+
+La duración total de la cartera se calcula como la suma ponderada de las duraciones individuales:
+
+$$ D_{\text{cartera}} = \sum_{i=1}^{n} w_i \cdot D_i $$
+
+Donde:\
+- $w_i$ es el peso del activo $i$ en la cartera (en porcentaje convertido a decimal).\
+- $D_i$ es la duración del activo $i$.
+
+El cálculo sería:
+
+$$ D_{\text{cartera}} = (0.10 \cdot 9.5) + (0.40 \cdot 2) + (0.30 \cdot 7.25) + (0.20 \cdot 4) $$ $$D_{\text{cartera}} = 4.725$$
+:::
+
+------------------------------------------------------------------------
+
+3.  En el cálculo de la curva cupón cero, si contamos con letras del Tesoro a un año y rentabilidad del 1,5% y un bono a dos años con cupón del 3% y emitido a la par, ¿cuál es el tipo de interés cupón cero a dos años?
+
+<!-- -->
+
+a.  2,02%
+b.  2,52%
+c.  3,02%
+d.  3,52%
+
+::: {.callout-tip collapse="true"}
+## Respuesta
+
+La respuesta **correcta es la c**.
+
+Planteamos la siguiente ecuación
+
+$$P_0=\frac{C_1}{\left(1+r_{1}\right)^{1\:}}+\frac{C_2+N}{\left(1+r_2\right)^{2\:}}$$
+
+y, sustituimos los valores en la ecuación
+
+$$100=\frac{3}{\left(1+0.015\right)^{1\:}}+\frac{103}{\left(1+r_2\right)^{2\:}}$$
+
+ahora calculamos el valor presente del cupón del primer año
+
+$$100=2.95566+\frac{103}{\left(1+r_2\right)^{2\:}}$$ y, aislamos el segundo flujo
+
+$$100-2.95566=\frac{103}{\left(1+r_2\right)^{2\:}}$$ así tenemos la forma del bono cupón cero a dos años,
+
+$$97.04433=\frac{103}{\left(1+r_2\right)^{2\:}}$$
+
+de donde resolvemos por el tipo de interés
+
+$$r_2=0.03022(3,02%)$$
+:::
+
+------------------------------------------------------------------------
+
+4.  ¿Cuál es la duración corregida o modificada de un bono a 5 años, con una TIR del 2,75% que paga cupones al 6?
+
+<!-- -->
+
+a.  3,77
+b.  4,38
+c.  4,25
+d.  5
+
+::: {.callout-tip collapse="true"}
+## Respuesta
+
+La respuesta **correcta es la b**.
+
+Calculamos el precio
+
+$$P_0=\frac{6}{\left(1+0.0275\right)^{1\:}}+\frac{6}{\left(1+0.0275\right)^{2\:}}+\frac{6}{\left(1+0.0275\right)^{3\:}}+\frac{6}{\left(1+0.0275\right)^{4\:}}+\frac{106}{\left(1+0.0275\right)^{5\:}}$$
+
+$$P_0=114.99089$$
+
+También podemos calcular el precio como una renta,
+
+$$P_0=6\cdot \left(\frac{1-\left(1+0.0275\right)^{-4\:}}{0.0275}\right)+\frac{106}{\left(1+0.0275\right)^{5\:}}=114.99089$$
+
+$$P_0=114.99089$$
+
+Calculamos la Duración
+
+$$D=\frac{1\cdot \frac{6}{\left(1+0.0275\right)^{1\:}}+2\cdot \frac{6}{\left(1+0.0275\right)^{2\:}}+3\cdot \frac{6}{\left(1+0.0275\right)^{3\:}}+4\cdot \frac{6}{\left(1+0.0275\right)^{4\:}}+5\cdot \frac{106}{\left(1+0.0275\right)^{5\:}}}{114.99089}$$
+
+$$D=4.50559$$ Y, la Duración Corregida
+
+$$D_c=\frac{\frac{1\cdot \frac{6}{\left(1+0.0275\right)^{1\:}}+2\cdot \frac{6}{\left(1+0.0275\right)^{2\:}}+3\cdot \frac{6}{\left(1+0.0275\right)^{3\:}}+4\cdot \frac{6}{\left(1+0.0275\right)^{4\:}}+5\cdot \frac{106}{\left(1+0.0275\right)^{5\:}}}{114.99089}}{\left(1+0.0275\right)}$$ $$D_c=4.38500$$
+:::
+
+------------------------------------------------------------------------
+
+5.  ¿Cuál es la duración de un bono que paga cupones del 4%, tiene vencimiento a 3 años, TIR del 5% y amortiza a la par?
+
+<!-- -->
+
+a.  2,9.
+b.  3
+c.  2,88
+d.  2,78
+
+::: {.callout-tip collapse="true"}
+## Respuesta
+
+La respuesta **correcta es la c**.
+
+Calculamos el precio
+
+$$P_0=\frac{4}{\left(1+0.05\right)^{1\:}}+\frac{4}{\left(1+0.05\right)^{2\:}}+\frac{104}{\left(1+0.05\right)^{3\:}}=97.27675$$
+
+Calculamos la duración
+
+$$D=\frac{1\cdot \frac{4}{\left(1+0.05\right)^{1\:}}+2\cdot \frac{4}{\left(1+0.05\right)^{2\:}}+3\cdot \frac{104}{\left(1+0.05\right)^{3\:}}}{97.27675}=2.88437$$
+:::
+
+------------------------------------------------------------------------
+
+6.  Un bono a 5 años con cupón 3% anual tiene una TIR del 3%. Si su duración es de 4,635 años ¿Cuál será su cotización previsible si la TIR subiera hasta el 3,50%?
+
+<!-- -->
+
+a.  97,50%
+
+b.  97,68%
+
+c.  97,75%
+
+d.  99,50%
+
+::: {.callout-tip collapse="true"}
+## Respuesta
+
+La respuesta **correcta es la c**.
+
+Calculamos el precio
+
+$$P_0=\frac{3}{\left(1+0.03\right)^{1\:}}+\frac{3}{\left(1+0.03\right)^{2\:}}+\frac{3}{\left(1+0.03\right)^{3\:}}+\frac{3}{\left(1+0.03\right)^{4\:}}+\frac{103}{\left(1+0.03\right)^{5\:}}$$ $$P_0=100$$ Calculamos la variación absoluta del precio, con la siguiente fórmula
+
+$$P_1-P_0=-S\cdot \left(TIR_1-TIR_0\right)$$ Donde la Sensibilidad es,
+
+$$S=D_c \cdot \frac{P_0}{100}$$ y, la Duración Corregida
+
+$$D_c=\frac{D}{(1+TIR_0)}$$
+
+Sustituimos los valores y operando,
+
+\$ $$P_1-100=-\left[\frac{4.635}{\left(1+0.03\right)}\cdot \frac{100}{100}\right]\cdot \left(3.5-3\right)$$
+
+$$P_1-=97.75$$
+:::
+
+------------------------------------------------------------------------
+
+7.  Un bono de Teletónica de valor nominal 1.000 euros se ha adquirido a un precio de 100,25% y una TIR del 3,5%. Si la sensibilidad de esta inversión a un movimiento de 1 punto de los tipos de interés es del 3%, ¿qué duración tiene esta inversión?
+
+<!-- -->
+
+a.  2,9 años
+b.  3,9 años
+c.  2,5 años
+d.  3,09 años
+
+::: {.callout-tip collapse="true"}
+## Respuesta
+
+La respuesta **correcta es la d**.
+
+De la fórmula siguiente conocemos la Sensibilidad y el Precio actual,
+
+$$S=D_c \cdot \frac{P_0}{100}$$ sustituimos
+
+$$3=D_c \cdot \frac{100.25}{100}$$ y despejamos la Duración Corregida
+
+$$D_c=3 \cdot \frac{100}{100.25} $$ y obtenemos que
+
+$$D_c=2.99251$$
+
+ahora, de la Duración Corregida
+
+$$D_c=\frac{D}{(1+TIR_0)}$$
+
+despejamos la Duración
+
+$$D=D_c\cdot (1+TIR_0)$$ calculamos
+
+$$D=2.99251\left(1+0.035\right)$$ y nos da como resultado
+
+$$D=3.09724785\left(\approx 3,09\%\right)$$
+:::
+
+------------------------------------------------------------------------
+
+8.  Un cliente ha invertido 30.000€ en un bono cuya TIR desciende del 4,15% al 4% inmediatamente después de haberlo comprado. El precio inicial del bono era 100% y tenía una duración corregida o modificada de 5,23. Aproximadamente, ¿cuánto ha perdido/ganado el inversor?
+
+<!-- -->
+
+a.  -226,30 euros.
+b.  +235,35 euros.
+c.  +226,30 euros.
+d.  Ninguna es correcta.
+
+::: {.callout-tip collapse="true"}
+## Respuesta
+
+La respuesta **correcta es la b**.
+
+Aplicamos la siguiente fórmula
+
+$$\frac{\Delta P}{P}\approx  \frac{P_1-P_0}{P_0}\approx \left(-D_{corregida}\right)\cdot\Delta TIR$$ Sustituimos los valores
+
+$$\frac{\Delta P}{P}\approx  \frac{P_1-P_0}{P_0}\approx\left[-5.23\cdot -0.0015\right]$$
+
+Y calculamos sobre el nominal
+
+$$\frac{\Delta P}{P}\approx  \frac{P_1-P_0}{P_0}\approx\left[-5.23\cdot -0.0015\right]\cdot 30000\approx235.35$$
+:::
+
+------------------------------------------------------------------------
+
+9.  Dado dos bonos cupón cero: uno, a 4 años que cotiza hoy a 97,71% y su valor de reembolso es del 125%, el otro, es un bono cupón cero a 7 años que cotiza hoy a 101,76% y se amortiza al 152%. ¿Cuál será la pendiente de la ETTI?.
+
+<!-- -->
+
+a.  Creciente.
+b.  Decreciente.
+c.  Plana.
+d.  Convexa.
+
+::: {.callout-tip collapse="true"}
+## Respuesta
+
+La respuesta **correcta es la** .
+
+Calculamos la TIR del primer bono (4 años)
+
+$$97.71=\frac{125}{\left(1+TIR_1\right)^{4\:}}$$ obteniedo como resultado
+
+$$TIR_1=0.06351(6,35\%)$$ Calculamos la TIR del segundo bono (7 años)
+
+$$101.76=\frac{152}{\left(1+TIR_2\right)^7}$$
+
+obteniedo como resultado
+
+$$TIR_2=0.05899(5,89\%)$$ la pendiente de la ETTI será decreciente
+
+$$TIR_1>TIR_2$$
+:::
+
+------------------------------------------------------------------------
+
+10. ¿Qué variación, en euros, experimentará una cartera de bonos, cuyo valor de mercado es 115%, tiene una duración igual a 4 años y una TIR del 5%, si los tipos de interés del mercado aumentan aproximadamente un 1%?
+
+<!-- -->
+
+a.  3,381
+b.  4,381
+c.  2,381
+d.  Todas son falsas
+
+::: {.callout-tip collapse="true"}
+## Respuesta
+
+La respuesta **correcta es la d**.
+
+A partir de la siguiente fórmula, podemos calcular la variación del precio de un bono ante cambios de la TIR
+
+$$P_1-P_0\approx (-S)\cdot\Delta TIR$$
+
+donde,
+
+-   $P_1$, es el precio estimado del bono ante una variación de la TIR.
+
+-   $P_0$, es el precio actual del bono .
+
+-   $S$, es la sensibilidad o sensibilidad absoluta.
+
+-   $\Delta TIR$, variación porcentual de la TIR.
+
+si despejamos $P_1$, la podemos expresar como
+
+$$P_1\approx P_0 + ((-S)\cdot\Delta TIR)$$ Si tenemos en cuenta que, debemos transformar la Duración (que nos dan como dato en el enunciado) en la Sensibilidad; usando la siguiente fórmula
+
+$$S=\frac{D}{\left(1+TIR\right)}\cdot\frac{P_0}{100}$$ de forma, que al sustituir los datos
+
+$$P_1\approx 115+\left[-\left(\frac{4}{\left(1+0.05\right)}\cdot \frac{115}{100}\right)\cdot +1\right]$$ y calculando, vemos que el precio ha caído
+
+$$P_1\approx 111.61904$$ siendo la variación negativa, que en porcentaje, es del
+
+$$P_1-P_0\approx 111.61904-115\approx \:-3.38096\%$$ Si asumimos que tanto los 115 como los 100 son valores en euros, el cálculo de la variación en euros debería ser idéntico, una caida de 3,381 euros, en función de esta premisa.
+
+**Conclusión**: Bajo la premisa de que los valores están en euros y la omisión del signo en las respuestas implica que no representan correctamente el resultado negativo, la respuesta correcta sería: "d. Todas son falsas."
+:::
+
+------------------------------------------------------------------------
+
+11. Adquirimos un bono a tres años de vencimiento, con cupón del 4,25%, a una TIR del 3,50%. La semana siguiente los tipos se ubican en el 4% (para simplificar así se quedarán hasta el vencimiento). La tasa de rentabilidad efectiva anual que esperamos obtener al vencimiento será:
+
+<!-- -->
+
+a.  3,65 %
+b.  3,52 %
+c.  4,00 %
+d.  4,24 %
+
+::: {.callout-tip collapse="true"}
+## Respuesta
+
+La respuesta **correcta es la** .
+
+Calculamos el valor actual, que es nuestro precio de adquisición
+
+$$P_0=\frac{4.25}{\left(1+0.035\right)^{1\:}}+\frac{4.25}{\left(1+0.035\right)^{2\:}}+\frac{104.25}{\left(1+0.035\right)^{3\:}}=102.10122$$ Calculamos el valor final de todos los flujos de caja obtenidos por la inversión, teniendo en cuenta la reinversión de los mismos en las nuevas condiciones del mercado
+
+$$V_f=4.25\left(1+0.04\right)^2+4.25\left(1+0.04\right)^1+104.25=113.2668$$ Luego, podemos plantear la siguiente ecuación:
+
+$$P_0 \cdot (1 + TRE)^3 = V_f$$
+
+En esta expresión, el precio de adquisición del bono ($P_0$) se capitaliza durante tres periodos a la tasa de rendimiento efectivo ($TRE$), lo que resulta igual al valor final ($V_f$) obtenido al vencimiento de la operación.
+
+Sustituimos los valores y resolvemos por la $TRE$
+
+$$102.10122 \cdot (1 + TRE)^3 = 113.2668$$ Obteniendo como resultado
+
+$$TRE=\left(\frac{113.2668}{102.10122}\right)^{\frac{1}{3}}-1=0.03519\left(\approx 3,52\%\right)$$
+:::
+
+------------------------------------------------------------------------
+
+12. Dado un bono con duración corregida igual a 7, con una TIR del 9% y que paga un cupón anual del 3%, ¿cuál es su duración?
+
+<!-- -->
+
+a.  7,21 años.
+b.  7,63 años.
+c.  6,80 años
+d.  6,42 años
+
+::: {.callout-tip collapse="true"}
+## Respuesta
+
+La respuesta **correcta es la b**.
+
+De la Duración Corregida
+
+$$D_c=\frac{D}{(1+TIR_0)}$$
+
+sustituimos y despejamos la duración
+
+$$7=\frac{D}{(1+0.09)}$$ y despejamos la duración
+
+$$D=\left(1+0.09\right)\cdot 7=7.63$$
+:::
+
+------------------------------------------------------------------------
+
+13. Dado un Bono del Estado a dos años, cupón anual del 3%, TIR de compra 3,5%, si lo compramos en su fecha valor de emisión, ¿Cuál es su Duración?
+
+<!-- -->
+
+a.  2 años
+b.  1,5 años
+c.  1,97 años
+d.  Ninguna es correcta.
+
+::: {.callout-tip collapse="true"}
+## Respuesta
+
+La respuesta **correcta es la c**.
+
+Calculamos el precio entero
+
+$$P_0=\frac{3}{\left(1+0.035\right)^{1\:}}+\frac{103}{\left(1+0.035\right)^{2\:}}=99.05015$$
+
+Y calculamos la duración
+
+$$D=\frac{1\cdot \frac{3}{\left(1+0.035\right)^{1\:}}+2\cdot \frac{103}{\left(1+0.035\right)^{2\:}}}{99.05015}=1.97073$$
+:::
+
+------------------------------------------------------------------------
+
+14. Un bono de valor nominal 1.000€, precio entero 1.020€ con vencimiento dentro de tres años, cupones anuales del 4% en fecha 5 de junio. Hoy, 25 de enero, calculamos el cupón corrido y el precio ex-cupón obteniendo:
+
+<!-- -->
+
+a.  25,64€ y 994,36€ respectivamente.
+
+b.  14,36€ y 1005,64€ respectivamente.
+
+c.  26€ y 994€, respectivamente.
+
+d.  No es posible calcularlo sin conocer la TIR del bono.
+
+::: {.callout-tip collapse="true"}
+## Respuesta
+
+La respuesta **correcta es la a**.
+
+Calculamos el cupón corrido
+
+$$CC=\frac{365-131}{365}\cdot 40=25.64$$ Y lo restamos del precio entero
+
+$$P_{0,\:ex}=1020-25.64=994.36$$
+:::
+
+------------------------------------------------------------------------
+
+15. Un bono tiene un valor nominal de 1.000 €, paga un cupón anual del 5% y vence en 3 años. Si la TIR (Tasa Interna de Retorno) del mercado es del 4%, ¿cuál sería el precio actual del bono?
+
+<!-- -->
+
+a.  1.000 €
+b.  1.027,36 €
+c.  1.040,00 €
+d.  960,00 €
+
+::: {.callout-tip collapse="true"}
+## Respuesta
+
+La respuesta **correcta es la b**.
+
+$$P_0=\frac{50}{\left(1+0.04\right)^{1\:}}+\frac{50}{\left(1+0.04\right)^{2\:}}+\frac{1050}{\left(1+0.04\right)^{3\:}}=1027.75091\dots \:$$
+:::
+
+------------------------------------------------------------------------
+
+16. Un inversor posee un bono con un cupón anual del 4% y un valor nominal de 1.000 €. Si la Tasa Interna de Retorno (TIR) en el mercado es del 3%, ¿cómo se verá afectado el precio del bono si los tipos de interés suben al 4%?
+
+<!-- -->
+
+a.  El precio del bono disminuirá.
+b.  El precio del bono aumentará.
+c.  El precio del bono se mantendrá igual.
+d.  No se puede determinar sin más información.
+
+::: {.callout-tip collapse="true"}
+## Respuesta
+
+La respuesta **correcta es la a**.
+
+Cálculo del precio de un bono
+
+El precio de un bono puede calcularse usando la siguiente fórmula:
+
+$$
+P_0 = \frac{F_1}{(1 + r)^1} + \frac{F_2}{(1 + r)^2} + \cdots + \frac{F_n}{(1 + r)^n}
+$$
+
+Donde:
+
+-   $P_0$ es el precio del bono hoy,
+-   $F_t$ son los flujos de efectivo del bono, que consisten en los cupones ($40 \, \text{€}$ anuales) y el valor nominal ($1.000 \, \text{€}$ al vencimiento),
+-   $r$ es la tasa de interés de mercado (TIR),
+-   $n$ es el número de períodos.
+
+Datos del bono:
+
+-   Valor nominal: 1.000 €,
+-   Cupón anual: 40 € (4% de 1.000 €),
+-   TIR inicial: 3%,
+-   Duración: 2 años.
+
+Cálculo del precio con una TIR del 3%
+
+Con una TIR del 3%, el precio del bono se calcula como:
+
+$$
+P_0 = \frac{40}{(1 + 0.03)^1} + \frac{1.040}{(1 + 0.03)^2}
+$$
+
+Realizamos los cálculos de cada flujo:
+
+-   Año 1: $\frac{40}{(1.03)^1} = \frac{40}{1.03} = 38.83 \, \text{€}$,
+-   Año 2: $\frac{1.040}{(1.03)^2} = \frac{1.040}{1.0609} = 980.41 \, \text{€}$.
+
+Sumamos los valores obtenidos:
+
+$$
+P_0 = 38.83 + 980.41 = 1.019,24 \, \text{€}
+$$
+
+Cálculo del precio con una TIR del 4%
+
+Ahora, si los tipos de interés suben al 4%, el precio del bono será:
+
+$$
+P_0 = \frac{40}{(1 + 0.04)^1} + \frac{1.040}{(1 + 0.04)^2}
+$$
+
+Realizamos los cálculos de cada flujo:
+
+-   Año 1: $\frac{40}{(1.04)^1} = \frac{40}{1.04} = 38.46 \, \text{€}$,
+-   Año 2: $\frac{1.040}{(1.04)^2} = \frac{1.040}{1.0816} = 962.38 \, \text{€}$.
+
+Sumamos los valores obtenidos:
+
+$$
+P_0 = 38.46 + 962.38 = 1.000,84 \, \text{€}
+$$
+
+Conclusión
+
+El precio del bono con una TIR del 3% es de aproximadamente **1.019,24 €** y, cuando la TIR sube al 4%, el precio baja a **1.000,84 €**. Esto muestra cómo la subida de los tipos de interés provoca una disminución en el precio del bono.
+:::
+
+------------------------------------------------------------------------
+
+17. Un bono que tiene un precio hoy de 97,50 pasa a tener un precio de 102,35 como consecuencia de que su TIR pasa del 5% al 4,50% ¿Cuál será la duración corregida de dicho bono?
+
+<!-- -->
+
+a.  10,45
+
+b.  10,00
+
+c.  9,95
+
+d.  10,39
+
+::: {.callout-tip collapse="true"}
+## Respuesta
+
+La respuesta **correcta es la c**.
+
+La variación absoluta de un bono se puede calcular mediante la siguiente fórmula:
+
+$$
+P_1 - P_0 \approx -S \cdot \Delta TIR
+$$
+
+Donde:
+
+-   $P_1$ es el precio final del bono (102,35),
+-   $P_0$ es el precio inicial del bono (97,50),
+-   $S$ es la sensibilidad del bono,
+-   $\Delta TIR$ es la variación en la TIR.
+
+Sustituyendo los valores:
+
+$$
+102.35 - 97.50 = -S \cdot (-0.5)
+$$
+
+Lo que nos da:
+
+$$
+4.85 = S \cdot 0.5
+$$
+
+De aquí despejamos $S$ (sensibilidad):
+
+$$
+S = \frac{4.85}{0.5} = 9.7
+$$
+
+La sensibilidad es equivalente a la duración corregida multiplicada por el precio del bono entre 100. La fórmula es:
+
+$$
+S = \text{Duración corregida} \cdot \frac{P_0}{100}
+$$
+
+Sustituyendo los valores de $S$ y $P_0$:
+
+$$
+9.7 = \text{Duración corregida} \cdot \frac{97.50}{100}
+$$
+
+Despejamos la duración corregida ($x$):
+
+$$
+\text{Duración corregida} = \frac{9.7 \cdot 100}{97.50} = 9.9487
+$$
+
+Por lo tanto, la duración corregida es aproximadamente **9,95**.
+:::
+
+------------------------------------------------------------------------
+
+# Caso práctico EFPA
+
+Tienes un bono con las siguientes características:
+
+-   Valor nominal: 100.000 €
+
+-   Cupón anual: 4%
+
+-   Frecuencia de pago del cupón: Anual
+
+-   Vencimiento: 5 años
+
+-   Tasa de mercado actual: 3%
+
+1.  Calcula el precio actual del bono utilizando la tasa de mercado actual.
+
+<!-- -->
+
+a.  104.579 €
+
+b.  106.335 €
+
+c.  102.980 €
+
+::: {.callout-tip collapse="true"}
+## Respuesta
+
+La respuesta **correcta es la a**.
+
+$$P_0=\frac{4}{\left(1+0.03\right)^{1\:}}+\frac{4}{\left(1+0.03\right)^{2\:}}+\frac{4}{\left(1+0.03\right)^{3\:}}+\frac{4}{\left(1+0.03\right)^{4\:}}+\frac{104}{\left(1+0.03\right)^5}$$ $$P_0=104.57970$$
+:::
+
+------------------------------------------------------------------------
+
+2.  Calcula la duración modificada del bono con base en la tasa de mercado actual y explica cómo afectaría un aumento de 0,5% en la tasa de mercado al precio del bono.
+
+<!-- -->
+
+a.  4,50 años.
+
+b.  4,75 años.
+
+c.  4,85 años.
+
+::: {.callout-tip collapse="true"}
+## Respuesta
+
+La respuesta **correcta es la a**.
+
+$$D=\frac{1\cdot\frac{4}{\left(1+0.03\right)^{1\:}}+2\cdot \frac{4}{\left(1+0.03\right)^{2\:}}+3·\frac{4}{\left(1+0.03\right)^{3\:}}+4\cdot \frac{4}{\left(1+0.03\right)^{4\:}}+5\cdot \frac{104}{\left(1+0.03\right)^5}}{104.57970}$$
+
+$$D=4.64887\dots $$
+
+$$D_c=\frac{\left[\frac{1\cdot \frac{4}{\left(1+0.03\right)^{1\:}}+2\cdot \frac{4}{\left(1+0.03\right)^{2\:}}+3·\frac{4}{\left(1+0.03\right)^{3\:}}+4\cdot \frac{4}{\left(1+0.03\right)^{4\:}}+5\cdot \frac{104}{\left(1+0.03\right)^5}}{104.57970}\right]}{\left(1+0.03\right)}$$
+
+$$D_c=4.50419\approx 4,50\%$$
+:::
+
+------------------------------------------------------------------------

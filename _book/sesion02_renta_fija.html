@@ -334,6 +334,8 @@ window.Quarto = {
   <li><a href="#gravamen-de-la-base-liquidable-del-ahorro" id="toc-gravamen-de-la-base-liquidable-del-ahorro" class="nav-link" data-scroll-target="#gravamen-de-la-base-liquidable-del-ahorro">💰 Gravamen de la base liquidable del ahorro</a></li>
   <li><a href="#cálculo-de-la-cuota-íntegra-del-ahorro" id="toc-cálculo-de-la-cuota-íntegra-del-ahorro" class="nav-link" data-scroll-target="#cálculo-de-la-cuota-íntegra-del-ahorro">🧮 Cálculo de la cuota íntegra del ahorro</a></li>
   </ul></li>
+  <li><a href="#preguntas-tipo-test" id="toc-preguntas-tipo-test" class="nav-link" data-scroll-target="#preguntas-tipo-test">Preguntas tipo test</a></li>
+  <li><a href="#caso-práctico-efpa" id="toc-caso-práctico-efpa" class="nav-link" data-scroll-target="#caso-práctico-efpa">Caso práctico EFPA</a></li>
   </ul>
 </nav>
     </div>
@@ -1533,9 +1535,759 @@ Escala estatal del ahorro (IRPF)
 <p><span class="math display">\[
 \text{Cuota íntegra} = 44.880 + 50.000 \times 0,27 = 44.880 + 13.500 = 58.380
 \]</span></p>
-
-
 </section>
+</section>
+<section id="preguntas-tipo-test" class="level1">
+<h1>Preguntas tipo test</h1>
+<ol type="1">
+<li>¿Cuál será la sensibilidad de un bono a 3 años, que paga un cupón del 4,75 si la TIR es del 3%?</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li>3,234</li>
+<li>2,923</li>
+<li>4,809</li>
+<li>Ninguna es correcta</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Respuesta
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la b</strong>.</p>
+<p>Calculamos el Precio</p>
+<p><span class="math display">\[P_0=\frac{4.75}{\left(1+0.03\right)^{1\:}}+\frac{4.75}{\left(1+0.03\right)^{2\:}}+\frac{104.75}{\left(1+0.03\right)^{3\:}}\]</span> <span class="math display">\[P_0=104.95006\]</span></p>
+<p>Calculamos la Duración</p>
+<p><span class="math display">\[D=\frac{1\cdot \frac{4.75}{\left(1+0.03\right)^{1\:}}+2\cdot \frac{4.75}{\left(1+0.03\right)^{2\:}}+3\cdot \frac{104.75}{\left(1+0.03\right)^{3\:}}}{104.95006}\]</span> <span class="math display">\[D=2.86945\dots\]</span></p>
+<p>Calculamos la Duración Corregida</p>
+<p><span class="math display">\[D_c=\frac{\left[\frac{1\cdot \frac{4.75}{\left(1+0.03\right)^{1\:}}+2\cdot \frac{4.75}{\left(1+0.03\right)^{2\:}}+3\cdot \frac{104.75}{\left(1+0.03\right)^{3\:}}}{104.95006}\right]}{\left(1+0.03\right)}\]</span></p>
+<p><span class="math display">\[D_c=2.78587\dots\]</span></p>
+<p>Calculamos la Sensibilidad</p>
+<p><span class="math display">\[S=\frac{\left[\frac{1\cdot \frac{4.75}{\left(1+0.03\right)^{1\:}}+2\cdot \frac{4.75}{\left(1+0.03\right)^{2\:}}+3\cdot \frac{104.75}{\left(1+0.03\right)^{3\:}}}{104.95006}\right]}{\left(1+0.03\right)}\cdot \left[\frac{104.95006}{100}\right]\]</span></p>
+<p><span class="math display">\[S=2.92378\dots\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+<ol start="2" type="1">
+<li>Si usted tiene una cartera de Renta Fija compuesta por 4 activos, cuyas duraciones y ponderaciones en el total de la cartera son:</li>
+</ol>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Porcentaje</th>
+<th style="text-align: center;">Duración</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">10%</td>
+<td style="text-align: center;">9,5</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">40%</td>
+<td style="text-align: center;">2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">30%</td>
+<td style="text-align: center;">7,25</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">4</td>
+</tr>
+</tbody>
+</table>
+<p>¿Cuál es aproximadamente la <strong>Duración Total de la cartera</strong>?</p>
+<ol type="a">
+<li><p>3,888</p></li>
+<li><p>4,725</p></li>
+<li><p>6,588</p></li>
+<li><p>Todas son falsas</p></li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Respuesta
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la b</strong>.</p>
+<p>La duración total de la cartera se calcula como la suma ponderada de las duraciones individuales:</p>
+<p><span class="math display">\[ D_{\text{cartera}} = \sum_{i=1}^{n} w_i \cdot D_i \]</span></p>
+<p>Donde:<br>
+- <span class="math inline">\(w_i\)</span> es el peso del activo <span class="math inline">\(i\)</span> en la cartera (en porcentaje convertido a decimal).<br>
+- <span class="math inline">\(D_i\)</span> es la duración del activo <span class="math inline">\(i\)</span>.</p>
+<p>El cálculo sería:</p>
+<p><span class="math display">\[ D_{\text{cartera}} = (0.10 \cdot 9.5) + (0.40 \cdot 2) + (0.30 \cdot 7.25) + (0.20 \cdot 4) \]</span> <span class="math display">\[D_{\text{cartera}} = 4.725\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+<ol start="3" type="1">
+<li>En el cálculo de la curva cupón cero, si contamos con letras del Tesoro a un año y rentabilidad del 1,5% y un bono a dos años con cupón del 3% y emitido a la par, ¿cuál es el tipo de interés cupón cero a dos años?</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li>2,02%</li>
+<li>2,52%</li>
+<li>3,02%</li>
+<li>3,52%</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Respuesta
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la c</strong>.</p>
+<p>Planteamos la siguiente ecuación</p>
+<p><span class="math display">\[P_0=\frac{C_1}{\left(1+r_{1}\right)^{1\:}}+\frac{C_2+N}{\left(1+r_2\right)^{2\:}}\]</span></p>
+<p>y, sustituimos los valores en la ecuación</p>
+<p><span class="math display">\[100=\frac{3}{\left(1+0.015\right)^{1\:}}+\frac{103}{\left(1+r_2\right)^{2\:}}\]</span></p>
+<p>ahora calculamos el valor presente del cupón del primer año</p>
+<p><span class="math display">\[100=2.95566+\frac{103}{\left(1+r_2\right)^{2\:}}\]</span> y, aislamos el segundo flujo</p>
+<p><span class="math display">\[100-2.95566=\frac{103}{\left(1+r_2\right)^{2\:}}\]</span> así tenemos la forma del bono cupón cero a dos años,</p>
+<p><span class="math display">\[97.04433=\frac{103}{\left(1+r_2\right)^{2\:}}\]</span></p>
+<p>de donde resolvemos por el tipo de interés</p>
+<p><span class="math display">\[r_2=0.03022(3,02%)\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+<ol start="4" type="1">
+<li>¿Cuál es la duración corregida o modificada de un bono a 5 años, con una TIR del 2,75% que paga cupones al 6?</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li>3,77</li>
+<li>4,38</li>
+<li>4,25</li>
+<li>5</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Respuesta
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la b</strong>.</p>
+<p>Calculamos el precio</p>
+<p><span class="math display">\[P_0=\frac{6}{\left(1+0.0275\right)^{1\:}}+\frac{6}{\left(1+0.0275\right)^{2\:}}+\frac{6}{\left(1+0.0275\right)^{3\:}}+\frac{6}{\left(1+0.0275\right)^{4\:}}+\frac{106}{\left(1+0.0275\right)^{5\:}}\]</span></p>
+<p><span class="math display">\[P_0=114.99089\]</span></p>
+<p>También podemos calcular el precio como una renta,</p>
+<p><span class="math display">\[P_0=6\cdot \left(\frac{1-\left(1+0.0275\right)^{-4\:}}{0.0275}\right)+\frac{106}{\left(1+0.0275\right)^{5\:}}=114.99089\]</span></p>
+<p><span class="math display">\[P_0=114.99089\]</span></p>
+<p>Calculamos la Duración</p>
+<p><span class="math display">\[D=\frac{1\cdot \frac{6}{\left(1+0.0275\right)^{1\:}}+2\cdot \frac{6}{\left(1+0.0275\right)^{2\:}}+3\cdot \frac{6}{\left(1+0.0275\right)^{3\:}}+4\cdot \frac{6}{\left(1+0.0275\right)^{4\:}}+5\cdot \frac{106}{\left(1+0.0275\right)^{5\:}}}{114.99089}\]</span></p>
+<p><span class="math display">\[D=4.50559\]</span> Y, la Duración Corregida</p>
+<p><span class="math display">\[D_c=\frac{\frac{1\cdot \frac{6}{\left(1+0.0275\right)^{1\:}}+2\cdot \frac{6}{\left(1+0.0275\right)^{2\:}}+3\cdot \frac{6}{\left(1+0.0275\right)^{3\:}}+4\cdot \frac{6}{\left(1+0.0275\right)^{4\:}}+5\cdot \frac{106}{\left(1+0.0275\right)^{5\:}}}{114.99089}}{\left(1+0.0275\right)}\]</span> <span class="math display">\[D_c=4.38500\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+<ol start="5" type="1">
+<li>¿Cuál es la duración de un bono que paga cupones del 4%, tiene vencimiento a 3 años, TIR del 5% y amortiza a la par?</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li>2,9.</li>
+<li>3</li>
+<li>2,88</li>
+<li>2,78</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Respuesta
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la c</strong>.</p>
+<p>Calculamos el precio</p>
+<p><span class="math display">\[P_0=\frac{4}{\left(1+0.05\right)^{1\:}}+\frac{4}{\left(1+0.05\right)^{2\:}}+\frac{104}{\left(1+0.05\right)^{3\:}}=97.27675\]</span></p>
+<p>Calculamos la duración</p>
+<p><span class="math display">\[D=\frac{1\cdot \frac{4}{\left(1+0.05\right)^{1\:}}+2\cdot \frac{4}{\left(1+0.05\right)^{2\:}}+3\cdot \frac{104}{\left(1+0.05\right)^{3\:}}}{97.27675}=2.88437\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+<ol start="6" type="1">
+<li>Un bono a 5 años con cupón 3% anual tiene una TIR del 3%. Si su duración es de 4,635 años ¿Cuál será su cotización previsible si la TIR subiera hasta el 3,50%?</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li><p>97,50%</p></li>
+<li><p>97,68%</p></li>
+<li><p>97,75%</p></li>
+<li><p>99,50%</p></li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Respuesta
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la c</strong>.</p>
+<p>Calculamos el precio</p>
+<p><span class="math display">\[P_0=\frac{3}{\left(1+0.03\right)^{1\:}}+\frac{3}{\left(1+0.03\right)^{2\:}}+\frac{3}{\left(1+0.03\right)^{3\:}}+\frac{3}{\left(1+0.03\right)^{4\:}}+\frac{103}{\left(1+0.03\right)^{5\:}}\]</span> <span class="math display">\[P_0=100\]</span> Calculamos la variación absoluta del precio, con la siguiente fórmula</p>
+<p><span class="math display">\[P_1-P_0=-S\cdot \left(TIR_1-TIR_0\right)\]</span> Donde la Sensibilidad es,</p>
+<p><span class="math display">\[S=D_c \cdot \frac{P_0}{100}\]</span> y, la Duración Corregida</p>
+<p><span class="math display">\[D_c=\frac{D}{(1+TIR_0)}\]</span></p>
+<p>Sustituimos los valores y operando,</p>
+<p>$ <span class="math display">\[P_1-100=-\left[\frac{4.635}{\left(1+0.03\right)}\cdot \frac{100}{100}\right]\cdot \left(3.5-3\right)\]</span></p>
+<p><span class="math display">\[P_1-=97.75\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+<ol start="7" type="1">
+<li>Un bono de Teletónica de valor nominal 1.000 euros se ha adquirido a un precio de 100,25% y una TIR del 3,5%. Si la sensibilidad de esta inversión a un movimiento de 1 punto de los tipos de interés es del 3%, ¿qué duración tiene esta inversión?</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li>2,9 años</li>
+<li>3,9 años</li>
+<li>2,5 años</li>
+<li>3,09 años</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Respuesta
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-10" class="callout-10-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la d</strong>.</p>
+<p>De la fórmula siguiente conocemos la Sensibilidad y el Precio actual,</p>
+<p><span class="math display">\[S=D_c \cdot \frac{P_0}{100}\]</span> sustituimos</p>
+<p><span class="math display">\[3=D_c \cdot \frac{100.25}{100}\]</span> y despejamos la Duración Corregida</p>
+<p><span class="math display">\[D_c=3 \cdot \frac{100}{100.25} \]</span> y obtenemos que</p>
+<p><span class="math display">\[D_c=2.99251\]</span></p>
+<p>ahora, de la Duración Corregida</p>
+<p><span class="math display">\[D_c=\frac{D}{(1+TIR_0)}\]</span></p>
+<p>despejamos la Duración</p>
+<p><span class="math display">\[D=D_c\cdot (1+TIR_0)\]</span> calculamos</p>
+<p><span class="math display">\[D=2.99251\left(1+0.035\right)\]</span> y nos da como resultado</p>
+<p><span class="math display">\[D=3.09724785\left(\approx 3,09\%\right)\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+<ol start="8" type="1">
+<li>Un cliente ha invertido 30.000€ en un bono cuya TIR desciende del 4,15% al 4% inmediatamente después de haberlo comprado. El precio inicial del bono era 100% y tenía una duración corregida o modificada de 5,23. Aproximadamente, ¿cuánto ha perdido/ganado el inversor?</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li>-226,30 euros.</li>
+<li>+235,35 euros.</li>
+<li>+226,30 euros.</li>
+<li>Ninguna es correcta.</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Respuesta
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-11" class="callout-11-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la b</strong>.</p>
+<p>Aplicamos la siguiente fórmula</p>
+<p><span class="math display">\[\frac{\Delta P}{P}\approx  \frac{P_1-P_0}{P_0}\approx \left(-D_{corregida}\right)\cdot\Delta TIR\]</span> Sustituimos los valores</p>
+<p><span class="math display">\[\frac{\Delta P}{P}\approx  \frac{P_1-P_0}{P_0}\approx\left[-5.23\cdot -0.0015\right]\]</span></p>
+<p>Y calculamos sobre el nominal</p>
+<p><span class="math display">\[\frac{\Delta P}{P}\approx  \frac{P_1-P_0}{P_0}\approx\left[-5.23\cdot -0.0015\right]\cdot 30000\approx235.35\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+<ol start="9" type="1">
+<li>Dado dos bonos cupón cero: uno, a 4 años que cotiza hoy a 97,71% y su valor de reembolso es del 125%, el otro, es un bono cupón cero a 7 años que cotiza hoy a 101,76% y se amortiza al 152%. ¿Cuál será la pendiente de la ETTI?.</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li>Creciente.</li>
+<li>Decreciente.</li>
+<li>Plana.</li>
+<li>Convexa.</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Respuesta
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-12" class="callout-12-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la</strong> .</p>
+<p>Calculamos la TIR del primer bono (4 años)</p>
+<p><span class="math display">\[97.71=\frac{125}{\left(1+TIR_1\right)^{4\:}}\]</span> obteniedo como resultado</p>
+<p><span class="math display">\[TIR_1=0.06351(6,35\%)\]</span> Calculamos la TIR del segundo bono (7 años)</p>
+<p><span class="math display">\[101.76=\frac{152}{\left(1+TIR_2\right)^7}\]</span></p>
+<p>obteniedo como resultado</p>
+<p><span class="math display">\[TIR_2=0.05899(5,89\%)\]</span> la pendiente de la ETTI será decreciente</p>
+<p><span class="math display">\[TIR_1&gt;TIR_2\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+<ol start="10" type="1">
+<li>¿Qué variación, en euros, experimentará una cartera de bonos, cuyo valor de mercado es 115%, tiene una duración igual a 4 años y una TIR del 5%, si los tipos de interés del mercado aumentan aproximadamente un 1%?</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li>3,381</li>
+<li>4,381</li>
+<li>2,381</li>
+<li>Todas son falsas</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Respuesta
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-13" class="callout-13-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la d</strong>.</p>
+<p>A partir de la siguiente fórmula, podemos calcular la variación del precio de un bono ante cambios de la TIR</p>
+<p><span class="math display">\[P_1-P_0\approx (-S)\cdot\Delta TIR\]</span></p>
+<p>donde,</p>
+<ul>
+<li><p><span class="math inline">\(P_1\)</span>, es el precio estimado del bono ante una variación de la TIR.</p></li>
+<li><p><span class="math inline">\(P_0\)</span>, es el precio actual del bono .</p></li>
+<li><p><span class="math inline">\(S\)</span>, es la sensibilidad o sensibilidad absoluta.</p></li>
+<li><p><span class="math inline">\(\Delta TIR\)</span>, variación porcentual de la TIR.</p></li>
+</ul>
+<p>si despejamos <span class="math inline">\(P_1\)</span>, la podemos expresar como</p>
+<p><span class="math display">\[P_1\approx P_0 + ((-S)\cdot\Delta TIR)\]</span> Si tenemos en cuenta que, debemos transformar la Duración (que nos dan como dato en el enunciado) en la Sensibilidad; usando la siguiente fórmula</p>
+<p><span class="math display">\[S=\frac{D}{\left(1+TIR\right)}\cdot\frac{P_0}{100}\]</span> de forma, que al sustituir los datos</p>
+<p><span class="math display">\[P_1\approx 115+\left[-\left(\frac{4}{\left(1+0.05\right)}\cdot \frac{115}{100}\right)\cdot +1\right]\]</span> y calculando, vemos que el precio ha caído</p>
+<p><span class="math display">\[P_1\approx 111.61904\]</span> siendo la variación negativa, que en porcentaje, es del</p>
+<p><span class="math display">\[P_1-P_0\approx 111.61904-115\approx \:-3.38096\%\]</span> Si asumimos que tanto los 115 como los 100 son valores en euros, el cálculo de la variación en euros debería ser idéntico, una caida de 3,381 euros, en función de esta premisa.</p>
+<p><strong>Conclusión</strong>: Bajo la premisa de que los valores están en euros y la omisión del signo en las respuestas implica que no representan correctamente el resultado negativo, la respuesta correcta sería: “d.&nbsp;Todas son falsas.”</p>
+</div>
+</div>
+</div>
+<hr>
+<ol start="11" type="1">
+<li>Adquirimos un bono a tres años de vencimiento, con cupón del 4,25%, a una TIR del 3,50%. La semana siguiente los tipos se ubican en el 4% (para simplificar así se quedarán hasta el vencimiento). La tasa de rentabilidad efectiva anual que esperamos obtener al vencimiento será:</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li>3,65 %</li>
+<li>3,52 %</li>
+<li>4,00 %</li>
+<li>4,24 %</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-14-contents" aria-controls="callout-14" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Respuesta
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-14" class="callout-14-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la</strong> .</p>
+<p>Calculamos el valor actual, que es nuestro precio de adquisición</p>
+<p><span class="math display">\[P_0=\frac{4.25}{\left(1+0.035\right)^{1\:}}+\frac{4.25}{\left(1+0.035\right)^{2\:}}+\frac{104.25}{\left(1+0.035\right)^{3\:}}=102.10122\]</span> Calculamos el valor final de todos los flujos de caja obtenidos por la inversión, teniendo en cuenta la reinversión de los mismos en las nuevas condiciones del mercado</p>
+<p><span class="math display">\[V_f=4.25\left(1+0.04\right)^2+4.25\left(1+0.04\right)^1+104.25=113.2668\]</span> Luego, podemos plantear la siguiente ecuación:</p>
+<p><span class="math display">\[P_0 \cdot (1 + TRE)^3 = V_f\]</span></p>
+<p>En esta expresión, el precio de adquisición del bono (<span class="math inline">\(P_0\)</span>) se capitaliza durante tres periodos a la tasa de rendimiento efectivo (<span class="math inline">\(TRE\)</span>), lo que resulta igual al valor final (<span class="math inline">\(V_f\)</span>) obtenido al vencimiento de la operación.</p>
+<p>Sustituimos los valores y resolvemos por la <span class="math inline">\(TRE\)</span></p>
+<p><span class="math display">\[102.10122 \cdot (1 + TRE)^3 = 113.2668\]</span> Obteniendo como resultado</p>
+<p><span class="math display">\[TRE=\left(\frac{113.2668}{102.10122}\right)^{\frac{1}{3}}-1=0.03519\left(\approx 3,52\%\right)\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+<ol start="12" type="1">
+<li>Dado un bono con duración corregida igual a 7, con una TIR del 9% y que paga un cupón anual del 3%, ¿cuál es su duración?</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li>7,21 años.</li>
+<li>7,63 años.</li>
+<li>6,80 años</li>
+<li>6,42 años</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-15-contents" aria-controls="callout-15" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Respuesta
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-15" class="callout-15-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la b</strong>.</p>
+<p>De la Duración Corregida</p>
+<p><span class="math display">\[D_c=\frac{D}{(1+TIR_0)}\]</span></p>
+<p>sustituimos y despejamos la duración</p>
+<p><span class="math display">\[7=\frac{D}{(1+0.09)}\]</span> y despejamos la duración</p>
+<p><span class="math display">\[D=\left(1+0.09\right)\cdot 7=7.63\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+<ol start="13" type="1">
+<li>Dado un Bono del Estado a dos años, cupón anual del 3%, TIR de compra 3,5%, si lo compramos en su fecha valor de emisión, ¿Cuál es su Duración?</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li>2 años</li>
+<li>1,5 años</li>
+<li>1,97 años</li>
+<li>Ninguna es correcta.</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-16-contents" aria-controls="callout-16" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Respuesta
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-16" class="callout-16-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la c</strong>.</p>
+<p>Calculamos el precio entero</p>
+<p><span class="math display">\[P_0=\frac{3}{\left(1+0.035\right)^{1\:}}+\frac{103}{\left(1+0.035\right)^{2\:}}=99.05015\]</span></p>
+<p>Y calculamos la duración</p>
+<p><span class="math display">\[D=\frac{1\cdot \frac{3}{\left(1+0.035\right)^{1\:}}+2\cdot \frac{103}{\left(1+0.035\right)^{2\:}}}{99.05015}=1.97073\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+<ol start="14" type="1">
+<li>Un bono de valor nominal 1.000€, precio entero 1.020€ con vencimiento dentro de tres años, cupones anuales del 4% en fecha 5 de junio. Hoy, 25 de enero, calculamos el cupón corrido y el precio ex-cupón obteniendo:</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li><p>25,64€ y 994,36€ respectivamente.</p></li>
+<li><p>14,36€ y 1005,64€ respectivamente.</p></li>
+<li><p>26€ y 994€, respectivamente.</p></li>
+<li><p>No es posible calcularlo sin conocer la TIR del bono.</p></li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-17-contents" aria-controls="callout-17" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Respuesta
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-17" class="callout-17-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la a</strong>.</p>
+<p>Calculamos el cupón corrido</p>
+<p><span class="math display">\[CC=\frac{365-131}{365}\cdot 40=25.64\]</span> Y lo restamos del precio entero</p>
+<p><span class="math display">\[P_{0,\:ex}=1020-25.64=994.36\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+<ol start="15" type="1">
+<li>Un bono tiene un valor nominal de 1.000 €, paga un cupón anual del 5% y vence en 3 años. Si la TIR (Tasa Interna de Retorno) del mercado es del 4%, ¿cuál sería el precio actual del bono?</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li>1.000 €</li>
+<li>1.027,36 €</li>
+<li>1.040,00 €</li>
+<li>960,00 €</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-18-contents" aria-controls="callout-18" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Respuesta
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-18" class="callout-18-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la b</strong>.</p>
+<p><span class="math display">\[P_0=\frac{50}{\left(1+0.04\right)^{1\:}}+\frac{50}{\left(1+0.04\right)^{2\:}}+\frac{1050}{\left(1+0.04\right)^{3\:}}=1027.75091\dots \:\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+<ol start="16" type="1">
+<li>Un inversor posee un bono con un cupón anual del 4% y un valor nominal de 1.000 €. Si la Tasa Interna de Retorno (TIR) en el mercado es del 3%, ¿cómo se verá afectado el precio del bono si los tipos de interés suben al 4%?</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li>El precio del bono disminuirá.</li>
+<li>El precio del bono aumentará.</li>
+<li>El precio del bono se mantendrá igual.</li>
+<li>No se puede determinar sin más información.</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-19-contents" aria-controls="callout-19" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Respuesta
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-19" class="callout-19-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la a</strong>.</p>
+<p>Cálculo del precio de un bono</p>
+<p>El precio de un bono puede calcularse usando la siguiente fórmula:</p>
+<p><span class="math display">\[
+P_0 = \frac{F_1}{(1 + r)^1} + \frac{F_2}{(1 + r)^2} + \cdots + \frac{F_n}{(1 + r)^n}
+\]</span></p>
+<p>Donde:</p>
+<ul>
+<li><span class="math inline">\(P_0\)</span> es el precio del bono hoy,</li>
+<li><span class="math inline">\(F_t\)</span> son los flujos de efectivo del bono, que consisten en los cupones (<span class="math inline">\(40 \, \text{€}\)</span> anuales) y el valor nominal (<span class="math inline">\(1.000 \, \text{€}\)</span> al vencimiento),</li>
+<li><span class="math inline">\(r\)</span> es la tasa de interés de mercado (TIR),</li>
+<li><span class="math inline">\(n\)</span> es el número de períodos.</li>
+</ul>
+<p>Datos del bono:</p>
+<ul>
+<li>Valor nominal: 1.000 €,</li>
+<li>Cupón anual: 40 € (4% de 1.000 €),</li>
+<li>TIR inicial: 3%,</li>
+<li>Duración: 2 años.</li>
+</ul>
+<p>Cálculo del precio con una TIR del 3%</p>
+<p>Con una TIR del 3%, el precio del bono se calcula como:</p>
+<p><span class="math display">\[
+P_0 = \frac{40}{(1 + 0.03)^1} + \frac{1.040}{(1 + 0.03)^2}
+\]</span></p>
+<p>Realizamos los cálculos de cada flujo:</p>
+<ul>
+<li>Año 1: <span class="math inline">\(\frac{40}{(1.03)^1} = \frac{40}{1.03} = 38.83 \, \text{€}\)</span>,</li>
+<li>Año 2: <span class="math inline">\(\frac{1.040}{(1.03)^2} = \frac{1.040}{1.0609} = 980.41 \, \text{€}\)</span>.</li>
+</ul>
+<p>Sumamos los valores obtenidos:</p>
+<p><span class="math display">\[
+P_0 = 38.83 + 980.41 = 1.019,24 \, \text{€}
+\]</span></p>
+<p>Cálculo del precio con una TIR del 4%</p>
+<p>Ahora, si los tipos de interés suben al 4%, el precio del bono será:</p>
+<p><span class="math display">\[
+P_0 = \frac{40}{(1 + 0.04)^1} + \frac{1.040}{(1 + 0.04)^2}
+\]</span></p>
+<p>Realizamos los cálculos de cada flujo:</p>
+<ul>
+<li>Año 1: <span class="math inline">\(\frac{40}{(1.04)^1} = \frac{40}{1.04} = 38.46 \, \text{€}\)</span>,</li>
+<li>Año 2: <span class="math inline">\(\frac{1.040}{(1.04)^2} = \frac{1.040}{1.0816} = 962.38 \, \text{€}\)</span>.</li>
+</ul>
+<p>Sumamos los valores obtenidos:</p>
+<p><span class="math display">\[
+P_0 = 38.46 + 962.38 = 1.000,84 \, \text{€}
+\]</span></p>
+<p>Conclusión</p>
+<p>El precio del bono con una TIR del 3% es de aproximadamente <strong>1.019,24 €</strong> y, cuando la TIR sube al 4%, el precio baja a <strong>1.000,84 €</strong>. Esto muestra cómo la subida de los tipos de interés provoca una disminución en el precio del bono.</p>
+</div>
+</div>
+</div>
+<hr>
+<ol start="17" type="1">
+<li>Un bono que tiene un precio hoy de 97,50 pasa a tener un precio de 102,35 como consecuencia de que su TIR pasa del 5% al 4,50% ¿Cuál será la duración corregida de dicho bono?</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li><p>10,45</p></li>
+<li><p>10,00</p></li>
+<li><p>9,95</p></li>
+<li><p>10,39</p></li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-20-contents" aria-controls="callout-20" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Respuesta
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-20" class="callout-20-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la c</strong>.</p>
+<p>La variación absoluta de un bono se puede calcular mediante la siguiente fórmula:</p>
+<p><span class="math display">\[
+P_1 - P_0 \approx -S \cdot \Delta TIR
+\]</span></p>
+<p>Donde:</p>
+<ul>
+<li><span class="math inline">\(P_1\)</span> es el precio final del bono (102,35),</li>
+<li><span class="math inline">\(P_0\)</span> es el precio inicial del bono (97,50),</li>
+<li><span class="math inline">\(S\)</span> es la sensibilidad del bono,</li>
+<li><span class="math inline">\(\Delta TIR\)</span> es la variación en la TIR.</li>
+</ul>
+<p>Sustituyendo los valores:</p>
+<p><span class="math display">\[
+102.35 - 97.50 = -S \cdot (-0.5)
+\]</span></p>
+<p>Lo que nos da:</p>
+<p><span class="math display">\[
+4.85 = S \cdot 0.5
+\]</span></p>
+<p>De aquí despejamos <span class="math inline">\(S\)</span> (sensibilidad):</p>
+<p><span class="math display">\[
+S = \frac{4.85}{0.5} = 9.7
+\]</span></p>
+<p>La sensibilidad es equivalente a la duración corregida multiplicada por el precio del bono entre 100. La fórmula es:</p>
+<p><span class="math display">\[
+S = \text{Duración corregida} \cdot \frac{P_0}{100}
+\]</span></p>
+<p>Sustituyendo los valores de <span class="math inline">\(S\)</span> y <span class="math inline">\(P_0\)</span>:</p>
+<p><span class="math display">\[
+9.7 = \text{Duración corregida} \cdot \frac{97.50}{100}
+\]</span></p>
+<p>Despejamos la duración corregida (<span class="math inline">\(x\)</span>):</p>
+<p><span class="math display">\[
+\text{Duración corregida} = \frac{9.7 \cdot 100}{97.50} = 9.9487
+\]</span></p>
+<p>Por lo tanto, la duración corregida es aproximadamente <strong>9,95</strong>.</p>
+</div>
+</div>
+</div>
+<hr>
+</section>
+<section id="caso-práctico-efpa" class="level1">
+<h1>Caso práctico EFPA</h1>
+<p>Tienes un bono con las siguientes características:</p>
+<ul>
+<li><p>Valor nominal: 100.000 €</p></li>
+<li><p>Cupón anual: 4%</p></li>
+<li><p>Frecuencia de pago del cupón: Anual</p></li>
+<li><p>Vencimiento: 5 años</p></li>
+<li><p>Tasa de mercado actual: 3%</p></li>
+</ul>
+<ol type="1">
+<li>Calcula el precio actual del bono utilizando la tasa de mercado actual.</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li><p>104.579 €</p></li>
+<li><p>106.335 €</p></li>
+<li><p>102.980 €</p></li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-21-contents" aria-controls="callout-21" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Respuesta
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-21" class="callout-21-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la a</strong>.</p>
+<p><span class="math display">\[P_0=\frac{4}{\left(1+0.03\right)^{1\:}}+\frac{4}{\left(1+0.03\right)^{2\:}}+\frac{4}{\left(1+0.03\right)^{3\:}}+\frac{4}{\left(1+0.03\right)^{4\:}}+\frac{104}{\left(1+0.03\right)^5}\]</span> <span class="math display">\[P_0=104.57970\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+<ol start="2" type="1">
+<li>Calcula la duración modificada del bono con base en la tasa de mercado actual y explica cómo afectaría un aumento de 0,5% en la tasa de mercado al precio del bono.</li>
+</ol>
+<!-- -->
+<ol type="a">
+<li><p>4,50 años.</p></li>
+<li><p>4,75 años.</p></li>
+<li><p>4,85 años.</p></li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-22-contents" aria-controls="callout-22" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Respuesta
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-22" class="callout-22-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>La respuesta <strong>correcta es la a</strong>.</p>
+<p><span class="math display">\[D=\frac{1\cdot\frac{4}{\left(1+0.03\right)^{1\:}}+2\cdot \frac{4}{\left(1+0.03\right)^{2\:}}+3·\frac{4}{\left(1+0.03\right)^{3\:}}+4\cdot \frac{4}{\left(1+0.03\right)^{4\:}}+5\cdot \frac{104}{\left(1+0.03\right)^5}}{104.57970}\]</span></p>
+<p><span class="math display">\[D=4.64887\dots \]</span></p>
+<p><span class="math display">\[D_c=\frac{\left[\frac{1\cdot \frac{4}{\left(1+0.03\right)^{1\:}}+2\cdot \frac{4}{\left(1+0.03\right)^{2\:}}+3·\frac{4}{\left(1+0.03\right)^{3\:}}+4\cdot \frac{4}{\left(1+0.03\right)^{4\:}}+5\cdot \frac{104}{\left(1+0.03\right)^5}}{104.57970}\right]}{\left(1+0.03\right)}\]</span></p>
+<p><span class="math display">\[D_c=4.50419\approx 4,50\%\]</span></p>
+</div>
+</div>
+</div>
+<hr>
+
+
 </section>
 
 </main> <!-- /main -->
