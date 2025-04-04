@@ -222,6 +222,11 @@ window.Quarto = {
   <a href="./sesion12_simulacion_examen.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Sesión 12: Simulación de examen y cierre del curso</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./anexo_coyuntura_economica.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Anexo 1: Coyuntura económica</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -315,6 +320,15 @@ window.Quarto = {
   <li><a href="#liquidación-contrato-fra" id="toc-liquidación-contrato-fra" class="nav-link" data-scroll-target="#liquidación-contrato-fra">Liquidación contrato FRA</a></li>
   <li><a href="#fórmula-para-pasar-los-tipos-de-interés-en-base-365-a-360-y-viceversa" id="toc-fórmula-para-pasar-los-tipos-de-interés-en-base-365-a-360-y-viceversa" class="nav-link" data-scroll-target="#fórmula-para-pasar-los-tipos-de-interés-en-base-365-a-360-y-viceversa">Fórmula para pasar los tipos de interés en base 365 a 360 y viceversa</a></li>
   <li><a href="#tipo-forward-o-implícito" id="toc-tipo-forward-o-implícito" class="nav-link" data-scroll-target="#tipo-forward-o-implícito">Tipo forward o implícito</a></li>
+  </ul></li>
+  <li><a href="#renta-variable" id="toc-renta-variable" class="nav-link" data-scroll-target="#renta-variable"><strong>Renta Variable</strong></a>
+  <ul class="collapse">
+  <li><a href="#modelo-de-descuento-de-dividendos-gordon-shapiro" id="toc-modelo-de-descuento-de-dividendos-gordon-shapiro" class="nav-link" data-scroll-target="#modelo-de-descuento-de-dividendos-gordon-shapiro">Modelo de descuento de dividendos (Gordon-Shapiro)</a></li>
+  <li><a href="#valoración-por-múltiplos-per" id="toc-valoración-por-múltiplos-per" class="nav-link" data-scroll-target="#valoración-por-múltiplos-per">Valoración por múltiplos: PER</a></li>
+  <li><a href="#ratios-bursátiles-y-financieros" id="toc-ratios-bursátiles-y-financieros" class="nav-link" data-scroll-target="#ratios-bursátiles-y-financieros">Ratios bursátiles y financieros</a></li>
+  <li><a href="#otros-ratios-relevantes" id="toc-otros-ratios-relevantes" class="nav-link" data-scroll-target="#otros-ratios-relevantes">Otros ratios relevantes</a></li>
+  <li><a href="#coste-medio-del-capital-wacc" id="toc-coste-medio-del-capital-wacc" class="nav-link" data-scroll-target="#coste-medio-del-capital-wacc">Coste medio del capital (WACC)</a></li>
+  <li><a href="#valor-contable-de-mercado-y-de-liquidación" id="toc-valor-contable-de-mercado-y-de-liquidación" class="nav-link" data-scroll-target="#valor-contable-de-mercado-y-de-liquidación">Valor contable, de mercado y de liquidación</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -528,6 +542,189 @@ window.Quarto = {
 <blockquote class="blockquote">
 <p><strong>Nota</strong>: en este ejemplo la ecuación representa un tipo forward o implícito a un año dentro de un año; asimismo se podrían calcular cualquier otro siempre que la <strong>Estructura Temporal de los Tipos de Interés (ETTI)</strong> tenga los tipos spot necesarios para ello.</p>
 </blockquote>
+</section>
+</section>
+<section id="renta-variable" class="level2">
+<h2 class="anchored" data-anchor-id="renta-variable"><strong>Renta Variable</strong></h2>
+<section id="modelo-de-descuento-de-dividendos-gordon-shapiro" class="level3">
+<h3 class="anchored" data-anchor-id="modelo-de-descuento-de-dividendos-gordon-shapiro">Modelo de descuento de dividendos (Gordon-Shapiro)</h3>
+<p>Uno de los modelos más utilizados para valorar una acción que paga dividendos de forma indefinida con crecimiento constante es el modelo de Gordon-Shapiro:</p>
+<p><span class="math display">\[
+P_0 = \frac{D_1}{k - g}
+\]</span></p>
+<p>donde:</p>
+<ul>
+<li><span class="math inline">\(P_0\)</span>: precio teórico de la acción hoy</li>
+<li><span class="math inline">\(D_1\)</span>: dividendo esperado el próximo año</li>
+<li><span class="math inline">\(k\)</span>: rentabilidad mínima exigida por el inversor (tasa de descuento)</li>
+<li><span class="math inline">\(g\)</span>: tasa constante de crecimiento del dividendo</li>
+</ul>
+<p>También puede expresarse en función del dividendo actual:</p>
+<p><span class="math display">\[
+P_0 = \frac{D_0 \cdot (1 + g)}{k - g}
+\]</span></p>
+<p>La tasa de crecimiento <span class="math inline">\(g\)</span> se puede estimar como:</p>
+<p><span class="math display">\[
+g = ROE \cdot (1 - \text{Pay-out})
+\]</span></p>
+<p>donde el ROE (rentabilidad financiera) es:</p>
+<p><span class="math display">\[
+ROE = \frac{\text{Beneficio después de impuestos (BDI)}}{\text{Fondos propios (FP)}}
+\]</span></p>
+</section>
+<section id="valoración-por-múltiplos-per" class="level3">
+<h3 class="anchored" data-anchor-id="valoración-por-múltiplos-per">Valoración por múltiplos: PER</h3>
+<p>Otra metodología habitual es la valoración por múltiplos, siendo el <strong>PER (Price to Earnings Ratio)</strong> el más empleado:</p>
+<p><span class="math display">\[
+P_0 = PER \cdot BPA
+\]</span></p>
+<p>donde:</p>
+<ul>
+<li><span class="math inline">\(BPA\)</span>: beneficio por acción</li>
+<li><span class="math inline">\(PER\)</span>: múltiplo aplicado (puede ser el del sector, mercado o histórico)</li>
+</ul>
+<p>Este método es útil para comparar empresas similares entre sí o para detectar infravaloraciones relativas.</p>
+</section>
+<section id="ratios-bursátiles-y-financieros" class="level3">
+<h3 class="anchored" data-anchor-id="ratios-bursátiles-y-financieros">Ratios bursátiles y financieros</h3>
+<p>A continuación, se presentan los principales indicadores utilizados en el análisis fundamental:</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Relación entre precio y beneficios</strong></p>
+</div>
+</div>
+<ul>
+<li><strong>PER</strong>:</li>
+</ul>
+<p><span class="math display">\[
+PER = \frac{P_0}{BPA}
+\]</span></p>
+<ul>
+<li><strong>Earning Yield Ratio (EYR)</strong>:</li>
+</ul>
+<p><span class="math display">\[
+EYR = \frac{1}{PER} = \frac{BPA}{P_0}
+\]</span></p>
+<ul>
+<li><strong>Earning Yield Gap (EYG)</strong>:</li>
+</ul>
+<p><span class="math display">\[
+EYG = EYR - R_f
+\]</span></p>
+<p>Compara la rentabilidad relativa de la renta variable con la rentabilidad de la renta fija sin riesgo <span class="math inline">\(R_f\)</span>.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Dividendos y política de reparto</strong></p>
+</div>
+</div>
+<ul>
+<li><strong>DPA (Dividendo por acción)</strong>:</li>
+</ul>
+<p><span class="math display">\[
+DPA = \frac{\text{Beneficio neto}}{\text{N° de acciones}}
+\]</span></p>
+<ul>
+<li><strong>Rentabilidad por dividendo (Dividend Yield)</strong>:</li>
+</ul>
+<p><span class="math display">\[
+\text{Dividend Yield} = \frac{DPA}{P_0}
+\]</span></p>
+<ul>
+<li><strong>Pay-out</strong>:</li>
+</ul>
+<p><span class="math display">\[
+\text{Pay-out} = \frac{DPA}{BPA}
+\]</span></p>
+<p>Relaciones derivadas útiles:</p>
+<p><span class="math display">\[
+BPA = \frac{DPA}{\text{Pay-out}}, \quad DPA = \text{Pay-out} \cdot BPA
+\]</span></p>
+</section>
+<section id="otros-ratios-relevantes" class="level3">
+<h3 class="anchored" data-anchor-id="otros-ratios-relevantes">Otros ratios relevantes</h3>
+<ul>
+<li><strong>Precio/Cash Flow (PCF)</strong>:</li>
+</ul>
+<p><span class="math display">\[
+PCF = \frac{\text{Cotización}}{\text{Cash Flow por acción}}
+\]</span></p>
+<p>Mide cuánto paga el mercado por cada euro de generación de caja.</p>
+<ul>
+<li><strong>ROA (rentabilidad económica)</strong>:</li>
+</ul>
+<p><span class="math display">\[
+ROA = \frac{\text{Beneficio neto (EBIT)}}{\text{Activo total}}
+\]</span></p>
+<p>Indica la rentabilidad obtenida sobre el total de activos invertidos.</p>
+<ul>
+<li><strong>ROE (rentabilidad financiera)</strong>:</li>
+</ul>
+<p><span class="math display">\[
+ROE = \frac{\text{Beneficio neto}}{\text{Fondos propios}}
+\]</span></p>
+<p>Mide la rentabilidad para el accionista.</p>
+<ul>
+<li><strong>Apalancamiento financiero</strong>:</li>
+</ul>
+<p><span class="math display">\[
+\text{Apalancamiento} = \frac{\text{Resultado de la inversión}}{\text{Capital invertido}}
+\]</span></p>
+<p>Cuantifica la sensibilidad del resultado respecto al capital utilizado.</p>
+</section>
+<section id="coste-medio-del-capital-wacc" class="level3">
+<h3 class="anchored" data-anchor-id="coste-medio-del-capital-wacc">Coste medio del capital (WACC)</h3>
+<p>El WACC se utiliza como tasa de descuento en modelos de flujos de caja:</p>
+<p><span class="math display">\[
+WACC = K_e \cdot \left(\frac{E}{E + D}\right) + K_d \cdot (1 - T) \cdot \left(\frac{D}{E + D}\right)
+\]</span></p>
+<p>donde:</p>
+<ul>
+<li><span class="math inline">\(K_e\)</span>: coste del capital propio<br>
+</li>
+<li><span class="math inline">\(K_d\)</span>: coste de la deuda<br>
+</li>
+<li><span class="math inline">\(T\)</span>: tipo impositivo<br>
+</li>
+<li><span class="math inline">\(E\)</span>: fondos propios<br>
+</li>
+<li><span class="math inline">\(D\)</span>: deuda financiera</li>
+</ul>
+<p>Este indicador resume el coste medio ponderado de financiación de una empresa.</p>
+</section>
+<section id="valor-contable-de-mercado-y-de-liquidación" class="level3">
+<h3 class="anchored" data-anchor-id="valor-contable-de-mercado-y-de-liquidación">Valor contable, de mercado y de liquidación</h3>
+<ul>
+<li><strong>Valor contable (VC)</strong>:</li>
+</ul>
+<p><span class="math display">\[
+VC = \text{Activo} - \text{Pasivo}
+\]</span></p>
+<ul>
+<li><strong>Valor de mercado (VM)</strong>:</li>
+</ul>
+<p><span class="math display">\[
+VM = P_0 \cdot \text{N° de acciones}
+\]</span></p>
+<ul>
+<li><strong>Valor de liquidación</strong>:</li>
+</ul>
+<p>Estimación del valor neto si se liquidaran todos los activos de la empresa y se pagaran todas sus deudas.</p>
 
 
 </section>

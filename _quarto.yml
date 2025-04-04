@@ -23,6 +23,7 @@ book:
         - sesion10_planificacion_financiera.qmd
         - sesion11_repaso_final.qmd
         - sesion12_simulacion_examen.qmd
+        - anexo_coyuntura_economica.qmd
 
     - part: "✅ TEST"
       chapters:

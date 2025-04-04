@@ -534,7 +534,182 @@ donde,
 
 
 
+## **Renta Variable** {#renta-variable}
 
+
+### Modelo de descuento de dividendos (Gordon-Shapiro)
+
+Uno de los modelos más utilizados para valorar una acción que paga dividendos de forma indefinida con crecimiento constante es el modelo de Gordon-Shapiro:
+
+$$
+P_0 = \frac{D_1}{k - g}
+$$
+
+donde:
+
+- $P_0$: precio teórico de la acción hoy
+- $D_1$: dividendo esperado el próximo año
+- $k$: rentabilidad mínima exigida por el inversor (tasa de descuento)
+- $g$: tasa constante de crecimiento del dividendo
+
+También puede expresarse en función del dividendo actual:
+
+$$
+P_0 = \frac{D_0 \cdot (1 + g)}{k - g}
+$$
+
+La tasa de crecimiento $g$ se puede estimar como:
+
+$$
+g = ROE \cdot (1 - \text{Pay-out})
+$$
+
+donde el ROE (rentabilidad financiera) es:
+
+$$
+ROE = \frac{\text{Beneficio después de impuestos (BDI)}}{\text{Fondos propios (FP)}}
+$$
+
+### Valoración por múltiplos: PER
+
+Otra metodología habitual es la valoración por múltiplos, siendo el **PER (Price to Earnings Ratio)** el más empleado:
+
+$$
+P_0 = PER \cdot BPA
+$$
+
+donde:
+
+- $BPA$: beneficio por acción
+- $PER$: múltiplo aplicado (puede ser el del sector, mercado o histórico)
+
+Este método es útil para comparar empresas similares entre sí o para detectar infravaloraciones relativas.
+
+### Ratios bursátiles y financieros
+
+A continuación, se presentan los principales indicadores utilizados en el análisis fundamental:
+
+::: callout-note
+**Relación entre precio y beneficios**
+:::
+
+- **PER**:
+
+$$
+PER = \frac{P_0}{BPA}
+$$
+
+- **Earning Yield Ratio (EYR)**:
+
+$$
+EYR = \frac{1}{PER} = \frac{BPA}{P_0}
+$$
+
+- **Earning Yield Gap (EYG)**:
+
+$$
+EYG = EYR - R_f
+$$
+
+Compara la rentabilidad relativa de la renta variable con la rentabilidad de la renta fija sin riesgo $R_f$.
+
+::: callout-note
+**Dividendos y política de reparto**
+:::
+
+- **DPA (Dividendo por acción)**:
+
+$$
+DPA = \frac{\text{Beneficio neto}}{\text{N° de acciones}}
+$$
+
+- **Rentabilidad por dividendo (Dividend Yield)**:
+
+$$
+\text{Dividend Yield} = \frac{DPA}{P_0}
+$$
+
+- **Pay-out**:
+
+$$
+\text{Pay-out} = \frac{DPA}{BPA}
+$$
+
+Relaciones derivadas útiles:
+
+$$
+BPA = \frac{DPA}{\text{Pay-out}}, \quad DPA = \text{Pay-out} \cdot BPA
+$$
+
+### Otros ratios relevantes
+
+- **Precio/Cash Flow (PCF)**:
+
+$$
+PCF = \frac{\text{Cotización}}{\text{Cash Flow por acción}}
+$$
+
+Mide cuánto paga el mercado por cada euro de generación de caja.
+
+- **ROA (rentabilidad económica)**:
+
+$$
+ROA = \frac{\text{Beneficio neto (EBIT)}}{\text{Activo total}}
+$$
+
+Indica la rentabilidad obtenida sobre el total de activos invertidos.
+
+- **ROE (rentabilidad financiera)**:
+
+$$
+ROE = \frac{\text{Beneficio neto}}{\text{Fondos propios}}
+$$
+
+Mide la rentabilidad para el accionista.
+
+- **Apalancamiento financiero**:
+
+$$
+\text{Apalancamiento} = \frac{\text{Resultado de la inversión}}{\text{Capital invertido}}
+$$
+
+Cuantifica la sensibilidad del resultado respecto al capital utilizado.
+
+### Coste medio del capital (WACC)
+
+El WACC se utiliza como tasa de descuento en modelos de flujos de caja:
+
+$$
+WACC = K_e \cdot \left(\frac{E}{E + D}\right) + K_d \cdot (1 - T) \cdot \left(\frac{D}{E + D}\right)
+$$
+
+donde:
+
+- $K_e$: coste del capital propio  
+- $K_d$: coste de la deuda  
+- $T$: tipo impositivo  
+- $E$: fondos propios  
+- $D$: deuda financiera
+
+Este indicador resume el coste medio ponderado de financiación de una empresa.
+
+### Valor contable, de mercado y de liquidación
+
+- **Valor contable (VC)**:
+
+$$
+VC = \text{Activo} - \text{Pasivo}
+$$
+
+- **Valor de mercado (VM)**:
+
+$$
+VM = P_0 \cdot \text{N° de acciones}
+$$
+
+- **Valor de liquidación**:
+
+Estimación del valor neto si se liquidaran todos los activos de la empresa y se pagaran todas sus deudas.
 
 
 

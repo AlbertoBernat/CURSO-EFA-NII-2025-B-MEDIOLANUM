@@ -1,22 +1,21 @@
-
 /* Tipografía general */
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #1f2e83;
+  color: #42526e;
   line-height: 1.6;
 }
 
 /* Títulos */
 h1, h2, h3, h4 {
-  color: #1f2e83;
-  font-weight: bold;
+  color: #2c3e50;
+  font-weight: 600;
   border-bottom: 2px solid #f5d800;
   padding-bottom: 0.2em;
 }
 
 /* Enlaces */
 a {
-  color: #1f2e83;
+  color: #42526e;
   text-decoration: none;
 }
 a:hover {
@@ -25,9 +24,10 @@ a:hover {
 
 /* Llamadas o bloques destacados */
 .callout-note {
-  background-color: #f5f9ff;
-  border-left: 5px solid #1f2e83;
+  background-color: #f6f8fa;
+  border-left: 4px solid #8faadc;
   padding: 1em;
+  color: #444;
 }
 
 /* Tablas */
@@ -36,7 +36,7 @@ table {
   border-collapse: collapse;
 }
 th {
-  background-color: #1f2e83;
+  background-color: #5d708a;
   color: white;
 }
 td, th {
@@ -46,7 +46,7 @@ td, th {
 
 /* Botones y resaltados */
 .button {
-  background-color: #1f2e83;
+  background-color: #5d708a;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -56,7 +56,7 @@ td, th {
   cursor: pointer;
 }
 .button:hover {
-  background-color: #142063;
+  background-color: #3e4e63;
 }
 
 /* Logo centrado (por si se usa como portada) */
@@ -66,20 +66,3 @@ td, th {
   margin-right: auto;
   width: 300px;
 }
-
-
-
-favicon-96x96.png
-favicon.svg
-favicon.ico
-apple-touch-icon.png
-site.webmanifest
-
-
-/
-├── favicon-96x96.png
-├── favicon.svg
-├── favicon.ico
-├── apple-touch-icon.png
-├── site.webmanifest
-└── (otros archivos y carpetas)
