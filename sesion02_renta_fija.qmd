@@ -18,7 +18,7 @@ format: html
 
 ```{=html}
 <object data="CLASE-DE-RENTA-FIJA-2025-MEDIOLANUM.pdf" type="application/pdf" width="100%" height="800px" style="min-height:100vh;">
-  <p>Tu navegador no puede mostrar PDF embebidos. Puedes <a href="presentacion_repaso_efa_beamer.pdf" target="_blank">descargarlo aquí</a>.</p>
+  <p>Tu navegador no puede mostrar PDF embebidos. Puedes <a href="CLASE-DE-RENTA-FIJA-2025-MEDIOLANUM.pdf" target="_blank">descargarlo aquí</a>.</p>
 </object>
 ```
 
