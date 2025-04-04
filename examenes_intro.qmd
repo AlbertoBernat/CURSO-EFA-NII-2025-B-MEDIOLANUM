@@ -7,3 +7,1455 @@ format: html
 Aquí se incluyen exámenes reales de convocatorias anteriores, corregidos y comentados, junto con simulacros completos para practicar bajo condiciones similares al examen oficial.
 
 Es recomendable realizar al menos un simulacro completo antes de presentarse al examen.
+
+
+
+
+## 2025-EXAMEN-EFA-NII-MARZO
+
+### Test
+
+1.  Un ciudadano de nacionalidad francesa con residencia fiscal en Barcelona ha recibido, en concepto de donación de su padre (residente fiscal en Mallorca), un inmueble situado en la Comunidad Autónoma de Murcia. ¿Qué normativa autonómica se aplicará a la liquidación que corresponda efectuar en concepto de Impuesto sobre Sucesiones y Donaciones por la donación recibida?
+
+<!-- -->
+
+a.  Normativa de la Comunidad Autónoma de las Islas Baleares, pues es en ese territorio donde tiene su residencia fiscal el donante.\
+b.  Normativa de la Comunidad Autónoma de Murcia, porque es en ese territorio donde se encuentra situado el inmueble.\
+c.  Normativa de la Comunidad Autónoma de Cataluña, pues es en este territorio donde tiene su residencia fiscal el donatario.\
+d.  No se devenga el Impuesto sobre Sucesiones y Donaciones español porque el donante tiene nacionalidad francesa.
+
+<details>
+
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta **correcta es la b**.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+2.  El Sr. McAllister, residente fiscal en Irlanda, posee los siguientes bienes y derechos:
+
+I. Vivienda habitual en Dublín, valorada en 300.000 euros.\
+II. Segunda vivienda en Málaga, valorada en 550.000 euros.\
+III. Cartera de fondos de inversión domiciliados en Irlanda y depositados en un banco irlandés: 630.000 euros.\
+IV. Cartera de acciones cotizadas, cuyo depósito se encuentra en un banco español.
+
+¿Cuál o cuáles de los siguientes bienes deben declararse en España en el Impuesto sobre el Patrimonio?
+
+a.  Solo la II\
+b.  II, III y IV\
+c.  II y IV\
+d.  Solo la IV
+
+<details>
+
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la c.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+3.  Una cartera de inversión ha obtenido una rentabilidad del 12 % durante el último año. El rendimiento del mercado durante el mismo período ha sido del 8 %, con una tasa libre de riesgo del 2 %. La beta de la cartera es de 1,2. Según el modelo de valoración de activos de capital (CAPM), ¿cuál es el Alfa de Jensen de la cartera?
+
+<!-- -->
+
+a.  1,2 %\
+b.  2,8 %\
+c.  3,6 %\
+d.  4,8 %
+
+<details>
+
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la c.
+
+La fórmula del **alfa de Jensen** es:
+
+$$
+\alpha = R_p - \left[ R_f + \beta (R_m - R_f) \right]
+$$
+
+Sustituyendo valores:
+
+$$
+\alpha = 12\,\% - \left[ 2\,\% + 1{,}2 \times (8\,\% - 2\,\%) \right] = 12\,\% - 8{,}4\,\% = 3{,}6\,\%
+$$
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+4.  A 31 de diciembre, la Sra. García es titular de 500 obligaciones del Estado, suscritas hace cinco años por 1.000 euros cada una. De la emisión de estas obligaciones se conocen los siguientes datos:
+
+-   Cotizan en el mercado de deuda anotada.\
+-   Su valor de cotización a 31 de diciembre es de 1.150 euros.\
+-   Su valor medio de cotización del último trimestre es de 1.050 euros.\
+-   Se amortizarán con una prima del 3 %.
+
+¿Por qué valor se deberán declarar estas obligaciones en el Impuesto sobre el Patrimonio?
+
+a.  500 x 1.000 = 500.000\
+b.  500 x 1.150 = 575.000\
+c.  500 × 1.050 = 525.000\
+d.  500 x 1.000 x 1,03 = 515.000
+
+<details>
+
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la c.
+
+Los valores de renta fija cotizados se declaran por el **valor medio de cotización del último trimestre del año**.
+
+500 × 1.050 = 525.000 euros.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+5.  Un fondo de inversión aplica un estilo Growth Investing. ¿Cuál de los siguientes riesgos asume con mayor frecuencia?
+
+<!-- -->
+
+a.  Riesgo de volatilidad debido a las expectativas de crecimiento de las empresas\
+b.  Riesgo de divisa debido a los inversores internacionales\
+c.  Riesgo de crédito debido a la inversión en deuda corporativa\
+d.  Riesgo de liquidez debido a la dificultad de vender sus activos
+
+<details>
+
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la a.
+
+El estilo Growth se enfoca en empresas con alto potencial de crecimiento futuro, lo cual suele generar una **alta sensibilidad a expectativas de mercado**, y por tanto, mayor volatilidad.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+6.  ¿Cuál es una ventaja clave del Earning Yield Gap al evaluar inversiones en acciones?
+
+<!-- -->
+
+a.  Ayuda a identificar empresas con alta rentabilidad sobre activos\
+b.  Permite comparar de manera directa la rentabilidad de las acciones con los bonos\
+c.  Facilita la predicción de movimientos en el mercado de divisas\
+d.  Garantiza rendimientos futuros positivos en las inversiones en acciones
+
+<details>
+
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la b.
+
+El **Earning Yield Gap** permite comparar el rendimiento esperado de las acciones (beneficio por acción sobre precio) con la rentabilidad de los bonos, lo que ayuda a valorar si las acciones están caras o baratas en términos relativos.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+7.  El EURIBOR es un tipo de interés aplicado en los países de la zona euro al mercado de depósitos interbancarios para transacciones con unos plazos de vencimiento entre:
+
+<!-- -->
+
+a.  1 y 36 meses\
+b.  1 y 24 meses\
+c.  1 y 12 meses\
+d.  6 y 18 meses
+
+<details>
+
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la c.
+
+El **EURIBOR** (Euro Interbank Offered Rate) se calcula para distintos plazos de vencimiento, que van desde 1 semana hasta 12 meses.\
+En el ámbito más común de referencia, los plazos van de **1 a 12 meses**.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+8.  ¿Cuál sería la implicación principal para un inversor si el mercado es eficiente en su forma fuerte?
+
+<!-- -->
+
+a.  No es posible obtener rendimientos superiores al mercado mediante el análisis fundamental o técnico\
+b.  La inversión activa puede generar mayores beneficios a largo plazo\
+c.  La información privilegiada permite obtener rentabilidad extra\
+d.  Sólo los inversores institucionales pueden superar al mercado
+
+<details>
+
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la a.
+
+La forma fuerte de la **Hipótesis de los Mercados Eficientes** sostiene que toda la información —incluida la pública y la privada (privilegiada)— ya está incorporada en los precios.\
+Por tanto, **ni el análisis técnico ni el fundamental** permitirían obtener rentabilidades superiores de forma consistente.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+9.  ¿En qué situación una firma de inversión no puede declarar el cumplimiento de las normas GIPS?
+
+<!-- -->
+
+a.  Si solo gestiona carteras institucionales y no individuales\
+b.  Si realiza inversiones en mercados internacionales\
+c.  Si no aplica los principios de presentación de resultados a todas sus carteras\
+d.  Si utiliza diferentes metodologías para calcular el rendimiento de cada cliente
+
+<details>
+
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la c.
+
+Las normas **GIPS** (Global Investment Performance Standards) exigen que una firma aplique **uniformemente sus principios a todas las carteras gestionadas**.\
+No cumplir esta condición invalida la declaración de conformidad con los estándares.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+10. ¿Cuál es la principal característica del estilo de gestión Value investing?
+
+<!-- -->
+
+a.  Invertir en empresas infravaloradas según sus fundamentos financieros\
+b.  Rotar frecuentemente la cartera para aprovechar las tendencias de mercado\
+c.  Replicar el rendimiento de un índice bursátil para minimizar riesgos\
+d.  Buscar acciones con alto potencial de crecimiento, aunque coticen a precios elevados
+
+<details>
+
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la a.
+
+El **Value investing** se centra en identificar empresas cuyo valor intrínseco es superior a su precio de mercado actual, basándose en **análisis fundamental**.\
+El objetivo es comprar barato y mantener hasta que el mercado reconozca ese valor.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+11. Un bono que tiene un precio hoy de 103,40 pasa a tener un precio de 99,89 como consecuencia de que su TIR pasa del 3 % al 3,50 %.\
+    ¿Cuál será la duración corregida de dicho bono?
+
+<!-- -->
+
+a.  6,78\
+b.  6,40\
+c.  7,30\
+d.  7
+
+<details>
+
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la a.
+
+Partimos de la expresión que relaciona la variación relativa del precio con la duración modificada:
+
+$$
+\frac{\Delta P}{P} \simeq \frac{P_1 - P_0}{P_0} \simeq -D_{\text{corregida}} \cdot \Delta \text{TIR}
+$$
+
+Despejando la duración corregida:
+
+$$
+D_{\text{corregida}} \simeq \frac{P_0 - P_1}{P_0 \cdot \Delta \text{TIR}}
+$$
+
+Aplicación al caso del bono:
+
+-   $P_0 = 103,40$ (precio inicial)\
+-   $P_1 = 99,89$ (precio tras subida de la TIR)\
+-   $\Delta \text{TIR} = 0,005$ (incremento del 0,50 %)
+
+Sustituyendo:
+
+$$
+D_{\text{corregida}} = \frac{103,40 - 99,89}{103,40 \cdot 0,005} = \frac{3,51}{0,517} \approx 6,78
+$$
+
+Esta aproximación es válida cuando se conoce el precio actual y el nuevo precio tras un pequeño cambio en la TIR.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+12. BlackRock ofrece productos de renta fija tanto a inversores institucionales como a minoristas, adaptando las características de sus bonos y fondos según el perfil de riesgo de cada segmento.\
+    ¿Cuál es el principal desafío al segmentar estos dos tipos de inversores?
+
+<!-- -->
+
+a.  Mantener la liquidez de los instrumentos de renta fija en ambos mercados\
+b.  Equilibrar la búsqueda de rentabilidad con las restricciones regulatorias\
+c.  Ajustar la duración y el rendimiento para satisfacer diferentes horizontes de inversión\
+d.  Garantizar la transparencia en la estructura de comisiones para ambos segmentos
+
+<details>
+
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la c.
+
+El principal reto está en **ajustar la duración y el rendimiento** de los productos para que respondan a las necesidades de cada tipo de cliente:\
+- Los **institucionales** suelen tener mayor tolerancia al riesgo y horizontes más largos.\
+- Los **minoristas** requieren productos más líquidos, predecibles y con menor volatilidad.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+13. Un gestor utiliza una estrategia de Convertible Arbitrage, comprando bonos convertibles y vendiendo en corto las acciones subyacentes.\
+    ¿Cuál es la filosofía detrás de esta estrategia?
+
+<!-- -->
+
+a.  Generar rendimientos únicamente en mercados alcistas mediante la conversión de bonos\
+b.  Captar el rendimiento de los dividendos de las acciones mientras protege el capital\
+c.  Beneficiarse de la diferencia entre el precio del bono convertible y el valor de mercado de las acciones\
+d.  Aprovechar las fluctuaciones a corto plazo del mercado sin mantener posiciones direccionales
+
+<details>
+
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la c.
+
+La estrategia de **Convertible Arbitrage** busca explotar la **ineficiencia temporal entre el precio del bono convertible y el valor teórico de la acción subyacente**.\
+El gestor se posiciona largo en el bono convertible y corto en la acción, tratando de beneficiarse del diferencial sin exposición direccional neta al mercado.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+14. Determine la beta de un fondo de inversión con respecto al NASDAQ Composite si sabemos que su coeficiente de correlación con el NASDAQ Composite es de 0,6,\
+    la varianza del NASDAQ Composite es de 0,40 y la varianza del fondo es de 0,15.
+
+<!-- -->
+
+a.  0,15\
+b.  0,225\
+c.  0,30\
+d.  0,367
+
+<details>
+
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la b.
+
+La fórmula de la beta utilizando correlación es:
+
+$$
+\beta = \rho_{f,m} \cdot \frac{\sigma_f}{\sigma_m}
+$$
+
+Donde:
+
+-   $\rho_{f,m} = 0{,}6$\
+-   $\sigma_f = \sqrt{0{,}15} \approx 0{,}3873$\
+-   $\sigma_m = \sqrt{0{,}40} \approx 0{,}6325$
+
+Entonces:
+
+$$
+\beta = 0{,}6 \cdot \frac{0{,}3873}{0{,}6325} \approx 0{,}6 \cdot 0{,}6123 \approx 0{,}367
+$$
+
+Pero si interpretamos que:
+
+> $\beta = \dfrac{\text{Cov}(f,m)}{\text{Var}(m)} = \dfrac{\rho_{f,m} \cdot \sigma_f \cdot \sigma_m}{\sigma_m^2}$
+
+Entonces:
+
+$$
+\beta = \frac{0{,}6 \cdot \sqrt{0{,}15} \cdot \sqrt{0{,}40}}{0{,}40} = \frac{0{,}6 \cdot 0{,}3873 \cdot 0{,}6325}{0{,}40} \approx \frac{0{,}147}{0{,}40} \approx 0{,}367
+$$
+
+Por tanto, la beta es **aproximadamente 0,367** ⇒ **opción d**.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+15. ¿Cuál es uno de los principales beneficios fiscales de las Sociedades de arrendamiento de vivienda en España?
+
+<!-- -->
+
+a.  Exención total de impuestos sobre el capital\
+b.  Pueden aplicar una bonificación en la cuota íntegra del Impuesto de Sociedades\
+c.  Deducción de todos los gastos de mantenimiento de las viviendas\
+d.  No tributan en el IS sobre la renta generada por el alquiler de las viviendas
+
+<details>
+
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la b.
+
+Las **Sociedades de arrendamiento de viviendas (SAVs)** pueden aplicar una **bonificación del 85 % en la cuota íntegra del Impuesto sobre Sociedades** siempre que cumplan determinados requisitos (mínimo de viviendas arrendadas, duración mínima de los contratos, etc.).
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+16. ¿Cuál de los siguientes es un componente clave de un plan financiero integral?
+
+<!-- -->
+
+a.  Sólo la planificación de jubilación\
+b.  La planificación de seguros y protección, la planificación fiscal, la planificación de inversiones y la planificación para la jubilación\
+c.  La selección de productos bancarios básicos\
+d.  Sólo la planificación de compra de la vivienda habitual
+
+<details>
+
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la b.
+
+Un plan financiero integral abarca múltiples áreas:\
+- **Protección personal y familiar (seguros)**\
+- **Optimización fiscal**\
+- **Planificación de inversiones**\
+- **Planificación de la jubilación**\
+Todo ello adaptado a los objetivos y necesidades del cliente en distintas etapas de su vida.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+17. Un hedge fund decide invertir en deuda de una empresa en proceso de reestructuración financiera.\
+    ¿Qué tipo de estrategia de oportunidad está aplicando?
+
+<!-- -->
+
+a.  Global Macro\
+b.  Fixed Income Arbitrage\
+c.  Equity Market Neutral\
+d.  Distressed Securities
+
+<details>
+
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la d.
+
+Las estrategias de **Distressed Securities** buscan oportunidades en empresas que atraviesan dificultades financieras, incluyendo reestructuraciones, concursos de acreedores o quiebras.\
+Los hedge funds que emplean esta estrategia invierten en deuda o acciones con fuertes descuentos, esperando beneficios si la empresa logra recuperarse o vender activos.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+18. Si un gestor de carteras obtiene una TGR positiva y elevada durante un período prolongado, ¿qué conclusión puede extraerse sobre su desempeño?
+
+<!-- -->
+
+a.  Ha superado de manera consistente la rentabilidad del mercado ajustada al riesgo\
+b.  Su rentabilidad se debe principalmente a las condiciones favorables del mercado\
+c.  Ha asumido un nivel de riesgo superior al del benchmark para lograr mayores rendimientos\
+d.  La TGR positiva no implica necesariamente un buen desempeño si la volatilidad de la cartera es elevada
+
+<details>
+
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la d.
+
+La **Tasa Geométrica de Rentabilidad (TGR)** mide el rendimiento compuesto de una inversión, pero **no tiene en cuenta el riesgo asumido**.\
+Por tanto, una TGR elevada puede ocultar una alta volatilidad o una mala relación rentabilidad/riesgo.
+
+Para evaluar el desempeño ajustado al riesgo, sería necesario usar métricas como el **ratio de Sharpe** o el **alfa de Jensen**.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+19. ¿Cuál es la principal implicación de la pendiente de una curva de indiferencia en el análisis de un inversor?
+
+<!-- -->
+
+a.  Define la frontera eficiente para todas las posibles combinaciones de activos\
+b.  Indica el nivel de diversificación óptimo de la cartera\
+c.  Refleja la tasa marginal de sustitución entre riesgo y rentabilidad, es decir, cuánta rentabilidad adicional requiere el inversor para aceptar un aumento del riesgo\
+d.  Determina el rendimiento mínimo exigido para mantener la liquidez de la cartera
+
+<details>
+
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la c.
+
+La **pendiente de una curva de indiferencia** representa la **tasa marginal de sustitución entre riesgo y rentabilidad**.\
+Muestra cuánto rendimiento adicional necesita el inversor para compensar un incremento en el riesgo (desviación típica), manteniendo constante su nivel de utilidad.
+
+Esto refleja su **aversión al riesgo**.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+20. En relación con la liquidez de los FII, ¿cuál es el coeficiente de liquidez anual obligatorio que deben mantener, según la normativa vigente?
+
+<!-- -->
+
+a.  3%\
+b.  10%\
+c.  20%\
+d.  30%
+
+<details>
+
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la **b**.
+
+Según la **Circular 1/2025 de la CNMV**, que modifica el artículo 90.2.b) del Reglamento de IIC:
+
+> *"El coeficiente de liquidez del 10 % establecido para los FII se calculará el día de fijación del valor liquidativo (...) como un promedio diario de los saldos a considerar en el mes en curso."*
+
+🔗 Fuente oficial:\
+[BOE Circular 1/2025 — CNMV (Ref. BOE-A-2025-5190)](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-5190)
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+21. ¿Cuál es una posible implicación financiera de integrar factores ESG en la construcción de carteras de inversión?
+
+<!-- -->
+
+a.  Elimina la necesidad de realizar un análisis fundamental de los activos\
+b.  Asegura que la cartera tendrá un menor nivel de riesgo sistemático en cualquier entorno de mercado\
+c.  Garantiza automáticamente una mayor rentabilidad a largo plazo\
+d.  Puede limitar el universo de inversión, lo que podría afectar la diversificación y el rendimiento potencial
+
+<details>
+
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la **d**.
+
+La integración de criterios ESG puede implicar **excluir ciertos sectores o activos** por razones ambientales, sociales o de gobernanza.\
+Esto **reduce el universo invertible**, lo cual **podría limitar la diversificación** y afectar el **potencial de rentabilidad**, especialmente en algunos contextos de mercado.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+22. ¿Cuál es una de las principales diferencias legales entre una IIC de inversión libre y una IIC tradicional en términos de liquidez?
+
+<!-- -->
+
+a.  Las IIC de inversión libre deben ofrecer liquidez diaria a sus partícipes\
+b.  Las IIC de inversión libre pueden establecer ventanas de liquidez más restrictivas\
+c.  Ambas deben ofrecer la misma frecuencia de reembolsos según la normativa europea\
+d.  Las IIC tradicionales permiten más restricciones de liquidez que las de inversión libre
+
+<details>
+
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la **b**.
+
+Las **IIC de inversión libre (hedge funds regulados en España)** tienen una regulación más flexible en cuanto a liquidez, lo que les permite establecer **ventanas de liquidez más restrictivas**, con reembolsos mensuales, trimestrales o con preavisos,a diferencia de las IIC tradicionales, que deben ofrecer liquidez al menos con una periodicidad quincenal.
+
+Fuente: CNMV – Guía de IIC de inversión libre
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+23. Un cliente suyo es titular de un plan de pensiones individual. Acaba de acceder a la jubilación y no desea, de momento, solicitar a la sociedad gestora del fondo de pensiones el cobro de la prestación de jubilación.\
+    Su intención es movilizar los derechos económicos en dicho plan de pensiones con destino a otro instrumento de ahorro que le ofrezca una mejor rentabilidad durante los próximos diez años y, entonces, iniciar el cobro de la prestación.
+
+¿A cuál o cuáles instrumentos podrá movilizar sus derechos económicos?
+
+I. A un plan de pensiones de empleo\
+II. A un plan de pensiones individual\
+III. A un seguro de vida\
+IV. A un plan de previsión asegurado
+
+a.  I y IV\
+b.  Sólo la II\
+c.  I, II y IV\
+d.  Ninguna de las anteriores, porque una vez acaecida la jubilación ya no es posible movilizar los derechos económicos en un plan de pensiones
+
+<details>
+
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la **b**.
+
+🧾 Fundamentación jurídica:
+
+Según el **Real Decreto 304/2004**, Reglamento de planes y fondos de pensiones:
+
+> **Artículo 28.3:**\
+> *“Los derechos económicos podrán movilizarse siempre que no se haya iniciado el cobro de la prestación.”*
+
+Y añade:
+
+> *“Los beneficiarios que no hayan iniciado el cobro podrán movilizar los derechos económicos a otros planes del sistema individual.”*
+
+------------------------------------------------------------------------
+
+✅ Razón didáctica:
+
+-   Una vez el partícipe **se jubila**, **la contingencia ha acaecido**, y pasa a ser **beneficiario**.
+-   Si **no ha comenzado a cobrar el plan**, puede movilizar sus **derechos económicos**, pero **solo dentro del sistema individual**.
+-   Los **PPA (planes de previsión asegurados)** **solo admiten partícipes activos**, no beneficiarios.
+-   Los **planes de pensiones de empleo** no están diseñados para recibir traspasos tras la jubilación, salvo condiciones muy específicas poco habituales.
+-   Y los **seguros de vida tradicionales** no forman parte del sistema de previsión social voluntaria.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+24. Uno de sus clientes desea ahorrar para la jubilación con el objetivo de percibir una renta vitalicia a partir de la fecha en que acceda a la jubilación.\
+    ¿Cuál de los siguientes instrumentos de ahorro previsional tiene como característica propia, fijada por Ley, el cobro del ahorro acumulado en forma de renta vitalicia?
+
+<!-- -->
+
+a.  Un seguro de vida de capital diferido con cobertura de supervivencia a la edad de jubilación\
+b.  Un plan individual de ahorro sistemático\
+c.  Un plan de pensiones individual\
+d.  Un fondo de inversión
+
+<details>
+
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la **b**.
+
+------------------------------------------------------------------------
+
+🧾 Fundamentación normativa:
+
+Según la **Ley del IRPF (art. 7.v)** y la **Ley 35/2006**, los **Planes Individuales de Ahorro Sistemático (PIAS)**:
+
+-   Son productos diseñados para canalizar ahorro a largo plazo.
+-   **Su rasgo definitorio es que el capital acumulado solo puede percibirse en forma de renta vitalicia asegurada**, si se quieren aplicar los beneficios fiscales.
+
+> Esto es lo que los diferencia de un plan de pensiones, un fondo o un seguro de vida de capital diferido, que **permiten otras formas de rescate**.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+25. En el marco de la planificación de la jubilación de un cliente de 40 años,\
+    ¿cuál de los siguientes activos es el menos conveniente para incorporar en su cartera (para este objetivo específico)?
+
+<!-- -->
+
+a.  Fondos monetarios\
+b.  Planes de pensiones\
+c.  Fondos de inversión mixtos de renta variable\
+d.  Local comercial con el objetivo de cobrar rentas una vez jubilado
+
+<details>
+
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la **a**.
+
+------------------------------------------------------------------------
+
+🧾 Fundamentación técnica:
+
+-   Los **fondos monetarios** están diseñados para **inversores conservadores** con **horizontes de inversión muy corto plazo** (preservación de capital + liquidez).
+-   Un cliente de 40 años con horizonte de jubilación a largo plazo (25 años) **no se beneficiaría del potencial de rentabilidad** que ofrecen otros activos más adecuados a ese plazo.
+
+✅ Alternativas más convenientes:
+
+-   **Planes de pensiones** → permiten diferir fiscalmente el ahorro y adaptarse al largo plazo.
+-   **Fondos mixtos de renta variable** → combinan riesgo moderado y potencial de crecimiento.
+-   **Inversión inmobiliaria (local)** → puede generar rentas sostenidas tras la jubilación, aunque implica menor liquidez y más riesgo de gestión.
+
+💡 Criterio de idoneidad:
+
+> La **duración del horizonte temporal**, la **capacidad de asumir riesgo** y el **objetivo de renta futura** hacen que los fondos monetarios sean **inadecuados** para este caso.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+26. ¿Cuál es la principal característica de una opción barrera en comparación con una opción tradicional?
+
+<!-- -->
+
+a.  Su valor depende de la media de los precios del activo subyacente durante la vida de la opción\
+b.  Solo se activa o desactiva si el precio del activo subyacente alcanza un nivel predeterminado\
+c.  Tiene una fecha de vencimiento variable que depende de la volatilidad del mercado\
+d.  El pago final se calcula en función de una cesta de activos en lugar de un único activo
+
+<details>
+
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la **b**.
+
+------------------------------------------------------------------------
+
+🧾 Fundamento técnico:
+
+Una **opción barrera** es un tipo de derivado exótico que **se activa ("knock-in") o se desactiva ("knock-out")** solo si el precio del activo subyacente **alcanza una determinada barrera o umbral predefinido**.
+
+-   Si **no se alcanza la barrera**, la opción puede no llegar a existir o extinguirse automáticamente.
+-   A diferencia de una opción tradicional, donde la existencia y validez no dependen de ese evento.
+
+------------------------------------------------------------------------
+
+❌ Por qué las otras son incorrectas:
+
+-   **a.** Describe una **opción asiática**, no barrera.\
+-   **c.** Las opciones tienen vencimientos fijos; la **volatilidad afecta al precio**, pero no al plazo.\
+-   **d.** Se refiere a **opciones sobre cestas de activos**, no a barreras.
+
+✅ Resumen
+
+> Las opciones barrera incorporan una **condición adicional de activación o anulación**, lo que las hace más baratas pero también más complejas que las opciones tradicionales.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+27. ¿Cuál es uno de los principales objetivos del reequilibrio de una cartera de inversión?
+
+<!-- -->
+
+a.  Eliminar por completo la volatilidad de la cartera\
+b.  Aumentar la rentabilidad de la cartera sin considerar el riesgo\
+c.  Mantener el perfil de riesgo\
+d.  El fondo de emergencia
+
+<details>
+
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la **c**.
+
+------------------------------------------------------------------------
+
+🧾 Fundamento técnico:
+
+El **reequilibrio de cartera** consiste en **ajustar periódicamente la distribución de activos** (renta fija, renta variable, liquidez, etc.) para que se mantenga alineada con el **perfil de riesgo y los objetivos del inversor**.
+
+-   Con el tiempo, los activos con mejor comportamiento pueden aumentar su peso en la cartera, elevando el riesgo global sin que el inversor lo perciba.
+-   Reequilibrar corrige esa desviación y **mantiene la estrategia de inversión coherente con el plan inicial**.
+
+------------------------------------------------------------------------
+
+❌ Por qué las otras son incorrectas:
+
+-   **a.** No es posible eliminar la volatilidad por completo.
+-   **b.** Ignorar el riesgo contradice los principios de inversión responsable.
+-   **d.** El fondo de emergencia es una herramienta de liquidez, no de gestión de carteras.
+
+------------------------------------------------------------------------
+
+✅ Recuerda:
+
+> El reequilibrio busca **preservar la coherencia** entre los activos y el perfil de riesgo del inversor, no maximizar rentabilidad ni eliminar el riesgo.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+28. Cuando un precio rompe por encima de una resistencia y luego vuelve a ese nivel sin caer por debajo, ¿cómo se denomina ese movimiento?
+
+<!-- -->
+
+a.  Ruptura falsa\
+b.  Pullback a la resistencia\
+c.  Resistencia convertida en soporte\
+d.  Consolidación lateral
+
+<details>
+
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la **c**.
+
+------------------------------------------------------------------------
+
+🧾 Explicación técnica:
+
+Cuando el precio de un activo **supera una resistencia** (nivel técnico donde suele detenerse la subida) y luego **vuelve a testear ese mismo nivel desde arriba sin caer por debajo**, ese nivel **pasa a actuar como soporte**.
+
+-   Este fenómeno se conoce como **"resistencia convertida en soporte"**, y es una confirmación de la ruptura.
+
+------------------------------------------------------------------------
+
+❌ Por qué las otras opciones son incorrectas:
+
+-   **a. Ruptura falsa**: se da cuando el precio supera brevemente la resistencia pero luego **cae por debajo rápidamente**, invalidando la ruptura.
+-   **b. Pullback**: describe el **movimiento de retroceso** hasta la antigua resistencia, pero no define el fenómeno completo si **esa resistencia se mantiene como nuevo soporte**.
+-   **d. Consolidación lateral**: se refiere a un movimiento **sin dirección clara**, dentro de un rango estrecho.
+
+------------------------------------------------------------------------
+
+✅ En resumen:
+
+> Superar una resistencia y respetarla al volver indica **fortaleza del movimiento** y un cambio técnico relevante en el gráfico.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+29. ¿Qué es la nuda propiedad?
+
+<!-- -->
+
+a.  Un tipo de contrato de arrendamiento a largo plazo\
+b.  Un derecho temporal sobre un bien, que se extingue después de un período determinado\
+c.  La propiedad completa de un bien, incluyendo su uso y disfrute\
+d.  La propiedad de un bien sin el derecho de uso o disfrute del mismo
+
+<details>
+
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la **d**.
+
+------------------------------------------------------------------------
+
+🧾 Fundamento jurídico:
+
+Según el **Código Civil español**, la propiedad puede dividirse en:
+
+-   **Nuda propiedad**: el **derecho de propiedad sin el uso ni disfrute** del bien.\
+-   **Usufructo**: el **derecho de usar y disfrutar** del bien sin ser el propietario.
+
+Cuando una persona dona o vende la **nuda propiedad**, sigue existiendo una tercera persona (usualmente el antiguo propietario) que **mantiene el usufructo** hasta su fallecimiento u otra condición.
+
+------------------------------------------------------------------------
+
+🧠 Ejemplo didáctico:
+
+Una persona mayor vende la **nuda propiedad** de su vivienda pero mantiene el **usufructo vitalicio**.\
+→ Puede seguir viviendo en ella, aunque legalmente **ya no es suya** en su totalidad.
+
+------------------------------------------------------------------------
+
+❌ Otras opciones:
+
+-   **a.** No tiene relación con el concepto jurídico de nuda propiedad.\
+-   **b.** La nuda propiedad **no se extingue por plazo**, sino que se mantiene hasta que termina el usufructo.\
+-   **c.** Describe el **pleno dominio** (nuda propiedad + usufructo), no la nuda propiedad sola.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+30. Teniendo en cuenta la siguiente información de un cliente:
+
+-   El cliente se jubilará dentro de 12 años.\
+-   Su salario actual neto es de 70.000 euros anuales, con incrementos estimados del 4,0 % anual.\
+-   Tendrá derecho a la pensión máxima de jubilación, que actualmente es de 30.000 euros netos y se espera que se incremente un 1,0 % anual.\
+-   Considera suficiente, al jubilarse, tener unos ingresos equivalentes al 85 % de su último salario.
+
+¿Cuál será la tasa de sustitución de este cliente?
+
+a.  48,29 %\
+b.  26,77 %\
+c.  30,16 %\
+d.  26,77 %
+
+<details>
+
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la **c.**.
+
+Se proyecta la pensión y el salario a 12 años con sus respectivas tasas de crecimiento.
+
+Tasa de sustitución esperada:
+
+$$
+TS = \frac{30.000 \cdot (1{,}01)^{12}}{70.000 \cdot (1{,}04)^{12}} \cdot 100
+$$
+
+Esto refleja que la pensión pública cubrirá un 30,16 % del salario proyectado al momento de la jubilación, muy por debajo del 85 % deseado.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+31. ¿Cuáles de los siguientes servicios es más probable que ofrezca un *family office* a sus clientes?
+
+<!-- -->
+
+a.  Asesoramiento en inversiones, planificación fiscal, gestión de activos inmobiliarios y servicios bancarios tradicionales.\
+b.  Gestión de activos, planificación patrimonial, asesoramiento en sucesiones y servicios de *concierge*.\
+c.  Gestión de cuentas corrientes, emisión de tarjetas de crédito, préstamos personales y financiación de automóviles.\
+d.  Servicios de corretaje, operaciones diarias de *trading*, gestión de nóminas y planificación de eventos corporativos.
+
+<details>
+
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la **b**.
+
+Los *family offices* están concebidos para gestionar **grandes patrimonios familiares** y proporcionar una atención integral y altamente personalizada. Sus servicios suelen incluir:
+
+-   Gestión de activos e inversiones\
+-   Planificación fiscal y patrimonial\
+-   Asesoramiento en sucesiones, legado y continuidad generacional\
+-   Servicios de *concierge*, filantropía, arte, educación y estilo de vida
+
+El **servicio de *concierge* financiero** consiste en una atención exclusiva y proactiva, orientada a resolver necesidades del cliente que van desde operaciones financieras complejas hasta gestiones personales, siempre con un enfoque adaptado al estilo de vida y prioridades de la familia.
+
+En cambio, **no es habitual** que los *family offices* ofrezcan **servicios bancarios minoristas**, como préstamos personales, tarjetas de crédito o gestión de nóminas.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+32. ¿Cuándo suele aparecer una curva de tipos de interés plana?
+
+<!-- -->
+
+a.  Cuando los inversores anticipan cambios en la política monetaria\
+b.  Solo cuando los tipos de interés son negativos\
+c.  Cuando los rendimientos a largo plazo son significativamente más altos que los de corto plazo\
+d.  Durante períodos de gran crecimiento económico
+
+<details>
+
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la **a**.
+
+Una **curva de tipos de interés plana** indica que los rendimientos de los activos a corto y largo plazo están muy próximos entre sí.\
+Esto suele ocurrir cuando los **inversores anticipan un cambio en la política monetaria**, como una futura bajada de tipos tras un ciclo de subidas, o cuando hay **incertidumbre económica**.
+
+Una curva plana puede ser un **síntoma de transición** en el ciclo económico y preceder a una inversión de la curva.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+33. ¿Cuál de los siguientes requisitos NO es necesario cumplir para que la tenencia de acciones de una empresa familiar quede exenta en el Impuesto sobre el Patrimonio?
+
+<!-- -->
+
+a.  La participación individual en el capital debe ser superior al 5 % (o al 20 % si la misma se computa junto con el cónyuge, ascendientes, descendientes o colaterales de segundo grado).\
+b.  La sociedad no puede tener por actividad principal la gestión de un patrimonio mobiliario o inmobiliario.\
+c.  La sociedad, cualquiera que sea su actividad, debe tener contratada al menos a una persona, con contrato de trabajo a jornada completa y alta en la Seguridad Social.\
+d.  El sujeto pasivo deberá ejercer efectivamente funciones de dirección en la entidad, percibiendo por ello una remuneración que represente más del 50 % de la totalidad de los rendimientos empresariales, profesionales y de trabajo personal.
+
+<details>
+
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la **c**.
+
+Para que las participaciones en una empresa familiar queden **exentas en el Impuesto sobre el Patrimonio**, deben cumplirse los siguientes requisitos (art. 4. Ocho. Dos LIP):
+
+-   Participación mínima del 5 % individual o 20 % conjunta (a)\
+-   Que la entidad **no tenga por actividad principal la gestión de patrimonio mobiliario o inmobiliario** (b)\
+-   Que el sujeto pasivo ejerza **funciones de dirección** y perciba por ello una **retribución significativa** (d)
+
+**No es necesario**, como exige la exención en el Impuesto sobre Sucesiones y Donaciones, que la sociedad tenga al menos un empleado a jornada completa. Ese requisito **no aplica en el Impuesto sobre el Patrimonio**.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+34. ¿Cuál es el principal propósito del *mark to market* diario en una posición de futuros?
+
+<!-- -->
+
+a.  Garantizar que el precio del contrato de futuros permanezca constante\
+b.  Asegurar que los contratos se liquiden físicamente al vencimiento\
+c.  Ajustar las cuentas de margen para reflejar las ganancias o pérdidas diarias\
+d.  Maximizar las comisiones de los intermediarios financieros
+
+<details>
+
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la **c**.
+
+El sistema de *mark to market* (valoración diaria a precios de mercado) tiene como principal objetivo:
+
+-   **Ajustar diariamente** las cuentas de margen de los participantes en contratos de futuros\
+-   Reflejar las **ganancias o pérdidas latentes**, en función de la evolución del precio del contrato respecto al precio de cierre del día anterior\
+-   Evitar acumulación de riesgos financieros
+
+Este mecanismo garantiza la **transparencia y liquidez** del mercado de derivados, y protege a las cámaras de compensación frente al riesgo de impago.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+35. ¿Por qué las criptodivisas permiten realizar transacciones sin intermediarios?
+
+<!-- -->
+
+a.  Porque dependen de bancos internacionales para su validación\
+b.  Porque los gobiernos garantizan su circulación libre\
+c.  Porque utilizan redes descentralizadas de usuarios\
+d.  Porque todas las transacciones se realizan en efectivo digital
+
+<details>
+
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la **c**.
+
+Las **criptodivisas**, como Bitcoin o Ethereum, permiten realizar transacciones **sin necesidad de intermediarios** gracias al uso de **tecnología blockchain** y redes descentralizadas (*peer-to-peer*).
+
+Estas redes están formadas por usuarios (nodos) que validan y registran las operaciones mediante **consensos criptográficos**, eliminando la necesidad de una entidad central como un banco o gobierno.
+
+Esto es lo que permite la **desintermediación financiera**.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+36. En el servicio de gestión discrecional de carteras:
+
+<!-- -->
+
+a.  El cliente asume la gestión de su patrimonio.\
+b.  El asesor financiero asume la responsabilidad y toma las decisiones.\
+c.  Cliente y asesor financiero toman decisiones conjuntamente.\
+d.  El asesor toma decisiones tras la autorización del cliente.
+
+<details>
+
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+**Respuesta correcta:** b.
+
+La **gestión discrecional de carteras** es un servicio financiero en el que el cliente delega en una entidad autorizada la toma de decisiones de inversión sobre su patrimonio. Según la Comisión Nacional del Mercado de Valores (CNMV):
+
+> "A través del servicio de gestión de carteras, la entidad financiera puede adoptar las decisiones de inversión que estime más convenientes. Por eso, al suscribir un contrato de gestión de carteras, el inversor debe tener claro que está delegando la adopción de decisiones de inversión."
+
+Además, la **Orden EHA/1665/2010, de 11 de junio**, en su artículo 7, establece que los contratos para la prestación de este servicio deben incluir:
+
+> "El compromiso del gestor de carteras de realizar una gestión discrecional e individualizada del patrimonio aportado por el cliente."
+
+Por lo tanto, en la gestión discrecional de carteras, es el asesor financiero quien asume la responsabilidad y toma las decisiones de inversión en nombre del cliente, según los criterios previamente establecidos en el contrato.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+37. Un inversor compra un certificado autocancelable ligado a las acciones de Tesla, con un cupón anual del 8% y una barrera del 80% del precio inicial. Si al final del año Tesla cotiza un 25% por debajo del precio inicial, ¿qué ocurre?
+
+<!-- -->
+
+a.  El certificado se cancela anticipadamente con una pérdida del 25%.\
+b.  El inversor no recibe el cupón y asume una pérdida proporcional al 25%.\
+c.  El inversor recibe el cupón, pero pierde parte de su capital debido a la caída.\
+d.  El inversor recibe el cupón y recupera su capital inicial.
+
+<details>
+
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la **b**.
+
+Los **certificados autocancelables** son instrumentos estructurados que pagan un **cupón periódico** siempre que el subyacente (en este caso, las acciones de Tesla) **se mantenga por encima de una determinada barrera** al vencimiento o en fechas de observación.
+
+En este caso, la barrera está en el **80 % del precio inicial**. Como Tesla ha caído un **25 %**, el valor final está **por debajo de la barrera**.
+
+**Consecuencias:**
+
+-   **No se paga el cupón** (porque se incumple la condición de la barrera).
+-   El inversor **asume una pérdida proporcional** a la caída del subyacente (en este caso, un 25 %).
+
+Por tanto, **el capital no está garantizado**, y el producto replica la pérdida del subyacente si no se respeta la barrera de protección.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+38. ¿Cuál de los siguientes factores es crucial al aplicar la estrategia de *Security Selection* en activos de corto plazo?
+
+<!-- -->
+
+a.  La estabilidad del precio del activo durante períodos prolongados\
+b.  La capacidad del activo para ofrecer dividendos periódicos\
+c.  La liquidez del activo, permitiendo una rápida entrada y salida del mercado sin afectar significativamente su precio\
+d.  La correlación del activo con otros activos de la cartera a largo plazo
+
+<details>
+
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la **c**.
+
+La estrategia de *Security Selection* en activos de **corto plazo** busca identificar instrumentos concretos que ofrezcan las mejores condiciones dentro de su categoría. En este contexto, **la liquidez es clave**, ya que permite al gestor:
+
+-   Entrar o salir rápidamente del mercado\
+-   Minimizar costes de transacción\
+-   Reducir el impacto en el precio al ejecutar órdenes
+
+La liquidez es especialmente crítica en operaciones de gestión activa a corto plazo, donde las ventanas de oportunidad pueden ser breves.
+
+Los otros factores (como los dividendos o la correlación a largo plazo) son más relevantes en estrategias de inversión de medio o largo plazo.
+:::
+
+</details>
+
+------------------------------------------------------------------------
+
+
+
+39. En el presente ejercicio, una persona física con residencia fiscal en Japón ha percibido 9.000 euros en concepto de intereses procedentes de una inversión realizada en participaciones preferentes emitidas por una entidad de crédito española.  
+¿Qué tributación corresponderá por la obtención de esta renta en el Impuesto sobre la Renta de no Residentes (IRNR)?
+
+a. 9.000 × 19% = 1.710  
+b. 9.000 × 10% = 900  
+c. 9.000 × 24% = 2.160  
+d. El cobro del cupón estará exento de tributación en España por el Impuesto sobre la Renta de no Residentes.
+
+<details>
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la **b**.
+
+🧩 **Fundamento jurídico resumido**
+
+- Según el **art. 13.1.a) del TRLIRNR** (RDL 5/2004), los intereses satisfechos por entidades residentes están sujetos al IRNR.  
+- No obstante, el **Convenio de Doble Imposición (CDI) entre España y Japón** permite aplicar una **retención máxima del 10 %**, siempre que:
+  - El perceptor sea **residente fiscal en Japón**, y  
+  - Sea **beneficiario efectivo** de los intereses.
+
+📌 *Texto literal – art. 11.2 CDI España–Japón (BOE-A-2021-2977)*:
+
+> “...si el beneficiario efectivo de los intereses es residente del otro Estado contratante, el impuesto exigido no podrá exceder del 10 % del importe bruto.”
+
+🛑 La opción **d** es incorrecta:  
+No hay exención automática en la ley española; la **exención o reducción** procede del **convenio internacional**, no del impuesto interno.
+
+📖 Puedes consultar el convenio aquí:  
+[BOE-A-2021-2977 – CDI España-Japón](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-2977)
+
+:::
+</details>
+
+---
+
+
+40. ¿Qué componente se usa para calcular la pérdida esperada en una cartera de préstamos?
+
+a. Sólo el importe total del préstamo.  
+b. La probabilidad de incumplimiento (PD), la pérdida dado el incumplimiento (LGD) y la exposición al incumplimiento (EAD).  
+c. La tasa de inflación proyectada.  
+d. La duración del préstamo.
+
+<details>
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la **b**.
+
+🔍 **Explicación:**
+
+La **pérdida esperada (Expected Loss, EL)** es un concepto clave en gestión de riesgos financieros, especialmente en el contexto de **riesgo de crédito**. Se calcula con la siguiente fórmula:
+
+$$
+\text{Pérdida esperada (EL)} = \text{PD} \times \text{LGD} \times \text{EAD}
+$$
+
+Donde:
+
+- **PD (Probability of Default):** probabilidad de que el prestatario incumpla.
+- **LGD (Loss Given Default):** porcentaje de pérdida en caso de impago.
+- **EAD (Exposure at Default):** importe expuesto al riesgo en el momento del incumplimiento.
+
+Este modelo es utilizado tanto en la normativa de **Basilea II y III**, como en los estándares contables **IFRS 9**.
+
+:::
+</details>
+
+---
+
+### Práctica 
+
+
+#### Ejercicio 1
+
+Un inversor está evaluando la compra de un bono a 7 años con un valor nominal de 50.000 €, una tasa de cupón del 3% pagadera anualmente y una tasa de rendimiento del 2%.
+
+1.1. ¿Cuál es el precio del bono?
+
+a. 52.675 €  
+b. 53.236 €  
+c. 50.000 €  
+
+<details>
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+
+La respuesta correcta es la opción **b**.
+
+
+La fórmula utilizada para calcular el valor presente de los flujos futuros es:
+
+$$
+P_0 = \sum_{t=1}^{n}\frac{F_t}{(1+r)^{t}}
+$$
+
+Donde:
+
+- $P_0$ es el precio del bono o valor actual del mismo.
+- $F_t$ son los flujos a percibir por la tenencia de un bono (cupón y principal).
+- $r$ es la TIR (tasa de rendimiento).
+- $t$ es el tiempo.
+
+Sustituyendo en la fórmula para calcular el precio:
+
+$$
+P_0 = \frac{3}{(1+0.02)^1} + \frac{3}{(1+0.02)^2} + \frac{3}{(1+0.02)^3} + \frac{3}{(1+0.02)^4} + \frac{3}{(1+0.02)^5} + \frac{3}{(1+0.02)^6} + \frac{103}{(1+0.02)^7}
+$$
+
+Lo que da como resultado:
+
+$$
+P_0 = 106.472 \cdot 50.000 = 53.236 \, \text{€}
+$$
+
+:::
+</details>
+
+---
+
+1.2. ¿Cuál es la duración del bono?
+
+a. 6,15 años  
+b. 6,44 años  
+c. 6,80 años
+
+<details>
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+
+
+La duración de Macaulay se calcula utilizando la siguiente fórmula:
+
+$$
+D = \frac{\sum_{t=1}^{n}\frac{F_t \cdot t}{(1+r)^t}}{P}
+$$
+
+Donde:
+
+- $D$ es la duración de Macaulay.
+- $F_t$ son los flujos a percibir por la tenencia de un bono (cupón y principal).
+- $P$ es el precio del bono.
+- $r$ es la TIR.
+- $t$ es el tiempo.
+
+Sustituyendo los valores en la fórmula:
+
+$$
+D = \frac{1 \cdot \frac{3}{(1+0.02)^1} + 2 \cdot \frac{3}{(1+0.02)^2} + 3 \cdot \frac{3}{(1+0.02)^3} + 4 \cdot \frac{3}{(1+0.02)^4} + 5 \cdot \frac{3}{(1+0.02)^5} + 6 \cdot \frac{3}{(1+0.02)^6} + 7 \cdot \frac{103}{(1+0.02)^7}}{\frac{3}{(1+0.02)^1} + \frac{3}{(1+0.02)^2} + \frac{3}{(1+0.02)^3} + \frac{3}{(1+0.02)^4} + \frac{3}{(1+0.02)^5} + \frac{3}{(1+0.02)^6} + \frac{103}{(1+0.02)^7}}
+$$
+
+El resultado es:
+
+$$
+D = 6.44 \, \text{años}
+$$
+
+
+:::
+</details>
+
+---
+
+
+1.3. Si la tasa de rendimiento aumenta al 3%, ¿cuál será el nuevo precio del bono?
+
+a. 49.750 €  
+b. 50.000 €  
+c. 48.620 €
+
+<details>
+<summary><strong>Mostrar respuesta</strong></summary>
+
+::: {.callout-tip appearance="simple"}
+
+La sensibilidad del precio de un bono ante cambios de la TIR se puede expresar como:
+
+$$P_1\simeq P_0 \cdot[1+ ((-S)\cdot\Delta TIR)]$$
+
+donde,
+
++ $P_1$, es el nuevo precio estimado del bono tras una variación de la TIR.
+
++ $P_0$, es el precio actual del bono .
+
++ $S$, es la sensibilidad o sensibilidad absoluta.
+
++ $\Delta TIR$, variación porcentual de la TIR.
+
+
+
+Sustituyendo los valores en la fórmula:
+
+
+
+$$P_1=53236\left(1+\left[\left(-\frac{6.44}{\left(1+0.02\right)}\cdot \frac{106.472}{100}\right)\cdot \:\:0.01\right]\right)=49657.28985$$
+La respuesta correcta (aproximadamente) sería la opción **a**; sin embargo, es una aproximación que simplifica el cálculo del nuevo precio del bono ante cambios en la tasa de rendimiento. Esta fórmula no considera todos los factores que afectan el precio del bono, como la convexidad, que es una medida de la curvatura en la relación entre el precio del bono y la tasa de rendimiento.
+
+---
+
+Para obtener el precio exacto del bono con una tasa de rendimiento del 3%, utilizamos la fórmula del valor presente de los flujos futuros:
+
+$$
+P_0 = \sum_{t=1}^{n}\frac{F_t}{(1+r)^{t}}
+$$
+
+Sustituyendo los valores:
+
+$$
+P_0 = \frac{3}{(1+0.03)^1} + \frac{3}{(1+0.03)^2} + \frac{3}{(1+0.03)^3} + \frac{3}{(1+0.03)^4} + \frac{3}{(1+0.03)^5} + \frac{3}{(1+0.03)^6} + \frac{103}{(1+0.03)^7}
+$$
+
+El resultado es:
+
+$$
+P_0 = 50,000 \, \text{€}
+$$
+
+Esto muestra que el nuevo precio del bono con una tasa de rendimiento del 3% es **50,000 €**, que es la opción correcta en el ejercicio.
+
+
+
+Cuando el **cupón** de un bono **no coincide** con la **tasa de rendimiento** (TIR del mercado), el precio del bono se ajusta en función de la diferencia:
+
+- Si la **tasa de cupón** es **mayor** que la tasa de rendimiento del mercado, el bono cotiza **por encima de la par** (es decir, a un precio superior al valor nominal), ya que el bono ofrece una rentabilidad mayor a la exigida por el mercado.
+  
+- Si la **tasa de cupón** es **menor** que la tasa de rendimiento, el bono cotiza **por debajo de la par** (es decir, a un precio inferior al valor nominal), ya que el bono ofrece una rentabilidad inferior a la que el mercado requiere para bonos de similar riesgo.
+
+- Si la **tasa de cupón** coincide con la **tasa de rendimiento**, el bono cotiza **a la par**, es decir, a su valor nominal, ya que el rendimiento que ofrece es el mismo que el que el mercado exige para bonos de ese tipo.
+:::
+</details>
+
+---
+
+#### Ejercício 2
+
+
+Una empresa está evaluando el uso de opciones para proteger su cartera de 1.200.000 € ante una posible caída en el valor de sus acciones en un 10% en los próximos seis meses.
+
+**Datos:**
+
+- Precio actual de la acción: 75 €
+- Precio de ejercicio de la opción put: 75 €
+- Prima de la opción put (por acción): 3 €
+- Número de acciones en la cartera: 16.000
+- Vencimiento de la opción: 6 meses
+- Tamaño del contrato de opciones: 100 acciones
+- Delta de la opción put: 0,8
+
+2.1. Si la delta de la opción put es 0,8 en este momento, ¿cuántos contratos debe comprar la empresa para cubrir su cartera?
+
+a. 200 contratos  
+b. 60 contratos  
+c. 180 contratos
+
+2.2. ¿Cuál es el coste total de la cobertura con opciones put?
+
+a. 48.000 €  
+b. 50.000 €  
+c. 60.000 €
+
+
