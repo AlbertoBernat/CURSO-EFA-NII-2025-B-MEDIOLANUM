@@ -580,6 +580,9 @@ Aunque los mercados tienden a ser eficientes, existen **anomalías y comportamie
 
 ---
 
+
+
+
 ## Conclusión
 
 La gestión de carteras de renta variable requiere una combinación de análisis técnico y fundamental, comprensión del entorno económico, y adaptación a los perfiles de riesgo de los clientes. La elección entre gestión activa y pasiva, así como la consideración de los estilos y anomalías de mercado, permitirá construir carteras mejor alineadas con los objetivos del inversor.
