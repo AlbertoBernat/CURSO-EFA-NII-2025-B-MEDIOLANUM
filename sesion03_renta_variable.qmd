@@ -3,11 +3,25 @@ title: "Sesión 3: Módulo 1 – Parte II: Renta variable"
 format: html
 ---
 
-::: callout-note
-## Material de la sesión
 
-Aquí puedes incluir los vídeos, enlaces y materiales descargables.
-:::
+#### 🎥 Vídeo de la sesión
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/kDaN7R22aW0" title="Vídeo de la sesión" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+::: {.callout-note}
+## 📎 Material de la sesión
+
+```{=html}
+<object data="CLASE-DE-RENTA-VARIABLE-2025-MEDIOLANUM.pdf" type="application/pdf" width="100%" height="800px" style="min-height:100vh;">
+  <p>Tu navegador no puede mostrar PDF embebidos. Puedes <a href="CLASE-DE-RENTA-VARIABLE-2025-MEDIOLANUM.pdf" target="_blank">descargarlo aquí</a>.</p>
+</object>
+```
+::: 
+
+
+
 
 # Recapitulación del mercado de renta variable
 
@@ -49,53 +63,119 @@ Los **índices bursátiles** reflejan el comportamiento agregado de un conjunto 
 
 Además de estos, han adquirido creciente relevancia los **índices ESG** (Environmental, Social and Governance) y los **índices climáticos**, utilizados para estrategias de inversión sostenible.
 
+
+## Inversión sostenible en renta variable: criterios ESG
+
+### 🌱 Introducción
+
+Los criterios ESG (**Environmental, Social & Governance**) se han convertido en un componente clave de la inversión responsable. Su aplicación en renta variable se traduce en la creación de índices, metodologías y estrategias de selección de acciones que priorizan prácticas sostenibles y de buen gobierno.
+
+---
+
 ### Índices ESG
 
-Un **índice ESG** es un benchmark que incluye empresas seleccionadas según criterios ambientales, sociales y de buen gobierno corporativo. Estos índices permiten a los inversores:
+Un **índice ESG** es un benchmark que selecciona empresas según criterios ambientales, sociales y de buen gobierno corporativo. Permite:
 
-- Evaluar el rendimiento de carteras sostenibles.
-- Replicar estrategias de inversión responsable.
-- Comparar fondos que aplican criterios ESG frente a un índice general o *parent index*.
+- Evaluar carteras sostenibles
+- Comparar fondos con estrategias ESG
+- Replicar estrategias de inversión responsable
 
-**Tipos de índices ESG según el enfoque inversor:**
+**Principales enfoques:**
 
-- **Best-in-class**: seleccionan las empresas con mejor puntuación ESG dentro de cada sector.
-- **Exclusión o screening negativo**: eliminan compañías que no cumplen ciertos estándares (por ejemplo, armamento o tabaco).
-- **Temáticos o de impacto**: se centran en temas como energías renovables, igualdad de género o acceso a la salud.
+| Enfoque                   | Características                                                                 |
+|---------------------------|----------------------------------------------------------------------------------|
+| Best-in-class             | Mejores empresas en ESG dentro de cada sector                                   |
+| Exclusión (screening)     | Elimina sectores no sostenibles (tabaco, armas…)                                |
+| Temáticos / impacto       | Centrado en salud, igualdad de género, renovables, etc.                         |
 
-**Ejemplo destacado:**
+🧭 **Ejemplo destacado**:  
+MSCI ofrece índices ESG ampliamente utilizados: MSCI ESG Leaders, MSCI SRI, ESG Universal...
 
-La empresa **MSCI** es líder en este campo y ofrece una amplia gama de índices ESG que permiten replicar diferentes estrategias sostenibles (por ejemplo: MSCI ESG Leaders, MSCI ESG Universal, MSCI SRI, entre otros).
+---
 
-**Benchmarking con índices ESG:**
+### Índices climáticos y bajos en carbono
 
-- Es clave seleccionar un benchmark ESG coherente con la estrategia de inversión del fondo o cartera.
-- El índice ESG debe reflejar el universo invertible y la política de sostenibilidad adoptada por el inversor institucional.
+En el marco europeo se han definido estándares de benchmark climático:
 
-### Índices climáticos y de bajo carbono
+- **CTB (Climate Transition Benchmark)**  
+  Índices para carteras en transición hacia menores emisiones.
 
-Dentro del marco europeo, se han desarrollado índices específicos para afrontar el reto climático:
-
-- **CTB (Climate Transition Benchmark)**: índices de transición climática.
-- **PAB (Paris-Aligned Benchmark)**: índices alineados con los objetivos del Acuerdo de París.
+- **PAB (Paris-Aligned Benchmark)**  
+  Índices alineados con el objetivo del Acuerdo de París (1,5 ºC).
 
 **Características clave:**
 
-- Reducción significativa de emisiones de carbono frente al índice principal.
-- Exclusión de empresas involucradas en actividades que perjudican el medioambiente.
-- Alineación progresiva con los objetivos de temperatura del Acuerdo de París.
+- Reducción de emisiones frente al índice general
+- Exclusión de actividades perjudiciales para el clima
+- Cumplimiento con el **Reglamento (UE) 2019/2089**
 
-**Requisitos regulatorios de la UE:**
+> 📌 La elección del índice debe estar alineada con la estrategia de sostenibilidad del fondo o institución.
 
-- Ambos tipos de índices deben cumplir los requisitos establecidos por el **Reglamento (UE) 2019/2089**, que modifica el Reglamento Benchmark (UE) 2016/1011.
-- Exigen transparencia sobre metodología, criterios de exclusión y trayectoria de descarbonización.
+---
 
-**Selección de índices climáticos:**
+### Índice FTSE4Good IBEX®
 
-- La elección del índice debe estar alineada con la **estrategia climática del inversor institucional**.
-- Un fondo con objetivo de descarbonización progresiva podría usar un **CTB**, mientras que uno con alineación total a París podría elegir un **PAB**.
+Un caso práctico en España es el **FTSE4Good IBEX**, elaborado por FTSE Russell y BME.
 
-> Estos índices no solo sirven como referencia, sino que guían activamente las decisiones de construcción y evaluación de carteras sostenibles.
+**Objetivo:** evaluar el comportamiento ESG de las cotizadas españolas.
+
+**Requisitos para ser incluido:**
+
+- Cumplir estándares ESG mínimos
+- Evitar sectores controvertidos (armamento, tabaco…)
+- Destacar en:
+  - Medioambiente
+  - Cambio climático
+  - Derechos humanos
+  - Cadena de suministro
+  - Buen gobierno y anticorrupción
+
+📎 Enlaces oficiales:
+
+- [Ficha técnica BME](https://www.bolsasymercados.es/bme-exchange/docs/SB/FS-FTSE4GoodIbex_ESP.pdf)  
+- [Informe CompromisoRSE](https://www.compromisorse.com/upload/estudios/000/62/FTSE4Good_IBEX.pdf)
+
+---
+
+### Estrategias ESG en renta variable
+
+Los enfoques principales en la selección de acciones sostenibles son:
+
+1. **Exclusión**  
+   Evita sectores o empresas contrarias a principios ESG.
+
+2. **Evaluación positiva**  
+   Selecciona las compañías mejor posicionadas en ESG.
+
+3. **Compromiso (engagement)**  
+   El inversor participa activamente: ejerce el voto o dialoga con la empresa para mejorar su desempeño ESG.
+
+---
+
+### Nota metodológica
+
+- El índice FTSE4Good IBEX se revisa periódicamente.
+- FTSE Russell contacta con las empresas para validar y actualizar datos.
+- El universo invertible refleja la evolución del mercado y su madurez en sostenibilidad.
+
+---
+
+## 📝 Ficha de repaso ESG
+
+| Concepto                  | Descripción                                                                  |
+|---------------------------|-------------------------------------------------------------------------------|
+| ESG                       | Criterios Ambientales, Sociales y de Gobernanza                              |
+| Índices ESG               | Benchmarks que seleccionan compañías con buenas prácticas ESG                |
+| Best-in-class             | Mejores empresas dentro de cada sector en términos ESG                       |
+| Exclusión (screening)     | Eliminación de empresas no sostenibles                                       |
+| Índices climáticos        | CTB y PAB según regulación europea                                           |
+| FTSE4Good IBEX            | Índice español de empresas con alto rendimiento ESG                          |
+| Evaluación positiva       | Selección activa de empresas ESG sobresalientes                              |
+| Engagement                | Inversor influye como accionista (voto, diálogo)                             |
+| FTSE Russell              | Gestor del índice ESG junto a BME                                            |
+
+---
+
 
 ## Operaciones bursátiles frecuentes
 

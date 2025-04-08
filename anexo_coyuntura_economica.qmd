@@ -3,9 +3,6 @@ title: "Anexo 1: Coyuntura económica"
 format: html
 ---
 
-
-
-
 # Análisis e interpretación de indicadores de coyuntura
 
 El análisis de los **indicadores de coyuntura** permite evaluar la evolución de la economía a corto plazo y anticipar posibles cambios en el ciclo económico. Estos indicadores son herramientas clave para analistas financieros, inversores y responsables de política económica.
