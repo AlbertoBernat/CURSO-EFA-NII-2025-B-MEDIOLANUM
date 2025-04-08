@@ -1,0 +1,419 @@
+
+
+## Sesión 3 (renta variable)
+
+1. Cuando existe una divergencia entre el RSI y la tendencia de los precios, la regla general dice:
+
+a) Los precios tienen razón  
+b) La tendencia pierde fuerza  
+c) Salirse de mercado dada la incertidumbre  
+d) El indicador tiene razón
+
+::: {.callout-tip collapse="true"}
+### Solución
+**Respuesta correcta: d)**  
+Según el análisis gráfico, cuando hay divergencia entre el RSI y el precio, es el RSI el que anticipa el cambio: el indicador tiene razón.
+:::
+
+------------------------------------------------------------------------
+
+2. Un ejemplo de figura de continuación de tendencia es:
+
+a) Banderas  
+b) Suelos y techos redondeados  
+c) Hombro cabeza hombro  
+d) En alcista: cierres por encima del día anterior y en bajista cierre por debajo del día anterior
+
+::: {.callout-tip collapse="true"}
+### Solución
+**Respuesta correcta: a)**  
+Solo las banderas son consideradas figuras de continuación de tendencia.
+:::
+
+------------------------------------------------------------------------
+
+3. ¿Cuál de estas figuras es conocida por ser anticipadora de una continuación en la tendencia principal del activo?
+
+a) Hombro-Cabeza-Hombro  
+b) Banderas  
+c) Formación en V  
+d) Doble suelo
+
+::: {.callout-tip collapse="true"}
+### Solución
+**Respuesta correcta: b)**  
+
+Las banderas, al concentrar los precios en un rango tras una tendencia previa, anticipan su continuación.
+Este patrón se forma cuando los precios se agrupan alrededor de un nivel, estrechando progresivamente su rango de cotizaciones. Si existe una tendencia previa bien definida, esta figura suele anticipar su continuación.
+
+
+:::
+
+------------------------------------------------------------------------
+
+
+4. La sociedad Y cotiza en bolsa a 33 euros. Los resultados de la compañía ofrecen un beneficio de 30.000 euros y el número de acciones es de 10.000. ¿Cuál es el PER?
+
+a) 3  
+b) 11  
+c) 5  
+d) 8
+
+::: {.callout-tip collapse="true"}
+### Solución
+**Respuesta correcta: b)**  
+
+Para calcular el **PER (Price to Earnings Ratio)** necesitamos conocer el **Beneficio por Acción (BPA)**. Este se obtiene dividiendo el beneficio neto total entre el número de acciones en circulación:
+
+$$
+BPA = \frac{30.000}{10.000} = 3
+$$
+
+El BPA representa cuánto beneficio corresponde a cada acción de la empresa.
+
+A continuación, aplicamos la fórmula del PER:
+
+$$
+PER = \frac{\text{Precio de la acción}}{\text{BPA}} = \frac{33}{3} = 11
+$$
+
+> El **PER** indica cuántas veces el beneficio actual está contenido en el precio de mercado. En este caso, un inversor estaría pagando **11 veces el beneficio por acción**. Es un ratio muy utilizado para valorar si una acción está cara o barata en relación con sus beneficios.
+:::
+
+---
+
+5. La empresa XXX cotiza con un PBV = 2.5x y tiene un BN de 400 M€, fondos propios de 2000 M€, un Pay Out del 30% y un coste de capital del 10%. Calcular el PER.
+
+a) 12.2  
+b) 12.5  
+c) 14  
+d) Ninguna es correcta
+
+::: {.callout-tip collapse="true"}
+### Solución  
+**Respuesta correcta: b)**  
+
+El enunciado nos da:
+
+- **PBV (Price to Book Value)** = 2.5  
+- **Beneficio Neto (BN)** = 400 M€  
+- **Fondos Propios (FP)** = 2000 M€
+
+Lo primero es calcular el **ROE (Return on Equity)**, que representa la rentabilidad financiera obtenida sobre los fondos propios:
+
+$$
+ROE = \frac{\text{Beneficio Neto}}{\text{Fondos Propios}} = \frac{400}{2000} = 0.2
+$$
+
+El ROE nos indica que por cada euro aportado por los accionistas, la empresa ha generado 0,20 € de beneficio.
+
+Ahora aplicamos la relación que une PBV, ROE y PER:
+
+$$
+PBV = ROE \cdot PER \quad \Rightarrow \quad PER = \frac{PBV}{ROE}
+$$
+
+Sustituimos los valores:
+
+$$
+PER = \frac{2.5}{0.2} = 12.5
+$$
+
+> Este ratio nos dice que el precio de la acción es 12.5 veces superior al beneficio por acción. A igualdad de condiciones, un **PER más alto** puede indicar mayores expectativas de crecimiento, mientras que uno más bajo puede sugerir **infravaloración** o **menor crecimiento esperado**.
+:::
+
+------------------------------------------------------------------------
+
+
+6. ¿Tiene importancia en valoración el hecho de que una empresa se financie con deuda, fondos propios o una mezcla de ambas?
+
+a) Sí  
+b) No  
+c) Solo si cotiza en bolsa  
+d) Solo si reparte dividendos
+
+::: {.callout-tip collapse="true"}
+### Solución
+**Respuesta correcta: a)**  
+Tiene importancia porque influye en el riesgo asumido por el accionista: a mayor deuda, mayor riesgo de insolvencia.
+:::
+
+------------------------------------------------------------------------
+
+7. El análisis de medias móviles permite:
+
+a) Anticiparse a los movimientos de continuación o cambio de tendencia  
+b) Determinar la dirección de los precios  
+c) Predecir la volatilidad del nivel de precios  
+d) Determinar la fortaleza de una tendencia
+
+::: {.callout-tip collapse="true"}
+### Solución
+**Respuesta correcta: a)**  
+El análisis de medias móviles se usa para anticipar movimientos de continuación o cambio de tendencia.
+:::
+
+------------------------------------------------------------------------
+
+
+8. La empresa XXX cotiza con un PER = 16x y tiene un ratio de Pay Out del 15% y un coste de capital del 12%. ¿Qué tasa de crecimiento implícita está descontando el precio?
+
+a) 12,94%  
+b) Negativo  
+c) 5%  
+d) Ninguna es correcta
+
+::: {.callout-tip collapse="true"}
+### Solución  
+**Respuesta correcta: d)**  
+
+Queremos averiguar qué tasa de crecimiento $g$ está implícita en el precio. Aplicamos la fórmula del PER basada en el modelo de Gordon-Shapiro:
+
+$$
+PER = \frac{PO \cdot (1 + g)}{k - g}
+$$
+
+Donde:  
+- $PER = 16$  
+- $PO = 0.15$ (Pay Out)  
+- $k = 0.12$ (coste de capital)
+
+Sustituimos en la fórmula:
+
+$$
+16 = \frac{0.15 \cdot (1 + g)}{0.12 - g}
+$$
+
+Multiplicamos en cruz:
+
+$$
+16 \cdot (0.12 - g) = 0.15 \cdot (1 + g)
+$$
+
+Desarrollamos:
+
+$$
+1.92 - 16g = 0.15 + 0.15g
+$$
+
+Reorganizamos:
+
+$$
+1.77 = 16.15g \quad \Rightarrow \quad g = \frac{1.77}{16.15} = 0.1096 = 10.96\%
+$$
+
+> Ninguna de las respuestas propuestas coincide exactamente con este resultado. Por tanto, la **respuesta correcta es d)**.
+:::
+
+------------------------------------------------------------------------
+
+
+9. La empresa ZZZ tiene un Beneficio Neto de 300 M€, Fondos Propios de 1500 M€, un Pay Out del 40% y un coste de capital del 15%. ¿Qué PBV tendría?
+
+a) 5.3  
+b) 2.98  
+c) 4.4  
+d) No se puede calcular con estos datos
+
+::: {.callout-tip collapse="true"}
+### Solución  
+**Respuesta correcta: b)**  
+
+Primero calculamos el ROE (rentabilidad sobre fondos propios):
+
+$$
+ROE = \frac{300}{1500} = 0.2 \quad \text{(20%)}
+$$
+
+Ahora calculamos la tasa de crecimiento \( g \):
+
+$$
+g = ROE \cdot (1 - PO) = 0.2 \cdot (1 - 0.4) = 0.12 \quad \text{(12\%)}
+$$
+
+Aplicamos la fórmula teórica del PBV (Price to Book Value):
+
+$$
+PBV = ROE \cdot \frac{PO \cdot (1 + g)}{k - g}
+$$
+
+Sustituimos los valores:
+
+$$
+PBV = 0.2 \cdot \frac{0.4 \cdot 1.12}{0.15 - 0.12} = 0.2 \cdot \frac{0.448}{0.03} = 0.2 \cdot 14.9333 = 2.9867
+$$
+
+Por tanto:
+
+$$
+PBV \approx 2.98
+$$
+
+> El ratio PBV indica cuántas veces está valorada la acción respecto a su valor contable. En este caso, casi tres veces.
+:::
+
+
+------------------------------------------------------------------------
+
+10. La empresa ZZZ tiene un Beneficio Neto de 300 M€, Fondos Propios de 1500 M€, un Pay Out del 40% y un coste de capital del 20%. ¿Qué PER tendría?
+
+a) 10.1  
+b) 5.6  
+c) 20.6  
+d) No se puede calcular con los datos aportados
+
+::: {.callout-tip collapse="true"}
+### Solución  
+**Respuesta correcta: b)**  
+
+Primero calculamos el ROE (rentabilidad sobre fondos propios):
+
+$$
+ROE = \frac{300}{1500} = 0.2 \quad \text{(20%)}
+$$
+
+Después calculamos la tasa de crecimiento \( g \), a partir del ROE y el Pay Out:
+
+$$
+g = ROE \cdot (1 - PO) = 0.2 \cdot (1 - 0.4) = 0.12 \quad \text{(12\%)}
+$$
+
+Aplicamos la fórmula teórica del PER:
+
+$$
+PER = \frac{PO \cdot (1 + g)}{k - g}
+$$
+
+Sustituimos los valores:
+
+$$
+PER = \frac{0.4 \cdot 1.12}{0.2 - 0.12} = \frac{0.448}{0.08} = 5.6
+$$
+
+> El ratio PER nos dice cuántas veces se está pagando por cada unidad de beneficio. En este caso, 5.6 veces.
+:::
+
+
+------------------------------------------------------------------------
+
+11. Una Operación Pública de Venta (OPV)...
+
+a) Puede ser amistosa u hostil  
+b) Es la fórmula más adecuada para el Estado privatizar empresas o para empresas cuyos socios deseen vender acciones propias  
+c) Permite financiar a la empresa que acude al mercado primario  
+d) La empresa realiza una ampliación de capital para ser suscrita por nuevos accionistas
+
+::: {.callout-tip collapse="true"}
+### Solución
+**Respuesta correcta: b)**  
+La OPV es usada por el Estado o socios para vender acciones ya existentes. No financia a la empresa, sino a los accionistas vendedores.
+:::
+
+------------------------------------------------------------------------
+
+12. El análisis técnico está basado en:
+
+a) Toda la información está presente en los niveles de precio de un activo y la historia se repite  
+b) La medición cuantitativa de diferentes ratios  
+c) El análisis de tendencia de precios  
+d) El análisis de tendencias combinado con indicadores técnicos y figuras de vuelta
+
+::: {.callout-tip collapse="true"}
+### Solución
+**Respuesta correcta: a)**  
+El análisis técnico se basa en que toda la información está en el precio y que los patrones del pasado tienden a repetirse.
+:::
+
+------------------------------------------------------------------------
+
+13. La empresa VVV cotiza con un PER de 15x, tiene un ratio de Pay Out del 30% y un ROE del 20%. ¿Qué coste de capital tiene?
+
+a) 10%  
+b) 20%  
+c) 16%  
+d) No se puede calcular con estos datos
+
+::: {.callout-tip collapse="true"}
+### Solución  
+**Respuesta correcta: c)**  
+
+Primero calculamos la tasa de crecimiento $g$:
+
+$$
+g = ROE \cdot (1 - PO) = 0.2 \cdot (1 - 0.3) = 0.2 \cdot 0.7 = 0.14
+$$
+
+Aplicamos la fórmula de Gordon-Shapiro para despejar el coste de capital $k_e$ a partir del PER:
+
+$$
+PER = \frac{P_0 \cdot (1 + g)}{k_e - g}
+$$
+
+Despejamos $k_e$:
+
+$$
+k_e = \frac{PO \cdot (1 + g)}{PER} + g
+$$
+
+Sustituimos los valores:
+
+$$
+k_e = \frac{0.3 \cdot 1.14}{15} + 0.14 = \frac{0.342}{15} + 0.14 = 0.0228 + 0.14 = 0.1628
+$$
+
+Por tanto:
+
+$$
+k_e \approx 16.28\% \Rightarrow \text{aproximadamente 16%}
+$$
+
+> El coste de capital ($k_e$) representa la rentabilidad mínima exigida por los accionistas. Aquí se calcula con el PER, el Pay Out y el crecimiento estimado.
+:::
+
+
+------------------------------------------------------------------------
+
+14. ¿Con qué concepto identificarías la palabra resistencia dentro del Análisis Técnico?
+
+a) Grupo de analistas que se oponen a las teorías oficiales  
+b) Nivel de precio en el que las cotizaciones ven limitadas sus subidas  
+c) Nivel de cotizaciones donde la presión de la demanda es mayor que la de la oferta  
+d) Nivel de precio en el que las cotizaciones ven limitadas sus bajadas
+
+::: {.callout-tip collapse="true"}
+### Solución
+**Respuesta correcta: b)**  
+Una resistencia es un nivel donde los precios tienden a dejar de subir, funcionando como techo de cotización.
+:::
+
+------------------------------------------------------------------------
+
+15. La compañía X tiene emitidas 5.000 acciones, cotiza a 6 €, y presenta un resultado neto de 380 €. ¿Qué afirmación NO es correcta?
+
+a) La capitalización bursátil de la compañía es de 30.000 euros  
+b) El margen de la compañía es del 65%  
+c) El Pay out es del 40%  
+d) El PER de la compañía es del 0.015
+
+::: {.callout-tip collapse="true"}
+### Solución
+**Respuesta correcta: d)**
+
+Calculamos primero el beneficio por acción (BPA):
+
+$$
+BPA = \frac{380}{5000} = 0.076
+$$
+
+Y ahora el PER:
+
+$$
+PER = \frac{6}{0.076} \approx 78.95
+$$
+
+> La afirmación d) es incorrecta, ya que el PER real es muy superior a 0.015. El resto de afirmaciones son compatibles con los datos proporcionados.
+:::
+
+
+
+------------------------------------------------------------------------

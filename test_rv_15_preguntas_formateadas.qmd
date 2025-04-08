@@ -1,0 +1,35 @@
+1. 1. Cuando existe una divergencia entre el RSI y la tendencia de los precios, la regla
+general dice:
+
+```{=html}
+<!-- -->
+```
+
+d) El indicador tiene razón
+
+::: {.callout-tip collapse="true"}
+### Solución
+
+$$ De acuerdo a la teoria del analisis gráfico cuando existe una divergencia entre la tendencia de los precios y la que marca el RSI, es la de este último (RSI) la que prevalece ... $$
+:::
+
+------------------------------------------------------------------------
+
+2. 15. La compañía X tiene emitidas 5.000 acciones, cotiza en bolsa a 6 euros y presenta
+los siguientes datos en su cuenta de resultados: Ventas = 1.000; Coste Ventas = 350; BAII
+= 650; Intereses = 65; BAI = 585; Impuestos = 205; Resultado Neto = 380; A Dividendos =
+152; A Reservas = 228. ¿Cuál de estas afirmaciones sobre la compañía X NO es correcta?
+
+```{=html}
+<!-- -->
+```
+
+d) El PER de la compañía es del 0.015
+
+::: {.callout-tip collapse="true"}
+### Solución
+
+$$ PER = precio / BPA = 6 / (380 / 5000) = 78.95 $$
+:::
+
+------------------------------------------------------------------------
