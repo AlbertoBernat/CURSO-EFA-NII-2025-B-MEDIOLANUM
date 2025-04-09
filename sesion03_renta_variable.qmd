@@ -21,6 +21,16 @@ format: html
 ::: 
 
 
+:::{.callout-important}
+## 📝 Test de autoevaluación de la sesión
+
+Haz clic en el siguiente botón para acceder al formulario del test correspondiente a esta clase. Se abrirá en una nueva pestaña.
+
+:::{.text-center}
+[Acceder al test](https://forms.gle/nNiGSu7qysUyVcH56){.btn .btn-success style="border-radius: 12px;" target="_blank"}
+:::
+:::
+
 
 
 # Recapitulación del mercado de renta variable
