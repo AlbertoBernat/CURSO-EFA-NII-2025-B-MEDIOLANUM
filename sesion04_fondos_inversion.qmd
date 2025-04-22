@@ -3,11 +3,26 @@ title: "Sesión 4: Módulo 2 – Fondos y sociedades de inversión"
 format: html
 ---
 
-::: callout-note
-## Material de la sesión
 
-Aquí puedes incluir los vídeos, enlaces y materiales descargables.
-:::
+
+
+#### 🎥 Vídeo de la sesión
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/cWpCSDM5yQ8" title="Vídeo de la sesión" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+
+::: {.callout-note}
+## 📎 Material de la sesión
+
+<iframe src="https://drive.google.com/file/d/1CHMvYUdyctNOHD6ZkYS803Ku4r-L1STy/preview" width="100%" height="800px"></iframe>
+
+::: 
+
+
+
+
 
 ## Fondos temáticos y fondos de impacto
 

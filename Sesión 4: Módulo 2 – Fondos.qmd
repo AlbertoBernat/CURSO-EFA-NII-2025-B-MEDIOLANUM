@@ -1,0 +1,175 @@
+---
+title: "Sesión 4: Módulo 2 – Fondos"
+author: "Alberto Bernat"
+date: today
+format:
+  beamer:
+    theme: "Madrid"
+
+---
+
+
+## Objetivos de la sesión
+
+- **Fondos temáticos e impacto**: identificar características, activos y evaluación de resultados.
+- **IIC cerradas (SICC/FICC)**: comprender estructura, liquidez y marco regulatorio.
+- **Hedge funds**: explorar estrategias, vehículos y normativa aplicable.
+- **Selección de fondos**: dominar ranking, rating y ratios de performance.
+- **Inversión responsable**: integrar criterios ESG en la gestión alternativa.
+
+---
+
+## Fondos temáticos
+
+- **Definición**: fondos que invierten en tendencias de largo plazo (tecnología, salud, energía limpia).
+- **Activos**:
+  - Renta variable sectorial: empresas líderes y emergentes en la temática.
+  - Renta fija sostenible: green bonds y social bonds para proyectos alineados.
+  - ETFs temáticos y notas estructuradas para exposición diversificada.
+- **Ventajas y desafíos**:
+  - Ventaja: alto potencial de crecimiento ligado a megatendencias.
+  - Riesgo: concentración y dependencia de factores regulatorios y tecnológicos.
+
+---
+
+## Fondos de impacto
+
+- **Concepto**: retorno financiero combinado con medición de impacto social y medioambiental.
+- **Selección de activos**:
+  - Capital privado (venture capital) en startups con misión social.
+  - Deuda temática y microcréditos en comunidades vulnerables.
+- **Métricas**:
+  - Indicadores CO₂, acceso a servicios, empleo, educación según ODS.
+- **Desafíos**:
+  - Establecer metodología consistente de medición.
+  - Evitar "greenwashing" mediante transparencia y auditoría.
+
+---
+
+## Instituciones de Inversión Colectiva cerradas
+
+- **Estructura y liquidez**:
+  - Capital cerrado con reembolsos colectivos o mercado secundario.
+  - Formas jurídicas: SICC (sociedades) y FICC (fondos).
+- **Regulación esencial**:
+  - Ley 35/2003 y RD 1082/2012: régimen general de IIC.
+  - Ley 22/2014: normativa específica de EICC y capital riesgo.
+  - Circular 4/2016 CNMV: obligaciones de depositarios y reporting.
+- **Implicaciones prácticas**:
+  - Diseñar estatutos con política de inversión y límites.
+  - Preparar documentación KID/AIFMD K‑IID.
+
+---
+
+## Fondos de inversión libre (Hedge Funds)
+
+- **Gestión alternativa**:
+  - Posiciones long/short en renta variable y fija.
+  - Uso activo de apalancamiento y derivados para retorno absoluto.
+- **Vehículos**:
+  - Hedge Funds puros: estrategias internas especializadas.
+  - Funds of Hedge Funds: diversificación y due diligence profesional.
+- **Normativa**:
+  - AIFMD: requisitos de autorización, transparencia y gobernanza.
+  - Ley 22/2014: marco local para gestoras de IIC de inversión libre.
+
+---
+
+## Estrategias y estilos de inversión
+
+- **Valor Relativo**: explotar spreads en convertibles, renta fija y market neutral.
+- **Event Driven**: beneficiarse de eventos corporativos (fusiones, reestructuraciones).
+- **Oportunistas**: macro global, long‑short equity y mercados emergentes.
+- **CTA (Managed Futures)**: sistemáticos (quant) y discrecionales.
+- **Funds of Funds**: combinar estrategias para reducir riesgos idiosincráticos.
+
+---
+
+## Análisis y selección de fondos
+
+### Ranking
+
+1. Definir universo (categoría y tamaño).
+2. Seleccionar métricas (rentabilidad, volatilidad, drawdowns).
+3. Ponderar según perfil de cliente.
+4. Revisar y actualizar trimestralmente.
+
+### Rating
+
+- **Cuantitativo**: ratios rentabilidad/riesgo, consistencia histórica.
+- **Cualitativo**: estructura de costes, gobierno y proceso de inversión.
+- **Escala de 1–5 estrellas**: síntesis de ambos análisis.
+
+---
+
+## Ratios de Performance
+
+### Sharpe
+
+$$\mathrm{Sharpe} = \frac{E[R_p] - R_f}{\sigma_p}$$
+**Explicación**: mide exceso de retorno por unidad de riesgo total.
+
+---
+
+### Treynor
+
+$$\mathrm{Treynor} = \frac{E[R_p] - R_f}{\beta_p}$$
+**Explicación**: rentabilidad por unidad de riesgo sistemático.
+
+---
+
+### Ratio de Información
+
+$$\mathrm{Info} = \frac{E[R_p] - R_b}{\sigma_{p-b}}$$
+**Explicación**: exceso de retorno sobre benchmark ajustado por tracking error.
+
+---
+
+### Alfa de Jensen
+
+$$\alpha = E[R_p] - \bigl(R_f + \beta_p (E[R_m] - R_f)\bigr)$$
+**Explicación**: valor añadido del gestor ajustado por CAPM.
+
+---
+
+## Hedge Funds con criterios ESG
+
+- **Selección ESG**:
+  - Excluir sectores intensivos en carbono.
+  - Incluir green bonds y social bonds.
+- **Regulación relevante**:
+  - SFDR (Artículos 6, 8, 9): divulgación de metodologías y riesgos.
+  - ESMA Guidelines: umbral mínimo 80% para usar “ESG”.
+  - Supervisión CNMV: vigilancia de greenwashing.
+- **Reporting**:
+  - Indicadores CO₂, diversidad y gobernanza en web y KID.
+
+---
+
+## Estilos de gestión
+
+### Activa
+
+- **Foco**: selección de valores y market timing.
+- **Pros**: potencial alfa.
+- **Contras**: costes superiores, tracking error.
+
+### Pasiva
+
+- **Foco**: réplica de índices (beta).
+- **Pros**: costes muy bajos, simplicidad.
+- **Contras**: sin posibilidad de superar benchmark.
+
+### Value
+
+- **Foco**: activos infravalorados por análisis fundamental.
+- **Pros**: fuerte rendimiento a largo plazo.
+- **Contras**: value traps, periodos de subrendimiento.
+
+---
+
+## Conclusión y próximos pasos
+
+- Revisar requisitos MiFID II y AIFMD.
+- Ejercicios prácticos: diseño de política de inversión y due diligence.
+- Discusión de casos reales en próxima sesión.
