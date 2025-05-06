@@ -1,0 +1,388 @@
+---
+title: "UEMC online"
+subtitle: "**Sesión 5: Gestión de carteras**"
+author: "Profesor Alberto Bernat"
+date: last-modified
+date-format: DD/MM/YYYY
+format: 
+  beamer: 
+    aspectratio: 54
+    theme: Madrid
+    colortheme: seahorse
+    lang: "es"
+    colorlinks: true
+    header-includes: |
+      \usepackage{graphicx}
+      \usepackage{amssymb}
+      \usepackage{textcomp}
+      \definecolor{MediolanumBlueLight}{HTML}{1e96d7}
+      \definecolor{MediolanumBlueDark}{HTML}{192d6e}
+      \definecolor{EFPAYellow}{RGB}{255,204,0}
+      \setbeamercolor{title}{fg=MediolanumBlueDark}
+      \setbeamercolor{frametitle}{fg=MediolanumBlueLight}
+      \setbeamercolor{structure}{fg=EFPAYellow}
+      \setbeamercolor{section in toc}{fg=MediolanumBlueDark}
+      \setbeamercolor{footline}{fg=MediolanumBlueDark, bg=white}
+      \setbeamercolor{block title}{fg=white, bg=MediolanumBlueDark}
+      \setbeamercolor{block body}{fg=black, bg=MediolanumBlueLight!20}
+      \setbeamercolor{alerted text}{fg=EFPAYellow}
+      \setbeamercolor{item}{fg=MediolanumBlueDark}
+      \setbeamercolor{subitem}{fg=MediolanumBlueLight}
+      \setbeamercolor{subsubitem}{fg=EFPAYellow}
+      \setbeamercolor{caption name}{fg=MediolanumBlueDark}
+      \setbeamercolor{button}{bg=MediolanumBlueDark, fg=white}
+      \setbeamercolor{button border}{bg=EFPAYellow, fg=EFPAYellow}
+      \setbeamercolor{button text}{fg=white}
+      \setbeamercolor{navigation symbols}{fg=MediolanumBlueLight}
+      \setbeamercolor{palette primary}{bg=MediolanumBlueDark, fg=white}
+      \setbeamercolor{palette secondary}{bg=MediolanumBlueLight, fg=white}
+      \setbeamercolor{palette tertiary}{bg=EFPAYellow, fg=black}
+      \setbeamercolor{palette quaternary}{bg=MediolanumBlueDark, fg=white}
+      \setbeamercolor{section in head/foot}{bg=MediolanumBlueDark, fg=white}
+      \setbeamercolor{subsection in head/foot}{bg=MediolanumBlueLight, fg=white}
+      \setbeamercolor{author in head/foot}{fg=MediolanumBlueDark}
+      \setbeamercolor{institute in head/foot}{fg=MediolanumBlueLight}
+      \setbeamercolor{date in head/foot}{fg=EFPAYellow}
+      \setbeamercolor{title in head/foot}{fg=MediolanumBlueDark}
+      \setbeamercolor{subtitle}{fg=EFPAYellow}
+      \setbeamercolor{logo in head/foot}{bg=white}
+      \setbeamercolor{bibliography entry author}{fg=MediolanumBlueDark}
+      \setbeamercolor{bibliography entry title}{fg=MediolanumBlueLight}
+      \setbeamercolor{bibliography entry location}{fg=EFPAYellow}
+      \setbeamercolor{bibliography entry note}{fg=MediolanumBlueDark}
+      \setbeamercolor{abstract}{fg=MediolanumBlueDark, bg=MediolanumBlueLight!20}
+      \setbeamercolor{abstract title}{fg=white, bg=MediolanumBlueDark}
+      \setbeamercolor{verse}{fg=MediolanumBlueDark, bg=MediolanumBlueLight!20}
+      \setbeamercolor{quotation}{fg=MediolanumBlueDark, bg=MediolanumBlueLight!20}
+      \setbeamercolor{quote}{fg=MediolanumBlueDark, bg=MediolanumBlueLight!20}
+      \setbeamercolor{description item}{fg=MediolanumBlueDark}
+      \setbeamercolor{description item label}{fg=MediolanumBlueLight}
+      \setbeamercolor{description item body}{fg=EFPAYellow}
+      \setbeamercolor{enumerate item}{fg=MediolanumBlueDark}
+      \setbeamercolor{enumerate subitem}{fg=MediolanumBlueLight}
+      \setbeamercolor{enumerate subsubitem}{fg=EFPAYellow}
+      \setbeamercolor{itemize item}{fg=MediolanumBlueDark}
+      \setbeamercolor{itemize subitem}{fg=MediolanumBlueLight}
+      \setbeamercolor{itemize subsubitem}{fg=EFPAYellow}
+      \setbeamercolor{list item}{fg=MediolanumBlueDark}
+---
+
+
+
+## Repaso previo: rentabilidad
+
+\vspace{1em}
+
+-   **Rentabilidad simple de un activo**:\
+    $\displaystyle R = \frac{P_1 - P_0}{P_0}$
+
+-   **Rentabilidad esperada**:\
+    $\displaystyle E(R) = \sum p_i R_i$
+
+-   **Rentabilidad histórica media**:\
+    $\displaystyle \bar{R} = \frac{1}{n} \sum R_t$
+
+-   **Rentabilidad anualizada** (si hay capitalización):\
+    $\displaystyle R_{\text{anual}} = (1 + R_{\text{acum}})^{1/n} - 1$
+
+-   **Rentabilidad de una cartera**:\
+    $\displaystyle R_p = \sum w_i R_i$
+
+## Repaso previo: riesgo y volatilidad
+
+\vspace{1em}
+
+-   **Volatilidad de un activo** (escenarios):\
+    $\displaystyle \sigma = \sqrt{\sum p_i (R_i - E(R))^2}$
+
+-   **Volatilidad histórica**:\
+    Desviación típica de los rendimientos.
+
+-   **Volatilidad anualizada**:\
+    $\sigma_{\text{anual}} = \sigma_{\text{mensual}} \cdot \sqrt{12}$
+
+-   **Volatilidad de una cartera (2 activos)**:\
+    $$
+    \sigma_p = \sqrt{w_1^2 \sigma_1^2 + w_2^2 \sigma_2^2 + 2 w_1 w_2 \rho_{12} \sigma_1 \sigma_2}
+    $$
+
+-   **Peso de un activo en cartera**:\
+    $\displaystyle w_i = \frac{V_i}{\sum V_j}$
+
+## Repaso previo: diversificación y normalidad
+
+\vspace{1em}
+
+- **Diversificación**:
+    - El riesgo de cartera se reduce si $\rho < 1$
+    - No es necesario tener muchos títulos para diversificar
+    - Incluso con dos activos arriesgados puede lograrse una cartera sin riesgo en condiciones específicas
+
+- **Hipótesis de normalidad**:
+    - 68 % de probabilidades: $R \pm \sigma$
+    - 95 % de probabilidades: $R \pm 2\sigma$
+    - A mayor horizonte temporal, menor probabilidad de rentabilidad negativa si se mantienen $R$ y $\sigma$
+
+---
+
+## Riesgo y rentabilidad: visión a largo plazo
+
+\begin{columns}
+
+\column{0.55\textwidth}
+\includegraphics[width=\linewidth]{images/clipboard-3693053141.png}
+
+\column{0.45\textwidth}
+\vspace{0.5em}
+
+\begin{itemize}
+  \item Con $R > 0$ y riesgo estable, la rentabilidad acumulada tiende a ser positiva.
+  \item A más años, menor probabilidad de pérdidas.
+  \item El tiempo y la diversificación ayudan a controlar el riesgo sin sacrificar rentabilidad.
+\end{itemize}
+
+
+\end{columns}
+
+
+## Objetivos de la sesión
+
+\vspace{1em}
+
+-   Comprender los principios de la teoría moderna de carteras.
+-   Analizar la frontera eficiente y la diversificación.
+-   Explicar el teorema de Tobin y su aplicación práctica.
+-   Evaluar carteras mediante las métricas Sharpe, Treynor y Jensen.
+-   Entender el modelo CAPM, la beta y la SML.
+-   Identificar las tres decisiones clave en la gestión de carteras.
+
+## Frontera eficiente: introducción
+
+\vspace{1em}
+
+-   La teoría moderna de carteras (Markowitz, 1952) plantea que el riesgo de una cartera depende no solo del riesgo individual de los activos, sino también de su **correlación**.
+-   Una combinación óptima de activos mejora la relación rentabilidad/riesgo.
+
+## Frontera eficiente: fórmula del riesgo conjunto
+
+\vspace{1em}
+
+$$
+\sigma_p = \sqrt{w_1^2 \sigma_1^2 + w_2^2 \sigma_2^2 + 2 w_1 w_2 \rho_{12} \sigma_1 \sigma_2}
+$$
+
+\vspace{1em}
+
+-   Si $\rho_{12} < 1$, se logra **diversificación**: riesgo conjunto inferior a la media ponderada de riesgos individuales.
+
+## 
+
+![](images/clipboard-3214078102.png)
+
+## Teorema de separación de Tobin: visión general
+
+\vspace{1em}
+
+-   Introduce el **activo sin riesgo**.
+-   Todos los inversores combinarán dicho activo con la **cartera de mercado**, ajustando el nivel de riesgo según sus preferencias.
+
+## Teorema de Tobin: fórmula de la CML
+
+\vspace{1em}
+
+$$
+E(R_p) = R_f + \frac{E(R_m) - R_f}{\sigma_m} \cdot \sigma_p
+$$
+
+\vspace{1em}
+
+-   CML: recta tangente a la frontera eficiente desde $R_f$.
+-   Aplica solo a **carteras eficientes** (no a activos individuales).
+
+## 
+
+![](images/clipboard-1625738312.png)
+
+## SML vs CML: diferencias clave
+
+\vspace{1em}
+
+-   CML: relación entre riesgo total ($\sigma$) y retorno de carteras eficientes.\
+-   SML: relación entre **riesgo sistemático** ($\beta$) y retorno de cualquier activo o cartera.
+
+## Medidas de performance: Sharpe
+
+\vspace{1em}
+
+$$
+S = \frac{R_p - R_f}{\sigma_p}
+$$
+
+-   Rentabilidad en exceso por unidad de riesgo total.
+-   Cuanto mayor, mejor compensación por riesgo asumido.
+
+## Medidas de performance: Treynor
+
+\vspace{1em}
+
+$$
+T = \frac{R_p - R_f}{\beta_p}
+$$
+
+-   Mide rentabilidad en exceso por unidad de **riesgo sistemático**.
+-   Se usa para comparar carteras diversificadas.
+
+## Medidas de performance: Jensen (alfa)
+
+\vspace{1em}
+
+$$
+\alpha_p = R_p - \left[ R_f + \beta_p (R_m - R_f) \right]
+$$
+
+-   Mide si el gestor ha aportado valor respecto al CAPM.
+-   Alfa positivo = rentabilidad superior a la esperada por riesgo.
+
+## La beta: sensibilidad al mercado
+
+\vspace{1em}
+
+Dos formas de cálculo:
+
+$$
+\beta_i = \frac{\text{Cov}(R_i, R_m)}{\sigma_m^2}
+\quad\text{o}\quad
+\beta_i = \rho_{i,m} \cdot \frac{\sigma_i}{\sigma_m}
+$$
+
+-   Si $\beta = 1$, se mueve igual que el mercado.\
+-   Si $\beta > 1$, más volátil.\
+-   Si $\beta < 1$, más defensivo.
+
+## CAPM y SML
+
+\vspace{1em}
+
+$$
+E(R_i) = R_f + \beta_i (E(R_m) - R_f)
+$$
+
+-   Modelo fundamental para valorar activos financieros.
+-   Establece una relación **lineal** entre riesgo sistemático y retorno.
+
+## SML: interpretación gráfica
+
+\begin{columns}
+
+\column{0.52\textwidth}
+\includegraphics[width=\linewidth]{images/clipboard-3560926742.png}
+
+\column{0.48\textwidth}
+\vspace{1em}
+
+\begin{itemize}
+  \item Eje X: $\beta$
+  \item Eje Y: $E(R)$
+  \item Pendiente = prima de riesgo de mercado
+  \item Activos \textbf{sobre la línea}: correctamente valorados
+  \item Activos \textbf{por encima}: infravalorados
+  \item Activos \textbf{por debajo}: sobrevalorados
+\end{itemize}
+
+
+\end{columns}
+
+## Las tres decisiones de la gestión de carteras
+
+\vspace{1em}
+
+**1. Asignación de activos**\
+- ¿Cuánto en renta fija, variable, liquidez…?
+
+**2. Selección de valores (stock picking)**\
+- ¿Qué activos concretos incluir?
+
+**3. Market timing**\
+- ¿Cuándo entrar o salir de cada activo o mercado?
+
+## Diagrama de fases de la gestión de carteras
+
+```{mermaid}
+graph TD
+  A[Asignación de activos] --> B[Selección de valores]
+  A --> C[Market timing]
+  B & C --> D[Construcción de la cartera]
+
+
+
+
+
+```
+
+## Terminología profesional
+
+\vspace{1em}
+
+- Las fases del proceso de gestión de carteras pueden encontrarse tanto en **inglés** como en **español** en la literatura financiera.
+
+\vspace{0.5em}
+
+- Es habitual hablar de:
+  - **Asset allocation** / Asignación de activos
+  - **Stock picking** / Selección de valores
+  - **Market timing** / Momento de mercado
+  - **Portfolio construction** / Construcción de la cartera
+
+\vspace{0.5em}
+
+- Dominar ambos términos es útil para leer informes, exámenes internacionales y comunicarse en entornos profesionales globales.
+
+
+## Análisis fundamental y técnico
+
+\vspace{1em}
+
+-   **Selección de valores**:\
+    → basada en análisis **fundamental** (valor intrínseco, ratios)\
+    → o en análisis **técnico** (precios, patrones, momentum)
+
+-   **Market timing**:\
+    → se apoya principalmente en el análisis **técnico**
+
+\vspace{0.5em}
+
+-   Ambos enfoques pueden **complementarse** según el horizonte y estilo de gestión.
+
+## Eficiencia del mercado y análisis
+
+\vspace{1em}
+
+-   La **hipótesis de eficiencia del mercado** (Fama, 1970) afecta la utilidad del análisis técnico y fundamental.
+
+\vspace{0.5em}
+
+**Tres formas de eficiencia:**
+
+-   **Débil:** los precios ya reflejan toda la información pasada → el análisis técnico **no es útil**.
+-   **Semifuerte:** los precios recogen toda la información pública → el análisis fundamental **tampoco aporta ventajas sistemáticas**.
+-   **Fuerte:** los precios reflejan toda la información pública y privada → **ningún análisis permite batir al mercado**.
+
+\vspace{0.5em}
+
+-   En mercados eficientes, la **asignación estratégica de activos** cobra más importancia que el stock picking o el timing.
+
+## Conclusiones
+
+\vspace{1em}
+
+-   La diversificación reduce el riesgo y mejora la eficiencia.\
+-   El modelo de Tobin justifica la combinación con el activo sin riesgo.\
+-   CAPM permite estimar la rentabilidad esperada.\
+-   Las métricas Sharpe, Treynor y Jensen ayudan a evaluar al gestor.\
+-   Las decisiones clave de gestión determinan el rendimiento final.
+
+## Pregunta para la reflexión
+
+\vspace{1em}
+
+**¿Qué influye más en el éxito de una cartera a largo plazo: la asignación entre clases de activos o la selección concreta de títulos?**
