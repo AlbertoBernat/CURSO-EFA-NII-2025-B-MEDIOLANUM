@@ -1,0 +1,822 @@
+---
+title: "UEMC online"
+subtitle: "**Sesión 3 - Renta variable**"
+author: "Profesor Alberto Bernat"
+date: 2025-04-25
+date-format: long
+format: 
+  beamer: 
+    aspectratio: 54
+    theme: Madrid
+    colortheme: seahorse
+    lang: "es"
+    colorlinks: true
+    header-includes: |
+      \usepackage{graphicx}
+      \usepackage{amssymb}
+      \usepackage{textcomp}
+      \definecolor{MediolanumBlueLight}{HTML}{1e96d7}
+      \definecolor{MediolanumBlueDark}{HTML}{192d6e}
+      \definecolor{EFPAYellow}{RGB}{255,204,0}
+      \setbeamercolor{title}{fg=MediolanumBlueDark}
+      \setbeamercolor{frametitle}{fg=MediolanumBlueLight}
+      \setbeamercolor{structure}{fg=EFPAYellow}
+      \setbeamercolor{section in toc}{fg=MediolanumBlueDark}
+      \setbeamercolor{footline}{fg=MediolanumBlueDark, bg=white}
+      \setbeamercolor{block title}{fg=white, bg=MediolanumBlueDark}
+      \setbeamercolor{block body}{fg=black, bg=MediolanumBlueLight!20}
+      \setbeamercolor{alerted text}{fg=EFPAYellow}
+      \setbeamercolor{item}{fg=MediolanumBlueDark}
+      \setbeamercolor{subitem}{fg=MediolanumBlueLight}
+      \setbeamercolor{subsubitem}{fg=EFPAYellow}
+      \setbeamercolor{caption name}{fg=MediolanumBlueDark}
+      \setbeamercolor{button}{bg=MediolanumBlueDark, fg=white}
+      \setbeamercolor{button border}{bg=EFPAYellow, fg=EFPAYellow}
+      \setbeamercolor{button text}{fg=white}
+      \setbeamercolor{navigation symbols}{fg=MediolanumBlueLight}
+      \setbeamercolor{palette primary}{bg=MediolanumBlueDark, fg=white}
+      \setbeamercolor{palette secondary}{bg=MediolanumBlueLight, fg=white}
+      \setbeamercolor{palette tertiary}{bg=EFPAYellow, fg=black}
+      \setbeamercolor{palette quaternary}{bg=MediolanumBlueDark, fg=white}
+      \setbeamercolor{section in head/foot}{bg=MediolanumBlueDark, fg=white}
+      \setbeamercolor{subsection in head/foot}{bg=MediolanumBlueLight, fg=white}
+      \setbeamercolor{author in head/foot}{fg=MediolanumBlueDark}
+      \setbeamercolor{institute in head/foot}{fg=MediolanumBlueLight}
+      \setbeamercolor{date in head/foot}{fg=EFPAYellow}
+      \setbeamercolor{title in head/foot}{fg=MediolanumBlueDark}
+      \setbeamercolor{subtitle}{fg=EFPAYellow}
+      \setbeamercolor{logo in head/foot}{bg=white}
+      \setbeamercolor{bibliography entry author}{fg=MediolanumBlueDark}
+      \setbeamercolor{bibliography entry title}{fg=MediolanumBlueLight}
+      \setbeamercolor{bibliography entry location}{fg=EFPAYellow}
+      \setbeamercolor{bibliography entry note}{fg=MediolanumBlueDark}
+      \setbeamercolor{abstract}{fg=MediolanumBlueDark, bg=MediolanumBlueLight!20}
+      \setbeamercolor{abstract title}{fg=white, bg=MediolanumBlueDark}
+      \setbeamercolor{verse}{fg=MediolanumBlueDark, bg=MediolanumBlueLight!20}
+      \setbeamercolor{quotation}{fg=MediolanumBlueDark, bg=MediolanumBlueLight!20}
+      \setbeamercolor{quote}{fg=MediolanumBlueDark, bg=MediolanumBlueLight!20}
+      \setbeamercolor{description item}{fg=MediolanumBlueDark}
+      \setbeamercolor{description item label}{fg=MediolanumBlueLight}
+      \setbeamercolor{description item body}{fg=EFPAYellow}
+      \setbeamercolor{enumerate item}{fg=MediolanumBlueDark}
+      \setbeamercolor{enumerate subitem}{fg=MediolanumBlueLight}
+      \setbeamercolor{enumerate subsubitem}{fg=EFPAYellow}
+      \setbeamercolor{itemize item}{fg=MediolanumBlueDark}
+      \setbeamercolor{itemize subitem}{fg=MediolanumBlueLight}
+      \setbeamercolor{itemize subsubitem}{fg=EFPAYellow}
+      \setbeamercolor{list item}{fg=MediolanumBlueDark}
+---
+
+## Recapitulación: ¿qué es la renta variable?
+
+-   Una **acción** representa una participación en el capital social de una empresa.
+-   El inversor se convierte en **copropietario**: asume riesgo, pero también derecho a beneficios.
+
+\vspace{1em}
+
+A diferencia de la renta fija:
+
+-   No hay rentabilidad garantizada.\
+-   El rendimiento dependerá de la evolución de la empresa y del mercado.
+
+------------------------------------------------------------------------
+
+## Tipos de acciones
+
+-   **Ordinarias**: derechos políticos y económicos.
+-   **Preferentes**: prioridad en dividendos (a veces sin voto).
+-   **Sin voto**: privilegios económicos, sin participación política.
+-   **Sindicadas**: acuerdos de recompra o agrupación de accionistas.
+
+\vspace{1em}
+
+También se negocian **derechos preferentes de suscripción**.
+
+------------------------------------------------------------------------
+
+## ¿Dónde se negocian?
+
+**Mercado bursátil español:**
+
+-   **CNMV**: órgano supervisor.
+-   **BME**: entidad que gestiona las bolsas.
+-   **SIBE**: sistema electrónico de negociación integrado.
+
+Permite operar en tiempo real con valores cotizados en todas las bolsas españolas.
+
+------------------------------------------------------------------------
+
+## Tipos de órdenes bursátiles
+
+-   **Orden de mercado**: se ejecuta al mejor precio disponible.
+-   **Orden limitada**: fija un precio máximo (compra) o mínimo (venta).
+-   **Orden por lo mejor**: ejecuta como orden de mercado; el resto queda como orden limitada.
+
+\vspace{1em}
+
+**Condiciones de ejecución:**
+
+-   Ejecutar o anular
+-   Volumen mínimo
+-   Todo o nada
+
+------------------------------------------------------------------------
+
+## Índices bursátiles: ¿qué miden?
+
+-   Son indicadores del comportamiento conjunto de varios valores cotizados.
+-   Reflejan el “pulso” del mercado.
+-   Permiten comparar rentabilidades.
+-   Actúan como benchmark para carteras y fondos.
+
+\vspace{0.5em}
+
+**Ejemplos:**
+
+-   IBEX 35\
+-   EuroStoxx 50\
+-   S&P 500\
+-   FTSE 100
+
+------------------------------------------------------------------------
+
+## Índices sostenibles y climáticos (1)
+
+**¿Qué es un índice ESG?**
+
+-   Selecciona empresas por criterios:
+    -   Medioambientales
+    -   Sociales
+    -   Gobierno corporativo (Good Governance)
+
+\vspace{1em}
+
+**Ejemplos destacados en España:**
+
+-   FTSE 4Good IBEX: empresas con altos estándares ESG\
+-   IBEX Gender Equality: equilibrio de género en alta dirección
+
+\vspace{1em}
+
+Actúan como benchmark para fondos de inversión sostenible.
+
+------------------------------------------------------------------------
+
+## Índices sostenibles y climáticos (2)
+
+**¿Qué son los índices climáticos?**
+
+-   CTB (*Climate Transition Benchmark*): transición a bajas emisiones\
+-   PAB (*Paris-Aligned Benchmark*): alineado con el Acuerdo de París
+
+\vspace{1em}
+
+**Comparativa rápida:**
+
+| Índice               | Objetivo principal                | Nivel de exigencia |
+|---------------------|--------------------------------|-------------------|
+| ESG (genérico)       | Buenas prácticas E-S-G            | Medio              |
+| FTSE 4Good IBEX      | ESG en empresas del IBEX          | Alto               |
+| IBEX Gender Equality | Diversidad de género              | Específico         |
+| CTB                  | Reducción progresiva de emisiones | Moderado           |
+| PAB                  | Alineación con Acuerdo de París   | Muy alto           |
+
+\vspace{0.5em}
+
+**Regulados por:** Reglamento (UE) 2019/2089\
+**Usos:** benchmarking, inversión ISR, construcción de carteras
+
+## Operaciones bursátiles frecuentes
+
+-   OPV / OPS: salida a bolsa
+-   OPA: adquisición de control
+-   Splits / Contra-splits
+-   Ampliación / Reducción de capital
+-   Dividendos: retribución al accionista
+-   Recompra y amortización de acciones
+-   Operaciones a crédito: compra o venta apalancada
+
+------------------------------------------------------------------------
+
+## Análisis fundamental: introducción
+
+Estima el valor real de una empresa con base en datos económicos, financieros y contables.
+
+\vspace{1em}
+
+**Comparativa de enfoques:**
+
+| Enfoque     | Objeto de estudio         | Herramientas               |
+|-------------|---------------------------|----------------------------|
+| Técnico     | Precio, volumen, gráficos | Figuras, osciladores       |
+| Fundamental | Empresa, beneficios       | Ratios, valoración teórica |
+
+------------------------------------------------------------------------
+
+## ¿De dónde vienen los rendimientos?
+
+-   **Dividendos**
+-   **Plusvalías**
+-   Otras formas: ampliaciones liberadas, devolución de prima, etc.
+
+\vspace{1em}
+
+**Factores clave en el precio:**
+
+-   Beneficios empresariales esperados
+-   Rentabilidad exigida por el inversor
+
+------------------------------------------------------------------------
+
+## Dos enfoques complementarios
+
+**Análisis Top-Down:**
+
+-   Se parte del entorno económico
+-   Se eligen sectores y luego empresas
+
+**Análisis Bottom-Up:**
+
+-   Se analiza empresa a empresa
+-   Importa la gestión, estrategia y beneficios
+
+------------------------------------------------------------------------
+
+## ¿Cómo valoramos las acciones?
+
+**Objetivo:** estimar el valor teórico o intrínseco de la acción.
+
+\vspace{1em}
+
+Herramientas principales:
+
+-   Ratios: PER, BPA, ROE, DPA, etc.
+-   Modelos: descuento de dividendos, flujos, múltiplos
+-   Comparaciones entre empresas del mismo sector
+
+## PER – Price to Earnings Ratio
+
+**¿Qué mide?**\
+Cuántas veces el precio de la acción contiene el beneficio por acción (BPA).
+
+\vspace{1em}
+
+$$
+PER = \frac{P_0}{BPA}
+$$
+
+\vspace{1em}
+
+-   Precio alto respecto a BPA → PER alto\
+-   Precio bajo respecto a BPA → PER bajo
+
+\vspace{0.5em}
+
+**Interpretación:**
+
+-   PER alto puede reflejar expectativas de crecimiento\
+-   PER bajo puede indicar oportunidad… o problemas
+
+------------------------------------------------------------------------
+
+## Earning Yield Ratio (EYR)
+
+**¿Qué mide?**\
+Rentabilidad del beneficio respecto al precio.
+
+\vspace{1em}
+
+$$
+EYR = \frac{1}{PER} = \frac{BPA}{P_0}
+$$
+
+\vspace{1em}
+
+-   Inverso del PER\
+-   Se expresa como porcentaje\
+-   Útil para comparar con rentabilidad de bonos o depósitos
+
+------------------------------------------------------------------------
+
+## Earning Yield Gap (EYG)
+
+**¿Qué mide?**\
+Diferencia entre rentabilidad de la acción y un activo sin riesgo.
+
+\vspace{1em}
+
+$$
+EYG = EYR - R_f
+$$
+
+\vspace{1em}
+
+-   $R_f$: tipo libre de riesgo (bono soberano)\
+-   Si EYG \> 0 → inversión en bolsa más atractiva\
+-   Si EYG \< 0 → puede indicar sobrevaloración o mayor riesgo
+
+------------------------------------------------------------------------
+
+## DPA y Dividend Yield
+
+**DPA – Dividendo por acción**
+
+\vspace{1em}
+
+$$
+DPA = \frac{\text{Beneficio neto}}{\text{Nº de acciones}}
+$$
+
+\vspace{1em}
+
+**Dividend Yield – Rentabilidad por dividendo**
+
+\vspace{1em}
+
+$$
+\text{Dividend Yield} = \frac{DPA}{P_0}
+$$
+
+\vspace{1em}
+
+-   Mide el rendimiento “visible” que recibe el accionista\
+-   Muy usado en estrategias de inversión conservadoras
+
+------------------------------------------------------------------------
+
+## Pay-out
+
+**¿Qué mide?**\
+Porcentaje del beneficio que se reparte como dividendo.
+
+\vspace{1em}
+
+$$
+\text{Pay-out} = \frac{DPA}{BPA}
+$$
+
+\vspace{1em}
+
+-   Pay-out elevado → reparto generoso (menos reinversión)\
+-   Pay-out bajo → empresa reinvierte en crecimiento
+
+------------------------------------------------------------------------
+
+## ROE – Rentabilidad financiera
+
+**¿Qué mide?**\
+Rentabilidad generada sobre los fondos propios.
+
+\vspace{1em}
+
+$$
+ROE = \frac{\text{Beneficio neto}}{\text{Fondos propios}}
+$$
+
+\vspace{1em}
+
+-   Evalúa la eficacia de la gestión\
+-   Clave para comparar empresas del mismo sector\
+-   Alta rentabilidad sin necesidad de endeudarse es buena señal
+
+## Valor contable y valor de liquidación
+
+**Valor contable (VC):**
+
+\vspace{1em}
+
+$$
+VC = \text{Activo} - \text{Pasivo}
+$$
+
+\vspace{1em}
+
+-   Refleja el valor de los fondos propios según el balance.\
+-   Suele ser el “mínimo” aceptable de valoración.\
+-   No considera expectativas futuras ni activos intangibles.
+
+\vspace{1em}
+
+**Valor de liquidación:**
+
+-   Valor neto si la empresa cesa actividad.\
+-   Útil en situaciones de crisis, concurso o disolución.
+
+------------------------------------------------------------------------
+
+## Valor de mercado (capitalización bursátil)
+
+**¿Qué mide?**\
+Lo que el mercado “cree” que vale la empresa hoy.
+
+\vspace{1em}
+
+$$
+\text{Valor de mercado} = P_0 \cdot \text{Nº de acciones}
+$$
+
+\vspace{1em}
+
+-   Refleja percepción agregada de los inversores.\
+-   Puede estar influido por emociones, expectativas o rumores.\
+-   Es cambiante día a día.
+
+------------------------------------------------------------------------
+
+## Valoración por múltiplos
+
+**¿Qué hace?**\
+Multiplica un ratio interno por un múltiplo del mercado o del sector.
+
+\vspace{1em}
+
+Ejemplo clásico:
+
+$$
+P_0 = PER \cdot BPA
+$$
+
+\vspace{1em}
+
+-   Rápido, intuitivo y fácil de comparar entre empresas.\
+-   Muy usado en banca de inversión y análisis sectorial.
+
+------------------------------------------------------------------------
+
+## Modelo de Gordon-Shapiro
+
+**Modelo de crecimiento constante de dividendos**
+
+\vspace{1em}
+
+$$
+P_0 = \frac{D_1}{k - g}
+$$
+
+\vspace{1em}
+
+-   $D_1$: dividendo esperado el próximo año\
+-   $k$: rentabilidad exigida\
+-   $g$: tasa de crecimiento del dividendo
+
+\vspace{1em}
+
+Ideal para empresas maduras con reparto estable de dividendos.
+
+------------------------------------------------------------------------
+
+## Versión con dividendo actual
+
+Si conoces el dividendo actual ($D_0$), también puedes expresarlo así:
+
+\vspace{1em}
+
+$$
+P_0 = \frac{D_0 \cdot (1 + g)}{k - g}
+$$
+
+\vspace{1em}
+
+**Atención:** $g$ debe ser inferior a $k$ para que la fórmula tenga sentido financiero.
+
+------------------------------------------------------------------------
+
+## Estimación del crecimiento: $g$
+
+**Crecimiento sostenible del dividendo:**
+
+\vspace{1em}
+
+$$
+g = ROE \cdot (1 - \text{Pay-out})
+$$
+
+\vspace{1em}
+
+-   Usa rentabilidad sobre fondos propios y política de reparto.\
+-   Representa la capacidad interna de reinversión y crecimiento.
+
+------------------------------------------------------------------------
+
+## Valoración por descuento de flujos
+
+**Discounted Cash Flow – DCF**
+
+-   Proyecta flujos futuros (FCF) y los descuenta a valor presente.\
+-   Muy usado para valorar empresas sin reparto de dividendos.\
+-   Permite incorporar escenarios y sensibilidad.
+
+\vspace{1em}
+
+Fórmula base:
+
+$$
+P_0 = \sum_{t=1}^{n} \frac{FCF_t}{(1 + WACC)^t}
+$$
+
+------------------------------------------------------------------------
+
+## WACC – Coste medio ponderado del capital
+
+$$
+WACC = K_e \cdot \left( \frac{E}{E + D} \right) + K_d \cdot (1 - T) \cdot \left( \frac{D}{E + D} \right)
+$$
+
+\vspace{1em}
+
+-   $K_e$: coste del capital propio\
+-   $K_d$: coste de la deuda\
+-   $T$: tipo impositivo\
+-   $E$: fondos propios\
+-   $D$: deuda
+
+\vspace{1em}
+
+Se usa como tasa de descuento para valorar toda la empresa.
+
+------------------------------------------------------------------------
+
+## ¿Qué método usar?
+
+| Método                      | Ideal para...                              |
+|-----------------------------|--------------------------------------------|
+| Valor contable              | Empresas en liquidación, activos tangibles |
+| Múltiplos (PER, P/VC, etc.) | Comparaciones sectoriales                  |
+| Gordon-Shapiro              | Empresas maduras con dividendos estables   |
+| Descuento de flujos (DCF)   | Empresas en crecimiento o sin dividendos   |
+
+\vspace{0.5em}
+
+**Consejo:** en la práctica, se combinan varios métodos para mayor robustez.
+
+## Rentabilidad exigida por el accionista
+
+**¿Qué es?**\
+La rentabilidad mínima que un inversor espera obtener al asumir el riesgo de invertir en una acción.
+
+\vspace{1em}
+
+-   Cuanto mayor sea el riesgo, mayor será la rentabilidad exigida.\
+-   Se utiliza para valorar acciones y tomar decisiones de inversión.
+
+------------------------------------------------------------------------
+
+## Modelo CAPM – Capital Asset Pricing Model
+
+**Fórmula:**
+
+\vspace{1em}
+
+$$
+K_e = R_f + \beta \cdot (R_m - R_f)
+$$
+
+\vspace{1em}
+
+-   $K_e$: rentabilidad exigida al capital propio\
+-   $R_f$: tipo libre de riesgo\
+-   $R_m$: rentabilidad esperada del mercado\
+-   $\beta$: riesgo sistemático de la acción
+
+------------------------------------------------------------------------
+
+## Interpretación del CAPM
+
+-   Si $\beta > 1$: la acción es más volátil que el mercado (agresiva)\
+-   Si $\beta < 1$: la acción es menos volátil (defensiva)\
+-   Si $\beta = 1$: se comporta igual que el mercado
+
+\vspace{1em}
+
+**CAPM permite:**
+
+-   Calcular el coste del equity\
+-   Comparar proyectos o activos en función del riesgo
+
+------------------------------------------------------------------------
+
+## ¿Qué es el WACC?
+
+**WACC = Weighted Average Cost of Capital**
+
+Representa el coste medio que tiene una empresa por financiarse con deuda y con capital propio.
+
+\vspace{1em}
+
+$$
+WACC = K_e \cdot \left( \frac{E}{E + D} \right) + K_d \cdot (1 - T) \cdot \left( \frac{D}{E + D} \right)
+$$
+
+\vspace{1em}
+
+-   $K_e$: coste del equity\
+-   $K_d$: coste de la deuda\
+-   $T$: tipo impositivo\
+-   $E$: fondos propios\
+-   $D$: deuda
+
+------------------------------------------------------------------------
+
+## Aplicaciones del WACC
+
+**¿Para qué se usa?**
+
+-   Es la tasa de descuento en modelos de valoración (DCF)
+-   Evalúa la rentabilidad mínima que debe generar un proyecto
+-   Permite saber si un proyecto creará valor
+
+\vspace{1em}
+
+**Criterio de decisión:**
+
+-   Si rentabilidad del proyecto \> WACC → crea valor\
+-   Si rentabilidad del proyecto \< WACC → destruye valor
+
+------------------------------------------------------------------------
+
+## ¿Cómo influye el WACC en la valoración?
+
+-   A menor WACC, mayor valor presente de los flujos → empresa más valiosa\
+-   A mayor WACC, menor valoración\
+-   Sensible a los cambios en estructura financiera y tipos de interés
+
+\vspace{1em}
+
+**Optimizar el WACC es clave** para mejorar el valor de la empresa y la eficiencia en decisiones financieras.
+
+## Análisis técnico: definición y utilidad
+
+**¿Qué es?**\
+Método que estudia el comportamiento del mercado a través de gráficos de precios y volúmenes.
+
+\vspace{1em}
+
+**Objetivo:**\
+Detectar tendencias, zonas clave y señales de compra/venta.
+
+\vspace{1em}
+
+Se basa en tres principios:
+
+1.  El precio lo descuenta todo\
+2.  Los precios se mueven en tendencias\
+3.  La historia tiende a repetirse
+
+------------------------------------------------------------------------
+
+## Herramientas del análisis técnico
+
+**Figuras chartistas:**
+
+-   Triángulos, rectángulos, canales\
+-   Hombro-cabeza-hombro\
+-   Doble techo / doble suelo\
+-   Pull-back tras ruptura
+
+**Soportes y resistencias:**
+
+-   Soporte: nivel donde el precio tiende a rebotar al alza\
+-   Resistencia: nivel donde el precio tiende a detener su subida
+
+\vspace{1em}
+
+Interpretación basada en psicología del inversor y volumen.
+
+------------------------------------------------------------------------
+
+## Indicadores y osciladores
+
+**Indicadores de tendencia:**
+
+-   **Media móvil simple / exponencial**\
+-   **MACD**: diferencia entre dos medias\
+-   Cruces y divergencias
+
+**Osciladores:**
+
+-   **RSI**: mide fuerza relativa (sobrecompra/sobreventa)\
+-   **Estocástico**: compara cierre con rango reciente\
+-   Se usan para detectar agotamiento de tendencias
+
+\vspace{1em}
+
+¡No predicen el futuro! Ayudan a interpretar lo que hace el mercado.
+
+------------------------------------------------------------------------
+
+## Gestión de carteras: visión práctica
+
+**Objetivo:**\
+Maximizar rentabilidad ajustada al riesgo del cliente.
+
+\vspace{1em}
+
+Elementos clave:
+
+-   Perfil de riesgo y horizonte temporal\
+-   Diversificación real (no solo cantidad, sino correlación)\
+-   Revisión y rebalanceo periódico\
+-   Toma de decisiones fundamentadas (no impulsivas)
+
+------------------------------------------------------------------------
+
+## Estilos de gestión en renta variable
+
+**Gestión activa:**
+
+-   Selección dinámica de activos\
+-   Busca superar al índice\
+-   Usa análisis técnico, fundamental y *timing*
+
+**Gestión pasiva:**
+
+-   Replica un índice\
+-   Bajo coste y bajo mantenimiento\
+-   Ideal para perfiles más conservadores
+
+\vspace{1em}
+
+**Otros enfoques:**
+
+-   Valor, crecimiento, mixto\
+-   Basado en factores o smart beta
+
+------------------------------------------------------------------------
+
+
+
+
+
+
+## Eficiencia del mercado y tipos de análisis
+
+**¿Qué dice la teoría de la eficiencia?**
+
+| Nivel de eficiencia | Análisis técnico | Análisis fundamental |
+|---------------------|------------------|----------------------|
+| Débil               | No efectivo      | Útil                 |
+| Semifuerte          | No efectivo      | Poco útil            |
+| Fuerte              | No efectivo      | No útil              |
+
+**Pero en la práctica:**
+
+- Existen ineficiencias reales  
+- Las anomalías de mercado persisten  
+- La psicología del inversor influye  
+
+> Es útil **combinar análisis técnico y fundamental** para identificar oportunidades razonadas.
+
+---
+
+
+## Aplicación del análisis técnico: figuras gráficas
+
+:::{.columns}
+::: {.column width="50%"}
+- El análisis gráfico identifica **patrones de precios** que pueden anticipar movimientos futuros.
+- Clasificación:
+  - **Figuras de continuación**
+  - **Figuras de vuelta**
+- Se usan para fijar zonas clave:
+  - Entrada / Salida
+  - Stop-loss
+  - Objetivos de precio
+:::
+
+::: {.column width="50%"}
+![Figuras técnicas](images/figuras-tecnicas.png)
+:::
+:::
+
+---
+
+## Aplicación del análisis técnico: indicadores
+
+:::{.columns}
+::: {.column width="50%"}
+- Los **indicadores técnicos** no predicen, pero **confirman señales**.
+- Ayudan a tomar decisiones objetivas.
+- Más usados:
+  - **RSI**: sobrecompra/sobreventa
+  - **MACD**: cruces y divergencias
+  - **Medias móviles**: soportes y señales
+
+> Se combinan con figuras para mejorar la fiabilidad del análisis.
+:::
+
+::: {.column width="50%"}
+![Indicadores técnicos](images/indicadores-tecnicos.png)
+:::
+:::
+
+
+## Cierre de la sesión
+
+- La renta variable ofrece oportunidades, pero también riesgos  
+- Conocer los fundamentos es clave para asesorar bien  
+- El análisis técnico es una herramienta útil, no mágica  
+- La gestión de carteras exige coherencia con el perfil del cliente
+
+**Próxima sesión:**  
+
+Módulo 2 – Fondos de inversión
