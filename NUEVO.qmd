@@ -1,0 +1,27 @@
+---
+title: "NUEVO"
+format: html
+---
+
+## 📈 Velas de Apple (AAPL) - 2025
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+
+library(quantmod)
+
+# Descargar datos desde Yahoo Finance
+getSymbols("AAPL", src = "yahoo", from = "2025-01-01")
+
+# Mostrar gráfico de velas con volumen
+chartSeries(AAPL,
+            type = "candlesticks",
+            theme = chartTheme("white"),
+            TA = "addVo()")
+
+
+```
+

@@ -1,0 +1,167 @@
+---
+title: "UEMC online"
+subtitle: "**M1 - RENTA FIJA**"
+author: "Profesor Alberto Bernat"
+date: last-modified
+date-format: DD/MM/YYYY
+format: 
+  beamer: 
+    aspectratio: 54
+    theme: Madrid
+    colortheme: seahorse
+    lang: "es"
+    colorlinks: true
+    header-includes: |
+      \usepackage{graphicx}
+      \usepackage{amssymb}
+      \usepackage{textcomp}
+      \definecolor{MediolanumBlueLight}{HTML}{1e96d7}
+      \definecolor{MediolanumBlueDark}{HTML}{192d6e}
+      \definecolor{EFPAYellow}{RGB}{255,204,0}
+      \setbeamercolor{title}{fg=MediolanumBlueDark}
+      \setbeamercolor{frametitle}{fg=MediolanumBlueLight}
+      \setbeamercolor{structure}{fg=EFPAYellow}
+      \setbeamercolor{section in toc}{fg=MediolanumBlueDark}
+      \setbeamercolor{footline}{fg=MediolanumBlueDark, bg=white}
+      \setbeamercolor{block title}{fg=white, bg=MediolanumBlueDark}
+      \setbeamercolor{block body}{fg=black, bg=MediolanumBlueLight!20}
+      \setbeamercolor{alerted text}{fg=EFPAYellow}
+      \setbeamercolor{item}{fg=MediolanumBlueDark}
+      \setbeamercolor{subitem}{fg=MediolanumBlueLight}
+      \setbeamercolor{subsubitem}{fg=EFPAYellow}
+      \setbeamercolor{caption name}{fg=MediolanumBlueDark}
+      \setbeamercolor{button}{bg=MediolanumBlueDark, fg=white}
+      \setbeamercolor{button border}{bg=EFPAYellow, fg=EFPAYellow}
+      \setbeamercolor{button text}{fg=white}
+      \setbeamercolor{navigation symbols}{fg=MediolanumBlueLight}
+      \setbeamercolor{palette primary}{bg=MediolanumBlueDark, fg=white}
+      \setbeamercolor{palette secondary}{bg=MediolanumBlueLight, fg=white}
+      \setbeamercolor{palette tertiary}{bg=EFPAYellow, fg=black}
+      \setbeamercolor{palette quaternary}{bg=MediolanumBlueDark, fg=white}
+      \setbeamercolor{section in head/foot}{bg=MediolanumBlueDark, fg=white}
+      \setbeamercolor{subsection in head/foot}{bg=MediolanumBlueLight, fg=white}
+      \setbeamercolor{author in head/foot}{fg=MediolanumBlueDark}
+      \setbeamercolor{institute in head/foot}{fg=MediolanumBlueLight}
+      \setbeamercolor{date in head/foot}{fg=EFPAYellow}
+      \setbeamercolor{title in head/foot}{fg=MediolanumBlueDark}
+      \setbeamercolor{subtitle}{fg=EFPAYellow}
+      \setbeamercolor{logo in head/foot}{bg=white}
+      \setbeamercolor{bibliography entry author}{fg=MediolanumBlueDark}
+      \setbeamercolor{bibliography entry title}{fg=MediolanumBlueLight}
+      \setbeamercolor{bibliography entry location}{fg=EFPAYellow}
+      \setbeamercolor{bibliography entry note}{fg=MediolanumBlueDark}
+      \setbeamercolor{abstract}{fg=MediolanumBlueDark, bg=MediolanumBlueLight!20}
+      \setbeamercolor{abstract title}{fg=white, bg=MediolanumBlueDark}
+      \setbeamercolor{verse}{fg=MediolanumBlueDark, bg=MediolanumBlueLight!20}
+      \setbeamercolor{quotation}{fg=MediolanumBlueDark, bg=MediolanumBlueLight!20}
+      \setbeamercolor{quote}{fg=MediolanumBlueDark, bg=MediolanumBlueLight!20}
+      \setbeamercolor{description item}{fg=MediolanumBlueDark}
+      \setbeamercolor{description item label}{fg=MediolanumBlueLight}
+      \setbeamercolor{description item body}{fg=EFPAYellow}
+      \setbeamercolor{enumerate item}{fg=MediolanumBlueDark}
+      \setbeamercolor{enumerate subitem}{fg=MediolanumBlueLight}
+      \setbeamercolor{enumerate subsubitem}{fg=EFPAYellow}
+      \setbeamercolor{itemize item}{fg=MediolanumBlueDark}
+      \setbeamercolor{itemize subitem}{fg=MediolanumBlueLight}
+      \setbeamercolor{itemize subsubitem}{fg=EFPAYellow}
+      \setbeamercolor{list item}{fg=MediolanumBlueDark}
+---
+
+
+## Características generales de la renta fija
+
+- Activos: bonos, obligaciones, letras, pagarés
+- Características clave:
+  - Emisor
+  - Valor nominal
+  - Precio de emisión
+  - Fecha de vencimiento
+  - Cupón y frecuencia
+  - Amortización
+
+## Estructura del mercado de deuda pública
+
+### Entidades emisoras en España
+
+- Tesoro Público
+- Comunidades Autónomas
+- Corporaciones Locales
+
+### Activos negociados
+
+- Letras del Tesoro (corto plazo)
+- Bonos del Estado (medio plazo)
+- Obligaciones del Estado (largo plazo)
+
+## Agentes del mercado
+
+- Tesoro Público
+- Banco de España
+- Titulares de Cuenta
+- Entidades Gestoras
+- Creadores de Mercado
+
+## Mercado primario: subastas
+
+- Tipos: competitivas y no competitivas
+- Conceptos clave:
+  - Nominal solicitado / adjudicado
+  - Precio marginal / medio
+  - Tipo marginal / medio
+  - Prorrateo
+
+## Mercado secundario y STRIPS
+
+- Operaciones:
+  - Simples
+  - Dobles (repos, simultáneas)
+- Mercado de STRIPS:
+  - Segregación
+  - Reconstitución
+
+## Mercado de renta fija privada
+
+- Estructura y agentes
+- Activos:
+  - Pagarés
+  - Bonos y obligaciones privadas
+  - Cédulas y participaciones hipotecarias
+  - Activos titulizados
+  - Bonos convertibles, canjeables, sostenibles, etc.
+
+## Rating y riesgos
+
+### Rating
+
+- Calificación crediticia
+- Agencias: S&P, Moody’s, Fitch
+- Categorías: investment grade vs. high yield
+
+### Riesgos de la renta fija
+
+- Riesgo de tipo de interés
+- Riesgo de crédito
+- Riesgo de liquidez
+- Riesgo de tipo de cambio
+- Riesgo de amortización anticipada
+- Riesgo de inflación
+
+## Valoración de activos de renta fija
+
+- Bonos:
+  - Sobre la par, a la par, bajo la par
+- Precios:
+  - Entero
+  - Ex-cupón
+  - Cupón corrido
+- Bonos cupón cero
+- Letra del Tesoro y pagaré:
+  - Precio y rentabilidad
+
+## Rentabilidad y TIR
+
+- TIR: tasa que iguala valor actual de flujos al precio
+- Rentabilidad efectiva considerando:
+  - Cupones
+  - Reinv. cupones
+  - Ganancias de capital

@@ -6,9 +6,16 @@ format: html
 
 #### 🎥 Vídeo de la sesión
 
-<iframe width="100%" height="400" src="ENLACE_PENDIENTE_VIDEO" title="Vídeo de la sesión" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="400" 
+        src="https://www.youtube.com/embed/rcaxCzTJec8" 
+        title="Vídeo de la sesión" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+</iframe>
 
 ---
+
 
 ::: {.callout-note}
 ## 📎 Material de la sesión
@@ -22,6 +29,6 @@ format: html
 Haz clic en el siguiente botón para acceder al formulario del test correspondiente a esta clase. Se abrirá en una nueva pestaña.
 
 :::{.text-center}
-[Acceder al test](){.btn .btn-success style="border-radius: 12px;" target="_blank"}
+[Acceder al test](https://forms.gle/16EWREAKA4dJYpy99){.btn .btn-success style="border-radius: 12px;" target="_blank"}
 :::
 :::
