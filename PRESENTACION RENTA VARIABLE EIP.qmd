@@ -1,0 +1,874 @@
+---
+title: "UEMC online"
+subtitle: "M1 - Renta variable"
+
+author: "Profesor Alberto Bernat"
+date: last-modified
+date-format: DD/MM/YYYY
+format: 
+  beamer: 
+    aspectratio: 54
+    theme: Madrid
+    colortheme: seahorse
+    lang: "es"
+    colorlinks: true
+    header-includes: |
+      \usepackage{graphicx}
+      \usepackage{amssymb}
+      \usepackage{textcomp}
+      \definecolor{MediolanumBlueLight}{HTML}{1e96d7}
+      \definecolor{MediolanumBlueDark}{HTML}{192d6e}
+      \definecolor{EFPAYellow}{RGB}{255,204,0}
+      \setbeamercolor{title}{fg=MediolanumBlueDark}
+      \setbeamercolor{frametitle}{fg=MediolanumBlueLight}
+      \setbeamercolor{structure}{fg=EFPAYellow}
+      \setbeamercolor{section in toc}{fg=MediolanumBlueDark}
+      \setbeamercolor{footline}{fg=MediolanumBlueDark, bg=white}
+      \setbeamercolor{block title}{fg=white, bg=MediolanumBlueDark}
+      \setbeamercolor{block body}{fg=black, bg=MediolanumBlueLight!20}
+      \setbeamercolor{alerted text}{fg=EFPAYellow}
+      \setbeamercolor{item}{fg=MediolanumBlueDark}
+      \setbeamercolor{subitem}{fg=MediolanumBlueLight}
+      \setbeamercolor{subsubitem}{fg=EFPAYellow}
+      \setbeamercolor{caption name}{fg=MediolanumBlueDark}
+      \setbeamercolor{button}{bg=MediolanumBlueDark, fg=white}
+      \setbeamercolor{button border}{bg=EFPAYellow, fg=EFPAYellow}
+      \setbeamercolor{button text}{fg=white}
+      \setbeamercolor{navigation symbols}{fg=MediolanumBlueLight}
+      \setbeamercolor{palette primary}{bg=MediolanumBlueDark, fg=white}
+      \setbeamercolor{palette secondary}{bg=MediolanumBlueLight, fg=white}
+      \setbeamercolor{palette tertiary}{bg=EFPAYellow, fg=black}
+      \setbeamercolor{palette quaternary}{bg=MediolanumBlueDark, fg=white}
+      \setbeamercolor{section in head/foot}{bg=MediolanumBlueDark, fg=white}
+      \setbeamercolor{subsection in head/foot}{bg=MediolanumBlueLight, fg=white}
+      \setbeamercolor{author in head/foot}{fg=MediolanumBlueDark}
+      \setbeamercolor{institute in head/foot}{fg=MediolanumBlueLight}
+      \setbeamercolor{date in head/foot}{fg=EFPAYellow}
+      \setbeamercolor{title in head/foot}{fg=MediolanumBlueDark}
+      \setbeamercolor{subtitle}{fg=EFPAYellow}
+      \setbeamercolor{logo in head/foot}{bg=white}
+      \setbeamercolor{bibliography entry author}{fg=MediolanumBlueDark}
+      \setbeamercolor{bibliography entry title}{fg=MediolanumBlueLight}
+      \setbeamercolor{bibliography entry location}{fg=EFPAYellow}
+      \setbeamercolor{bibliography entry note}{fg=MediolanumBlueDark}
+      \setbeamercolor{abstract}{fg=MediolanumBlueDark, bg=MediolanumBlueLight!20}
+      \setbeamercolor{abstract title}{fg=white, bg=MediolanumBlueDark}
+      \setbeamercolor{verse}{fg=MediolanumBlueDark, bg=MediolanumBlueLight!20}
+      \setbeamercolor{quotation}{fg=MediolanumBlueDark, bg=MediolanumBlueLight!20}
+      \setbeamercolor{quote}{fg=MediolanumBlueDark, bg=MediolanumBlueLight!20}
+      \setbeamercolor{description item}{fg=MediolanumBlueDark}
+      \setbeamercolor{description item label}{fg=MediolanumBlueLight}
+      \setbeamercolor{description item body}{fg=EFPAYellow}
+      \setbeamercolor{enumerate item}{fg=MediolanumBlueDark}
+      \setbeamercolor{enumerate subitem}{fg=MediolanumBlueLight}
+      \setbeamercolor{enumerate subsubitem}{fg=EFPAYellow}
+      \setbeamercolor{itemize item}{fg=MediolanumBlueDark}
+      \setbeamercolor{itemize subitem}{fg=MediolanumBlueLight}
+      \setbeamercolor{itemize subsubitem}{fg=EFPAYellow}
+      \setbeamercolor{list item}{fg=MediolanumBlueDark}
+---
+
+## Índice general
+
+- Renta variable  
+- Estructura del mercado y activos  
+- Contratación y operativa bursátil  
+- Tipos de operaciones bursátiles  
+- Índices bursátiles  
+- Introducción al análisis fundamental  
+- Preguntas tipo test y resolución
+
+
+## Renta variable
+
+### ¿Qué es la renta variable?
+
+- Son instrumentos financieros que representan una **participación en el capital social de una empresa**.
+- El más común es la **acción**.
+- La rentabilidad no está garantizada: **depende de los beneficios empresariales y de la evolución del mercado**.
+- El inversor asume un mayor riesgo, pero también tiene **mayor potencial de rentabilidad** a largo plazo.
+
+::: {.callout-note}
+## **Ejemplo:**
+Una acción de Repsol comprada a 12 € que sube a 14 € proporciona una plusvalía del 16,7 %.  
+Si además paga un dividendo de 0,80 €, la rentabilidad total es mayor.
+:::
+
+
+
+## Estructura del mercado de renta variable
+
+### Mercado primario y mercado secundario
+
+- **Mercado primario**: emisión de acciones nuevas por parte de una empresa.
+  - Ejemplo: salida a bolsa (OPV u OPS).
+- **Mercado secundario**: compraventa de acciones ya emitidas.
+  - Es el que opera diariamente en la Bolsa.
+
+::: {.callout-note}
+## **Importante:**
+El inversor compra en el secundario a otros inversores, **no directamente a la empresa**.
+:::
+
+
+
+## Funciones de la Bolsa
+
+- **Canaliza el ahorro hacia la inversión productiva.**
+- **Permite a las empresas financiarse** sin recurrir a bancos.
+- **Facilita la liquidez**: el inversor puede vender cuando quiera.
+- **Genera información y transparencia** sobre precios y operaciones.
+
+::: {.callout-note}
+## **Nota:**
+La Bolsa es un mercado organizado, regulado y supervisado por autoridades como la **CNMV** en España.
+:::
+
+
+
+## Evolución del mercado: los índices bursátiles
+
+- Los **índices bursátiles** miden la evolución de los precios de un conjunto de acciones.
+- Actúan como "termómetro" del mercado.
+
+::: {.callout-note}
+## **Ejemplos:**
+- **IBEX-35**: recoge las 35 empresas más líquidas del mercado español.  
+- **Dow Jones Industrial Average**: uno de los más antiguos del mundo (EE. UU.).  
+- **FTSE 100**: índice de referencia del Reino Unido.  
+- **Euro Stoxx 50**: índice de referencia de las 50 mayores empresas de la zona euro.
+:::
+
+
+## ¿Por qué invertir en renta variable?
+
+- Mayor rentabilidad esperada a largo plazo que la renta fija.
+- Participación en el crecimiento económico.
+- Diversificación del patrimonio.
+- Posibilidad de obtener ingresos vía dividendos.
+
+::: {.callout-note}
+## **Atención:**
+También implica mayor **volatilidad** y riesgo de pérdidas.
+:::
+
+
+
+
+## Pregunta tipo test
+
+¿Cuál de las siguientes afirmaciones es correcta respecto a la renta variable?
+
+a) Las acciones garantizan una rentabilidad fija cada año.  
+b) El mercado primario es donde se negocian acciones ya emitidas.  
+c) El IBEX-35 incluye acciones de empresas no cotizadas.  
+d) La renta variable ofrece mayor rentabilidad potencial a largo plazo que la renta fija.
+
+## Resolución comentada
+
+**Respuesta correcta: d)** 
+La renta variable, al implicar mayor riesgo, también ofrece mayor rentabilidad esperada a largo plazo.
+
+**a)** Las acciones no garantizan rentabilidad; depende del resultado empresarial y del mercado.  
+**b)** El mercado primario es donde se emiten acciones nuevas, no donde se negocian.  
+**c)** El IBEX-35 incluye exclusivamente empresas cotizadas con alta liquidez.
+
+::: {.callout-note}
+## **Recuerda:**
+La rentabilidad de la renta variable es incierta, pero a largo plazo tiende a superar a otros activos, compensando su mayor riesgo.
+:::
+
+
+## Activos que se negocian en Bolsa
+
+- En los mercados bursátiles se negocian principalmente **acciones** (renta variable).
+- También pueden negociarse **derechos de suscripción**, **participaciones preferentes**, **valores convertibles**, **warrants** y **ETFs**.
+- La negociación se realiza bajo normas públicas y supervisadas por organismos oficiales.
+
+::: {.callout-note}
+## **Importante:**
+El activo más representativo en Bolsa es la acción, que otorga derechos económicos (dividendo) y políticos (voto).
+:::
+
+## Mercado primario vs. secundario
+
+- **Mercado primario**: donde las empresas **emiten nuevos títulos** para captar financiación.
+  - Ejemplo: una empresa sale a Bolsa mediante una **Oferta Pública de Suscripción (OPS)**.
+- **Mercado secundario**: donde se produce la **compraventa entre inversores** de títulos ya emitidos.
+
+::: {.callout-note}
+## **Recuerda:**
+En el mercado secundario **no entra dinero nuevo a la empresa**. Solo cambia de manos el título entre inversores.
+:::
+
+
+## Miembros del mercado bursátil
+
+- **CNMV**: supervisa los mercados de valores en España.
+- **Sociedades Rectoras de las Bolsas de Valores**: gestionan las bolsas (Madrid, Barcelona, Bilbao, Valencia).
+- **Sociedad de Bolsas**: coordina el funcionamiento del SIBE.
+- **BME Clearing**: sistema de contrapartida central para compensación y gestión de riesgos.
+- **Iberclear**: entidad encargada del **registro, compensación y liquidación de valores** en España. Forma parte del grupo **Bolsas y Mercados Españoles (BME)**.
+
+::: {.callout-note}
+## **Estructura básica del mercado español:**
+La CNMV supervisa. Las Sociedades Rectoras gestionan. Sociedad de Bolsas coordina el SIBE.  
+**Iberclear registra y liquida** las operaciones realizadas.
+:::
+
+## ¿Qué es el SIBE?
+
+- El **Sistema de Interconexión Bursátil Español (SIBE)** es la plataforma electrónica que permite la contratación de valores de forma centralizada en todas las bolsas españolas.
+- Es gestionado por la **Sociedad de Bolsas**, una empresa privada que forma parte de **Bolsas y Mercados Españoles (BME)**.
+- **BME es una empresa privada que ya no cotiza en Bolsa**, tras ser adquirida en 2020 por el grupo suizo **Six Group**.
+- El SIBE es el sistema más utilizado para negociar acciones del **IBEX-35** y otros valores líquidos.
+
+::: {.callout-note}
+## **Dato clave:**
+Desde 1995, el SIBE ha sustituido progresivamente a los corros tradicionales y ha permitido la integración de los mercados bursátiles españoles en una única plataforma electrónica.
+:::
+
+
+## Sistemas de liquidación
+
+- La **liquidación** es el proceso mediante el cual se produce la entrega de los valores y el pago correspondiente.
+- El sistema más habitual es **entrega contra pago (DVP - delivery versus payment)**: el intercambio de títulos y dinero se realiza de forma simultánea.
+- En España, la entidad responsable de este proceso es **Iberclear**, el **depositario central de valores (CSD)** que registra, compensa y liquida todas las operaciones.
+
+::: {.callout-note}
+## **Nota:**
+La liquidación en España se realiza generalmente **dos días hábiles después de la operación (D+2)** a través de **Iberclear**, integrado en la plataforma europea **T2S (Target2-Securities)**.
+:::
+
+
+## Pregunta tipo test
+
+¿Cuál de las siguientes afirmaciones es correcta?
+
+a) Iberclear es la entidad encargada de supervisar los mercados de valores.  
+b) El SIBE permite la contratación únicamente en la Bolsa de Madrid.  
+c) La CNMV gestiona directamente el mercado continuo.  
+d) El mercado secundario es donde los inversores intercambian títulos ya emitidos.
+
+## Resolución comentada
+
+**Respuesta correcta: d)** El mercado secundario es el espacio donde los inversores compran y venden títulos ya existentes entre sí.
+
+**a)** Iberclear no supervisa, sino que registra y liquida operaciones.  
+**b)** El SIBE permite contratar en todas las bolsas españolas, no solo en Madrid.  
+**c)** La CNMV supervisa, pero no gestiona el mercado continuo.
+
+::: {.callout-note}
+## **Recuerda:**
+El SIBE es el sistema centralizado de contratación electrónica gestionado por la Sociedad de Bolsas, y **no depende directamente de la CNMV**.
+:::
+
+## Pregunta tipo test
+
+¿Qué función desempeña Iberclear dentro del sistema financiero español?
+
+a) Supervisar la transparencia informativa de las empresas cotizadas.  
+b) Registrar, compensar y liquidar operaciones de valores.  
+c) Coordinar el funcionamiento del SIBE.  
+d) Gestionar directamente los índices bursátiles como el IBEX-35.
+
+## Resolución comentada
+
+**Respuesta correcta: b)** Iberclear es el **depositario central de valores (CSD)** en España. Su función principal es registrar, compensar y liquidar operaciones bursátiles.
+
+**a)** Esa función corresponde a la CNMV.  
+**c)** La coordinación del SIBE la realiza la Sociedad de Bolsas.  
+**d)** Los índices son calculados por operadores específicos (en el caso del IBEX, BME Indexes).
+
+::: {.callout-note}
+## **Importante:**
+La liquidación en España es gestionada por Iberclear, generalmente con plazo **D+2** y bajo el sistema de **entrega contra pago (DVP)**.
+:::
+
+
+## Sistemas de contratación en Bolsa
+
+La Bolsa puede organizar la contratación de valores mediante diferentes **sistemas de negociación**. Los principales son:
+
+1. **Sistemas de corros**: contratación tradicional presencial mediante gritos (actualmente en desuso).
+2. **Subastas**: los precios se forman a partir de órdenes acumuladas durante un período previo.
+3. **Contratación por caja**: sistema bilateral donde comprador y vendedor acuerdan precio y cantidad (poco frecuente).
+4. **Mercado continuo**: sistema electrónico centralizado (SIBE) donde se negocian la mayoría de las acciones.
+
+::: {.callout-note}
+## **Dato clave:**
+El **mercado continuo** es el principal sistema en España. Se basa en el cruce automático de órdenes por prioridad de precio y tiempo.
+:::
+
+## Fases del mercado continuo
+
+La jornada bursátil se divide en varias **fases**:
+
+1. **Subasta de apertura**: de 8:30 a 9:00. Acumulación de órdenes y fijación del precio de apertura.
+2. **Mercado abierto (sesión continua)**: de 9:00 a 17:30. Órdenes cruzadas en tiempo real.
+3. **Subasta de cierre**: de 17:30 a 17:35. Se forma el precio de cierre.
+4. **Mercado de operaciones especiales**: tras la subasta de cierre, para operaciones bilaterales fuera de mercado regular.
+5. **Mercado de bloques**: para negociar grandes paquetes de acciones con condiciones específicas.
+
+::: {.callout-note}
+## **Importante:**
+Durante las subastas **no hay negociación inmediata**. Las órdenes se acumulan y se cruzan a un precio único que maximiza el volumen negociado.
+:::
+
+## Subastas por volatilidad
+
+- Se activan cuando el precio de un valor **varía demasiado en un corto plazo**.
+- Se suspende la contratación durante 5 minutos, entrando en subasta especial.
+- Tipos: subasta de volatilidad en apertura, en cierre o durante mercado abierto.
+
+::: {.callout-note}
+## **Ejemplo:**
+Si la acción de una empresa sube más de un 10 % en pocos minutos, se activa una subasta de volatilidad para frenar movimientos especulativos.
+:::
+
+## Tipos de órdenes bursátiles
+
+Las órdenes son instrucciones que el inversor da al intermediario para comprar o vender un valor. **Tipologías** más habituales:
+
+1. **Orden de mercado**: se ejecuta al mejor precio disponible en ese momento.
+2. **Orden limitada**: fija un precio máximo de compra o mínimo de venta.
+3. **Orden por lo mejor**: toma el mejor precio del mercado sin garantizar su ejecución completa.
+4. **Órdenes con volumen oculto**: muestran solo una parte del volumen real, útil para grandes inversores.
+
+::: {.callout-note}
+## **Atención:**
+Las órdenes **limitadas** permiten controlar el precio, pero pueden no ejecutarse. Las **de mercado** garantizan ejecución, pero sin control sobre el precio.
+:::
+
+## Condiciones de ejecución
+
+Las órdenes pueden incluir **condiciones** adicionales:
+
+- **Ejecutar o anular (FOK)**: toda la orden se ejecuta de inmediato o se cancela.  
+- **Volumen mínimo**: parte mínima a ejecutar; el resto puede quedar pendiente.  
+- **Todo o nada (AON)**: o se ejecuta por completo, o no se ejecuta nada.
+
+## Reglas de prioridad en el SIBE
+
+Las órdenes se ejecutan según los **principios** de:
+
+1. **Prioridad precio**: mejor precio primero.  
+2. **Prioridad tiempo**: a igual precio, se ejecuta antes la que llegó primero.
+
+- El SIBE permite combinar condiciones de precio, volumen y tiempo en función de la fase de contratación.
+
+::: {.callout-note}
+## **Ejemplo:**
+Una orden limitada de compra a 10,20 € introducida a las 9:01 se ejecutará antes que otra igual a las 9:03, si el precio coincide.
+:::
+
+
+## Pregunta tipo test
+
+¿Cuál de los siguientes sistemas de contratación es el más utilizado actualmente en el mercado español?
+
+a) Sistema de corros  
+b) Contratación por caja  
+c) Subasta única diaria  
+d) Mercado continuo (SIBE)
+
+## Resolución comentada
+
+**Respuesta correcta: d)** El mercado continuo es el sistema más común en España, gestionado por el SIBE.
+
+**a)** Los corros han quedado obsoletos desde la generalización del sistema electrónico.  
+**b)** La contratación por caja es muy limitada y poco frecuente.  
+**c)** Las subastas se usan en momentos concretos (apertura, cierre, volatilidad), no como único sistema.
+
+::: {.callout-note}
+## **Recuerda:**
+El SIBE centraliza las órdenes de todas las bolsas españolas y opera de forma continua entre las 9:00 y las 17:30.
+:::
+
+
+## Pregunta tipo test
+
+¿Qué sucede en una subasta por volatilidad?
+
+a) Se permite la negociación libre para estabilizar el mercado.  
+b) Se suspende la contratación y se acumulan órdenes durante un periodo breve.  
+c) Se reduce el horario de contratación hasta el cierre del mercado.  
+d) Solo se permiten órdenes de mercado sin límite de precio.
+
+## Resolución comentada
+
+**Respuesta correcta: b)** En una subasta por volatilidad se suspende temporalmente la contratación y se inicia una subasta para estabilizar el precio.
+
+**a)** Justamente se interrumpe la negociación libre.  
+**c)** El horario general no cambia, solo se activa un paréntesis para ese valor.  
+**d)** Se admiten todos los tipos de órdenes, no solo de mercado.
+
+::: {.callout-note}
+## **Ejemplo:**
+Una acción que sube un 15 % en 3 minutos puede entrar en subasta para frenar oscilaciones extremas.
+:::
+
+## Pregunta tipo test
+
+¿Qué sucede en una subasta por volatilidad?
+
+a) Se permite la negociación libre para estabilizar el mercado.  
+b) Se suspende la contratación y se acumulan órdenes durante un periodo breve.  
+c) Se reduce el horario de contratación hasta el cierre del mercado.  
+d) Solo se permiten órdenes de mercado sin límite de precio.
+
+## Resolución comentada
+
+**Respuesta correcta: b)** En una subasta por volatilidad se suspende temporalmente la contratación y se inicia una subasta para estabilizar el precio.
+
+**a)** Justamente se interrumpe la negociación libre.  
+**c)** El horario general no cambia, solo se activa un paréntesis para ese valor.  
+**d)** Se admiten todos los tipos de órdenes, no solo de mercado.
+
+::: {.callout-note}
+## **Ejemplo:**
+Una acción que sube un 15 % en 3 minutos puede entrar en subasta para frenar oscilaciones extremas.
+:::
+
+
+## Oferta Pública de Venta (OPV) y Oferta Pública de Suscripción (OPS)
+
+- **OPV**: los accionistas actuales venden parte o la totalidad de sus acciones al mercado. No entra capital nuevo en la empresa.
+- **OPS**: la empresa emite nuevas acciones que se venden al público. Entra capital nuevo en la empresa.
+
+::: {.callout-note}
+## **Ejemplo:**
+Una empresa puede usar una **OPS** para financiar su crecimiento, mientras que una **OPV** permite a socios iniciales recuperar su inversión.
+:::
+
+## Oferta Pública de Adquisición (OPA)
+
+- La **OPA** es una oferta dirigida a todos los accionistas de una empresa para comprar parte o la totalidad de sus acciones.
+- Puede ser **voluntaria** o **obligatoria**, y puede haber **contraOPAs** si otros inversores presentan ofertas alternativas.
+
+::: {.callout-note}
+## **Importante:**
+Una OPA puede cambiar el control de una empresa. Está regulada por la CNMV y debe respetar reglas de transparencia y equidad.
+:::
+
+## Splits y contra-splits
+
+- Un **split** consiste en dividir el valor nominal de las acciones aumentando su número.
+- Un **contra-split** (o agrupamiento) hace lo contrario: reduce el número total de acciones aumentando su valor nominal.
+
+::: {.callout-note}
+## **Ejemplo:**
+En un split 1:10, una acción de 100 € pasa a ser 10 acciones de 10 € cada una, sin cambiar el valor total para el accionista.
+:::
+
+## Ampliaciones y reducciones de capital
+
+- La **ampliación de capital** puede hacerse:
+  - Emisión de nuevas acciones (con o sin aportación dineraria).
+  - Capitalización de reservas.
+- La **reducción de capital** se usa para:
+  - Compensar pérdidas.
+  - Devolver aportaciones a los socios.
+
+- La **operación acordeón** combina reducción y ampliación de capital en un mismo acuerdo.
+
+::: {.callout-note}
+## **Dato clave:**
+En ampliaciones con derecho de suscripción preferente, los accionistas antiguos tienen prioridad para comprar las nuevas acciones.
+:::
+
+## Valor teórico del derecho de suscripción
+
+Se calcula mediante la fórmula:
+
+$$
+\text{VTDS} = \frac{P_{\text{antiguo}} - P_{\text{nuevo}}}{n + 1}
+$$
+
+Donde:
+
+- $P_{\text{antiguo}}$ = precio antes de la ampliación  
+- $P_{\text{nuevo}}$ = precio de emisión  
+- $n$ = número de acciones nuevas por cada antigua
+
+::: {.callout-note}
+## **Ejemplo:**
+Si una acción vale 12 €, y se emite 1 nueva a 8 € por cada 2 antiguas:  
+VTDS = (12 - 8) / (2 + 1) = 1,33 €
+:::
+
+## Operaciones a crédito
+
+- Permiten al inversor comprar o vender valores **sin disponer inicialmente del capital necesario**.
+- Dos modalidades:
+  - **Compra a crédito**: se toma prestado el dinero.
+  - **Venta a crédito (en corto)**: se toman prestadas acciones que se venden, esperando recomprarlas más baratas.
+
+::: {.callout-note}
+## **Advertencia:**
+Las operaciones a crédito amplifican la rentabilidad, pero también el riesgo. No son adecuadas para perfiles conservadores.
+:::
+
+## Cálculo de rentabilidad en operaciones a crédito
+
+Rentabilidad relativa:
+
+$$
+\text{Rent.} = \frac{\text{beneficio neto}}{\text{capital aportado}} \times 100
+$$
+
+::: {.callout-note}
+## **Ejemplo:**
+Si inviertes 2.000 € comprando acciones por valor de 6.000 € y ganas 600 €,  
+Rentabilidad = (600 / 2.000) × 100 = **30 %**
+:::
+
+
+## Dividendos
+
+- Los dividendos son **distribuciones de beneficios** que una empresa reparte entre sus accionistas.
+- Tipos de dividendos:
+  - **En efectivo**: pago directo al accionista.
+  - **En acciones**: ampliación liberada o scrip dividend.
+  - **Extraordinarios**: no periódicos, con carácter excepcional.
+
+::: {.callout-note}
+## **Nota:**
+**El dividendo es solo una forma de retribuir. Lo importante es el beneficio generado.**
+Incluso si no se reparte dividendo, el accionista **se beneficia vía revalorización** de la acción (plusvalía latente).
+:::
+
+
+
+## Recompra y amortización de acciones
+
+- Algunas empresas optan por **recomprar sus propias acciones** como forma de retribuir al accionista.
+- Posteriormente, pueden **amortizarlas**, reduciendo el capital social.
+
+::: {.callout-note}
+## **Ventaja para el accionista:**
+Al reducirse el número de acciones en circulación, **aumenta el beneficio por acción (BPA)** y el valor relativo de cada participación.
+:::
+
+
+## Pregunta tipo test
+
+¿Qué afirmación describe mejor la relación entre beneficio y dividendo para un accionista?
+
+a) Solo si se reparte dividendo, el accionista obtiene rentabilidad.  
+b) Si no se reparte dividendo, el accionista no recibe ninguna retribución.  
+c) Aunque no se reparta dividendo, el beneficio puede generar plusvalías para el accionista.  
+d) El reparto de dividendos es obligatorio si hay beneficios.
+
+## Resolución comentada
+
+**Respuesta correcta: c)** El beneficio retenido por la empresa puede traducirse en una revalorización de la acción, generando una **plusvalía latente** para el accionista.
+
+**a)** El accionista puede obtener rentabilidad vía apreciación del valor de mercado.  
+**b)** El beneficio retenido no implica ausencia de valor; puede aumentar el precio de la acción.  
+**d)** El reparto de dividendos **no es obligatorio**: depende de la política de la empresa.
+
+::: {.callout-note}
+## **Recuerda:**
+El valor para el accionista proviene tanto del dividendo como de la **revalorización de la acción**, fruto del beneficio generado.
+:::
+
+## ¿Qué es un índice bursátil?
+
+- Un **índice bursátil** es un indicador que refleja la evolución del precio de un conjunto de valores cotizados.
+- Su función principal es **medir el comportamiento de un mercado, un sector o una categoría de empresas.**
+- También sirve como referencia (benchmark) para fondos de inversión y análisis de rentabilidad.
+
+::: {.callout-note}
+## **Importante:**
+Un índice no es un activo financiero, sino una **referencia estadística** construida según reglas objetivas.
+:::
+
+## Clasificación de los índices
+
+Los índices pueden clasificarse según diferentes criterios:
+
+- **Por ámbito geográfico**: nacional (IBEX-35), regional (Euro Stoxx 50), global (MSCI World).
+- **Por metodología**: precio ponderado (Dow Jones), ponderado por capitalización (IBEX-35), igual ponderación.
+- **Por periodicidad**: base fija (estática) o base móvil (recalculado periódicamente).
+- **Por criterios ESG u otros filtros temáticos**.
+
+## Métodos de cálculo
+
+- **Laspeyres**: índice ponderado según cantidades fijas (frecuente en índices clásicos).
+- **Paasche**: pondera según cantidades del periodo actual.
+- **Capitalización bursátil**: usado en la mayoría de índices actuales como el IBEX-35.
+
+::: {.callout-note}
+## **Fórmula genérica por capitalización:**
+$$
+\text{Índice} = \frac{\sum (P_i \cdot Q_i)}{\text{Divisor}}
+$$
+
+Donde $P_i$ es el precio de cada acción y $Q_i$ el número de acciones en circulación.
+:::
+
+## El IBEX-35
+
+- Incluye las **35 empresas más líquidas** del mercado español.
+- Se revisa dos veces al año (junio y diciembre).
+- Se calcula usando la **capitalización bursátil ajustada por capital flotante** (free float).
+
+::: {.callout-note}
+## **Cálculo del IBEX-35:**
+$$
+\text{IBEX-35} = \frac{\sum (P_i \cdot Q_i \cdot FF_i)}{\text{Divisor}}
+$$
+
+Donde $FF_i$ es el **porcentaje de capital en libre circulación** (capital flotante).
+:::
+
+## FTSE 4Good Ibex®
+
+- Índice que incluye empresas del mercado español que cumplen **criterios ESG**: medioambientales, sociales y de buen gobierno.
+- Excluye compañías que no cumplen estos estándares (tabaco, armamento, etc.).
+- Promueve la inversión socialmente responsable.
+
+## IBEX Gender Equality®
+
+- Índice que agrupa compañías del mercado español con políticas activas de **igualdad de género**.
+- Evalúa criterios como **presencia de mujeres en el consejo de administración**, plan de igualdad o medidas de conciliación.
+
+::: {.callout-note}
+## **Observación:**
+Ambos índices (4Good y Gender Equality) demuestran cómo los mercados integran criterios no financieros en la toma de decisiones.
+:::
+
+
+
+## Pregunta tipo test
+
+¿Qué representa un índice bursátil?
+
+a) Una garantía de rentabilidad futura de las acciones.  
+b) Un activo financiero en el que se puede invertir directamente.  
+c) Un indicador que refleja la evolución de un conjunto de valores cotizados.  
+d) Una herramienta para fijar los precios de cotización en el mercado.
+
+## Resolución comentada
+
+**Respuesta correcta: c)** Un índice bursátil mide la evolución de precios de un grupo representativo de valores.
+
+**a)** El índice no garantiza rentabilidades.  
+**b)** No es un activo en sí, aunque existen fondos que lo replican.  
+**d)** El índice es un resultado del mercado, no un determinante de precios.
+
+::: {.callout-note}
+## **Recuerda:**
+Un índice bursátil es un **referente estadístico**, no un producto financiero en sí mismo.
+:::
+
+
+## Pregunta tipo test
+
+¿Cuál de los siguientes elementos interviene en el cálculo del IBEX-35?
+
+a) El beneficio neto de las empresas cotizadas.  
+b) El valor nominal de las acciones.  
+c) El número de acciones multiplicado por su precio y ajustado por capital flotante.  
+d) El precio medio de cierre del trimestre.
+
+## Resolución comentada
+
+**Respuesta correcta: c)** El IBEX-35 se calcula como una suma ponderada por capitalización bursátil ajustada por **capital flotante (free float)**.
+
+**a)** El beneficio no interviene en el cálculo del índice.  
+**b)** El valor nominal no es el criterio de ponderación.  
+**d)** No se usa un promedio de cierre, sino el precio actual.
+
+::: {.callout-note}
+## **Fórmula del IBEX-35:**
+$$
+\text{IBEX-35} = \frac{\sum (P_i \cdot Q_i \cdot FF_i)}{\text{Divisor}}
+$$
+:::
+
+
+## Pregunta tipo test
+
+¿Qué distingue al FTSE 4Good Ibex® de otros índices bursátiles?
+
+a) Solo incluye empresas con alta rentabilidad por dividendo.  
+b) Está limitado a empresas del sector financiero.  
+c) Selecciona empresas en función de criterios ambientales, sociales y de gobernanza.  
+d) Solo incluye compañías del IBEX-35.
+
+## Resolución comentada
+
+**Respuesta correcta: c)** El FTSE 4Good Ibex® aplica criterios **ESG** (Environmental, Social and Governance) para seleccionar las empresas.
+
+**a)** El criterio no es financiero, sino ético.  
+**b)** No está limitado por sector.  
+**d)** Puede incluir empresas fuera del IBEX-35 si cumplen criterios ESG.
+
+::: {.callout-note}
+## **Importante:**
+Este índice fomenta la inversión socialmente responsable en el mercado español.
+:::
+
+
+## Pregunta tipo test
+
+¿Qué criterio determina la inclusión de una empresa en el IBEX Gender Equality®?
+
+a) Su volumen de contratación en el mercado continuo.  
+b) Su rentabilidad financiera en el último ejercicio.  
+c) La proporción de mujeres en la plantilla total.  
+d) La existencia de políticas activas de igualdad de género y representación femenina en órganos de gobierno.
+
+## Resolución comentada
+
+**Respuesta correcta: d)** El IBEX Gender Equality® selecciona empresas con **compromiso real con la igualdad de género**, evaluando su gobernanza, conciliación y presencia femenina en altos cargos.
+
+**a)** No es un índice basado en volumen de negociación.  
+**b)** No se centra en criterios puramente financieros.  
+**c)** No basta con tener mujeres en plantilla; se valora su presencia en puestos clave.
+
+::: {.callout-note}
+## **Observación:**
+Este índice promueve la transparencia y la diversidad en el gobierno corporativo de las empresas cotizadas.
+:::
+
+
+## ¿Qué es el análisis fundamental?
+
+- El análisis fundamental estudia **el valor intrínseco de una empresa** a partir de su situación económica, financiera y estratégica.
+- Su finalidad es determinar si el precio de una acción está **infravalorado o sobrevalorado** en el mercado.
+- Se centra en variables como:
+  - Cuentas anuales (balance, PyG, cash flow)
+  - Perspectivas del sector
+  - Calidad del equipo directivo
+  - Riesgos macroeconómicos
+
+::: {.callout-note}
+## **Importante:**
+El análisis fundamental no se basa en el precio de la acción, sino en los **datos económicos y financieros de la empresa**.
+:::
+
+## Aplicación en la gestión y el asesoramiento
+
+- Es útil para seleccionar acciones con potencial a largo plazo.
+- Ayuda a definir estrategias de inversión racionales y personalizadas.
+- Se complementa con el **análisis técnico**, que estudia el precio y volumen.
+
+::: {.callout-note}
+## **Diferencia clave:**
+- **Análisis fundamental**: "¿Qué empresa vale la pena comprar?"  
+- **Análisis técnico**: "¿Cuándo conviene comprar o vender?"
+:::
+
+## Métodos de valoración en análisis fundamental
+
+1. **Métodos patrimoniales**: basados en el valor contable o sustancial de los activos.
+2. **Métodos por múltiplos bursátiles**: PER, EV/EBITDA, Precio/Valor contable, etc.
+3. **Métodos de descuento de flujos**: valor actual de los flujos de caja esperados (DCF).
+
+## Ratio PER (Price to Earnings Ratio)
+
+- Relaciona el precio de la acción con el beneficio por acción (BPA):
+
+$$
+\text{PER} = \frac{\text{Precio de la acción}}{\text{Beneficio por acción (BPA)}}
+$$
+
+- Un PER alto puede indicar expectativas de crecimiento; un PER bajo, oportunidad de compra o deterioro futuro.
+
+::: {.callout-note}
+## **Ejemplo:**
+Si una acción vale 18 € y el BPA es 3 €, entonces:
+
+$$
+\text{PER} = \frac{18}{3} = 6
+$$
+
+La acción cotiza a 6 veces sus beneficios anuales.
+:::
+
+## Cálculo del precio teórico por PER
+
+- Si conocemos el BPA estimado y un PER objetivo de mercado:
+
+$$
+\text{Precio teórico} = \text{PER estimado} \times \text{BPA esperado}
+$$
+
+## Rentabilidad por dividendo
+
+- Mide el **porcentaje de retorno** que el accionista obtiene por los dividendos recibidos:
+
+$$
+\text{Rentabilidad por dividendo} = \frac{\text{Dividendo por acción}}{\text{Precio de la acción}} \times 100
+$$
+
+- Se interpreta como una "renta" periódica por mantener la acción.
+
+::: {.callout-note}
+## **Ejemplo:**
+Si una acción cotiza a 20 € y reparte un dividendo anual de 1 €:
+
+$$
+\text{Rentabilidad} = \frac{1}{20} \times 100 = 5\%
+$$
+:::
+
+## Interpretación y uso combinado de ratios
+
+- Un **PER bajo** y una **alta rentabilidad por dividendo** pueden indicar una acción atractiva.
+- Pero también pueden ocultar riesgos: descenso de beneficios, negocio maduro o incertidumbre futura.
+- Por eso es importante **no usar los ratios de forma aislada**, sino en el contexto del sector y la estrategia de la empresa.
+
+::: {.callout-note}
+## **Conclusión:**
+El análisis fundamental aporta una visión estratégica del valor de la empresa. Los ratios ayudan, pero deben interpretarse con criterio.
+:::
+
+
+## Pregunta tipo test
+
+¿Qué situación podría indicar una acción con un PER bajo y una rentabilidad por dividendo elevada?
+
+a) La acción está sobrevalorada y próxima a una burbuja.  
+b) La empresa tiene altas expectativas de crecimiento.  
+c) La acción podría estar infravalorada, pero también existir riesgos ocultos.  
+d) El mercado espera una subida inmediata del precio.
+
+## Resolución comentada
+
+**Respuesta correcta: c)** Esta combinación puede ser atractiva, pero también puede reflejar riesgos como descenso de beneficios o falta de crecimiento.
+
+**a)** Un PER bajo no sugiere sobrevaloración.  
+**b)** El crecimiento suele reflejarse en un PER alto.  
+**d)** La cotización no siempre anticipa revalorizaciones.
+
+::: {.callout-note}
+## **Importante:**
+Un PER bajo y alto dividendo no siempre son señal de ganga: pueden indicar **desconfianza del mercado** o problemas estructurales.
+:::
+
+
+## Pregunta tipo test
+
+¿Qué indica un ratio Precio / Valor Contable (P/V) inferior a 1?
+
+a) Que la acción está muy cara respecto a su valor contable.  
+b) Que el mercado valora la empresa por debajo de su patrimonio neto.  
+c) Que el PER es necesariamente bajo.  
+d) Que la empresa no reparte dividendos.
+
+## Resolución comentada
+
+**Respuesta correcta: b)** Un P/V inferior a 1 indica que la acción cotiza por debajo de su valor contable, lo cual puede ser una **oportunidad o reflejo de desconfianza**.
+
+**a)** Es justo lo contrario: cotiza barata respecto a su valor contable.  
+**c)** No hay relación directa entre P/V y PER.  
+**d)** El reparto de dividendos no determina el valor contable.
+
+::: {.callout-note}
+## **Recuerda:**
+El ratio P/V < 1 puede ser atractivo, pero debe analizarse junto con rentabilidad, solvencia y perspectivas del negocio.
+:::

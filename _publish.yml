@@ -1,0 +1,4 @@
+- source: PRESENTACION RENTA VARIABLE EIP.qmd
+  quarto-pub:
+    - id: 61474e25-bb8c-4a7f-bba3-4fd9e59ffcb1
+      url: https://alberto.quarto.pub/uemc-online

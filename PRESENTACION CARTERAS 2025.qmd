@@ -67,8 +67,6 @@ format:
       \setbeamercolor{list item}{fg=MediolanumBlueDark}
 ---
 
-
-
 ## Repaso previo: rentabilidad
 
 \vspace{1em}
@@ -113,17 +111,16 @@ format:
 
 \vspace{1em}
 
-- **Diversificación**:
-    - El riesgo de cartera se reduce si $\rho < 1$
-    - No es necesario tener muchos títulos para diversificar
-    - Incluso con dos activos arriesgados puede lograrse una cartera sin riesgo en condiciones específicas
+-   **Diversificación**:
+    -   El riesgo de cartera se reduce si $\rho < 1$
+    -   No es necesario tener muchos títulos para diversificar
+    -   Incluso con dos activos arriesgados puede lograrse una cartera sin riesgo en condiciones específicas
+-   **Hipótesis de normalidad**:
+    -   68 % de probabilidades: $R \pm \sigma$
+    -   95 % de probabilidades: $R \pm 2\sigma$
+    -   A mayor horizonte temporal, menor probabilidad de rentabilidad negativa si se mantienen $R$ y $\sigma$
 
-- **Hipótesis de normalidad**:
-    - 68 % de probabilidades: $R \pm \sigma$
-    - 95 % de probabilidades: $R \pm 2\sigma$
-    - A mayor horizonte temporal, menor probabilidad de rentabilidad negativa si se mantienen $R$ y $\sigma$
-
----
+------------------------------------------------------------------------
 
 ## Riesgo y rentabilidad: visión a largo plazo
 
@@ -143,7 +140,6 @@ format:
 
 
 \end{columns}
-
 
 ## Objetivos de la sesión
 
@@ -201,7 +197,7 @@ $$
 
 ## 
 
-![](images/clipboard-1625738312.png)
+![](images/clipboard-3418107038.png)
 
 ## SML vs CML: diferencias clave
 
@@ -323,20 +319,19 @@ graph TD
 
 \vspace{1em}
 
-- Las fases del proceso de gestión de carteras pueden encontrarse tanto en **inglés** como en **español** en la literatura financiera.
+-   Las fases del proceso de gestión de carteras pueden encontrarse tanto en **inglés** como en **español** en la literatura financiera.
 
 \vspace{0.5em}
 
-- Es habitual hablar de:
-  - **Asset allocation** / Asignación de activos
-  - **Stock picking** / Selección de valores
-  - **Market timing** / Momento de mercado
-  - **Portfolio construction** / Construcción de la cartera
+-   Es habitual hablar de:
+    -   **Asset allocation** / Asignación de activos
+    -   **Stock picking** / Selección de valores
+    -   **Market timing** / Momento de mercado
+    -   **Portfolio construction** / Construcción de la cartera
 
 \vspace{0.5em}
 
-- Dominar ambos términos es útil para leer informes, exámenes internacionales y comunicarse en entornos profesionales globales.
-
+-   Dominar ambos términos es útil para leer informes, exámenes internacionales y comunicarse en entornos profesionales globales.
 
 ## Análisis fundamental y técnico
 
@@ -386,3 +381,206 @@ graph TD
 \vspace{1em}
 
 **¿Qué influye más en el éxito de una cartera a largo plazo: la asignación entre clases de activos o la selección concreta de títulos?**
+
+## Ejercicios tipo test
+## Pregunta 1
+
+A partir de dos títulos con riesgo y utilizando el modelo de Markowitz, ¿es posible formar una cartera con riesgo nulo?
+
+a) No, con 2 títulos con riesgo es imposible formar una cartera sin riesgo.  
+b) Sí, siempre y cuando las rentabilidades de ambos títulos sean independientes.  
+c) Sí, siempre y cuando las rentabilidades de ambos títulos estén correlacionadas de forma perfecta y positiva.  
+d) Sí, siempre y cuando las rentabilidades de ambos títulos estén correlacionadas de forma perfecta y negativa.
+
+## Solución 1
+
+::: {.callout-tip appearance="simple"}
+✅ La respuesta correcta es la **d**.  
+Con correlación perfectamente negativa entre dos activos con riesgo, es posible construir una cartera sin riesgo.
+:::
+
+---
+
+## Pregunta 2
+
+¿Cuál de las siguientes expresiones se aproxima más al concepto de covarianza?
+
+a) La tendencia de un título a variar su cotización cuando el mercado está en equilibrio.  
+b) La varianza de un título o de una cartera con respecto al mercado.  
+c) La probabilidad de que un título sea más volátil que el mercado.  
+d) La relación estadística existente entre dos variables aleatorias entre sí.
+
+## Solución 2
+
+::: {.callout-tip appearance="simple"}
+✅ La respuesta correcta es la **d**.  
+La covarianza mide cómo varían conjuntamente dos variables aleatorias. Es fundamental para calcular la correlación y construir carteras eficientes.
+:::
+
+---
+
+## Pregunta 3
+
+Un inversor adquiere una acción con una desviación estándar del 15,05% y una covarianza con el mercado de 0,025. La rentabilidad del activo sin riesgo es del 1,25%, y la del mercado del 21% con desviación estándar del 13,5%. ¿Cuál será la rentabilidad esperada según el CAPM?
+
+a) 20,54%  
+b) 4,91%  
+c) 28,34%  
+d) 23,05%
+
+## Solución 3
+
+::: {.callout-tip appearance="simple"}
+✅ La respuesta correcta es la **c**.  
+Se aplica la fórmula del CAPM:  
+$\beta = \dfrac{0.025}{0.135^2} = 1.372$  
+$E[R] = 0.0125 + (0.21 - 0.0125) \cdot 1.372 = 0.2834 \rightarrow 28,34\%$
+:::
+
+
+## Pregunta 4
+
+Dada una cartera con una rentabilidad esperada del 12%, volatilidad del 3% y una beta igual a 0,5. La rentabilidad del mercado es del 18% y su volatilidad del 25%. Asumiendo un tipo de interés libre de riesgo del 1,75%, ¿cuál sería el Alfa de Jensen de la cartera?
+
+a) 18,38%  
+b) -2,13%  
+c) -18,38%  
+d) 2,13%
+
+## Solución 4
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la **d**.  
+Aplicamos la fórmula del Alfa de Jensen:  
+$\alpha = 0.12 - \left[0.0175 + (0.18 - 0.0175) \cdot 0.5\right] = 0.02125 = 2,13\%$
+:::
+
+---
+
+## Pregunta 5
+
+La Capital Market Line (CML):
+
+a) Depende de la tasa libre de riesgo y de la rentabilidad histórica del mercado.  
+b) Depende de la tasa libre de riesgo y de la rentabilidad esperada de la cartera de mercado.  
+c) Es un segmento de la frontera eficiente.  
+d) Relaciona la rentabilidad esperada del activo con la beta del activo.
+
+## Solución 5
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la **b**.  
+La CML relaciona el rendimiento esperado de una cartera eficiente con su riesgo (volatilidad) y depende del activo sin riesgo y de la cartera de mercado.
+:::
+
+---
+
+## Pregunta 6
+
+La asignación estratégica de activos es importante para determinar la rentabilidad de las inversiones porque:
+
+a) Ayuda a determinar el rendimiento actual de la cartera.  
+b) Determina la mayoría de los retornos de la cartera a lo largo del tiempo.  
+c) Ayuda a determinar la desviación estándar de la cartera.  
+d) Ayuda a determinar la covarianza de la cartera.
+
+## Solución 6
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la **b**.  
+Numerosos estudios concluyen que la asignación estratégica explica la mayor parte del rendimiento de una cartera a largo plazo.
+:::
+
+---
+
+## Pregunta 7
+
+¿Cuál de los siguientes fondos se ha comportado mejor que el mercado en términos de ratio de Treynor, si la rentabilidad del activo sin riesgo ha sido de un 1%?
+
+FONDO A: Rentabilidad 12%, Volatilidad 8%, Beta 0,70  
+FONDO B: Rentabilidad 8%, Volatilidad 5%, Beta 0,80  
+MERCADO: Rentabilidad 10%, Volatilidad 7%
+
+a) Fondo A  
+b) Fondo B  
+c) Ambos fondos baten al mercado  
+d) Ninguno de los fondos bate al mercado
+
+## Solución 7
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la **a**.  
+Ratio de Treynor:  
+- Fondo A: $(12\% - 1\%) / 0.70 = 15.71\%$  
+- Fondo B: $(8\% - 1\%) / 0.80 = 8.75\%$  
+- Mercado: $(10\% - 1\%) / 1 = 9\%$  
+Solo el fondo A supera al mercado.
+:::
+
+---
+
+## Pregunta 8
+
+Se dispone de 1.000 euros para invertir en dos activos. Un activo con riesgo del que se espera una rentabilidad del 18% anual con una desviación estándar del 20%, y un activo sin riesgo que presenta una rentabilidad del 4% anual. ¿Qué cantidad debería invertirse en el activo con riesgo para que la cartera tenga una volatilidad del 15%?
+
+a) 750 euros  
+b) 500 euros  
+c) 250 euros  
+d) 150 euros
+
+## Solución 8
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la **a**.  
+La proporción a invertir en el activo con riesgo es:  
+$\dfrac{15\%}{20\%} = 0.75 \rightarrow 75\%$ de 1.000 euros = 750 euros.
+:::
+
+---
+
+## Pregunta 9
+
+El fondo tiene una Alfa de Jensen del 2%, la rentabilidad del fondo del 12%. Durante el mismo período, la rentabilidad de la cartera de referencia fue del 10% y la tasa libre de riesgo fue del 3%. Suponiendo que el CAPM se especifique correctamente y el fondo esté bien diversificado, ¿cuál es la beta del fondo?
+
+a) 0,7  
+b) 0,8  
+c) 0,9  
+d) 1,0
+
+## Solución 9
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la **d**.  
+Aplicamos la fórmula del Alfa de Jensen:  
+$\alpha = E_p - [R_f + (E_m - R_f) \cdot \beta]$  
+$0.02 = 0.12 - [0.03 + (0.10 - 0.03) \cdot \beta] \Rightarrow \beta = 1$
+:::
+
+---
+
+## Pregunta 10
+
+Un asesor financiero dispone de la siguiente hipótesis sobre el mercado y la empresa Beta:
+
+- Tipo de interés libre de riesgo: 0,5%  
+- Prima de riesgo del mercado: 5,5%  
+- Volatilidad anual de la acción: 45%  
+- Volatilidad del mercado: 27%  
+- Covarianza: 0,1053
+
+¿Cuál será el coste de capital de la empresa Beta?
+
+a) 7,55%  
+b) 9,45%  
+c) 8,45%  
+d) 4,27%
+
+## Solución 10
+
+::: {.callout-tip appearance="simple"}
+La respuesta correcta es la **c**.  
+Primero calculamos la beta:  
+$\beta = \dfrac{0.1053}{0.27^2} = 1.444$  
+Coste de capital:  
+$E_p = 0.005 + 0.055 \cdot 1.444 = 0.0845 \rightarrow 8,45\%$
+:::

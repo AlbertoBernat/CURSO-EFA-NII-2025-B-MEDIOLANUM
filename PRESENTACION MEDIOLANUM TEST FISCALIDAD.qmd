@@ -1,0 +1,585 @@
+---
+title: "UEMC online"
+subtitle: "Módulo 8. Fiscalidad"
+author: "Profesor Alberto Bernat"
+date: last-modified
+date-format: DD/MM/YYYY
+format: 
+  beamer: 
+    aspectratio: 54
+    theme: Madrid
+    colortheme: seahorse
+    lang: "es"
+    colorlinks: true
+    header-includes: |
+      \usepackage{graphicx}
+      \usepackage{amssymb}
+      \usepackage{textcomp}
+      \definecolor{MediolanumBlueLight}{HTML}{1e96d7}
+      \definecolor{MediolanumBlueDark}{HTML}{192d6e}
+      \definecolor{EFPAYellow}{RGB}{255,204,0}
+      \setbeamercolor{title}{fg=MediolanumBlueDark}
+      \setbeamercolor{frametitle}{fg=MediolanumBlueLight}
+      \setbeamercolor{structure}{fg=EFPAYellow}
+      \setbeamercolor{section in toc}{fg=MediolanumBlueDark}
+      \setbeamercolor{footline}{fg=MediolanumBlueDark, bg=white}
+      \setbeamercolor{block title}{fg=white, bg=MediolanumBlueDark}
+      \setbeamercolor{block body}{fg=black, bg=MediolanumBlueLight!20}
+      \setbeamercolor{alerted text}{fg=EFPAYellow}
+      \setbeamercolor{item}{fg=MediolanumBlueDark}
+      \setbeamercolor{subitem}{fg=MediolanumBlueLight}
+      \setbeamercolor{subsubitem}{fg=EFPAYellow}
+      \setbeamercolor{caption name}{fg=MediolanumBlueDark}
+      \setbeamercolor{button}{bg=MediolanumBlueDark, fg=white}
+      \setbeamercolor{button border}{bg=EFPAYellow, fg=EFPAYellow}
+      \setbeamercolor{button text}{fg=white}
+      \setbeamercolor{navigation symbols}{fg=MediolanumBlueLight}
+      \setbeamercolor{palette primary}{bg=MediolanumBlueDark, fg=white}
+      \setbeamercolor{palette secondary}{bg=MediolanumBlueLight, fg=white}
+      \setbeamercolor{palette tertiary}{bg=EFPAYellow, fg=black}
+      \setbeamercolor{palette quaternary}{bg=MediolanumBlueDark, fg=white}
+      \setbeamercolor{section in head/foot}{bg=MediolanumBlueDark, fg=white}
+      \setbeamercolor{subsection in head/foot}{bg=MediolanumBlueLight, fg=white}
+      \setbeamercolor{author in head/foot}{fg=MediolanumBlueDark}
+      \setbeamercolor{institute in head/foot}{fg=MediolanumBlueLight}
+      \setbeamercolor{date in head/foot}{fg=EFPAYellow}
+      \setbeamercolor{title in head/foot}{fg=MediolanumBlueDark}
+      \setbeamercolor{subtitle}{fg=EFPAYellow}
+      \setbeamercolor{logo in head/foot}{bg=white}
+      \setbeamercolor{bibliography entry author}{fg=MediolanumBlueDark}
+      \setbeamercolor{bibliography entry title}{fg=MediolanumBlueLight}
+      \setbeamercolor{bibliography entry location}{fg=EFPAYellow}
+      \setbeamercolor{bibliography entry note}{fg=MediolanumBlueDark}
+      \setbeamercolor{abstract}{fg=MediolanumBlueDark, bg=MediolanumBlueLight!20}
+      \setbeamercolor{abstract title}{fg=white, bg=MediolanumBlueDark}
+      \setbeamercolor{verse}{fg=MediolanumBlueDark, bg=MediolanumBlueLight!20}
+      \setbeamercolor{quotation}{fg=MediolanumBlueDark, bg=MediolanumBlueLight!20}
+      \setbeamercolor{quote}{fg=MediolanumBlueDark, bg=MediolanumBlueLight!20}
+      \setbeamercolor{description item}{fg=MediolanumBlueDark}
+      \setbeamercolor{description item label}{fg=MediolanumBlueLight}
+      \setbeamercolor{description item body}{fg=EFPAYellow}
+      \setbeamercolor{enumerate item}{fg=MediolanumBlueDark}
+      \setbeamercolor{enumerate subitem}{fg=MediolanumBlueLight}
+      \setbeamercolor{enumerate subsubitem}{fg=EFPAYellow}
+      \setbeamercolor{itemize item}{fg=MediolanumBlueDark}
+      \setbeamercolor{itemize subitem}{fg=MediolanumBlueLight}
+      \setbeamercolor{itemize subsubitem}{fg=EFPAYellow}
+      \setbeamercolor{list item}{fg=MediolanumBlueDark}
+---
+
+
+## Módulo 8. Fiscalidad
+![](images/EFPA_logo-01.jpg)
+
+## Objetivo de la sesión
+
+- Comprender cómo tributan las inversiones y cómo optimizar su fiscalidad.
+
+\vspace{0.3cm}
+
+- El inversor —persona física o jurídica— debe conocer los impuestos que afectan a su actividad (IRPF, IRNR, ISD, IS...).
+
+- Aplicar estrategias de **planificación fiscal** para:
+
+  - Mejorar la **rentabilidad financiero-fiscal**.
+  - Minimizar el impacto en **desinversiones** y transmisiones.
+  - Adaptar la estrategia a la **normativa vigente**, según producto, residencia y titular.
+
+
+## Impuesto sobre Sucesiones y Donaciones (ISD)
+
+- Impuesto cedido a CCAA: competencias normativas en reducciones, tarifa y deducciones.
+- Hecho imponible: 
+  - Adquisiciones mortis causa
+  - Donaciones inter vivos
+  - Seguros de vida
+- Sujetos: causante, causahabiente, donante, donatario
+- Base imponible: valor real de bienes y derechos
+- Reducciones por parentesco, minusvalía, empresa familiar…
+- Cuota: tarifa progresiva, coeficientes multiplicadores según patrimonio preexistente y parentesco
+- Plazo: 6 meses desde el fallecimiento (prorrogable)
+
+## Imposición de no residentes (IRNR)
+
+- Normativa: IRNR + convenios para evitar doble imposición
+- Residencia fiscal: 183 días, centro de intereses vitales, presunción inversa
+- Rentas obtenidas en España:
+  - Con y sin establecimiento permanente
+  - Rentas exentas: intereses bonos públicos, dividendos con limitaciones…
+- Retenciones a cuenta obligatorias
+
+## Impuesto sobre el Patrimonio (IP) e ITSGF
+
+- IP: tributo anual, base mundial (residentes) o española (no residentes)
+- ITSGF: tributo complementario para patrimonios >3M€, estatal, sin mínimo exento autonómico
+- Base imponible: bienes y derechos, menos deudas deducibles
+- Exenciones destacadas: vivienda habitual, empresa familiar
+- Escala estatal progresiva (IP) y especial (ITSGF)
+- Límite conjunto con IRPF: 60% de la base imponible
+
+## Modelo 720: declaración de bienes en el extranjero
+
+- Sujetos obligados: residentes fiscales
+- Bienes declarables: cuentas, valores, inmuebles
+- Umbrales: >50.000 € por bloque
+- Modelo y plazos: telemático, hasta el 31 de marzo
+- Régimen sancionador: severo, aunque moderado tras fallos TJUE
+
+## Fiscalidad de productos financieros (1): depósitos y activos financieros
+
+- **IRPF**: rendimiento de capital mobiliario
+  - Cálculo: intereses brutos – gastos deducibles (si procede)
+  - Retención 19%
+- Productos especiales: estructurados, indexados, contratos atípicos
+- Depósitos y valores: integración en base del **ISD** e **IP** por valor nominal o de mercado
+
+## Fiscalidad de productos financieros (2): renta variable
+
+- Dividendos: rendimiento de capital mobiliario (IRPF)
+  - Deducción parcial eliminada desde 2015
+- Transmisiones:
+  - Ganancia o pérdida patrimonial
+  - FIFO, regla antiaplicación pérdidas, coeficientes pre-1995
+- Operaciones especiales: derechos de suscripción, liberadas, ampliaciones
+
+## Instituciones de Inversión Colectiva (IIC)
+
+- **IS**: tipo 1% si cumplen requisitos
+- **IRPF**: reembolsos = ganancia patrimonial
+  - Régimen de diferimiento: traspasos entre fondos
+  - Coeficientes pre-1995: régimen transitorio
+- **IP/ISD**: valor liquidativo a 31/12
+- Fondos cotizados, garantizados, compartimentos y domiciliados en el extranjero: diferencias relevantes
+
+## Entidades de inversión colectiva cerradas / capital-riesgo
+
+- ECR: exención 99% en transmisiones participadas
+- EICC e IICIL: régimen especial (IS 1% si procede)
+- Fiscalidad inversor:
+  - Dividendos y plusvalías: IRPF, IRNR, IS
+  - Valoración IP/ISD: según participación y derecho de rescate
+
+## Derivados e híbridos financieros
+
+- Derivados: futuros, opciones, swaps…
+  - IRPF: rendimientos o ganancias patrimoniales según caso
+- Híbridos: participaciones preferentes, convertibles, warrants…
+  - IRPF: análisis caso por caso, régimen específico
+- Atípicos: tributación según naturaleza económica
+
+## Criptoactivos y planes de pensiones
+
+- Criptoactivos:
+  - IRPF: ganancia patrimonial
+  - IP/ITSGF: valor de mercado
+- Planes de pensiones:
+  - IRPF: reducción por aportación
+  - Prestación = rendimiento del trabajo
+  - Régimen transitorio aportaciones pre-2007
+  - Exención IP/ITSGF por derechos consolidados
+
+## Seguros de vida individuales
+
+- IRPF: rendimiento capital mobiliario
+  - Capitales diferidos y rentas
+  - PALP, SIALP, Unit Linked: fiscalidad específica
+- ISD: si existe fallecimiento
+  - Reducciones especiales por parentesco y edad
+- IP/ITSGF: derecho de rescate o valor de mercado
+
+En cualquier caso ya perdí muchos beneficios## Planificación fiscal
+
+- IRPF/IP/ISD/ITSGF: elección de productos, integración y compensación
+- Empresa familiar: exenciones por participación y gestión activa
+- Sociedad holding:
+  - Consolidación fiscal
+  - Beneficios en transmisiones
+
+
+
+## Pregunta 1
+
+**Indique qué supuestos son, según la normativa española y publicaciones del supervisor, operaciones de riesgo en materia de prevención del blanqueo de capitales:**
+
+a) Servicios de banca privada  
+b) Relaciones de negocio y operaciones con clientes de países o jurisdicciones de riesgo  
+c) Transmisión de acciones o participaciones de sociedades preconstituidas  
+d) Todas las anteriores son correctas
+
+## Respuesta 1
+
+**Respuesta correcta: d) Todas las anteriores son correctas**
+
+### Justificación
+::: {.callout-note}
+La normativa identifica como operaciones de riesgo aquellas que incluyen banca privada, operaciones vinculadas a jurisdicciones de riesgo (como las señaladas por el GAFI) y transmisiones de sociedades sin actividad previa (preconstituidas).
+:::
+
+## Pregunta 2
+
+**De acuerdo con el Código Ético de EFPA España, ¿qué debe hacer un asesor financiero ante un conflicto de interés?**
+
+a) Resolverlo o minimizarlo si puede afectar su independencia u objetividad  
+b) No tiene obligación de comunicarlo al cliente si es inevitable  
+c) Comunicarlo directamente a la CNMV  
+d) Todas las anteriores son incorrectas
+
+## Respuesta 2
+
+**Respuesta correcta: a) Resolverlo o minimizarlo si puede afectar su independencia u objetividad**
+
+### Justificación
+::: {.callout-note}
+El Código Ético de EFPA exige que el asesor financiero gestione los conflictos de interés **evitándolos o reduciéndolos al mínimo**, siempre actuando con honestidad, transparencia e independencia frente al cliente.
+:::
+
+## Pregunta 3
+
+**¿Qué organismo español tiene la función de supervisar el cumplimiento en materia de blanqueo de capitales?**
+
+a) CNMV  
+b) Banco de España  
+c) SEPBLAC  
+d) Agencia Tributaria
+
+## Respuesta 3
+
+**Respuesta correcta: c) SEPBLAC**
+
+### Justificación
+::: {.callout-note}
+El **Servicio Ejecutivo de la Comisión de Prevención del Blanqueo de Capitales e Infracciones Monetarias (SEPBLAC)** es el organismo español responsable de controlar el cumplimiento de la normativa sobre prevención del blanqueo de capitales y financiación del terrorismo.
+:::
+
+## Pregunta 4
+
+**¿Qué entidad europea se encarga de supervisar el cumplimiento normativo en los mercados de valores?**
+
+a) Autoridad Bancaria Europea (EBA)  
+b) Banco Central Europeo (BCE)  
+c) Autoridad Europea de Valores y Mercados (ESMA)  
+d) Tribunal de Cuentas de la UE
+
+## Respuesta 4
+
+**Respuesta correcta: c) Autoridad Europea de Valores y Mercados (ESMA)**
+
+### Justificación
+::: {.callout-note}
+La **ESMA** supervisa los mercados de valores europeos, protege a los inversores y vela por el cumplimiento de normas como MiFID II, SFDR o MAR, coordinando la acción de supervisores nacionales como la CNMV.
+:::
+
+## Pregunta 5
+
+**Según la normativa MiFID II, ¿qué obligación tiene un asesor financiero antes de recomendar un producto?**
+
+a) Identificar al cliente y valorar si es profesional o minorista  
+b) Evaluar la idoneidad del producto en función del perfil del cliente  
+c) Tener en cuenta las preferencias de sostenibilidad del cliente  
+d) Todas las anteriores
+
+## Respuesta 5
+
+**Respuesta correcta: d) Todas las anteriores**
+
+### Justificación
+::: {.callout-note}
+MiFID II exige conocer al cliente (clasificación), evaluar la **idoneidad** y la **conveniencia** del producto ofrecido, y desde 2022, también **considerar sus preferencias ESG** como parte del asesoramiento.
+:::
+
+
+## Actividad 3. Test de evaluación
+
+>Abre: domingo, 1 de junio de 2025, 00:00
+
+>Cierra: lunes, 2 de junio de 2025, 23:59
+
+## Pregunta 1
+
+**En el ámbito de la prevención del blanqueo de capitales, los sujetos obligados deben identificar formalmente a los clientes con los que vayan a entablar relaciones de negocio. A efectos de identificación formal de clientes que sean personas físicas extranjeras, ¿cuál o cuáles de los siguientes documentos se consideran fehacientes?**
+
+I. El pasaporte  
+II. Un certificado de vacunación vigente  
+III. El permiso de trabajo  
+IV. La tarjeta de identidad de extranjero
+
+a) La I y la IV  
+b) Sólo la I  
+c) I, III y IV  
+d) Sólo la III
+
+## Respuesta 1
+
+**Respuesta correcta: a) La I y la IV**
+
+### Justificación
+::: {.callout-note}
+Según el artículo 3 de la Ley 10/2010, los sujetos obligados deben identificar a los intervinientes mediante documentos fehacientes. En el caso de personas físicas extranjeras, se consideran válidos el pasaporte y la tarjeta de identidad de extranjero (NIE).
+:::
+
+## Pregunta 2
+
+**¿Sobre cuál o cuáles de los siguientes conceptos del Impuesto sobre Sucesiones y Donaciones tienen atribuidas competencias normativas las comunidades autónomas?**
+
+I. El devengo  
+II. Las reducciones en la base imponible por parentesco  
+III. La escala de gravamen  
+IV. El hecho imponible
+
+a) I, II y III  
+b) Sólo la II  
+c) La I y la III  
+d) La II y la III
+
+## Respuesta 2
+
+**Respuesta correcta: d) La II y la III**
+
+### Justificación
+::: {.callout-note}
+Las comunidades autónomas pueden regular aspectos como las reducciones, la tarifa, los coeficientes del patrimonio preexistente y las bonificaciones. Sin embargo, **no pueden modificar el hecho imponible ni el devengo**, que son elementos estatales.
+:::
+
+
+## Pregunta 3
+
+**¿Qué calificación fiscal corresponde en el Impuesto sobre la Renta de las Personas Físicas a la obtención de una renta como consecuencia de la transmisión de una obligación que cotiza en el mercado AIAF de renta fija?**
+
+a) Rendimiento de actividades económicas  
+b) Rendimiento del capital mobiliario derivado de la participación en fondos propios de entidades  
+c) Ganancia o pérdida patrimonial  
+d) Rendimiento del capital mobiliario derivado de la cesión a terceros de capitales propios
+
+## Respuesta 3
+
+**Respuesta correcta: d) Ganancia o pérdida patrimonial**
+
+### Justificación
+::: {.callout-note}
+La transmisión de una obligación cotizada en un mercado secundario organizado (como el AIAF) se considera una variación en el patrimonio del contribuyente y tributa como **Rendimiento del capital mobiliario derivado de la cesión a terceros de capitales propios**, no como rGanancia o pérdida patrimonial .
+:::
+
+
+## Pregunta 4
+
+**Una sociedad de inversión inmobiliaria (SOCIMI), cotizada:**
+
+- a) Está siempre exenta del impuesto de sociedades  
+- b) Está exenta del impuesto de sociedades si cumple una serie de requisitos  
+- c) No está obligada a repartir dividendos  
+- d) Tiene muy poca liquidez
+
+## Respuesta 4
+
+**Respuesta correcta: b) Está exenta del impuesto de sociedades si cumple una serie de requisitos**
+
+### Justificación
+::: {.callout-note}
+Las SOCIMI pueden beneficiarse de un régimen fiscal especial que **las exime del Impuesto sobre Sociedades**, siempre que cumplan ciertos requisitos establecidos en la normativa (por ejemplo, reparto obligatorio de dividendos, cotización en mercados regulados, etc.).  
+[Ver fuente oficial](https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/manual-sociedades-2020/capitulo-10-regimenes-tributarios-especiales-ii/regimen-fiscal-especial-socimis.html)
+:::
+
+
+## Pregunta 5
+
+**En el ejercicio 2025, ¿cuál es el importe máximo que un contribuyente puede aportar a un plan de pensiones del sistema individual con derecho a reducción en la base imponible del IRPF?**
+
+a) 8.000 euros  
+b) 10.000 euros  
+c) 1.500 euros  
+d) 3.000 euros
+
+## Respuesta 5
+
+**Respuesta correcta: c) 1.500 euros**
+
+### Justificación
+::: {.callout-note}
+Desde el ejercicio 2022, el límite general de aportación individual a planes de pensiones con derecho a reducción en la base imponible del IRPF es de **1.500 euros anuales**, salvo por aportaciones empresariales o a planes de empleo.
+:::
+
+## Pregunta 6
+
+**Indique cuál de las siguientes rentas quedará sometida a gravamen en el Impuesto sobre la Renta de no Residentes si las mismas son percibidas por una persona física con residencia fiscal en Italia:**
+
+I. Intereses de obligaciones del Estado  
+II. Dividendos pagados por una empresa cotizada en la bolsa de Nueva York  
+III. Rentas procedentes del alquiler de un apartamento en Palma de Mallorca
+
+a) I y III  
+b) Sólo la III  
+c) I, II y III  
+d) I y II
+
+## Respuesta 6
+
+**Respuesta correcta: a) I y III**
+
+### Justificación
+::: {.callout-note}
+Las rentas obtenidas en territorio español por un no residente, como **intereses de deuda pública española** o **alquiler de inmuebles situados en España**, están sujetas al IRNR. Los dividendos pagados por empresas extranjeras no tributan en España.
+:::
+
+## Pregunta 7
+
+**¿Por qué importe debe declararse en el Impuesto sobre el Patrimonio un seguro en el que se ha designado beneficiario irrevocable a una persona distinta del tomador?**
+
+a) Por su valor de rescate  
+b) Por el importe de la prima o primas satisfechas por el tomador  
+c) Por el valor de las provisiones matemáticas que proporcionalmente correspondan al tomador  
+d) Por su valor nominal
+
+## Respuesta 7
+
+**Respuesta correcta: c) Por el valor de las provisiones matemáticas que proporcionalmente correspondan al tomador**
+
+### Justificación
+::: {.callout-note}
+Desde el 11 de julio de 2021, si el tomador no puede ejercer el derecho de rescate, el seguro debe declararse por el **valor de la provisión matemática** en la fecha de devengo del impuesto.
+:::
+
+## Pregunta 8
+
+**Fernando, residente fiscal en París (Francia), ha recibido una donación de su padre, residente fiscal en Galicia. El objeto de la donación es un apartamento situado en Gijón (Asturias). ¿Qué normativa autonómica deberá aplicarse para calcular la cuota que Fernando deba satisfacer por el Impuesto sobre Sucesiones y Donaciones?**
+
+a) Normativa de la Comunidad de Galicia  
+b) Normativa de la Comunidad de Asturias  
+c) Normativa estatal  
+d) Fernando podrá optar entre aplicar la normativa estatal o la normativa de la Comunidad de Asturias
+
+## Respuesta 8
+
+**Respuesta correcta: b) Normativa de la Comunidad de Asturias**
+
+### Justificación
+::: {.callout-note}
+En caso de donación de **inmuebles situados en España a no residentes**, se aplica la **normativa de la comunidad autónoma donde radique el bien inmueble**, en este caso, Asturias.
+:::
+
+## Pregunta 9
+
+**Una letra del tesoro adquirida por 6.000 € que a su vencimiento a 1 año tiene un valor de reembolso de 7.000 € genera para su propietario en IRPF:**
+
+a) Una ganancia patrimonial de 1.000 €  
+b) Un rendimiento del capital mobiliario de 1.000 € sujeto y siempre exento del impuesto  
+c) Un rendimiento del capital mobiliario de 1.000 € sujeto y no exento del impuesto  
+d) Una ganancia patrimonial de 7.000 €
+
+## Respuesta 9
+
+**Respuesta correcta: c) Un rendimiento del capital mobiliario de 1.000 € sujeto y no exento del impuesto**
+
+### Justificación
+::: {.callout-note}
+La diferencia entre el valor de reembolso y el valor de adquisición de una letra del tesoro **constituye un rendimiento del capital mobiliario** que tributa en la base del ahorro. **No está exento.**
+:::
+
+## Pregunta 10
+
+**En un seguro de vida en el que el contratante, o tomador, es una persona distinta del beneficiario, el importe cobrado por los beneficiarios tributará:**
+
+a) En el IRPF en la persona del beneficiario  
+b) En el IRPF como ganancia patrimonial para el transmisor  
+c) En el IRPF como rendimiento del capital mobiliario del beneficiario  
+d) En el ISD, en la persona del beneficiario
+
+## Respuesta 10
+
+**Respuesta correcta: d) En el ISD, en la persona del beneficiario**
+
+### Justificación
+::: {.callout-note}
+Cuando el beneficiario de un seguro de vida es una persona distinta del tomador, la prestación tributa en el **Impuesto sobre Sucesiones y Donaciones (ISD)**, como adquisición lucrativa.
+:::
+
+## Pregunta 11
+
+**El importe obtenido por la venta de derechos de suscripción de acciones que no cotizan en Bolsa:**
+
+a) Aumenta el valor de adquisición de las acciones y, en su caso, podría generar una ganancia patrimonial  
+b) Genera una ganancia patrimonial  
+c) Genera siempre rendimientos de capital mobiliario al no cotizar en Bolsa  
+d) Disminuye el valor de adquisición de las acciones y, en su caso, podría generar una ganancia patrimonial
+
+## Respuesta 11
+
+**Respuesta correcta: b) Genera una ganancia patrimonial**
+
+### Justificación
+::: {.callout-note}
+La transmisión de derechos de suscripción, tanto en acciones cotizadas como no cotizadas, **genera una ganancia patrimonial**, calculada por la diferencia entre el valor de transmisión y el valor de adquisición (que en este caso suele ser cero).
+:::
+
+## Pregunta 12
+
+**¿Qué régimen fiscal es aplicable a los inversores en los Exchanged Traded Funds (ETF)?**
+
+a) Se aplica la misma fiscalidad que los Fondos de Inversión  
+b) Se aplica la fiscalidad correspondiente a las acciones y no la de los Fondos de Inversión  
+c) Se aplica la fiscalidad correspondiente a las acciones, salvo en lo relativo a las plusvalías, que tributan como rendimiento del capital mobiliario  
+d) Ninguna de las anteriores
+
+## Respuesta 12
+
+**Respuesta correcta: b) Se aplica la fiscalidad correspondiente a las acciones y no la de los Fondos de Inversión**
+
+### Justificación
+::: {.callout-note}
+Los ETF tributan como **acciones**: no disfrutan del régimen de diferimiento aplicable a los fondos de inversión tradicionales. Las plusvalías son **ganancias patrimoniales** no sujetas a retención, y los dividendos tributan como **rendimientos del capital mobiliario** con retención del 19 %.
+:::
+
+## Pregunta 13
+
+**La renta como objeto del Impuesto sobre la Renta de las Personas Físicas (IRPF) se entiende constituida por la totalidad de los rendimientos:**
+
+a) Del trabajo, de actividades económicas y del capital; y por las ganancias y pérdidas patrimoniales  
+b) Del trabajo, del capital; y por las ganancias y pérdidas patrimoniales  
+c) Del trabajo, de los beneficios empresariales y del capital; y por las ganancias y pérdidas patrimoniales  
+d) Ninguna de las anteriores
+
+## Respuesta 13
+
+**Respuesta correcta: a) Del trabajo, de actividades económicas y del capital; y por las ganancias y pérdidas patrimoniales**
+
+### Justificación
+::: {.callout-note}
+La **renta gravada por el IRPF** comprende todos los rendimientos del trabajo, del capital, de actividades económicas, así como las ganancias y pérdidas patrimoniales, según lo define la Ley del IRPF.
+:::
+
+## Pregunta 14
+
+**Las pérdidas patrimoniales que no han podido compensarse en la base imponible del ahorro:**
+
+a) Podrán compensarse en la base imponible del ahorro durante los 4 años siguientes  
+b) Podrán compensarse en 15 años  
+c) Podrán compensarse en la base imponible general y en la base imponible del ahorro en los 5 años siguientes  
+d) No pueden compensarse en ejercicios futuros
+
+## Respuesta 14
+
+**Respuesta correcta: a) Podrán compensarse en la base imponible del ahorro durante los 4 años siguientes**
+
+### Justificación
+::: {.callout-note}
+Las **pérdidas patrimoniales integradas en la base del ahorro** que no se compensen totalmente en el ejercicio podrán **compensarse en los 4 años siguientes**, dentro del mismo componente o con rendimientos del capital mobiliario, con un límite del 25 %.
+:::
+
+## Pregunta 15
+
+**Al fallecimiento de su padre, Mónica percibe una prestación de un seguro de vida que había sido suscrito hace seis años por su madre con cobertura de fallecimiento del difunto esposo. ¿Qué impuesto se devenga como consecuencia del cobro de la prestación del seguro?**
+
+a) IRPF. Tributación como rendimiento del capital mobiliario en la base del ahorro, al 19 %  
+b) ISD. Tributación al tipo fijo del 19 %  
+c) IRPF. Tributación como rendimiento del trabajo en la base general, al tipo progresivo  
+d) ISD. Tributación al tipo que resulte de la escala de gravamen
+
+## Respuesta 15
+
+**Respuesta correcta: d) ISD. Tributación al tipo que resulte de la escala de gravamen**
+
+### Justificación
+::: {.callout-note}
+La prestación percibida por un beneficiario distinto del tomador/asegurado tributa en el **Impuesto sobre Sucesiones y Donaciones**. La escala aplicable será la vigente en la comunidad autónoma correspondiente, y **no existe un tipo fijo del 19 %**.
+:::
+
+
