@@ -1,0 +1,1014 @@
+---
+title: "UEMC online"
+subtitle: "Planes y fondos de pensiones"
+author: "Profesor Alberto Bernat"
+date: last-modified
+date-format: DD/MM/YYYY
+format: 
+  beamer: 
+    aspectratio: 54
+    theme: Madrid
+    colortheme: seahorse
+    lang: "es"
+    colorlinks: true
+    header-includes: |
+      \usepackage{graphicx}
+      \usepackage{amssymb}
+      \usepackage{textcomp}
+      \definecolor{MediolanumBlueLight}{HTML}{1e96d7}
+      \definecolor{MediolanumBlueDark}{HTML}{192d6e}
+      \definecolor{EFPAYellow}{RGB}{255,204,0}
+      \setbeamercolor{title}{fg=MediolanumBlueDark}
+      \setbeamercolor{frametitle}{fg=MediolanumBlueLight}
+      \setbeamercolor{structure}{fg=EFPAYellow}
+      \setbeamercolor{section in toc}{fg=MediolanumBlueDark}
+      \setbeamercolor{footline}{fg=MediolanumBlueDark, bg=white}
+      \setbeamercolor{block title}{fg=white, bg=MediolanumBlueDark}
+      \setbeamercolor{block body}{fg=black, bg=MediolanumBlueLight!20}
+      \setbeamercolor{alerted text}{fg=EFPAYellow}
+      \setbeamercolor{item}{fg=MediolanumBlueDark}
+      \setbeamercolor{subitem}{fg=MediolanumBlueLight}
+      \setbeamercolor{subsubitem}{fg=EFPAYellow}
+      \setbeamercolor{caption name}{fg=MediolanumBlueDark}
+      \setbeamercolor{button}{bg=MediolanumBlueDark, fg=white}
+      \setbeamercolor{button border}{bg=EFPAYellow, fg=EFPAYellow}
+      \setbeamercolor{button text}{fg=white}
+      \setbeamercolor{navigation symbols}{fg=MediolanumBlueLight}
+      \setbeamercolor{palette primary}{bg=MediolanumBlueDark, fg=white}
+      \setbeamercolor{palette secondary}{bg=MediolanumBlueLight, fg=white}
+      \setbeamercolor{palette tertiary}{bg=EFPAYellow, fg=black}
+      \setbeamercolor{palette quaternary}{bg=MediolanumBlueDark, fg=white}
+      \setbeamercolor{section in head/foot}{bg=MediolanumBlueDark, fg=white}
+      \setbeamercolor{subsection in head/foot}{bg=MediolanumBlueLight, fg=white}
+      \setbeamercolor{author in head/foot}{fg=MediolanumBlueDark}
+      \setbeamercolor{institute in head/foot}{fg=MediolanumBlueLight}
+      \setbeamercolor{date in head/foot}{fg=EFPAYellow}
+      \setbeamercolor{title in head/foot}{fg=MediolanumBlueDark}
+      \setbeamercolor{subtitle}{fg=EFPAYellow}
+      \setbeamercolor{logo in head/foot}{bg=white}
+      \setbeamercolor{bibliography entry author}{fg=MediolanumBlueDark}
+      \setbeamercolor{bibliography entry title}{fg=MediolanumBlueLight}
+      \setbeamercolor{bibliography entry location}{fg=EFPAYellow}
+      \setbeamercolor{bibliography entry note}{fg=MediolanumBlueDark}
+      \setbeamercolor{abstract}{fg=MediolanumBlueDark, bg=MediolanumBlueLight!20}
+      \setbeamercolor{abstract title}{fg=white, bg=MediolanumBlueDark}
+      \setbeamercolor{verse}{fg=MediolanumBlueDark, bg=MediolanumBlueLight!20}
+      \setbeamercolor{quotation}{fg=MediolanumBlueDark, bg=MediolanumBlueLight!20}
+      \setbeamercolor{quote}{fg=MediolanumBlueDark, bg=MediolanumBlueLight!20}
+      \setbeamercolor{description item}{fg=MediolanumBlueDark}
+      \setbeamercolor{description item label}{fg=MediolanumBlueLight}
+      \setbeamercolor{description item body}{fg=EFPAYellow}
+      \setbeamercolor{enumerate item}{fg=MediolanumBlueDark}
+      \setbeamercolor{enumerate subitem}{fg=MediolanumBlueLight}
+      \setbeamercolor{enumerate subsubitem}{fg=EFPAYellow}
+      \setbeamercolor{itemize item}{fg=MediolanumBlueDark}
+      \setbeamercolor{itemize subitem}{fg=MediolanumBlueLight}
+      \setbeamercolor{itemize subsubitem}{fg=EFPAYellow}
+      \setbeamercolor{list item}{fg=MediolanumBlueDark}
+---
+
+
+## Fondos y Sociedades de Inversión Mobiliaria
+![](images/EFPA_logo-01.jpg)
+
+
+
+## Objetivo de la sesión
+
+- Comprender el funcionamiento de los planes y fondos de pensiones como herramientas de previsión social.
+- Analizar su tratamiento fiscal, contingencias, modalidades y planificación de la jubilación.
+- Estimar recursos disponibles y necesidades previsionales en la etapa pasiva.
+
+---
+
+## ¿Qué es un plan de pensiones?
+
+- Instrumento de **previsión social voluntaria**.
+- Constituido mediante **aportaciones periódicas o puntuales**.
+- Solo puede **hacerse líquido** ante contingencias específicas o supuestos legales.
+
+---
+
+## Teoría de los tres pilares
+
+1. **Pilar 1**: Sistema público obligatorio (Seguridad Social).
+2. **Pilar 2**: Sistema profesional (planes de empleo).
+3. **Pilar 3**: Sistema individual (planes personales, seguros, etc.).
+
+---
+
+
+## Principios rectores de los planes de pensiones
+
+Todo plan de pensiones debe respetar cinco principios fundamentales:
+
+- **No discriminación**: los planes deben permitir el acceso a todos los trabajadores que cumplan los requisitos objetivos establecidos (por ejemplo, una antigüedad mínima en la empresa), **sin establecer diferencias arbitrarias o excluyentes**.
+- **Capitalización**: acumulación de aportaciones para generar una prestación futura.
+- **Irrevocabilidad**: las aportaciones no pueden retirarse libremente.
+- **Atribución de derechos**: el partícipe acumula derechos sobre lo aportado.
+- **Movilidad**: los derechos consolidados pueden trasladarse a otro plan.
+
+::: {.callout-note}
+Garantizan transparencia, equidad y protección del ahorro a largo plazo.
+:::
+
+---
+
+## Ejemplo de aplicación: principio de no discriminación
+
+Los planes de pensiones de empleo **pueden establecer requisitos objetivos de acceso**, como la antigüedad mínima en la empresa.
+
+### **Regla normativa:**
+
+> Si el requisito de antigüedad es **igual o inferior a 2 años**, no requiere justificación especial.  
+
+> Si supera los **2 años**, el plan debe **justificarlo expresamente** (RD 304/2004, art. 6.2).
+
+### Ejemplo 
+
+Una empresa establece que sus empleados pueden adherirse al plan de pensiones de empleo a partir del segundo año de contrato.  
+
+- Este criterio es **objetivo, no discriminatorio** y está **permitido por la normativa**.
+
+- Este tipo de cláusulas garantizan un trato equitativo sin excluir injustamente a determinados colectivos.
+
+
+
+## Elementos personales del plan de pensiones
+
+Un plan de pensiones implica a varios actores:
+
+- **Promotor**: entidad o empresa que impulsa el plan.
+- **Partícipe**: persona que realiza aportaciones (trabajador o particular).
+- **Beneficiario**: quien recibe la prestación en caso de contingencia.
+- **Entidad gestora**: administra el fondo y toma decisiones de inversión.
+- **Entidad depositaria**: custodia los activos financieros del fondo.
+
+::: {.callout-note}
+Cada uno cumple una función específica dentro del sistema de previsión.
+:::
+
+
+## Plan vs Fondo de Pensiones
+
+- **Plan**: conjunto de derechos y obligaciones.
+- **Fondo**: patrimonio financiero que da soporte a uno o varios planes.
+
+---
+
+## Clasificación de planes de pensiones
+
+**Según el promotor:**
+
+- Individual
+- Empleo
+- Asociado
+
+---
+
+## Clasificación (II): aportaciones y prestaciones
+
+Los **planes de pensiones** pueden clasificarse, según el criterio de determinación de los compromisos económicos del plan, en tres modalidades:
+
+- Aportación definida
+- Prestación definida
+- Mixto
+
+## Aportación definida
+
+En esta modalidad, lo que se define desde el inicio es la **cuantía de las aportaciones** que realizará el partícipe o el promotor (o ambos). La **prestación futura dependerá del capital acumulado**, es decir, del total de aportaciones más la rentabilidad generada por el fondo de pensiones.
+
+- Es el sistema más extendido, especialmente en los **planes del sistema individual**.
+- El **riesgo de inversión recae sobre el partícipe**, ya que no se garantiza la cuantía final de la prestación.
+
+**Ejemplo 1:**\
+Un partícipe aporta 2.000 € anuales a su plan individual durante 30 años. Al llegar a la jubilación, el capital disponible dependerá del rendimiento obtenido por el fondo, sin que exista compromiso previo sobre la cuantía de la prestación.
+
+## Prestación definida
+
+En esta modalidad, se define de antemano la **cuantía de la prestación** que se recibirá al producirse la contingencia (normalmente la jubilación). En consecuencia, deben realizarse aportaciones suficientes para garantizar dicha prestación, lo que implica un **mayor compromiso por parte del promotor**.
+
+- Son más frecuentes en **planes de empleo**, en grandes empresas.
+- Requieren **actuarialmente** estimar aportaciones periódicas para cumplir con la prestación prevista.
+
+**Ejemplo 2:**\
+Un plan de empresa garantiza a sus empleados una pensión del 70 % del salario medio de los últimos 10 años. Las aportaciones deben ajustarse periódicamente para asegurar este objetivo.
+
+## Plan mixto
+
+Los planes mixtos **combinan una parte garantizada y otra variable** según el capital acumulado, siendo más complejos y habituales en entornos empresariales.
+
+
+**Ejemplo 3:**\
+Un plan mixto establece una pensión mínima garantizada de 500 €/mes (prestación definida) y un complemento adicional que dependerá del capital acumulado (aportación definida).
+
+::: {.callout-note}
+## **Importante:**\
+Los **planes de pensiones del sistema individual** (aquellos promovidos por entidades financieras y contratados de forma voluntaria por personas físicas) **son siempre de modalidad de aportación definida**, tal como establece la normativa española.\
+
+:::
+
+
+---
+
+## Clasificación (III): vocación inversora
+
+- Renta fija corto/largo plazo
+- Renta variable
+- Mixtos
+- Garantizados
+
+---
+
+## PPES y PEPP
+
+- **PPES**: Planes de pensiones de empleo simplificados.
+- **PEPP**: Producto paneuropeo de pensiones individuales (portabilidad, transparencia, coste limitado).
+
+---
+
+## Supervisión y normativa aplicable
+
+- Los **planes y fondos de pensiones** están regulados por la **Ley de Regulación de los Planes y Fondos de Pensiones** y su desarrollo reglamentario.
+- El organismo responsable de la supervisión y control es la:
+
+### Dirección General de Seguros y Fondos de Pensiones (DGSFP)
+
+- Depende del **Ministerio de Economía, Comercio y Empresa**.
+- Supervisa que los planes cumplan:
+  - Con los **principios básicos** (no discriminación, capitalización, irrevocabilidad, etc.).
+  - Con las **obligaciones de transparencia e información**.
+  - Con la adecuada **gestión de riesgos e inversiones**.
+
+
+
+---
+
+
+## Rentabilidad y riesgo
+
+- Existe una relación directa entre **riesgo asumido** y **rentabilidad esperada**.
+- Cuanto mayor es la rentabilidad potencial, mayor es también el nivel de riesgo.
+- A largo plazo, la **volatilidad tiende a suavizarse**, lo que permite asumir más riesgo en horizontes amplios.
+
+---
+
+## Nivel de riesgo en planes de pensiones individuales
+
+- Cada plan o fondo tiene **asignado un nivel de riesgo global**, que **no varía entre partícipes**.
+- El partícipe puede elegir el fondo más adecuado a su perfil (prudente, moderado, agresivo).
+- La clasificación del riesgo sigue una **escala oficial de 1 a 7**, en función de la volatilidad esperada.
+
+::: {.callout-note}
+Es fundamental que el partícipe seleccione un fondo acorde con su tolerancia al riesgo y horizonte temporal.
+:::
+
+---
+
+## Nivel de riesgo en planes de pensiones de empleo
+
+- El plan de empleo establece una **estrategia de inversión común para todos los trabajadores**.
+- El partícipe **no elige individualmente el perfil de riesgo**.
+- La política de inversión la define la empresa junto con la comisión de control.
+- Todos los partícipes del plan **comparten el mismo fondo y el mismo nivel de riesgo**.
+
+::: {.callout-note}
+En los planes de empleo, la inversión es colectiva y no existe personalización del riesgo para cada trabajador.
+:::
+
+
+---
+
+
+## Contingencias cubiertas
+
+- Jubilación
+- Incapacidad
+- Fallecimiento
+- Dependencia
+
+---
+
+## Supuestos de disposición anticipada
+
+- Enfermedad grave
+- Desempleo larga duración
+- Aportaciones > 10 años
+
+---
+
+## Planificación de la jubilación: ¿por qué es necesaria?
+
+- **Caída de ingresos** al pasar a clase pasiva.
+- **Riesgo de longevidad**: vivir más de lo esperado.
+- Necesidad de **planificar a largo plazo**.
+
+---
+
+## Necesidades previsionales
+
+- Vivienda
+- Salud
+- Mantenimiento del nivel de vida
+- Apoyo a familiares
+
+---
+
+## Cálculo de la prestación pública esperada
+
+- Basado en:
+  - Años cotizados
+  - Base reguladora
+  - Edad de jubilación
+- Realizar **proyecciones realistas**.
+
+---
+
+## Recursos previsionales complementarios
+
+- Planes de pensiones
+- Seguros de ahorro
+- Inversiones inmobiliarias
+- Carteras de inversión
+
+---
+
+## Presupuesto de jubilación
+
+- Estimar gastos esperados vs. ingresos previstos.
+- Detectar **déficits o superávits previsionales**.
+- Reajustar estrategia de ahorro o inversión.
+
+---
+
+## Evaluación de la situación financiera futura
+
+- ¿Cuándo empezar?
+- ¿Cuánto ahorrar?
+- ¿Qué producto elegir?
+- ¿Cómo optimizar fiscalmente?
+
+---
+
+## Preguntas tipo test de repaso
+
+::: {.callout-note}
+**Ponderación de esta materia:** 5 % del total del examen EFA NII.
+:::
+
+
+## Pregunta 1
+
+¿Cuál de los siguientes elementos NO debe tenerse en cuenta para una adecuada planificación financiera de la jubilación?
+
+a. Los gastos mensuales esperados a partir de la fecha de jubilación.
+b. La inflación y los impuestos.
+c. El número de descendientes del inversor.
+d. La pensión pública de la Seguridad Social que se espera percibir a partir de la fecha de jubilación.
+
+---
+
+## Respuesta 1
+
+::: {.callout-tip appearance="simple"}
+La respuesta **correcta es la c**.
+
+Aunque el número de descendientes puede influir en otros aspectos financieros (como herencias o dependencia económica), **no es un factor clave** al elaborar un presupuesto para la jubilación centrado en el equilibrio entre ingresos y gastos previsibles del propio jubilado.
+:::
+
+---
+
+## Pregunta 2
+
+Calcule el GAP anual de ingresos de jubilación de un sujeto cuyo último salario mensual, neto de impuestos, asciende a 4.000 euros, y que estima percibir una pensión pública de jubilación, neta de impuestos, de 1.500 euros que se le abonará en 14 pagas.
+
+a. 48.000
+b. 27.000
+c. 21.000
+d. 30.000
+
+---
+
+## Respuesta 2
+
+::: {.callout-tip appearance="simple"}
+La respuesta **correcta es la b**.
+
+**Paso 1**: Ingresos netos esperados en jubilación = 1.500 × 14 = 21.000 €/año  
+**Paso 2**: Último salario anual neto en activo = 4.000 × 12 = 48.000 €/año  
+**Paso 3**: GAP de ingresos = 48.000 − 21.000 = **27.000 €/año**
+
+El GAP es la diferencia anual entre el nivel de ingresos deseado (último salario) y la pensión pública esperada.
+:::
+
+---
+
+## Pregunta 3
+
+¿Qué quiere decir que el sistema público de pensiones es un sistema de reparto?
+
+a. Los rendimientos generados por la gestión pública de las cotizaciones sociales se atribuyen proporcionalmente a los pensionistas.
+b. Las contribuciones de la población activa van dirigidas a pagar las pensiones de la población pasiva.
+c. Las pensiones dependen de la rentabilidad obtenida por las cotizaciones.
+d. Las cotizaciones se reparten entre comunidades autónomas según su número de pensionistas.
+
+---
+
+## Respuesta 3
+
+::: {.callout-tip appearance="simple"}
+La respuesta **correcta es la b**.
+
+El sistema público español se basa en **reparto intergeneracional**: los cotizantes actuales financian las pensiones actuales. **No hay capitalización individual ni acumulación de fondos** para el futuro. Es un sistema de solidaridad directa.
+:::
+
+---
+
+## Pregunta 4
+
+Un trabajador que actualmente cobra un sueldo mensual de 5.000 euros espera recibir una pensión de jubilación de 1.500 euros. ¿Cuál será la tasa de sustitución de su jubilación?
+
+a. Un 30%.
+b. Un 70%.
+c. Un 100%.
+d. Un 0%.
+
+---
+
+## Respuesta 4
+
+::: {.callout-tip appearance="simple"}
+La respuesta **correcta es la a**.
+
+**Tasa de sustitución** = (1.500 / 5.000) × 100 = **30%**
+
+Esta tasa mide el porcentaje del último salario que representa la pensión de jubilación.
+:::
+
+---
+
+## Pregunta 5
+
+¿Qué se entiende por déficit anual del sistema público de pensiones?
+
+a. Rentabilidad negativa de fondos de pensiones.
+b. Diferencia entre ingresos por cotizaciones y gasto en pensiones públicas.
+c. Diferencia entre salario y pensión.
+d. Exceso de aportaciones privadas sobre el límite anual.
+
+---
+
+## Respuesta 5
+
+::: {.callout-tip appearance="simple"}
+La respuesta **correcta es la b**.
+
+El déficit es el resultado de que **los ingresos por cotizaciones sociales no cubren el gasto anual en pensiones**. Este saldo negativo se financia mediante transferencias del Estado, lo que pone en entredicho la **sostenibilidad del sistema**.
+:::
+
+---
+
+## Pregunta 6
+
+Desde el 1 de abril de 2013, ¿de qué factores depende la edad de jubilación?
+
+I.  De la edad del trabajador.  
+II. De la tasa de inflación en la fecha en que se cumplan 65 años.  
+III. De las cotizaciones a la Seguridad Social acumuladas a lo largo de la vida laboral.  
+IV. Del importe de las cotizaciones realizadas a la jubilación en el último año previo a la jubilación.  
+
+a. I, III y IV.
+b. Sólo la I.
+c. I y III.
+d. Sólo la III.
+
+---
+
+## Respuesta 6
+
+::: {.callout-tip appearance="simple"}
+La respuesta **correcta es la c**.
+
+A partir del 1 de enero de 2013, la edad ordinaria de jubilación varía entre los 65 y los 67 años, dependiendo de los **años cotizados**. Si se han cotizado al menos 38 años y 6 meses, se puede jubilar a los 65; en caso contrario, la edad es 67 años. La **edad del trabajador y los años cotizados acumulados** son los factores relevantes.
+:::
+
+---
+
+## Pregunta 7
+
+AI preverse legalmente el pago de una cuota máxima de pensión pública, ¿quiénes tendrán más necesidad de realizar una planificación de su jubilación?
+
+I. Los clientes que tengan actualmente ingresos bajos pero tengan acumulados muchos ahorros.  
+II. Los clientes que piensen jubilarse anticipadamente y no tengan ahorros.  
+III. Los que tengan un número de años de cotización inferior al exigido por la ley para obtener la pensión máxima de jubilación.  
+IV. Los que estimen unos ingresos netos post-jubilación superiores al salario neto actual.  
+
+a. II y III.
+b. Sólo la III.
+c. I, II y III.
+d. Sólo la I.
+
+---
+
+## Respuesta 7
+
+::: {.callout-tip appearance="simple"}
+La respuesta **correcta es la a**.
+
+Los supuestos II y III reflejan una situación de **mayor vulnerabilidad financiera**: sin ahorros y sin derecho a la pensión máxima. En cambio, los clientes con ahorros acumulados o expectativas poco realistas (IV) pueden tener margen de maniobra o simplemente no se encuentran en una situación crítica.
+:::
+
+---
+
+## Pregunta 8
+
+¿Qué es un PEPP (Producto Paneuropeo de Pensiones Individuales)?
+
+a. Un seguro colectivo obligatorio promovido por la Seguridad Social.
+b. Un producto financiero solo disponible para empleados públicos.
+c. Un instrumento de ahorro voluntario armonizado a nivel europeo.
+d. Un fondo de inversión libre especializado en renta fija.
+
+---
+
+## Respuesta 8
+
+::: {.callout-tip appearance="simple"}
+La respuesta **correcta es la c**.
+
+El **PEPP** es un producto de ahorro voluntario para la jubilación, regulado por la **UE**, con normas comunes para todos los Estados miembros. Fomenta la **portabilidad** entre países, la transparencia en costes y la posibilidad de elegir entre distintas opciones de inversión.
+:::
+
+---
+
+## Pregunta 9
+
+¿Qué modalidad de plan de pensiones se caracteriza por tener claramente definidos los derechos de prestación para el beneficiario?
+
+a. Plan de aportación definida
+b. Plan de prestación definida
+c. Plan mixto
+d. Plan garantizado
+
+---
+
+## Respuesta 9
+
+::: {.callout-tip appearance="simple"}
+La respuesta **correcta es la b**.
+
+En un **plan de prestación definida**, la cuantía de la prestación (por ejemplo, un porcentaje del salario) está fijada desde el principio. El promotor asume el riesgo de inversión. Es más frecuente en el ámbito laboral o colectivo.
+:::
+
+---
+
+## Pregunta 10
+
+¿Cuál es la contingencia principal cubierta por los planes de pensiones?
+
+a. Incapacidad temporal
+b. Fallecimiento
+c. Jubilación
+d. Desempleo involuntario
+
+---
+
+## Respuesta 10
+
+::: {.callout-tip appearance="simple"}
+La respuesta **correcta es la c**.
+
+Aunque los planes de pensiones también cubren otras contingencias (incapacidad, fallecimiento, dependencia), **la jubilación es la contingencia principal** que justifica la naturaleza de estos productos como instrumentos de previsión social.
+:::
+
+---
+
+
+## Pregunta 11
+
+En la planificación para la jubilación, ¿es necesario prever la cuantía teórica de la pensión de la Seguridad Social que se cobrará cuando llegue el momento de la jubilación?
+
+a. No es necesario, pues hay mucha incertidumbre sobre la cuantía.  
+b. Sí es necesario, pues servirá para saber las necesidades de ahorro.  
+c. Sí es necesario, aunque no se puede, pues no se sabe cuánto se va a cotizar hasta el momento de la jubilación.  
+d. No es necesario, pues independientemente de la pensión de la Seguridad Social es importante ahorrar para cuando llegue la jubilación.  
+
+---
+
+## Respuesta 11
+
+::: {.callout-tip appearance="simple"}
+La respuesta **correcta es la c**.
+
+En la planificación para la jubilación, **es necesario prever la cuantía teórica de la pensión pública futura para estimar el ahorro complementario necesario**, aunque es cierto que **no se puede calcular con exactitud**, ya que dependerá de múltiples factores: años cotizados, bases de cotización, edad de jubilación y normativa vigente.
+
+**Principales variables que influyen en la pensión:**  
+Años cotizados y base reguladora.  
+Lagunas de cotización.  
+Cambios legislativos (edad ordinaria, factor de sostenibilidad, revalorización).
+:::
+
+---
+
+## Pregunta 12
+
+En la planificación financiera para la jubilación, ¿cuál de los siguientes factores **no es esencial** al determinar cuánto dinero será necesario para complementar la pensión pública?
+
+a. El salario actual y su tasa de crecimiento.  
+b. La tasa de interés libre de riesgo.  
+c. La pensión pública actual y su incremento anual esperado.  
+d. El tiempo que falta para la jubilación.  
+
+---
+
+## Respuesta 12
+
+::: {.callout-tip appearance="simple"}
+La respuesta **correcta es la b**.
+
+La **tasa libre de riesgo** es un concepto financiero teórico útil para valorar inversiones, pero **no es un factor determinante directo** al estimar el capital necesario para la jubilación. En cambio, el salario actual, el importe estimado de la pensión pública y el horizonte temporal sí son **variables clave** para una correcta planificación previsional.
+:::
+
+---
+
+## Pregunta 13
+
+En el caso de un trabajador por cuenta ajena, ¿cuál de las siguientes preguntas **no es esencial** al planificar para la jubilación?
+
+a. ¿Cuándo empezar a ahorrar?  
+b. ¿Cuánto dinero será necesario?  
+c. ¿Cuánto cotizar a la Seguridad Social?  
+d. ¿Cuándo espera jubilarse?  
+
+---
+
+## Respuesta 13
+
+::: {.callout-tip appearance="simple"}
+La respuesta **correcta es la c**.
+
+**La cotización a la Seguridad Social no es una decisión individual libre del trabajador**, ya que depende de su categoría profesional, tipo de contrato y la normativa vigente. Las otras tres preguntas son fundamentales para una planificación personal y flexible de la jubilación.
+:::
+
+---
+
+## Pregunta 14
+
+¿Cuál de las siguientes cuestiones tiene una **menor influencia directa** en la pensión pública de jubilación?
+
+a. El período de cotización.  
+b. La base de cotización.  
+c. Los ingresos del trabajador en activo.  
+d. La base reguladora.  
+
+---
+
+## Respuesta 14
+
+::: {.callout-tip appearance="simple"}
+La respuesta **correcta es la c**.
+
+**La pensión pública no se calcula directamente sobre los ingresos brutos**, sino sobre las **bases de cotización** registradas en la Seguridad Social. Estas pueden coincidir con los ingresos, pero no siempre es así. Por tanto, **los ingresos no determinan directamente la pensión**.
+:::
+
+---
+
+## Pregunta 15
+
+En un Plan de Pensiones del sistema individual, el partícipe conoce durante la fase de aportaciones:
+
+a. La forma en que se determinará la cantidad de la pensión de jubilación.  
+b. El importe que lleva acumulado en cada momento.  
+c. La cantidad que recibirá en el momento de la jubilación.  
+d. El importe que debe tener acumulado en el momento de la jubilación.  
+
+---
+
+## Respuesta 15
+
+::: {.callout-tip appearance="simple"}
+La respuesta **correcta es la b**.
+
+En los planes de pensiones individuales, el partícipe **puede consultar en todo momento el saldo acumulado (derechos consolidados)**. Sin embargo, **no puede conocer con certeza la cuantía final**, ya que esta dependerá de la evolución de las aportaciones y la rentabilidad obtenida por el fondo de pensiones.
+:::
+
+## Pregunta 16
+
+La gestión de las inversiones de un Fondo de Pensiones se diferencia de la gestión de otros productos en:
+
+a. La fiscalidad.  
+b. El riesgo.  
+c. La rentabilidad.  
+d. El horizonte temporal.  
+
+---
+
+## Respuesta 16
+
+::: {.callout-tip appearance="simple"}
+La respuesta **correcta es la d**.
+
+Los planes de pensiones, al tratarse de un producto de ahorro finalista, caracterizado por su iliquidez, han de ser gestionados en función del horizonte temporal de la inversión, considerando los años que resten por término medio hasta la jubilación.
+:::
+
+---
+
+## Pregunta 17
+
+La tendencia en los países occidentales es a que las pirámides de población tomen:
+
+a. Una mayor concentración en la base.  
+b. Una menor densidad a partir de los 65 años.  
+c. Mayor concentración en la base y menor densidad a partir de los 65 años.  
+d. En todos los casos anteriores es al contrario.  
+
+---
+
+## Respuesta 17
+
+::: {.callout-tip appearance="simple"}
+La respuesta **correcta es la d**.
+
+Las pirámides de población en países desarrollados presentan un estrechamiento de la base por la baja natalidad y una mayor densidad de personas mayores por el aumento de la esperanza de vida.
+:::
+
+---
+
+## Pregunta 18
+
+En un sistema de reparto:
+
+a. Las prestaciones están garantizadas financieramente por cada activo.  
+b. Las prestaciones no están garantizadas.  
+c. Las prestaciones dependen de la rentabilidad de las aportaciones.  
+d. Las prestaciones están garantizadas por las aportaciones de otros activos.  
+
+---
+
+## Respuesta 18
+
+::: {.callout-tip appearance="simple"}
+La respuesta **correcta es la d**.
+
+En un sistema de reparto, las aportaciones de los trabajadores activos financian las prestaciones de los beneficiarios en ese mismo periodo. Es el modelo utilizado en la Seguridad Social española.
+:::
+
+---
+
+## Pregunta 19
+
+La prestación de jubilación de la Seguridad Social, en relación con el periodo de tiempo cotizado por el trabajador:
+
+a. Es independiente.  
+b. Es mayor a mayor tiempo cotizado.  
+c. Es menor a mayor tiempo cotizado.  
+d. Es mayor a menor tiempo cotizado.  
+
+---
+
+## Respuesta 19
+
+::: {.callout-tip appearance="simple"}
+La respuesta **correcta es la b**.
+
+La cuantía de la pensión de jubilación aumenta conforme se incrementa el número de años cotizados por el trabajador.
+:::
+
+---
+
+## Pregunta 20
+
+El periodo mínimo de cotización para tener derecho a la pensión de jubilación de la Seguridad Social es:
+
+a. 15 años a lo largo de toda la vida laboral.  
+b. 2 años en los últimos 15 anteriores a la edad de jubilación.  
+c. 15 años a lo largo de la vida laboral, y 2 incluidos en los 5 años anteriores a cesar la obligación de cotizar.  
+d. 15 años a lo largo de la vida laboral, y 2 incluidos en los 15 años anteriores a cesar la obligación de cotizar.  
+
+---
+
+## Respuesta 20
+
+::: {.callout-tip appearance="simple"}
+La respuesta **correcta es la d**.
+
+Para acceder a la pensión contributiva de jubilación se exige haber cotizado al menos 15 años a lo largo de la vida laboral, de los cuales al menos 2 deben estar comprendidos dentro de los 15 años anteriores al cese.
+:::
+
+---
+
+## Pregunta 21
+
+La base reguladora para la pensión de jubilación es:
+
+a. La base de cotización del trabajador a la edad de jubilación.  
+b. El importe económico que tiene en cuenta los 25 últimos años de bases de cotización.  
+c. El importe económico que tiene en cuenta los 15 últimos años de bases de cotización.  
+d. El importe económico que tiene en cuenta los 8 últimos años de bases de cotización.  
+
+---
+
+## Respuesta 21
+
+::: {.callout-tip appearance="simple"}
+La respuesta **correcta es la b**.
+
+Se calculan las bases de cotización de los últimos 25 años (300 meses) y se dividen entre 350, teniendo en cuenta las pagas extraordinarias. El resultado es la base reguladora.
+
+>En 2025, la base reguladora de la pensión de jubilación contributiva se determina sumando las bases de cotización de los últimos 300 meses y dividiendo el resultado entre 350. Las bases correspondientes a los últimos 24 meses se toman por su valor nominal, mientras que las anteriores se actualizan según el Índice de Precios al Consumo (IPC).
+
+:::
+
+---
+
+## Pregunta 22
+
+Los porcentajes a aplicar sobre la pensión de jubilación serán:
+
+a. Por los años cotizados y por la edad de jubilación elegida.  
+b. Sólo por los años cotizados.  
+c. Sólo por la edad elegida.  
+d. Por las bases de cotización cotizadas.  
+
+---
+
+## Respuesta 22
+
+::: {.callout-tip appearance="simple"}
+La respuesta **correcta es la a**.
+
+El importe final de la pensión se calcula en función del número de años cotizados y la edad en la que se accede a la jubilación. Se aplican coeficientes reductores o incrementadores.
+
+>La cuantía de la pensión se determina aplicando a la base reguladora un porcentaje que varía en función de los años cotizados y de la edad de jubilación. Por ejemplo, con 15 años cotizados se garantiza el 50% de la base reguladora, y este porcentaje aumenta progresivamente con más años de cotización. Además, jubilarse antes de la edad ordinaria conlleva coeficientes reductores, mientras que retrasarla puede incrementar la pensión.
+:::
+
+---
+
+
+## Pregunta 23
+
+En el Régimen Especial de Trabajadores Autónomos (RETA), ¿cuándo puede un trabajador acceder a la jubilación anticipada voluntaria?
+
+a. Desde los 60 años, con al menos 30 años cotizados.  
+b. Desde los 61 años, con al menos 35 años cotizados.  
+c. Desde los 63 años, con al menos 35 años cotizados.  
+d. Nunca, los autónomos solo pueden jubilarse a la edad ordinaria.  
+
+---
+
+## Respuesta 23
+
+::: {.callout-tip appearance="simple"}
+La respuesta **correcta es la c**.
+
+En 2025, los trabajadores autónomos pueden acceder a la **jubilación anticipada voluntaria** a partir de los **63 años** (dos años antes de la edad ordinaria de jubilación de 65 o 67 años, según los años cotizados), **siempre que acrediten al menos 35 años cotizados** y cumplan el resto de requisitos legales.
+
+> En el caso de **jubilación anticipada involuntaria**, se permite acceder hasta 4 años antes de la edad ordinaria si se acreditan al menos 33 años cotizados, aunque esta opción no está disponible para los autónomos.
+:::
+
+
+## Pregunta 24
+
+La reducción practicada sobre la pensión de jubilación debido a la jubilación anticipada:
+
+a. No se altera hacia futuro.  
+b. Se quita a partir de los 65 años de edad.  
+c. Disminuye progresivamente hasta ser nula a los 65 años.  
+d. No existen reducciones por jubilación anticipada.  
+
+---
+
+## Respuesta 24
+
+::: {.callout-tip appearance="simple"}
+La respuesta **correcta es la a**.
+
+Los coeficientes reductores aplicados por anticipar la edad de jubilación son permanentes y no se modifican cuando el beneficiario cumple la edad ordinaria de jubilación.
+
+>Los coeficientes reductores aplicados por adelantar la jubilación son permanentes y no se modifican cuando el beneficiario alcanza la edad ordinaria de jubilación.
+:::
+
+---
+
+## Pregunta 25
+
+Cuando está preparando un plan financiero para su cliente, ¿cuáles de los siguientes aspectos tiene que tener en cuenta?
+
+a. La fase de su ciclo de vida financiero.  
+b. Sus necesidades financieras.  
+c. Su tolerancia al riesgo.  
+d. Todas las anteriores.  
+
+---
+
+## Respuesta 25
+
+::: {.callout-tip appearance="simple"}
+La respuesta **correcta es la d**.
+
+Un buen plan financiero debe considerar de forma integrada la etapa vital del cliente, sus objetivos financieros concretos y su perfil de riesgo. Estos tres factores son fundamentales para definir la estrategia adecuada.
+:::
+
+
+## Pregunta 26
+
+¿Cuál es la edad ordinaria de jubilación en España en 2025 para quienes han cotizado menos de 38 años y 3 meses?
+
+a. 65 años  
+b. 66 años y 8 meses  
+c. 67 años  
+d. 66 años y 6 meses  
+
+---
+
+## Respuesta 26
+
+::: {.callout-tip appearance="simple"}
+La respuesta **correcta es la b**.
+
+En 2025, la edad ordinaria de jubilación es de **66 años y 8 meses** para quienes han cotizado menos de **38 años y 3 meses**. Para quienes igualan o superan ese periodo, se mantiene en **65 años**.
+:::
+
+---
+
+## Pregunta 27
+
+¿A partir de qué edad puede un trabajador acceder a la jubilación anticipada voluntaria en 2025 si ha cotizado 38 años y 3 meses o más?
+
+a. 61 años  
+b. 62 años y 8 meses  
+c. 63 años  
+d. 64 años y 8 meses  
+
+---
+
+## Respuesta 27
+
+::: {.callout-tip appearance="simple"}
+La respuesta **correcta es la c**.
+
+En 2025, si se han cotizado al menos **38 años y 3 meses**, es posible acceder a la **jubilación anticipada voluntaria** a partir de los **63 años**, dos años antes de la edad ordinaria de jubilación en ese caso.
+:::
+
+---
+
+## Pregunta 28
+
+¿Cuál es el periodo mínimo de cotización exigido para acceder a la jubilación anticipada voluntaria en 2025?
+
+a. 33 años  
+b. 35 años  
+c. 36 años y 6 meses  
+d. 38 años y 3 meses  
+
+---
+
+## Respuesta 28
+
+::: {.callout-tip appearance="simple"}
+La respuesta **correcta es la b**.
+
+Para acceder a la jubilación anticipada voluntaria en 2025 se exige un mínimo de **35 años cotizados**, de los cuales al menos **2 años** deben encontrarse dentro de los **15 años anteriores** a la fecha de solicitud.
+:::
+
+---
+
+## Pregunta 29
+
+¿Qué modalidad de jubilación anticipada permite el acceso hasta 4 años antes de la edad ordinaria de jubilación?
+
+a. Jubilación anticipada voluntaria  
+b. Jubilación anticipada por discapacidad  
+c. Jubilación anticipada involuntaria  
+d. Jubilación parcial  
+
+---
+
+## Respuesta 29
+
+::: {.callout-tip appearance="simple"}
+La respuesta **correcta es la c**.
+
+La **jubilación anticipada involuntaria** permite acceder **hasta 4 años antes** de la edad ordinaria, siempre que se acredite una cotización mínima de **33 años** y la extinción de la relación laboral se haya producido por causas objetivas o de fuerza mayor.
+:::
+
+---
+
+## Pregunta 30
+
+¿Los trabajadores autónomos pueden acceder a la jubilación anticipada involuntaria?
+
+a. Sí, en las mismas condiciones que los trabajadores por cuenta ajena  pero bueno esta hora no no así vale pues ya está
+b. Sí, pero con requisitos más estrictos  
+c. No, solo pueden acceder a la jubilación anticipada voluntaria  
+d. No, deben esperar a la edad ordinaria de jubilación  
+
+---
+
+## Respuesta 30
+
+::: {.callout-tip appearance="simple"}
+La respuesta **correcta es la c**.
+
+Los trabajadores autónomos **no tienen acceso a la jubilación anticipada involuntaria**, ya que esta modalidad está limitada a trabajadores por cuenta ajena. Solo pueden optar a la **jubilación anticipada voluntaria**, cumpliendo los requisitos exigidos.
+:::

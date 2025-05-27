@@ -1,0 +1,544 @@
+---
+title: "UEMC online"
+subtitle: "Mercado de divisas, derivados y finanzas sostenibles"
+author: "Profesor Alberto Bernat"
+date: last-modified
+date-format: DD/MM/YYYY
+format: 
+  beamer: 
+    aspectratio: 54
+    theme: Madrid
+    colortheme: seahorse
+    lang: "es"
+    colorlinks: true
+    header-includes: |
+      \usepackage{graphicx}
+      \usepackage{amssymb}
+      \usepackage{textcomp}
+      \definecolor{MediolanumBlueLight}{HTML}{1e96d7}
+      \definecolor{MediolanumBlueDark}{HTML}{192d6e}
+      \definecolor{EFPAYellow}{RGB}{255,204,0}
+      \setbeamercolor{title}{fg=MediolanumBlueDark}
+      \setbeamercolor{frametitle}{fg=MediolanumBlueLight}
+      \setbeamercolor{structure}{fg=EFPAYellow}
+      \setbeamercolor{section in toc}{fg=MediolanumBlueDark}
+      \setbeamercolor{footline}{fg=MediolanumBlueDark, bg=white}
+      \setbeamercolor{block title}{fg=white, bg=MediolanumBlueDark}
+      \setbeamercolor{block body}{fg=black, bg=MediolanumBlueLight!20}
+      \setbeamercolor{alerted text}{fg=EFPAYellow}
+      \setbeamercolor{item}{fg=MediolanumBlueDark}
+      \setbeamercolor{subitem}{fg=MediolanumBlueLight}
+      \setbeamercolor{subsubitem}{fg=EFPAYellow}
+      \setbeamercolor{caption name}{fg=MediolanumBlueDark}
+      \setbeamercolor{button}{bg=MediolanumBlueDark, fg=white}
+      \setbeamercolor{button border}{bg=EFPAYellow, fg=EFPAYellow}
+      \setbeamercolor{button text}{fg=white}
+      \setbeamercolor{navigation symbols}{fg=MediolanumBlueLight}
+      \setbeamercolor{palette primary}{bg=MediolanumBlueDark, fg=white}
+      \setbeamercolor{palette secondary}{bg=MediolanumBlueLight, fg=white}
+      \setbeamercolor{palette tertiary}{bg=EFPAYellow, fg=black}
+      \setbeamercolor{palette quaternary}{bg=MediolanumBlueDark, fg=white}
+      \setbeamercolor{section in head/foot}{bg=MediolanumBlueDark, fg=white}
+      \setbeamercolor{subsection in head/foot}{bg=MediolanumBlueLight, fg=white}
+      \setbeamercolor{author in head/foot}{fg=MediolanumBlueDark}
+      \setbeamercolor{institute in head/foot}{fg=MediolanumBlueLight}
+      \setbeamercolor{date in head/foot}{fg=EFPAYellow}
+      \setbeamercolor{title in head/foot}{fg=MediolanumBlueDark}
+      \setbeamercolor{subtitle}{fg=EFPAYellow}
+      \setbeamercolor{logo in head/foot}{bg=white}
+      \setbeamercolor{bibliography entry author}{fg=MediolanumBlueDark}
+      \setbeamercolor{bibliography entry title}{fg=MediolanumBlueLight}
+      \setbeamercolor{bibliography entry location}{fg=EFPAYellow}
+      \setbeamercolor{bibliography entry note}{fg=MediolanumBlueDark}
+      \setbeamercolor{abstract}{fg=MediolanumBlueDark, bg=MediolanumBlueLight!20}
+      \setbeamercolor{abstract title}{fg=white, bg=MediolanumBlueDark}
+      \setbeamercolor{verse}{fg=MediolanumBlueDark, bg=MediolanumBlueLight!20}
+      \setbeamercolor{quotation}{fg=MediolanumBlueDark, bg=MediolanumBlueLight!20}
+      \setbeamercolor{quote}{fg=MediolanumBlueDark, bg=MediolanumBlueLight!20}
+      \setbeamercolor{description item}{fg=MediolanumBlueDark}
+      \setbeamercolor{description item label}{fg=MediolanumBlueLight}
+      \setbeamercolor{description item body}{fg=EFPAYellow}
+      \setbeamercolor{enumerate item}{fg=MediolanumBlueDark}
+      \setbeamercolor{enumerate subitem}{fg=MediolanumBlueLight}
+      \setbeamercolor{enumerate subsubitem}{fg=EFPAYellow}
+      \setbeamercolor{itemize item}{fg=MediolanumBlueDark}
+      \setbeamercolor{itemize subitem}{fg=MediolanumBlueLight}
+      \setbeamercolor{itemize subsubitem}{fg=EFPAYellow}
+      \setbeamercolor{list item}{fg=MediolanumBlueDark}
+---
+
+
+## Mercado de divisas, derivados y finanzas sostenibles
+![](images/EFPA_logo-01.jpg)
+
+## Objetivo de la sesión
+
+
+::: {.callout-note}
+## Consolidar los **últimos contenidos del Módulo 1** de la certificación EIP.
+- **Divisas**: concepto, tipo de cambio, mercado FOREX y criptodivisas.
+- **Derivados**: forwards, futuros, opciones, mercados organizados y productos estructurados.
+- **Finanzas sostenibles**: criterios ESG, materialidad y sostenibilidad.
+:::
+
+## Ya está abierta la inscripción para el examen 
+
+::: {.callout-note}
+### Examen EIP – 2ª convocatoria
+
+- **Fecha del examen:** 26 de junio de 2025  
+- **Horario:** 16:00 h  
+- **Fecha límite de inscripción:** 10 de junio de 2025  
+- **Modalidad:** Online  
+- **Aforo:** limitado
+
+[Inscribirse en la web oficial de EFPA](https://www.efpa.es/fechas-examenes)
+:::
+
+
+## Mira y si no mira una cosa que puedes hacer buena ésa ir haciéndote unos apuntes vas siguiendo la clase de tienes el vídeo Y que haces concha GPT parque o sea no no digas yo te lo voy a poner aquí todo vale pero lo digo por qué porque también es una forma de ser a qué hora en la carretera ahora luego la puede separar
+
+| **Estrategia**   | **Objetivo principal**                                 | **Nivel de riesgo**                                         | **Posesión del activo**               | **Descripción ampliada**                                                                                                                                                 |
+| ---------------- | ------------------------------------------------------ | ----------------------------------------------------------- | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Cobertura**    | Reducir o eliminar un riesgo existente                 | Bajo (si se aplica correctamente)                           | **Sí**: se tiene el activo real       | Se utiliza un derivado para **protegerse contra movimientos adversos** en una posición ya existente. Se toma una posición contraria en el derivado.                      |
+| **Especulación** | Obtener beneficio anticipando la evolución del mercado | Alto                                                        | **No**: se asume riesgo sin cobertura | El inversor **no posee el activo subyacente** y toma una posición en el derivado con la esperanza de obtener beneficio si el mercado se mueve a favor.                   |
+| **Arbitraje**    | Aprovechar diferencias de precio entre mercados        | Muy bajo (en teoría) o **alto** (si hay desajuste temporal) | **No necesariamente**                 | Se busca un beneficio **sin riesgo**, comprando y vendiendo simultáneamente. Sin embargo, si las operaciones **no son perfectamente simultáneas**, **se genera riesgo**. |
+
+## ¿Qué es una divisa y cómo se determina su tipo de cambio?
+Una **divisa** es una moneda extranjera utilizada habitualmente en transacciones internacionales. El **tipo de cambio** expresa cuántas unidades de una divisa se necesitan para obtener otra. Es esencial para entender el valor relativo entre monedas y su impacto en comercio e inversión.
+
+- **Tipo nominal**: relación directa entre dos monedas sin ajustar.
+- **Tipo real**: ajustado por la inflación relativa entre países.
+- **Tipo efectivo**: promedio ponderado del tipo de cambio frente a una cesta de monedas.
+- **Cotización directa**: unidades de moneda nacional por divisa extranjera.
+- **Cotización indirecta**: unidades de moneda extranjera por una nacional.
+
+## Características del mercado FOREX
+El mercado de divisas, o **FOREX**, es el mercado financiero más grande y líquido del mundo. Se caracteriza por:
+
+- Operar 24 horas, de lunes a viernes.
+- Ausencia de una sede física: es descentralizado.
+- Alta liquidez y apalancamiento disponible.
+- Participantes: bancos comerciales, bancos centrales, multinacionales, fondos de inversión y especuladores.
+
+## Formación del tipo de cambio
+El precio de una divisa frente a otra responde a la oferta y demanda, aunque existen modelos teóricos que ayudan a explicar su evolución:
+
+- **Paridad de tipos de interés**: diferencia de rentabilidad entre activos en distintas monedas.
+- **Paridad del poder adquisitivo**: ajuste por diferencias de inflación.
+
+Además, influyen:
+- **Corto plazo**: noticias, expectativas, flujos de capital.
+- **Medio plazo**: política monetaria, tipos de interés.
+- **Largo plazo**: competitividad, productividad, estabilidad macroeconómica.
+
+## Operativa en el mercado de divisas
+Existen distintos instrumentos y conceptos clave:
+
+- **Spot**: compraventa inmediata (liquidación en dos días).
+- **Forward**: compraventa a futuro a un tipo pactado hoy.
+- **Fecha valor**: fecha efectiva de liquidación.
+- **Tipo cruzado**: cálculo entre dos divisas usando una tercera.
+- **Diferencial bid-ask**: margen entre el precio de compra y de venta.
+
+## Cálculo forward y puntos swap
+El tipo forward refleja el tipo esperado de cambio en el futuro según los tipos de interés de ambas divisas:
+
+$$
+\text{Forward} = \text{Spot} \times \frac{1 + r_{\text{dom}}}{1 + r_{\text{ext}}}
+$$
+
+- **Puntos swap**: diferencia entre el tipo forward y el tipo spot, expresada en puntos.
+- Se utilizan en cobertura y especulación.
+
+## Criptodivisas
+Las criptodivisas son monedas digitales descentralizadas:
+
+- Funcionan mediante tecnología **blockchain**.
+- No están respaldadas por bancos centrales.
+- Ejemplos: **Bitcoin**, **Ethereum**, **Tether**.
+- Potencial de disrupción financiera, pero alta volatilidad y riesgos regulatorios.
+
+## Riesgo financiero
+El **riesgo financiero** representa la posibilidad de que la rentabilidad obtenida difiera de la esperada. Se analiza mediante:
+
+- **Volatilidad**: variabilidad de precios.
+- **Desviación típica**: dispersión de rendimientos respecto a su media.
+
+## ¿Qué es un derivado?
+Un derivado es un contrato cuyo valor depende del precio de otro activo (**subyacente**). Permiten:
+
+- **Cubrir riesgos**.
+- **Especular**.
+- **Aprovechar ineficiencias** mediante arbitraje.
+
+Principales tipos:
+
+- **Forwards**: contratos a medida.
+- **Futuros**: estandarizados y cotizados.
+- **Opciones**: derecho a comprar/vender.
+- **Swaps**: intercambio de flujos.
+
+## Mercados organizados y no organizados
+- **Organizados (MEFF)**: alta seguridad, estandarización, liquidación diaria.
+- **OTC (Over The Counter)**: flexibilidad, riesgo de contrapartida más elevado.
+
+## Futuros financieros
+Contratos estandarizados negociados en mercados oficiales.
+
+- Se liquidan diariamente (Mark to Market).
+- Subyacentes: índices, acciones, bonos, divisas, materias primas.
+- Cálculo del precio teórico:
+
+$$
+F = S \times (1 + r) - D
+$$
+
+Donde $S$ es el spot, $r$ el tipo de interés y $D$ el dividendo o coste de oportunidad.
+
+## Opciones financieras
+Una opción otorga al comprador el derecho, pero no la obligación, de comprar (call) o vender (put) un activo.
+
+- Valor de la prima = valor intrínseco + valor temporal.
+- Clasificación según situación:
+  - **In the money**: rentable si se ejerciera.
+  - **At the money**: precio de ejercicio ≈ mercado.
+  - **Out of the money**: sin valor intrínseco.
+
+Variables que influyen:
+
+- Precio del subyacente.
+- Volatilidad.
+- Tiempo hasta vencimiento.
+- Tipo de interés.
+- Dividendos.
+
+## Productos complejos y estructurados
+### Productos complejos
+- Elevado riesgo y dificultad de comprensión.
+- Ejemplos: **CoCos**, **deuda subordinada**, **fondos garantizados con estructura oculta**.
+
+### Productos estructurados
+- Combinación de instrumentos tradicionales con derivados.
+- Objetivo: lograr rentabilidad condicionada.
+- Ejemplo: **Cupón cero + opción call**.
+- Pueden incluir opciones exóticas: **asiáticas**, **digitales**, **barrera**, etc.
+
+## Finanzas sostenibles: definición y marco europeo
+Las **finanzas sostenibles** integran los factores **ESG** (ambientales, sociales y de gobernanza) en las decisiones de inversión:
+
+- **Informe Brundtland (1987)**: desarrollo sostenible.
+- **Plan de acción UE (2018)**: canalizar capital hacia sectores sostenibles.
+
+## Factores ESG
+- **Medioambientales**: cambio climático, huella de carbono, uso del agua.
+- **Sociales**: condiciones laborales, derechos humanos, diversidad.
+- **Gobernanza**: estructura del consejo, transparencia, ética corporativa.
+
+## Materialidad y riesgos climáticos
+- **Materialidad financiera**: cómo los factores ESG afectan a la empresa.
+- **Doble materialidad**: cómo la empresa impacta al entorno.
+- **Riesgos físicos**: eventos climáticos extremos.
+- **Riesgos de transición**: adaptación a nuevas regulaciones o tecnologías.
+
+## Pregunta 1
+
+**El tipo de cambio al contado evoluciona desde los 0,8223 GBP/USD hasta los 0,7558 GBP/USD. ¿Qué podemos afirmar?**
+
+a. El dólar se ha depreciado frente a la libra  
+b. El tipo de interés en dólares es mayor que el tipo de interés en GBP  
+c. El dólar se ha apreciado frente a la libra  
+d. Ninguna de las respuestas es correcta
+
+## Respuesta 1
+
+**Respuesta correcta: c. El dólar se ha apreciado frente a la libra**
+
+::: {.callout-note}
+El tipo de cambio ha pasado de 0,8223 a 0,7558 (libras por dólar), lo que indica que ahora se necesitan menos libras para obtener un dólar. Esto implica que el **dólar se ha apreciado** frente a la libra esterlina.
+:::
+
+---
+
+## Pregunta 2
+
+**¿Cuál es la principal diferencia entre un contrato de futuros y un forward en cuanto a la liquidación?**
+
+a. Los futuros se liquidan diariamente mientras que los forwards se liquidan al vencimiento  
+b. Los forwards se liquidan diariamente mientras que los futuros se liquidan al vencimiento  
+c. Ambos se liquidan diariamente  
+d. Ninguno se liquida hasta el vencimiento
+
+## Respuesta 2
+
+**Respuesta correcta: a. Los futuros se liquidan diariamente mientras que los forwards se liquidan al vencimiento**
+
+::: {.callout-note}
+Los **futuros** están estandarizados y se negocian en mercados organizados con liquidación diaria (**mark to market**), mientras que los **forwards** son contratos OTC que solo se liquidan al vencimiento.
+:::
+
+---
+
+
+## Pregunta 3
+
+**Una economía gana competitividad cuando...**
+
+a. Su divisa se aprecia en términos nominales  
+b. Su tipo de cambio real se deprecia  
+c. Su economía crece más que la de sus competidores y su divisa se fortalece  
+d. Su divisa se aprecia menos que su diferencial positivo de inflación
+
+## Respuesta 3
+
+**Respuesta correcta: b. Su tipo de cambio real se deprecia**
+
+::: {.callout-note}
+Una **depreciación del tipo de cambio real** implica que los bienes y servicios nacionales se vuelven más baratos en comparación con los del resto del mundo, incluso después de tener en cuenta los precios relativos y la inflación. Esto hace más atractivas las exportaciones, aumentando la demanda externa y, en consecuencia, mejorando la **competitividad internacional** de la economía.
+
+
+:::
+
+## Respuesta 3
+
+::: {.callout-note}
+El tipo de cambio real incorpora tanto el tipo de cambio nominal como la evolución de los precios relativos:
+
+$$
+\text{TC real} = \text{TC nominal} \times \frac{\text{Índice de precios extranjero}}{\text{Índice de precios nacional}}
+$$
+
+Una caída de este indicador significa que los productos nacionales son relativamente más baratos, incentivando las exportaciones.
+:::
+
+---
+
+## Pregunta 4
+
+**¿Cuándo suele utilizarse una cobertura en el mercado de futuros?**
+
+a. Cuando se espera una fuerte alza en el valor del activo  
+b. Cuando los mercados son extremadamente estables  
+c. Cuando una empresa o inversor busca protegerse de riesgos de precios en el futuro  
+d. Cuando un inversor quiere aprovechar las variaciones de precios
+
+## Respuesta 4
+
+**Respuesta correcta: c. Cuando una empresa o inversor busca protegerse de riesgos de precios en el futuro**
+
+::: {.callout-note}
+Las coberturas se emplean para **protegerse frente a la volatilidad de precios** en mercados como los de materias primas, divisas o tipos de interés.
+:::
+
+---
+
+## Pregunta 5
+
+**En una opción put con precio de ejercicio de 21 euros, valor del subyacente 15 euros y prima de 6,50 euros, ¿cuál es el valor temporal?**
+
+a. 0,50 euros  
+b. 0 euros  
+c. 0,25 euros  
+d. 1 euro
+
+## Respuesta 5
+
+**Respuesta correcta: a. 0,50 euros**
+
+::: {.callout-note}
+Valor intrínseco = 21 - 15 = 6.  
+Valor temporal = Prima - Valor intrínseco = 6,5 - 6 = **0,5 euros**.
+:::
+
+---
+
+## Pregunta 6
+
+**¿Por qué los productos complejos híbridos pueden considerarse de alto riesgo?**
+
+a. Porque siempre ofrecen rendimientos garantizados  
+b. Porque están respaldados por el gobierno  
+c. Porque combinan diferentes elementos financieros, lo que puede dificultar la evaluación del riesgo  
+d. Debido a su estructura simple y transparente
+
+## Respuesta 6
+
+**Respuesta correcta: c. Porque combinan diferentes elementos financieros, lo que puede dificultar la evaluación del riesgo**
+
+::: {.callout-note}
+Los productos híbridos y complejos suelen ser **difíciles de entender** y analizar, especialmente para inversores minoristas, por su estructura multidimensional.
+:::
+
+---
+
+## Pregunta 7
+
+**¿Quién se beneficia al poner a disposición del público la compra y venta de opciones con horquilla de beneficio?**
+
+a. Arbitrajista  
+b. Coberturista  
+c. Especulador  
+d. Creador de mercado
+
+## Respuesta 7
+
+**Respuesta correcta: d. Creador de mercado**
+
+::: {.callout-note}
+Los **creadores de mercado** ofrecen liquidez al sistema, beneficiándose del spread entre precios de compra y venta.
+:::
+
+---
+
+## Pregunta 8
+
+**¿Cuál es la finalidad del ajuste diario "mark to market" en un contrato de futuros?**
+
+a. Permitir modificar el precio de ejercicio  
+b. Garantizar la transparencia de los mercados OTC  
+c. Actualizar diariamente las pérdidas o ganancias no realizadas  
+d. Evitar la necesidad de garantías iniciales
+
+## Respuesta 8
+
+**Respuesta correcta: c. Actualizar diariamente las pérdidas o ganancias no realizadas**
+
+::: {.callout-note}
+El **mark to market** permite reflejar la posición de cada contrato en función de su valor de mercado al cierre de cada día.
+:::
+
+---
+
+## Pregunta 9
+
+**En el cálculo del tipo de cambio forward, si el tipo de interés nacional es superior al extranjero, el tipo forward será...**
+
+a. Igual al tipo spot  
+b. Menor al tipo spot  
+c. Mayor al tipo spot  
+d. No se puede saber
+
+## Respuesta 9
+
+**Respuesta correcta: c. Mayor al tipo spot**
+
+::: {.callout-note}
+Con tipos de interés nacionales superiores, la fórmula forward da como resultado un tipo más alto que el spot.
+:::
+
+---
+
+## Pregunta 10
+
+**¿Qué variable influye directamente en el valor temporal de una opción?**
+
+a. El valor intrínseco  
+b. El tiempo hasta vencimiento  
+c. El volumen de negociación  
+d. El tipo de cambio real
+
+## Respuesta 10
+
+**Respuesta correcta: b. El tiempo hasta vencimiento**
+
+::: {.callout-note}
+El valor temporal disminuye a medida que **se acerca la fecha de vencimiento** de la opción. Esta es una de las variables más relevantes en su valoración.
+:::
+
+## Pregunta 11
+
+**¿Qué herramienta es comúnmente utilizada para medir el impacto ambiental de las empresas dentro de los criterios ESG?**
+
+a. Índices de sostenibilidad y ratings ESG  
+b. Indicadores de rentabilidad ajustada al riesgo  
+c. Herramientas de análisis técnico  
+d. Análisis fundamental de los estados financieros
+
+## Respuesta 11
+
+**Respuesta correcta: a. Índices de sostenibilidad y ratings ESG**
+
+::: {.callout-note}
+Los **índices de sostenibilidad** (como el Dow Jones Sustainability Index) y los **ratings ESG** proporcionados por agencias especializadas (como MSCI o Sustainalytics) permiten a los inversores medir y comparar el desempeño ambiental, social y de gobernanza de las empresas. Estas herramientas incorporan indicadores como emisiones de carbono, eficiencia energética o políticas de sostenibilidad.
+:::
+
+---
+
+## Pregunta 12
+
+**¿Qué componente ESG evalúa principalmente la estructura del consejo de administración, la ética corporativa y la transparencia?**
+
+a. El componente ambiental (E)  
+b. El componente social (S)  
+c. El componente de gobernanza (G)  
+d. Todos los componentes por igual
+
+## Respuesta 12
+
+**Respuesta correcta: c. El componente de gobernanza (G)**
+
+::: {.callout-note}
+El pilar de **gobernanza** se centra en cómo una empresa es dirigida. Incluye la composición y diversidad del consejo, los derechos de los accionistas, políticas contra la corrupción, remuneración de los directivos y el cumplimiento normativo.
+:::
+
+---
+
+## Pregunta 13
+
+**¿Cuál de los siguientes riesgos ESG se clasifica como un "riesgo de transición"?**
+
+a. Inundaciones extremas por el cambio climático  
+b. Regulaciones estrictas sobre emisiones de carbono  
+c. Incendios forestales incontrolados  
+d. Tormentas y eventos climáticos severos
+
+## Respuesta 13
+
+**Respuesta correcta: b. Regulaciones estrictas sobre emisiones de carbono**
+
+::: {.callout-note}
+Los **riesgos de transición** surgen del proceso de adaptación a una economía baja en carbono. Esto incluye nuevas regulaciones, cambios tecnológicos o variaciones en las preferencias del consumidor. Los **riesgos físicos**, en cambio, se refieren a eventos climáticos extremos o impactos ambientales directos.
+:::
+
+---
+
+## Pregunta 14
+
+**¿Qué significa el concepto de "doble materialidad" en el análisis ESG?**
+
+a. Que todos los riesgos deben ser medidos doblemente  
+b. Que los criterios ESG solo aplican a grandes empresas  
+c. Que se considera tanto el impacto de la empresa sobre el entorno como el impacto del entorno sobre la empresa  
+d. Que los inversores deben duplicar sus análisis financieros y no financieros
+
+## Respuesta 14
+
+**Respuesta correcta: c. Que se considera tanto el impacto de la empresa sobre el entorno como el impacto del entorno sobre la empresa**
+
+::: {.callout-note}
+La **doble materialidad** es clave en finanzas sostenibles. Aporta una visión integral: no solo se analiza cómo los factores ESG afectan al valor financiero de la empresa, sino también cómo la empresa afecta al medioambiente y la sociedad.
+:::
+
+---
+
+## Pregunta 15
+
+**¿Qué desafío importante enfrentan los inversores al considerar las cuestiones sociales y de gobernanza (S y G) en sus carteras?**
+
+a. La facilidad para encontrar empresas que solo cumplen con los criterios ESG  
+b. La excesiva transparencia en los informes corporativos relacionados con ESG  
+c. La falta de datos fiables y consistentes sobre el rendimiento ambiental de las empresas  
+d. La dificultad para evaluar aspectos subjetivos como el bienestar social y la calidad de la gobernanza
+
+## Respuesta 15
+
+**Respuesta correcta: d. La dificultad para evaluar aspectos subjetivos como el bienestar social y la calidad de la gobernanza**
+
+::: {.callout-note}
+Los componentes social y de gobernanza incluyen variables difíciles de cuantificar, como el clima laboral, el compromiso con los derechos humanos o la ética corporativa. Estos aspectos son complejos de evaluar con criterios homogéneos, y suelen depender del contexto y de fuentes cualitativas.
+:::
+
+---
+
+
+Gracias por tu atención

@@ -1,0 +1,521 @@
+---
+title: "UEMC online"
+subtitle: "Fondos y Sociedades de Inversión Mobiliaria"
+author: "Profesor Alberto Bernat"
+date: last-modified
+date-format: DD/MM/YYYY
+format: 
+  beamer: 
+    aspectratio: 54
+    theme: Madrid
+    colortheme: seahorse
+    lang: "es"
+    colorlinks: true
+    header-includes: |
+      \usepackage{graphicx}
+      \usepackage{amssymb}
+      \usepackage{textcomp}
+      \definecolor{MediolanumBlueLight}{HTML}{1e96d7}
+      \definecolor{MediolanumBlueDark}{HTML}{192d6e}
+      \definecolor{EFPAYellow}{RGB}{255,204,0}
+      \setbeamercolor{title}{fg=MediolanumBlueDark}
+      \setbeamercolor{frametitle}{fg=MediolanumBlueLight}
+      \setbeamercolor{structure}{fg=EFPAYellow}
+      \setbeamercolor{section in toc}{fg=MediolanumBlueDark}
+      \setbeamercolor{footline}{fg=MediolanumBlueDark, bg=white}
+      \setbeamercolor{block title}{fg=white, bg=MediolanumBlueDark}
+      \setbeamercolor{block body}{fg=black, bg=MediolanumBlueLight!20}
+      \setbeamercolor{alerted text}{fg=EFPAYellow}
+      \setbeamercolor{item}{fg=MediolanumBlueDark}
+      \setbeamercolor{subitem}{fg=MediolanumBlueLight}
+      \setbeamercolor{subsubitem}{fg=EFPAYellow}
+      \setbeamercolor{caption name}{fg=MediolanumBlueDark}
+      \setbeamercolor{button}{bg=MediolanumBlueDark, fg=white}
+      \setbeamercolor{button border}{bg=EFPAYellow, fg=EFPAYellow}
+      \setbeamercolor{button text}{fg=white}
+      \setbeamercolor{navigation symbols}{fg=MediolanumBlueLight}
+      \setbeamercolor{palette primary}{bg=MediolanumBlueDark, fg=white}
+      \setbeamercolor{palette secondary}{bg=MediolanumBlueLight, fg=white}
+      \setbeamercolor{palette tertiary}{bg=EFPAYellow, fg=black}
+      \setbeamercolor{palette quaternary}{bg=MediolanumBlueDark, fg=white}
+      \setbeamercolor{section in head/foot}{bg=MediolanumBlueDark, fg=white}
+      \setbeamercolor{subsection in head/foot}{bg=MediolanumBlueLight, fg=white}
+      \setbeamercolor{author in head/foot}{fg=MediolanumBlueDark}
+      \setbeamercolor{institute in head/foot}{fg=MediolanumBlueLight}
+      \setbeamercolor{date in head/foot}{fg=EFPAYellow}
+      \setbeamercolor{title in head/foot}{fg=MediolanumBlueDark}
+      \setbeamercolor{subtitle}{fg=EFPAYellow}
+      \setbeamercolor{logo in head/foot}{bg=white}
+      \setbeamercolor{bibliography entry author}{fg=MediolanumBlueDark}
+      \setbeamercolor{bibliography entry title}{fg=MediolanumBlueLight}
+      \setbeamercolor{bibliography entry location}{fg=EFPAYellow}
+      \setbeamercolor{bibliography entry note}{fg=MediolanumBlueDark}
+      \setbeamercolor{abstract}{fg=MediolanumBlueDark, bg=MediolanumBlueLight!20}
+      \setbeamercolor{abstract title}{fg=white, bg=MediolanumBlueDark}
+      \setbeamercolor{verse}{fg=MediolanumBlueDark, bg=MediolanumBlueLight!20}
+      \setbeamercolor{quotation}{fg=MediolanumBlueDark, bg=MediolanumBlueLight!20}
+      \setbeamercolor{quote}{fg=MediolanumBlueDark, bg=MediolanumBlueLight!20}
+      \setbeamercolor{description item}{fg=MediolanumBlueDark}
+      \setbeamercolor{description item label}{fg=MediolanumBlueLight}
+      \setbeamercolor{description item body}{fg=EFPAYellow}
+      \setbeamercolor{enumerate item}{fg=MediolanumBlueDark}
+      \setbeamercolor{enumerate subitem}{fg=MediolanumBlueLight}
+      \setbeamercolor{enumerate subsubitem}{fg=EFPAYellow}
+      \setbeamercolor{itemize item}{fg=MediolanumBlueDark}
+      \setbeamercolor{itemize subitem}{fg=MediolanumBlueLight}
+      \setbeamercolor{itemize subsubitem}{fg=EFPAYellow}
+      \setbeamercolor{list item}{fg=MediolanumBlueDark}
+---
+
+
+## Fondos y Sociedades de Inversión Mobiliaria
+![](images/EFPA_logo-01.jpg)
+
+## Objetivo de la sesión
+
+- Comprender qué son las instituciones de inversión colectiva (IIC), sus ventajas y su papel en el sistema financiero.
+- Identificar los elementos que intervienen en la gestión y supervisión de las IIC.
+- Conocer las distintas tipologías de fondos de inversión y sociedades, así como su funcionamiento, objetivos y marco normativo.
+
+---
+
+## Una cartera de inversión regulada
+
+Una IIC es, en esencia, una **cartera de inversión colectiva**. Su particularidad es que está sujeta a un **marco legal específico**, lo que le confiere un estatus especial en términos de regulación y ventajas.
+
+Estas instituciones canalizan el ahorro de los ciudadanos hacia la inversión en mercados financieros. Su marco normativo responde a la idea de que el **ahorro es beneficioso para la economía**, y por tanto debe incentivarse y protegerse. Por ello, las IIC ofrecen:
+
+- **Ventajas fiscales**
+- **Supervisión y transparencia** regulatoria
+- **Acceso sencillo y diversificado** a los mercados
+
+:::{.callout-note}
+Este marco legal convierte a una IIC en una forma institucionalizada de gestionar carteras de inversión, con beneficios claros para el pequeño inversor y para la economía en su conjunto.
+:::
+
+
+:::{.callout-note}
+Este marco legal convierte a una IIC en una forma institucionalizada de gestionar carteras de inversión, con beneficios claros para el pequeño inversor y para la economía en su conjunto.
+:::
+
+---
+
+## Armonización internacional: UCITS y OCDE
+
+En el ámbito europeo, muchas de estas instituciones están acogidas a la **Directiva UCITS** (*Undertakings for Collective Investment in Transferable Securities*), que establece normas homogéneas en aspectos clave como:
+
+- Diversificación de activos
+- Liquidez mínima
+- Transparencia en la información
+- Supervisión por la autoridad competente
+
+Esto permite que un fondo domiciliado en **Luxemburgo**, **Irlanda** o **España** pueda comercializarse en otros países de la Unión Europea sin necesidad de reautorización. Este proceso, conocido como **pasaporte europeo**, facilita la creación de fondos paneuropeos y fomenta:
+
+- Mayor competencia
+- Eficiencia en costes
+- Seguridad jurídica para el inversor
+
+---
+
+## Más allá de Europa: armonización en la OCDE
+
+A nivel de la OCDE, aunque no existe una directiva común como en la UE, sí se observa una tendencia clara a la **convergencia regulatoria** en los siguientes aspectos:
+
+- **Transparencia fiscal** y lucha contra el blanqueo de capitales
+- **Requisitos mínimos de custodia y control de riesgos**
+- **Normas de valoración y cálculo del NAV**
+
+:::{.callout-note}
+Por tanto, hablar de IIC es hablar de un vehículo de inversión que, aunque nacional en su forma, opera con **estándares internacionales** en regulación, supervisión y protección al inversor.
+:::
+
+
+Además, en el ámbito europeo, muchas de estas instituciones están acogidas a la **Directiva UCITS** (Undertakings for Collective Investment in Transferable Securities), que establece normas homogéneas en aspectos clave como:
+
+- Diversificación de activos
+- Liquidez mínima
+- Transparencia en la información
+- Supervisión por la autoridad competente
+
+Esto permite que un fondo domiciliado en Luxemburgo, Irlanda o España pueda comercializarse en otros países de la Unión Europea sin necesidad de reautorización. Este proceso, conocido como **pasaporte europeo**, facilita la creación de fondos paneuropeos y fomenta una mayor competencia, eficiencia y seguridad para el inversor.
+
+A nivel de OCDE, aunque no existe una norma única, sí hay una clara tendencia a la **armonización de criterios**, especialmente en relación con:
+
+- Transparencia fiscal y lucha contra el blanqueo de capitales
+- Requisitos de custodia de activos
+- Políticas de valoración y cálculo del NAV
+
+Por tanto, hablar de IIC es hablar de un vehículo de inversión que, aunque nacional en su forma, **opera con estándares internacionales** en materia de regulación, supervisión y protección del inversor.
+:::
+
+---
+
+## Visión general de las instituciones de inversión colectiva
+
+Las IIC son vehículos de inversión que agrupan el capital de muchos inversores para gestionarlo de forma conjunta. Sus principales ventajas son:
+
+- **Seguridad jurídica**: están reguladas y supervisadas, lo que aporta confianza.
+- **Diversificación**: permiten acceder a carteras diversificadas con pequeñas aportaciones.
+- **Rentabilidad**: ofrecen oportunidades de inversión ajustadas a distintos perfiles.
+- **Liquidez**: en la mayoría de los casos, es posible reembolsar las participaciones con facilidad.
+
+
+
+---
+
+## Marco legislativo y definición de las IIC
+
+Las IIC se clasifican en **fondos de inversión** y **sociedades de inversión**. Están reguladas por la **Ley 35/2003** y su normativa complementaria.
+
+- Los fondos carecen de personalidad jurídica y son gestionados por una sociedad gestora.
+- Las sociedades de inversión sí tienen personalidad jurídica propia.
+
+---
+
+## Elementos intervinientes
+
+### Partícipes y socios
+
+- En los fondos de inversión, los inversores son **partícipes**.
+- En las sociedades de inversión, los inversores son **socios**.
+
+:::{.callout-note}
+La diferencia clave radica en la relación jurídica: propiedad indirecta frente a propiedad directa.
+:::
+
+---
+
+### Sociedad gestora
+
+Es la entidad encargada de gestionar el patrimonio del fondo o sociedad. Sus funciones incluyen:
+
+- Tomar decisiones de inversión.
+- Realizar la contabilidad y supervisar el cumplimiento normativo.
+- Informar periódicamente a los inversores.
+
+---
+
+### Entidad depositaria
+
+La depositaria tiene funciones de:
+
+- Custodia de los activos.
+- Control de la legalidad de las operaciones.
+- Verificación del cálculo del valor liquidativo.
+
+---
+
+### CNMV
+
+La Comisión Nacional del Mercado de Valores supervisa el funcionamiento de las IIC. Entre sus funciones destacan:
+
+- Autorizar la creación de fondos y sociedades de inversión.
+- Verificar que cumplen la normativa.
+- Proteger a los partícipes mediante mecanismos de transparencia y control.
+
+---
+
+## Cálculo del valor liquidativo
+
+El valor liquidativo (NAV, por sus siglas en inglés) refleja el valor de cada participación:
+
+$$
+\text{NAV} = \frac{\text{Valor total del patrimonio}}{\text{Número de participaciones}}
+$$
+
+Es la base para calcular la rentabilidad de los fondos, tanto acumulada como anualizada.
+
+:::{.callout-note}
+El NAV se publica diariamente y se calcula tras descontar todos los gastos.
+:::
+
+---
+
+## Tipología de comisiones
+
+Los fondos de inversión pueden aplicar:
+
+- **Comisión de gestión**: por el trabajo de la gestora.
+- **Comisión de depósito**: por la custodia de los activos.
+- **Comisiones de entrada (suscripción) y salida (reembolso)**: aplicables según el tipo de fondo.
+
+Las modalidades pueden ser:
+
+- Fijas: porcentaje constante.
+- Variables: ligadas al rendimiento del fondo.
+- Mixtas: combinan ambas.
+
+---
+
+## Información al partícipe
+
+El inversor tiene derecho a recibir información clara, veraz y periódica sobre su inversión, incluyendo:
+
+- Documento de Datos Fundamentales para el Inversor (DFI).
+- Folleto informativo.
+- Informes periódicos (mensuales, trimestrales o anuales).
+
+---
+
+## Fondos de inversión mobiliaria
+
+Estos fondos invierten en activos financieros negociables, y su clasificación responde a distintos criterios.
+
+
+---
+
+## Clasificación por la distribución de beneficios
+
+- **Fondos de acumulación**: reinvierten los beneficios en el propio fondo.
+- **Fondos de reparto**: distribuyen dividendos a los partícipes.
+
+---
+
+## Clasificación por naturaleza de los activos
+
+- **Fondos del mercado monetario**: invierten en activos a corto plazo y bajo riesgo.
+- **Fondos de inversión tradicionales**: incluyen renta fija, renta variable o mixtos.
+- **Fondos garantizados**: aseguran al menos el capital inicial o una rentabilidad mínima.
+- **Fondos de fondos**: invierten en otros fondos.
+- **Fondos principales y subordinados**: estructuras jerárquicas dentro de un grupo de fondos.
+- **ETF (fondos cotizados)**: replican un índice y se negocian en bolsa.
+- **Fondos en valores no cotizados**: invierten en empresas no listadas.
+- **Fondos de inversión libre**: también conocidos como hedge funds.
+- **Fondos temáticos e impacto**: invierten en temáticas como tecnología, salud, cambio climático, etc.
+
+---
+
+## Sociedades de inversión de capital variable (SICAV)
+
+Las SICAV son sociedades anónimas cuyo capital se adapta a las entradas y salidas de socios:
+
+- **Ventajas**: alta diversificación y beneficios fiscales.
+- **Operativa**: cotizan en el Mercado Alternativo Bursátil y su liquidez la proporciona el propio vehículo.
+- **Inversión**: suelen orientarse a grandes patrimonios.
+
+---
+
+## Instituciones de inversión colectiva cerradas
+
+Estas entidades no permiten la libre entrada y salida de inversores:
+
+- Están orientadas a inversiones a largo plazo.
+- Suelen centrarse en sectores estratégicos o empresas no cotizadas.
+
+### Tipologías destacadas
+
+- **Entidades de capital riesgo**.
+- **Fondos de inversión a largo plazo europeos (FILPE)**.
+- **Fondos de emprendimiento social europeo (FESE)**.
+
+### Papel económico
+
+Estas instituciones canalizan capital hacia sectores clave, promoviendo el desarrollo económico y la financiación de proyectos con impacto.
+
+---
+
+## Política de inversión en IIC cerradas
+
+- **Rentabilidad**: orientada al largo plazo, puede ser elevada.
+- **Riesgos**: elevados debido a la iliquidez y al perfil de los activos.
+- **Temporalidad**: horizonte de inversión amplio, con ventanas de salida limitadas.
+
+---
+
+## Preguntas para el repaso final
+
+- ¿Qué diferencia a un partícipe de un socio en una IIC?
+- ¿Qué función tiene la sociedad gestora y en qué se diferencia de la depositaria?
+- ¿Cómo se calcula el valor liquidativo y por qué es relevante?
+- ¿Qué tipos de comisiones pueden aplicarse en un fondo de inversión?
+- ¿Qué tipos de fondos permiten mayor liquidez y cuáles presentan mayores riesgos?
+
+---
+
+## Conclusión de la sesión
+
+- Se ha explorado el marco legal y funcional de las IIC.
+- Se han diferenciado los agentes clave y sus funciones.
+- Se han clasificado los fondos según sus características y objetivos.
+
+---
+
+
+## Preguntas de repaso EFPA
+
+::: {.callout-note}
+## Introducción 
+
+
+- Este bloque de preguntas se centra en el **Módulo 2: Fondos y sociedades de inversión**, que representa un **10 % del contenido del examen oficial EFA (European Financial Advisor)**.
+
+- Dado que el examen consta de 40 preguntas tipo test, se espera que **aproximadamente 4 preguntas** estén relacionadas con esta materia. Aunque su peso relativo es menor que el del módulo de instrumentos y mercados financieros (40 %), comprender bien este tema es clave para afrontar con seguridad el examen oficial.
+:::
+
+
+## Pregunta 1
+
+**¿Cuál de las siguientes afirmaciones define mejor a una institución de inversión colectiva (IIC)?**
+
+a) Es un vehículo de inversión reservado a grandes patrimonios
+b) Es una cartera de inversión colectiva regulada por normativa específica
+c) Es una cuenta corriente gestionada por una entidad financiera
+d) Es una forma de préstamo entre particulares
+
+---
+
+## Respuesta 1
+
+::: {.callout-note}
+La respuesta correcta es la **b)**.
+
+Una IIC es una cartera colectiva gestionada bajo un marco legal específico, con ventajas como la diversificación, liquidez y supervisión regulatoria.
+:::
+
+---
+
+## Pregunta 2
+
+**¿Qué figura es responsable de la custodia de los activos en una IIC?**
+
+a) El partícipe
+b) La sociedad gestora
+c) La entidad depositaria
+d) La CNMV
+
+---
+
+## Respuesta 2
+
+::: {.callout-note}
+La respuesta correcta es la **c)**.
+
+La entidad depositaria custodia los activos del fondo y supervisa que la gestora actúe conforme a la normativa.
+:::
+
+---
+
+## Pregunta 3
+
+**¿Cuál es la principal diferencia entre un partícipe y un socio en una IIC?**
+
+a) El socio invierte en bonos y el partícipe en acciones
+b) El partícipe tiene propiedad directa y el socio indirecta
+c) El partícipe invierte en un fondo; el socio, en una sociedad de inversión
+d) No existe ninguna diferencia relevante
+
+---
+
+## Respuesta 3
+
+::: {.callout-note}
+La respuesta correcta es la **c)**.
+
+El partícipe invierte en un fondo sin personalidad jurídica; el socio adquiere acciones de una sociedad con personalidad jurídica propia.
+:::
+
+---
+
+## Pregunta 4
+
+**¿Qué documento debe recibir un inversor antes de contratar una participación en un fondo?**
+
+a) El informe de auditoría anual
+b) El Documento de Datos Fundamentales para el Inversor (DFI)
+c) El código ISIN del fondo
+d) La estrategia de marketing del fondo
+
+---
+
+## Respuesta 4
+
+::: {.callout-note}
+La respuesta correcta es la **b)**.
+
+El DFI es un documento obligatorio que recoge de forma clara y estandarizada los datos esenciales del fondo.
+:::
+
+---
+
+## Pregunta 5
+
+**¿Qué normativa europea establece el marco común para las IIC armonizadas?**
+
+a) MIFID II
+b) UCITS
+c) EMIR
+d) CRD IV
+
+---
+
+## Respuesta 5
+
+::: {.callout-note}
+La respuesta correcta es la **b)**.
+
+La Directiva UCITS establece el marco normativo armonizado para las IIC en la UE, facilitando su comercialización entre países mediante el pasaporte europeo.
+:::
+
+---
+
+## Pregunta 6
+
+**¿Qué ventaja fiscal es característica de los fondos de inversión en España?**
+
+a) Exención total de tributación
+b) Posibilidad de traspaso sin tributar
+c) Reducción del tipo impositivo en el IRPF
+d) Deducción directa en la base imponible
+
+---
+
+## Respuesta 6
+
+::: {.callout-note}
+La respuesta correcta es la **b)**.
+
+El régimen fiscal español permite el traspaso entre fondos sin tributar por la ganancia, siempre que no se reembolse el dinero al partícipe.
+:::
+
+---
+
+## Pregunta 7
+
+**¿Qué función cumple la CNMV respecto a las IIC?**
+
+a) Garantizar la rentabilidad de los fondos
+b) Fijar las comisiones máximas
+c) Autorizar, supervisar y registrar las IIC
+d) Proteger a las sociedades gestoras frente a los partícipes
+
+---
+
+## Respuesta 7
+
+::: {.callout-note}
+La respuesta correcta es la **c)**.
+
+La CNMV tiene la función de supervisar y registrar las IIC, velando por la transparencia y la protección al inversor.
+:::
+
+---
+
+## Pregunta 8
+
+**¿Cuál de los siguientes tipos de fondos está obligado a cotizar en un mercado secundario?**
+
+a) Fondo garantizado
+b) Fondo de fondos
+c) Fondo cotizado (ETF)
+d) Fondo temático
+
+---
+
+## Respuesta 8
+
+::: {.callout-note}
+La respuesta correcta es la **c)**.
+
+Los ETF (Exchange Traded Funds) cotizan en bolsa y su operativa se asemeja a la de las acciones.
+:::
+

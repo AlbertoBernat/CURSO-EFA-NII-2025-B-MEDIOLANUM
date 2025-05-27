@@ -1,0 +1,1411 @@
+% Options for packages loaded elsewhere
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  ignorenonframetext,
+  aspectratio=54,
+  spanish,
+]{beamer}
+\newif\ifbibliography
+\usepackage{pgfpages}
+\setbeamertemplate{caption}[numbered]
+\setbeamertemplate{caption label separator}{: }
+\setbeamercolor{caption name}{fg=normal text.fg}
+\beamertemplatenavigationsymbolsempty
+% remove section numbering
+\setbeamertemplate{part page}{
+  \centering
+  \begin{beamercolorbox}[sep=16pt,center]{part title}
+    \usebeamerfont{part title}\insertpart\par
+  \end{beamercolorbox}
+}
+\setbeamertemplate{section page}{
+  \centering
+  \begin{beamercolorbox}[sep=12pt,center]{section title}
+    \usebeamerfont{section title}\insertsection\par
+  \end{beamercolorbox}
+}
+\setbeamertemplate{subsection page}{
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center]{subsection title}
+    \usebeamerfont{subsection title}\insertsubsection\par
+  \end{beamercolorbox}
+}
+% Prevent slide breaks in the middle of a paragraph
+\widowpenalties 1 10000
+\raggedbottom
+\AtBeginPart{
+  \frame{\partpage}
+}
+\AtBeginSection{
+  \ifbibliography
+  \else
+    \frame{\sectionpage}
+  \fi
+}
+\AtBeginSubsection{
+  \frame{\subsectionpage}
+}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+
+\usetheme[]{Madrid}
+\usecolortheme{seahorse}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+
+
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+\usepackage{caption}
+% Make caption package work with longtable
+\makeatletter
+\def\fnum@table{\tablename~\thetable}
+\makeatother
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+
+
+\ifLuaTeX
+\usepackage[bidi=basic]{babel}
+\else
+\usepackage[bidi=default]{babel}
+\fi
+% get rid of language-specific shorthands (see #6817):
+\let\LanguageShortHands\languageshorthands
+\def\languageshorthands#1{}
+
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+
+ 
+
+
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{textcomp}
+\definecolor{MediolanumBlueLight}{HTML}{1e96d7}
+\definecolor{MediolanumBlueDark}{HTML}{192d6e}
+\definecolor{EFPAYellow}{RGB}{255,204,0}
+\setbeamercolor{title}{fg=MediolanumBlueDark}
+\setbeamercolor{frametitle}{fg=MediolanumBlueLight}
+\setbeamercolor{structure}{fg=EFPAYellow}
+\setbeamercolor{section in toc}{fg=MediolanumBlueDark}
+\setbeamercolor{footline}{fg=MediolanumBlueDark, bg=white}
+\setbeamercolor{block title}{fg=white, bg=MediolanumBlueDark}
+\setbeamercolor{block body}{fg=black, bg=MediolanumBlueLight!20}
+\setbeamercolor{alerted text}{fg=EFPAYellow}
+\setbeamercolor{item}{fg=MediolanumBlueDark}
+\setbeamercolor{subitem}{fg=MediolanumBlueLight}
+\setbeamercolor{subsubitem}{fg=EFPAYellow}
+\setbeamercolor{caption name}{fg=MediolanumBlueDark}
+\setbeamercolor{button}{bg=MediolanumBlueDark, fg=white}
+\setbeamercolor{button border}{bg=EFPAYellow, fg=EFPAYellow}
+\setbeamercolor{button text}{fg=white}
+\setbeamercolor{navigation symbols}{fg=MediolanumBlueLight}
+\setbeamercolor{palette primary}{bg=MediolanumBlueDark, fg=white}
+\setbeamercolor{palette secondary}{bg=MediolanumBlueLight, fg=white}
+\setbeamercolor{palette tertiary}{bg=EFPAYellow, fg=black}
+\setbeamercolor{palette quaternary}{bg=MediolanumBlueDark, fg=white}
+\setbeamercolor{section in head/foot}{bg=MediolanumBlueDark, fg=white}
+\setbeamercolor{subsection in head/foot}{bg=MediolanumBlueLight, fg=white}
+\setbeamercolor{author in head/foot}{fg=MediolanumBlueDark}
+\setbeamercolor{institute in head/foot}{fg=MediolanumBlueLight}
+\setbeamercolor{date in head/foot}{fg=EFPAYellow}
+\setbeamercolor{title in head/foot}{fg=MediolanumBlueDark}
+\setbeamercolor{subtitle}{fg=EFPAYellow}
+\setbeamercolor{logo in head/foot}{bg=white}
+\setbeamercolor{bibliography entry author}{fg=MediolanumBlueDark}
+\setbeamercolor{bibliography entry title}{fg=MediolanumBlueLight}
+\setbeamercolor{bibliography entry location}{fg=EFPAYellow}
+\setbeamercolor{bibliography entry note}{fg=MediolanumBlueDark}
+\setbeamercolor{abstract}{fg=MediolanumBlueDark, bg=MediolanumBlueLight!20}
+\setbeamercolor{abstract title}{fg=white, bg=MediolanumBlueDark}
+\setbeamercolor{verse}{fg=MediolanumBlueDark, bg=MediolanumBlueLight!20}
+\setbeamercolor{quotation}{fg=MediolanumBlueDark, bg=MediolanumBlueLight!20}
+\setbeamercolor{quote}{fg=MediolanumBlueDark, bg=MediolanumBlueLight!20}
+\setbeamercolor{description item}{fg=MediolanumBlueDark}
+\setbeamercolor{description item label}{fg=MediolanumBlueLight}
+\setbeamercolor{description item body}{fg=EFPAYellow}
+\setbeamercolor{enumerate item}{fg=MediolanumBlueDark}
+\setbeamercolor{enumerate subitem}{fg=MediolanumBlueLight}
+\setbeamercolor{enumerate subsubitem}{fg=EFPAYellow}
+\setbeamercolor{itemize item}{fg=MediolanumBlueDark}
+\setbeamercolor{itemize subitem}{fg=MediolanumBlueLight}
+\setbeamercolor{itemize subsubitem}{fg=EFPAYellow}
+\setbeamercolor{list item}{fg=MediolanumBlueDark}
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
+\@ifpackageloaded{fontawesome5}{}{\usepackage{fontawesome5}}
+\definecolor{quarto-callout-color}{HTML}{909090}
+\definecolor{quarto-callout-note-color}{HTML}{0758E5}
+\definecolor{quarto-callout-important-color}{HTML}{CC1914}
+\definecolor{quarto-callout-warning-color}{HTML}{EB9113}
+\definecolor{quarto-callout-tip-color}{HTML}{00A047}
+\definecolor{quarto-callout-caution-color}{HTML}{FC5300}
+\definecolor{quarto-callout-color-frame}{HTML}{acacac}
+\definecolor{quarto-callout-note-color-frame}{HTML}{4582ec}
+\definecolor{quarto-callout-important-color-frame}{HTML}{d9534f}
+\definecolor{quarto-callout-warning-color-frame}{HTML}{f0ad4e}
+\definecolor{quarto-callout-tip-color-frame}{HTML}{02b875}
+\definecolor{quarto-callout-caution-color-frame}{HTML}{fd7e14}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Tabla de contenidos}
+\else
+  \newcommand\contentsname{Tabla de contenidos}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{Listado de Figuras}
+\else
+  \newcommand\listfigurename{Listado de Figuras}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{Listado de Tablas}
+\else
+  \newcommand\listtablename{Listado de Tablas}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figura}
+\else
+  \newcommand\figurename{Figura}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Tabla}
+\else
+  \newcommand\tablename{Tabla}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listado}
+\newcommand*\listoflistings{\listof{codelisting}{Listado de Listados}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={UEMC online},
+  pdfauthor={Profesor Alberto Bernat},
+  pdflang={es},
+  colorlinks=true,
+  linkcolor={Maroon},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+
+
+\title{UEMC online}
+\subtitle{Planes y fondos de pensiones}
+\author{Profesor Alberto Bernat}
+\date{27/05/2025}
+
+\begin{document}
+\frame{\titlepage}
+
+
+\begin{frame}{Fondos y Sociedades de Inversión Mobiliaria}
+\phantomsection\label{fondos-y-sociedades-de-inversiuxf3n-mobiliaria}
+\pandocbounded{\includegraphics[keepaspectratio]{images/EFPA_logo-01.jpg}}
+\end{frame}
+
+\begin{frame}{Objetivo de la sesión}
+\phantomsection\label{objetivo-de-la-sesiuxf3n}
+\begin{itemize}
+\tightlist
+\item
+  Comprender el funcionamiento de los planes y fondos de pensiones como
+  herramientas de previsión social.
+\item
+  Analizar su tratamiento fiscal, contingencias, modalidades y
+  planificación de la jubilación.
+\item
+  Estimar recursos disponibles y necesidades previsionales en la etapa
+  pasiva.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{¿Qué es un plan de pensiones?}
+\phantomsection\label{quuxe9-es-un-plan-de-pensiones}
+\begin{itemize}
+\tightlist
+\item
+  Instrumento de \textbf{previsión social voluntaria}.
+\item
+  Constituido mediante \textbf{aportaciones periódicas o puntuales}.
+\item
+  Solo puede \textbf{hacerse líquido} ante contingencias específicas o
+  supuestos legales.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Teoría de los tres pilares}
+\phantomsection\label{teoruxeda-de-los-tres-pilares}
+\begin{enumerate}
+\tightlist
+\item
+  \textbf{Pilar 1}: Sistema público obligatorio (Seguridad Social).
+\item
+  \textbf{Pilar 2}: Sistema profesional (planes de empleo).
+\item
+  \textbf{Pilar 3}: Sistema individual (planes personales, seguros,
+  etc.).
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Principios rectores de los planes de pensiones}
+\phantomsection\label{principios-rectores-de-los-planes-de-pensiones}
+Todo plan de pensiones debe respetar cinco principios fundamentales:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{No discriminación}: los planes deben permitir el acceso a
+  todos los trabajadores que cumplan los requisitos objetivos
+  establecidos (por ejemplo, una antigüedad mínima en la empresa),
+  \textbf{sin establecer diferencias arbitrarias o excluyentes}.
+\item
+  \textbf{Capitalización}: acumulación de aportaciones para generar una
+  prestación futura.
+\item
+  \textbf{Irrevocabilidad}: las aportaciones no pueden retirarse
+  libremente.
+\item
+  \textbf{Atribución de derechos}: el partícipe acumula derechos sobre
+  lo aportado.
+\item
+  \textbf{Movilidad}: los derechos consolidados pueden trasladarse a
+  otro plan.
+\end{itemize}
+
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, colback=white, arc=.35mm, colframe=quarto-callout-note-color-frame, bottomrule=.15mm, left=2mm, toptitle=1mm, colbacktitle=quarto-callout-note-color!10!white, leftrule=.75mm, bottomtitle=1mm, titlerule=0mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Nota}, opacityback=0, coltitle=black, toprule=.15mm, opacitybacktitle=0.6, breakable]
+
+Garantizan transparencia, equidad y protección del ahorro a largo plazo.
+
+\end{tcolorbox}
+\end{frame}
+
+\begin{frame}{Ejemplo de aplicación: principio de no discriminación}
+\phantomsection\label{ejemplo-de-aplicaciuxf3n-principio-de-no-discriminaciuxf3n}
+Los planes de pensiones de empleo \textbf{pueden establecer requisitos
+objetivos de acceso}, como la antigüedad mínima en la empresa.
+
+\begin{block}{\textbf{Regla normativa:}}
+\phantomsection\label{regla-normativa}
+\begin{quote}
+Si el requisito de antigüedad es \textbf{igual o inferior a 2 años}, no
+requiere justificación especial.
+\end{quote}
+
+\begin{quote}
+Si supera los \textbf{2 años}, el plan debe \textbf{justificarlo
+expresamente} (RD 304/2004, art. 6.2).
+\end{quote}
+\end{block}
+
+\begin{block}{Ejemplo}
+\phantomsection\label{ejemplo}
+Una empresa establece que sus empleados pueden adherirse al plan de
+pensiones de empleo a partir del segundo año de contrato.
+
+\begin{itemize}
+\item
+  Este criterio es \textbf{objetivo, no discriminatorio} y está
+  \textbf{permitido por la normativa}.
+\item
+  Este tipo de cláusulas garantizan un trato equitativo sin excluir
+  injustamente a determinados colectivos.
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{Elementos personales del plan de pensiones}
+\phantomsection\label{elementos-personales-del-plan-de-pensiones}
+Un plan de pensiones implica a varios actores:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Promotor}: entidad o empresa que impulsa el plan.
+\item
+  \textbf{Partícipe}: persona que realiza aportaciones (trabajador o
+  particular).
+\item
+  \textbf{Beneficiario}: quien recibe la prestación en caso de
+  contingencia.
+\item
+  \textbf{Entidad gestora}: administra el fondo y toma decisiones de
+  inversión.
+\item
+  \textbf{Entidad depositaria}: custodia los activos financieros del
+  fondo.
+\end{itemize}
+
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, colback=white, arc=.35mm, colframe=quarto-callout-note-color-frame, bottomrule=.15mm, left=2mm, toptitle=1mm, colbacktitle=quarto-callout-note-color!10!white, leftrule=.75mm, bottomtitle=1mm, titlerule=0mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Nota}, opacityback=0, coltitle=black, toprule=.15mm, opacitybacktitle=0.6, breakable]
+
+Cada uno cumple una función específica dentro del sistema de previsión.
+
+\end{tcolorbox}
+\end{frame}
+
+\begin{frame}{Plan vs Fondo de Pensiones}
+\phantomsection\label{plan-vs-fondo-de-pensiones}
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Plan}: conjunto de derechos y obligaciones.
+\item
+  \textbf{Fondo}: patrimonio financiero que da soporte a uno o varios
+  planes.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Clasificación de planes de pensiones}
+\phantomsection\label{clasificaciuxf3n-de-planes-de-pensiones}
+\textbf{Según el promotor:}
+
+\begin{itemize}
+\tightlist
+\item
+  Individual
+\item
+  Empleo
+\item
+  Asociado
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Clasificación (II): aportaciones y prestaciones}
+\phantomsection\label{clasificaciuxf3n-ii-aportaciones-y-prestaciones}
+Los \textbf{planes de pensiones} pueden clasificarse, según el criterio
+de determinación de los compromisos económicos del plan, en tres
+modalidades:
+
+\begin{itemize}
+\tightlist
+\item
+  Aportación definida
+\item
+  Prestación definida
+\item
+  Mixto
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Aportación definida}
+\phantomsection\label{aportaciuxf3n-definida}
+En esta modalidad, lo que se define desde el inicio es la
+\textbf{cuantía de las aportaciones} que realizará el partícipe o el
+promotor (o ambos). La \textbf{prestación futura dependerá del capital
+acumulado}, es decir, del total de aportaciones más la rentabilidad
+generada por el fondo de pensiones.
+
+\begin{itemize}
+\tightlist
+\item
+  Es el sistema más extendido, especialmente en los \textbf{planes del
+  sistema individual}.
+\item
+  El \textbf{riesgo de inversión recae sobre el partícipe}, ya que no se
+  garantiza la cuantía final de la prestación.
+\end{itemize}
+
+\textbf{Ejemplo 1:}\\
+Un partícipe aporta 2.000\,€ anuales a su plan individual durante 30
+años. Al llegar a la jubilación, el capital disponible dependerá del
+rendimiento obtenido por el fondo, sin que exista compromiso previo
+sobre la cuantía de la prestación.
+\end{frame}
+
+\begin{frame}{Prestación definida}
+\phantomsection\label{prestaciuxf3n-definida}
+En esta modalidad, se define de antemano la \textbf{cuantía de la
+prestación} que se recibirá al producirse la contingencia (normalmente
+la jubilación). En consecuencia, deben realizarse aportaciones
+suficientes para garantizar dicha prestación, lo que implica un
+\textbf{mayor compromiso por parte del promotor}.
+
+\begin{itemize}
+\tightlist
+\item
+  Son más frecuentes en \textbf{planes de empleo}, en grandes empresas.
+\item
+  Requieren \textbf{actuarialmente} estimar aportaciones periódicas para
+  cumplir con la prestación prevista.
+\end{itemize}
+
+\textbf{Ejemplo 2:}\\
+Un plan de empresa garantiza a sus empleados una pensión del 70\,\% del
+salario medio de los últimos 10 años. Las aportaciones deben ajustarse
+periódicamente para asegurar este objetivo.
+\end{frame}
+
+\begin{frame}{Plan mixto}
+\phantomsection\label{plan-mixto}
+Los planes mixtos \textbf{combinan una parte garantizada y otra
+variable} según el capital acumulado, siendo más complejos y habituales
+en entornos empresariales.
+
+\textbf{Ejemplo 3:}\\
+Un plan mixto establece una pensión mínima garantizada de 500\,€/mes
+(prestación definida) y un complemento adicional que dependerá del
+capital acumulado (aportación definida).
+
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, colback=white, arc=.35mm, colframe=quarto-callout-note-color-frame, bottomrule=.15mm, left=2mm, toptitle=1mm, colbacktitle=quarto-callout-note-color!10!white, leftrule=.75mm, bottomtitle=1mm, titlerule=0mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{\textbf{Importante:}\\
+}, opacityback=0, coltitle=black, toprule=.15mm, opacitybacktitle=0.6, breakable]
+
+Los \textbf{planes de pensiones del sistema individual} (aquellos
+promovidos por entidades financieras y contratados de forma voluntaria
+por personas físicas) \textbf{son siempre de modalidad de aportación
+definida}, tal como establece la normativa española.\\
+
+\end{tcolorbox}
+\end{frame}
+
+\begin{frame}{Clasificación (III): vocación inversora}
+\phantomsection\label{clasificaciuxf3n-iii-vocaciuxf3n-inversora}
+\begin{itemize}
+\tightlist
+\item
+  Renta fija corto/largo plazo
+\item
+  Renta variable
+\item
+  Mixtos
+\item
+  Garantizados
+\end{itemize}
+\end{frame}
+
+\begin{frame}{PPES y PEPP}
+\phantomsection\label{ppes-y-pepp}
+\begin{itemize}
+\tightlist
+\item
+  \textbf{PPES}: Planes de pensiones de empleo simplificados.
+\item
+  \textbf{PEPP}: Producto paneuropeo de pensiones individuales
+  (portabilidad, transparencia, coste limitado).
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Supervisión y normativa aplicable}
+\phantomsection\label{supervisiuxf3n-y-normativa-aplicable}
+\begin{itemize}
+\tightlist
+\item
+  Los \textbf{planes y fondos de pensiones} están regulados por la
+  \textbf{Ley de Regulación de los Planes y Fondos de Pensiones} y su
+  desarrollo reglamentario.
+\item
+  El organismo responsable de la supervisión y control es la:
+\end{itemize}
+
+\begin{block}{Dirección General de Seguros y Fondos de Pensiones
+(DGSFP)}
+\phantomsection\label{direcciuxf3n-general-de-seguros-y-fondos-de-pensiones-dgsfp}
+\begin{itemize}
+\tightlist
+\item
+  Depende del \textbf{Ministerio de Economía, Comercio y Empresa}.
+\item
+  Supervisa que los planes cumplan:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Con los \textbf{principios básicos} (no discriminación,
+    capitalización, irrevocabilidad, etc.).
+  \item
+    Con las \textbf{obligaciones de transparencia e información}.
+  \item
+    Con la adecuada \textbf{gestión de riesgos e inversiones}.
+  \end{itemize}
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{Rentabilidad y riesgo}
+\phantomsection\label{rentabilidad-y-riesgo}
+\begin{itemize}
+\tightlist
+\item
+  Existe una relación directa entre \textbf{riesgo asumido} y
+  \textbf{rentabilidad esperada}.
+\item
+  Cuanto mayor es la rentabilidad potencial, mayor es también el nivel
+  de riesgo.
+\item
+  A largo plazo, la \textbf{volatilidad tiende a suavizarse}, lo que
+  permite asumir más riesgo en horizontes amplios.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Nivel de riesgo en planes de pensiones individuales}
+\phantomsection\label{nivel-de-riesgo-en-planes-de-pensiones-individuales}
+\begin{itemize}
+\tightlist
+\item
+  Cada plan o fondo tiene \textbf{asignado un nivel de riesgo global},
+  que \textbf{no varía entre partícipes}.
+\item
+  El partícipe puede elegir el fondo más adecuado a su perfil (prudente,
+  moderado, agresivo).
+\item
+  La clasificación del riesgo sigue una \textbf{escala oficial de 1 a
+  7}, en función de la volatilidad esperada.
+\end{itemize}
+
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, colback=white, arc=.35mm, colframe=quarto-callout-note-color-frame, bottomrule=.15mm, left=2mm, toptitle=1mm, colbacktitle=quarto-callout-note-color!10!white, leftrule=.75mm, bottomtitle=1mm, titlerule=0mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Nota}, opacityback=0, coltitle=black, toprule=.15mm, opacitybacktitle=0.6, breakable]
+
+Es fundamental que el partícipe seleccione un fondo acorde con su
+tolerancia al riesgo y horizonte temporal.
+
+\end{tcolorbox}
+\end{frame}
+
+\begin{frame}{Nivel de riesgo en planes de pensiones de empleo}
+\phantomsection\label{nivel-de-riesgo-en-planes-de-pensiones-de-empleo}
+\begin{itemize}
+\tightlist
+\item
+  El plan de empleo establece una \textbf{estrategia de inversión común
+  para todos los trabajadores}.
+\item
+  El partícipe \textbf{no elige individualmente el perfil de riesgo}.
+\item
+  La política de inversión la define la empresa junto con la comisión de
+  control.
+\item
+  Todos los partícipes del plan \textbf{comparten el mismo fondo y el
+  mismo nivel de riesgo}.
+\end{itemize}
+
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, colback=white, arc=.35mm, colframe=quarto-callout-note-color-frame, bottomrule=.15mm, left=2mm, toptitle=1mm, colbacktitle=quarto-callout-note-color!10!white, leftrule=.75mm, bottomtitle=1mm, titlerule=0mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Nota}, opacityback=0, coltitle=black, toprule=.15mm, opacitybacktitle=0.6, breakable]
+
+En los planes de empleo, la inversión es colectiva y no existe
+personalización del riesgo para cada trabajador.
+
+\end{tcolorbox}
+\end{frame}
+
+\begin{frame}{Contingencias cubiertas}
+\phantomsection\label{contingencias-cubiertas}
+\begin{itemize}
+\tightlist
+\item
+  Jubilación
+\item
+  Incapacidad
+\item
+  Fallecimiento
+\item
+  Dependencia
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Supuestos de disposición anticipada}
+\phantomsection\label{supuestos-de-disposiciuxf3n-anticipada}
+\begin{itemize}
+\tightlist
+\item
+  Enfermedad grave
+\item
+  Desempleo larga duración
+\item
+  Aportaciones \textgreater{} 10 años
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Planificación de la jubilación: ¿por qué es necesaria?}
+\phantomsection\label{planificaciuxf3n-de-la-jubilaciuxf3n-por-quuxe9-es-necesaria}
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Caída de ingresos} al pasar a clase pasiva.
+\item
+  \textbf{Riesgo de longevidad}: vivir más de lo esperado.
+\item
+  Necesidad de \textbf{planificar a largo plazo}.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Necesidades previsionales}
+\phantomsection\label{necesidades-previsionales}
+\begin{itemize}
+\tightlist
+\item
+  Vivienda
+\item
+  Salud
+\item
+  Mantenimiento del nivel de vida
+\item
+  Apoyo a familiares
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Cálculo de la prestación pública esperada}
+\phantomsection\label{cuxe1lculo-de-la-prestaciuxf3n-puxfablica-esperada}
+\begin{itemize}
+\tightlist
+\item
+  Basado en:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Años cotizados
+  \item
+    Base reguladora
+  \item
+    Edad de jubilación
+  \end{itemize}
+\item
+  Realizar \textbf{proyecciones realistas}.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Recursos previsionales complementarios}
+\phantomsection\label{recursos-previsionales-complementarios}
+\begin{itemize}
+\tightlist
+\item
+  Planes de pensiones
+\item
+  Seguros de ahorro
+\item
+  Inversiones inmobiliarias
+\item
+  Carteras de inversión
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Presupuesto de jubilación}
+\phantomsection\label{presupuesto-de-jubilaciuxf3n}
+\begin{itemize}
+\tightlist
+\item
+  Estimar gastos esperados vs.~ingresos previstos.
+\item
+  Detectar \textbf{déficits o superávits previsionales}.
+\item
+  Reajustar estrategia de ahorro o inversión.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Evaluación de la situación financiera futura}
+\phantomsection\label{evaluaciuxf3n-de-la-situaciuxf3n-financiera-futura}
+\begin{itemize}
+\tightlist
+\item
+  ¿Cuándo empezar?
+\item
+  ¿Cuánto ahorrar?
+\item
+  ¿Qué producto elegir?
+\item
+  ¿Cómo optimizar fiscalmente?
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Preguntas tipo test de repaso}
+\phantomsection\label{preguntas-tipo-test-de-repaso}
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, colback=white, arc=.35mm, colframe=quarto-callout-note-color-frame, bottomrule=.15mm, left=2mm, toptitle=1mm, colbacktitle=quarto-callout-note-color!10!white, leftrule=.75mm, bottomtitle=1mm, titlerule=0mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Nota}, opacityback=0, coltitle=black, toprule=.15mm, opacitybacktitle=0.6, breakable]
+
+\textbf{Ponderación de esta materia:} 5 \% del total del examen EFA NII.
+
+\end{tcolorbox}
+\end{frame}
+
+\begin{frame}{Pregunta 1}
+\phantomsection\label{pregunta-1}
+¿Cuál de los siguientes elementos NO debe tenerse en cuenta para una
+adecuada planificación financiera de la jubilación?
+
+\begin{enumerate}
+[a.]
+\tightlist
+\item
+  Los gastos mensuales esperados a partir de la fecha de jubilación.
+\item
+  La inflación y los impuestos.
+\item
+  El número de descendientes del inversor.
+\item
+  La pensión pública de la Seguridad Social que se espera percibir a
+  partir de la fecha de jubilación.
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Respuesta 1}
+\phantomsection\label{respuesta-1}
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, colback=white, arc=.35mm, colframe=quarto-callout-tip-color-frame, leftrule=.75mm, bottomrule=.15mm, left=2mm, toprule=.15mm, opacityback=0, breakable]
+\begin{minipage}[t]{5.5mm}
+\textcolor{quarto-callout-tip-color}{\faLightbulb}
+\end{minipage}%
+\begin{minipage}[t]{\textwidth - 5.5mm}
+
+La respuesta \textbf{correcta es la c}.
+
+Aunque el número de descendientes puede influir en otros aspectos
+financieros (como herencias o dependencia económica), \textbf{no es un
+factor clave} al elaborar un presupuesto para la jubilación centrado en
+el equilibrio entre ingresos y gastos previsibles del propio jubilado.
+
+\end{minipage}%
+\end{tcolorbox}
+\end{frame}
+
+\begin{frame}{Pregunta 2}
+\phantomsection\label{pregunta-2}
+Calcule el GAP anual de ingresos de jubilación de un sujeto cuyo último
+salario mensual, neto de impuestos, asciende a 4.000 euros, y que estima
+percibir una pensión pública de jubilación, neta de impuestos, de 1.500
+euros que se le abonará en 14 pagas.
+
+\begin{enumerate}
+[a.]
+\tightlist
+\item
+  48.000
+\item
+  27.000
+\item
+  21.000
+\item
+  30.000
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Respuesta 2}
+\phantomsection\label{respuesta-2}
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, colback=white, arc=.35mm, colframe=quarto-callout-tip-color-frame, leftrule=.75mm, bottomrule=.15mm, left=2mm, toprule=.15mm, opacityback=0, breakable]
+\begin{minipage}[t]{5.5mm}
+\textcolor{quarto-callout-tip-color}{\faLightbulb}
+\end{minipage}%
+\begin{minipage}[t]{\textwidth - 5.5mm}
+
+La respuesta \textbf{correcta es la b}.
+
+\textbf{Paso 1}: Ingresos netos esperados en jubilación = 1.500 × 14 =
+21.000 €/año\\
+\textbf{Paso 2}: Último salario anual neto en activo = 4.000 × 12 =
+48.000 €/año\\
+\textbf{Paso 3}: GAP de ingresos = 48.000 − 21.000 = \textbf{27.000
+€/año}
+
+El GAP es la diferencia anual entre el nivel de ingresos deseado (último
+salario) y la pensión pública esperada.
+
+\end{minipage}%
+\end{tcolorbox}
+\end{frame}
+
+\begin{frame}{Pregunta 3}
+\phantomsection\label{pregunta-3}
+¿Qué quiere decir que el sistema público de pensiones es un sistema de
+reparto?
+
+\begin{enumerate}
+[a.]
+\tightlist
+\item
+  Los rendimientos generados por la gestión pública de las cotizaciones
+  sociales se atribuyen proporcionalmente a los pensionistas.
+\item
+  Las contribuciones de la población activa van dirigidas a pagar las
+  pensiones de la población pasiva.
+\item
+  Las pensiones dependen de la rentabilidad obtenida por las
+  cotizaciones.
+\item
+  Las cotizaciones se reparten entre comunidades autónomas según su
+  número de pensionistas.
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Respuesta 3}
+\phantomsection\label{respuesta-3}
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, colback=white, arc=.35mm, colframe=quarto-callout-tip-color-frame, leftrule=.75mm, bottomrule=.15mm, left=2mm, toprule=.15mm, opacityback=0, breakable]
+\begin{minipage}[t]{5.5mm}
+\textcolor{quarto-callout-tip-color}{\faLightbulb}
+\end{minipage}%
+\begin{minipage}[t]{\textwidth - 5.5mm}
+
+La respuesta \textbf{correcta es la b}.
+
+El sistema público español se basa en \textbf{reparto
+intergeneracional}: los cotizantes actuales financian las pensiones
+actuales. \textbf{No hay capitalización individual ni acumulación de
+fondos} para el futuro. Es un sistema de solidaridad directa.
+
+\end{minipage}%
+\end{tcolorbox}
+\end{frame}
+
+\begin{frame}{Pregunta 4}
+\phantomsection\label{pregunta-4}
+Un trabajador que actualmente cobra un sueldo mensual de 5.000 euros
+espera recibir una pensión de jubilación de 1.500 euros. ¿Cuál será la
+tasa de sustitución de su jubilación?
+
+\begin{enumerate}
+[a.]
+\tightlist
+\item
+  Un 30\%.
+\item
+  Un 70\%.
+\item
+  Un 100\%.
+\item
+  Un 0\%.
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Respuesta 4}
+\phantomsection\label{respuesta-4}
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, colback=white, arc=.35mm, colframe=quarto-callout-tip-color-frame, leftrule=.75mm, bottomrule=.15mm, left=2mm, toprule=.15mm, opacityback=0, breakable]
+\begin{minipage}[t]{5.5mm}
+\textcolor{quarto-callout-tip-color}{\faLightbulb}
+\end{minipage}%
+\begin{minipage}[t]{\textwidth - 5.5mm}
+
+La respuesta \textbf{correcta es la a}.
+
+\textbf{Tasa de sustitución} = (1.500 / 5.000) × 100 = \textbf{30\%}
+
+Esta tasa mide el porcentaje del último salario que representa la
+pensión de jubilación.
+
+\end{minipage}%
+\end{tcolorbox}
+\end{frame}
+
+\begin{frame}{Pregunta 5}
+\phantomsection\label{pregunta-5}
+¿Qué se entiende por déficit anual del sistema público de pensiones?
+
+\begin{enumerate}
+[a.]
+\tightlist
+\item
+  Rentabilidad negativa de fondos de pensiones.
+\item
+  Diferencia entre ingresos por cotizaciones y gasto en pensiones
+  públicas.
+\item
+  Diferencia entre salario y pensión.
+\item
+  Exceso de aportaciones privadas sobre el límite anual.
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Respuesta 5}
+\phantomsection\label{respuesta-5}
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, colback=white, arc=.35mm, colframe=quarto-callout-tip-color-frame, leftrule=.75mm, bottomrule=.15mm, left=2mm, toprule=.15mm, opacityback=0, breakable]
+\begin{minipage}[t]{5.5mm}
+\textcolor{quarto-callout-tip-color}{\faLightbulb}
+\end{minipage}%
+\begin{minipage}[t]{\textwidth - 5.5mm}
+
+La respuesta \textbf{correcta es la b}.
+
+El déficit es el resultado de que \textbf{los ingresos por cotizaciones
+sociales no cubren el gasto anual en pensiones}. Este saldo negativo se
+financia mediante transferencias del Estado, lo que pone en entredicho
+la \textbf{sostenibilidad del sistema}.
+
+\end{minipage}%
+\end{tcolorbox}
+\end{frame}
+
+\begin{frame}{Pregunta 6}
+\phantomsection\label{pregunta-6}
+Desde el 1 de abril de 2013, ¿de qué factores depende la edad de
+jubilación?
+
+\begin{enumerate}
+[I.]
+\tightlist
+\item
+  De la edad del trabajador.\\
+\item
+  De la tasa de inflación en la fecha en que se cumplan 65 años.\\
+\item
+  De las cotizaciones a la Seguridad Social acumuladas a lo largo de la
+  vida laboral.\\
+\item
+  Del importe de las cotizaciones realizadas a la jubilación en el
+  último año previo a la jubilación.
+\end{enumerate}
+
+\begin{enumerate}
+[a.]
+\tightlist
+\item
+  I, III y IV.
+\item
+  Sólo la I.
+\item
+  I y III.
+\item
+  Sólo la III.
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Respuesta 6}
+\phantomsection\label{respuesta-6}
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, colback=white, arc=.35mm, colframe=quarto-callout-tip-color-frame, leftrule=.75mm, bottomrule=.15mm, left=2mm, toprule=.15mm, opacityback=0, breakable]
+\begin{minipage}[t]{5.5mm}
+\textcolor{quarto-callout-tip-color}{\faLightbulb}
+\end{minipage}%
+\begin{minipage}[t]{\textwidth - 5.5mm}
+
+La respuesta \textbf{correcta es la c}.
+
+A partir del 1 de enero de 2013, la edad ordinaria de jubilación varía
+entre los 65 y los 67 años, dependiendo de los \textbf{años cotizados}.
+Si se han cotizado al menos 38 años y 6 meses, se puede jubilar a los
+65; en caso contrario, la edad es 67 años. La \textbf{edad del
+trabajador y los años cotizados acumulados} son los factores relevantes.
+
+\end{minipage}%
+\end{tcolorbox}
+\end{frame}
+
+\begin{frame}{Pregunta 7}
+\phantomsection\label{pregunta-7}
+AI preverse legalmente el pago de una cuota máxima de pensión pública,
+¿quiénes tendrán más necesidad de realizar una planificación de su
+jubilación?
+
+I. Los clientes que tengan actualmente ingresos bajos pero tengan
+acumulados muchos ahorros.\\
+II. Los clientes que piensen jubilarse anticipadamente y no tengan
+ahorros.\\
+III. Los que tengan un número de años de cotización inferior al exigido
+por la ley para obtener la pensión máxima de jubilación.\\
+IV. Los que estimen unos ingresos netos post-jubilación superiores al
+salario neto actual.
+
+\begin{enumerate}
+[a.]
+\tightlist
+\item
+  II y III.
+\item
+  Sólo la III.
+\item
+  I, II y III.
+\item
+  Sólo la I.
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Respuesta 7}
+\phantomsection\label{respuesta-7}
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, colback=white, arc=.35mm, colframe=quarto-callout-tip-color-frame, leftrule=.75mm, bottomrule=.15mm, left=2mm, toprule=.15mm, opacityback=0, breakable]
+\begin{minipage}[t]{5.5mm}
+\textcolor{quarto-callout-tip-color}{\faLightbulb}
+\end{minipage}%
+\begin{minipage}[t]{\textwidth - 5.5mm}
+
+La respuesta \textbf{correcta es la a}.
+
+Los supuestos II y III reflejan una situación de \textbf{mayor
+vulnerabilidad financiera}: sin ahorros y sin derecho a la pensión
+máxima. En cambio, los clientes con ahorros acumulados o expectativas
+poco realistas (IV) pueden tener margen de maniobra o simplemente no se
+encuentran en una situación crítica.
+
+\end{minipage}%
+\end{tcolorbox}
+\end{frame}
+
+\begin{frame}{Pregunta 8}
+\phantomsection\label{pregunta-8}
+¿Qué es un PEPP (Producto Paneuropeo de Pensiones Individuales)?
+
+\begin{enumerate}
+[a.]
+\tightlist
+\item
+  Un seguro colectivo obligatorio promovido por la Seguridad Social.
+\item
+  Un producto financiero solo disponible para empleados públicos.
+\item
+  Un instrumento de ahorro voluntario armonizado a nivel europeo.
+\item
+  Un fondo de inversión libre especializado en renta fija.
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Respuesta 8}
+\phantomsection\label{respuesta-8}
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, colback=white, arc=.35mm, colframe=quarto-callout-tip-color-frame, leftrule=.75mm, bottomrule=.15mm, left=2mm, toprule=.15mm, opacityback=0, breakable]
+\begin{minipage}[t]{5.5mm}
+\textcolor{quarto-callout-tip-color}{\faLightbulb}
+\end{minipage}%
+\begin{minipage}[t]{\textwidth - 5.5mm}
+
+La respuesta \textbf{correcta es la c}.
+
+El \textbf{PEPP} es un producto de ahorro voluntario para la jubilación,
+regulado por la \textbf{UE}, con normas comunes para todos los Estados
+miembros. Fomenta la \textbf{portabilidad} entre países, la
+transparencia en costes y la posibilidad de elegir entre distintas
+opciones de inversión.
+
+\end{minipage}%
+\end{tcolorbox}
+\end{frame}
+
+\begin{frame}{Pregunta 9}
+\phantomsection\label{pregunta-9}
+¿Qué modalidad de plan de pensiones se caracteriza por tener claramente
+definidos los derechos de prestación para el beneficiario?
+
+\begin{enumerate}
+[a.]
+\tightlist
+\item
+  Plan de aportación definida
+\item
+  Plan de prestación definida
+\item
+  Plan mixto
+\item
+  Plan garantizado
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Respuesta 9}
+\phantomsection\label{respuesta-9}
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, colback=white, arc=.35mm, colframe=quarto-callout-tip-color-frame, leftrule=.75mm, bottomrule=.15mm, left=2mm, toprule=.15mm, opacityback=0, breakable]
+\begin{minipage}[t]{5.5mm}
+\textcolor{quarto-callout-tip-color}{\faLightbulb}
+\end{minipage}%
+\begin{minipage}[t]{\textwidth - 5.5mm}
+
+La respuesta \textbf{correcta es la b}.
+
+En un \textbf{plan de prestación definida}, la cuantía de la prestación
+(por ejemplo, un porcentaje del salario) está fijada desde el principio.
+El promotor asume el riesgo de inversión. Es más frecuente en el ámbito
+laboral o colectivo.
+
+\end{minipage}%
+\end{tcolorbox}
+\end{frame}
+
+\begin{frame}{Pregunta 10}
+\phantomsection\label{pregunta-10}
+¿Cuál es la contingencia principal cubierta por los planes de pensiones?
+
+\begin{enumerate}
+[a.]
+\tightlist
+\item
+  Incapacidad temporal
+\item
+  Fallecimiento
+\item
+  Jubilación
+\item
+  Desempleo involuntario
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Respuesta 10}
+\phantomsection\label{respuesta-10}
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, colback=white, arc=.35mm, colframe=quarto-callout-tip-color-frame, leftrule=.75mm, bottomrule=.15mm, left=2mm, toprule=.15mm, opacityback=0, breakable]
+\begin{minipage}[t]{5.5mm}
+\textcolor{quarto-callout-tip-color}{\faLightbulb}
+\end{minipage}%
+\begin{minipage}[t]{\textwidth - 5.5mm}
+
+La respuesta \textbf{correcta es la c}.
+
+Aunque los planes de pensiones también cubren otras contingencias
+(incapacidad, fallecimiento, dependencia), \textbf{la jubilación es la
+contingencia principal} que justifica la naturaleza de estos productos
+como instrumentos de previsión social.
+
+\end{minipage}%
+\end{tcolorbox}
+\end{frame}
+
+\begin{frame}{Pregunta 11}
+\phantomsection\label{pregunta-11}
+En la planificación para la jubilación, ¿es necesario prever la cuantía
+teórica de la pensión de la Seguridad Social que se cobrará cuando
+llegue el momento de la jubilación?
+
+\begin{enumerate}
+[a.]
+\tightlist
+\item
+  No es necesario, pues hay mucha incertidumbre sobre la cuantía.\\
+\item
+  Sí es necesario, pues servirá para saber las necesidades de ahorro.\\
+\item
+  Sí es necesario, aunque no se puede, pues no se sabe cuánto se va a
+  cotizar hasta el momento de la jubilación.\\
+\item
+  No es necesario, pues independientemente de la pensión de la Seguridad
+  Social es importante ahorrar para cuando llegue la jubilación.
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Respuesta 11}
+\phantomsection\label{respuesta-11}
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, colback=white, arc=.35mm, colframe=quarto-callout-tip-color-frame, leftrule=.75mm, bottomrule=.15mm, left=2mm, toprule=.15mm, opacityback=0, breakable]
+\begin{minipage}[t]{5.5mm}
+\textcolor{quarto-callout-tip-color}{\faLightbulb}
+\end{minipage}%
+\begin{minipage}[t]{\textwidth - 5.5mm}
+
+La respuesta \textbf{correcta es la c}.
+
+En la planificación para la jubilación, \textbf{es necesario prever la
+cuantía teórica de la pensión pública futura para estimar el ahorro
+complementario necesario}, aunque es cierto que \textbf{no se puede
+calcular con exactitud}, ya que dependerá de múltiples factores: años
+cotizados, bases de cotización, edad de jubilación y normativa vigente.
+
+\textbf{Principales variables que influyen en la pensión:}\\
+Años cotizados y base reguladora.\\
+Lagunas de cotización.\\
+Cambios legislativos (edad ordinaria, factor de sostenibilidad,
+revalorización).
+
+\end{minipage}%
+\end{tcolorbox}
+\end{frame}
+
+\begin{frame}{Pregunta 12}
+\phantomsection\label{pregunta-12}
+En la planificación financiera para la jubilación, ¿cuál de los
+siguientes factores \textbf{no es esencial} al determinar cuánto dinero
+será necesario para complementar la pensión pública?
+
+\begin{enumerate}
+[a.]
+\tightlist
+\item
+  El salario actual y su tasa de crecimiento.\\
+\item
+  La tasa de interés libre de riesgo.\\
+\item
+  La pensión pública actual y su incremento anual esperado.\\
+\item
+  El tiempo que falta para la jubilación.
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Respuesta 12}
+\phantomsection\label{respuesta-12}
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, colback=white, arc=.35mm, colframe=quarto-callout-tip-color-frame, leftrule=.75mm, bottomrule=.15mm, left=2mm, toprule=.15mm, opacityback=0, breakable]
+\begin{minipage}[t]{5.5mm}
+\textcolor{quarto-callout-tip-color}{\faLightbulb}
+\end{minipage}%
+\begin{minipage}[t]{\textwidth - 5.5mm}
+
+La respuesta \textbf{correcta es la b}.
+
+La \textbf{tasa libre de riesgo} es un concepto financiero teórico útil
+para valorar inversiones, pero \textbf{no es un factor determinante
+directo} al estimar el capital necesario para la jubilación. En cambio,
+el salario actual, el importe estimado de la pensión pública y el
+horizonte temporal sí son \textbf{variables clave} para una correcta
+planificación previsional.
+
+\end{minipage}%
+\end{tcolorbox}
+\end{frame}
+
+\begin{frame}{Pregunta 13}
+\phantomsection\label{pregunta-13}
+En el caso de un trabajador por cuenta ajena, ¿cuál de las siguientes
+preguntas \textbf{no es esencial} al planificar para la jubilación?
+
+\begin{enumerate}
+[a.]
+\tightlist
+\item
+  ¿Cuándo empezar a ahorrar?\\
+\item
+  ¿Cuánto dinero será necesario?\\
+\item
+  ¿Cuánto cotizar a la Seguridad Social?\\
+\item
+  ¿Cuándo espera jubilarse?
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Respuesta 13}
+\phantomsection\label{respuesta-13}
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, colback=white, arc=.35mm, colframe=quarto-callout-tip-color-frame, leftrule=.75mm, bottomrule=.15mm, left=2mm, toprule=.15mm, opacityback=0, breakable]
+\begin{minipage}[t]{5.5mm}
+\textcolor{quarto-callout-tip-color}{\faLightbulb}
+\end{minipage}%
+\begin{minipage}[t]{\textwidth - 5.5mm}
+
+La respuesta \textbf{correcta es la c}.
+
+\textbf{La cotización a la Seguridad Social no es una decisión
+individual libre del trabajador}, ya que depende de su categoría
+profesional, tipo de contrato y la normativa vigente. Las otras tres
+preguntas son fundamentales para una planificación personal y flexible
+de la jubilación.
+
+\end{minipage}%
+\end{tcolorbox}
+\end{frame}
+
+\begin{frame}{Pregunta 14}
+\phantomsection\label{pregunta-14}
+¿Cuál de las siguientes cuestiones tiene una \textbf{menor influencia
+directa} en la pensión pública de jubilación?
+
+\begin{enumerate}
+[a.]
+\tightlist
+\item
+  El período de cotización.\\
+\item
+  La base de cotización.\\
+\item
+  Los ingresos del trabajador en activo.\\
+\item
+  La base reguladora.
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Respuesta 14}
+\phantomsection\label{respuesta-14}
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, colback=white, arc=.35mm, colframe=quarto-callout-tip-color-frame, leftrule=.75mm, bottomrule=.15mm, left=2mm, toprule=.15mm, opacityback=0, breakable]
+\begin{minipage}[t]{5.5mm}
+\textcolor{quarto-callout-tip-color}{\faLightbulb}
+\end{minipage}%
+\begin{minipage}[t]{\textwidth - 5.5mm}
+
+La respuesta \textbf{correcta es la c}.
+
+\textbf{La pensión pública no se calcula directamente sobre los ingresos
+brutos}, sino sobre las \textbf{bases de cotización} registradas en la
+Seguridad Social. Estas pueden coincidir con los ingresos, pero no
+siempre es así. Por tanto, \textbf{los ingresos no determinan
+directamente la pensión}.
+
+\end{minipage}%
+\end{tcolorbox}
+\end{frame}
+
+\begin{frame}{Pregunta 15}
+\phantomsection\label{pregunta-15}
+En un Plan de Pensiones del sistema individual, el partícipe conoce
+durante la fase de aportaciones:
+
+\begin{enumerate}
+[a.]
+\tightlist
+\item
+  La forma en que se determinará la cantidad de la pensión de
+  jubilación.\\
+\item
+  El importe que lleva acumulado en cada momento.\\
+\item
+  La cantidad que recibirá en el momento de la jubilación.\\
+\item
+  El importe que debe tener acumulado en el momento de la jubilación.
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Respuesta 15}
+\phantomsection\label{respuesta-15}
+\begin{tcolorbox}[enhanced jigsaw, rightrule=.15mm, colback=white, arc=.35mm, colframe=quarto-callout-tip-color-frame, leftrule=.75mm, bottomrule=.15mm, left=2mm, toprule=.15mm, opacityback=0, breakable]
+\begin{minipage}[t]{5.5mm}
+\textcolor{quarto-callout-tip-color}{\faLightbulb}
+\end{minipage}%
+\begin{minipage}[t]{\textwidth - 5.5mm}
+
+La respuesta \textbf{correcta es la b}.
+
+En los planes de pensiones individuales, el partícipe \textbf{puede
+consultar en todo momento el saldo acumulado (derechos consolidados)}.
+Sin embargo, \textbf{no puede conocer con certeza la cuantía final}, ya
+que esta dependerá de la evolución de las aportaciones y la rentabilidad
+obtenida por el fondo de pensiones.
+
+\end{minipage}%
+\end{tcolorbox}
+\end{frame}
+
+
+
+
+\end{document}

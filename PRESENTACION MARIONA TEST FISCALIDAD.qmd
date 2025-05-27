@@ -200,123 +200,55 @@ format:
 
 ## Pregunta 1
 
-**Indique qué supuestos son, según la normativa española y publicaciones del supervisor, operaciones de riesgo en materia de prevención del blanqueo de capitales:**
+**Una entidad residente en Argentina es propietaria de un terreno destinado a la explotación forestal en España. A efectos del Impuesto sobre la Renta de No Residentes (IRNR), ¿cuál de las siguientes afirmaciones es correcta?**
 
-a) Servicios de banca privada  
-b) Relaciones de negocio y operaciones con clientes de países o jurisdicciones de riesgo  
-c) Transmisión de acciones o participaciones de sociedades preconstituidas  
-d) Todas las anteriores son correctas
-
-## Respuesta 1
-
-**Respuesta correcta: d) Todas las anteriores son correctas**
-
-### Justificación
-::: {.callout-note}
-La normativa identifica como operaciones de riesgo aquellas que incluyen banca privada, operaciones vinculadas a jurisdicciones de riesgo (como las señaladas por el GAFI) y transmisiones de sociedades sin actividad previa (preconstituidas).
-:::
-
-## Pregunta 2
-
-**De acuerdo con el Código Ético de EFPA España, ¿qué debe hacer un asesor financiero ante un conflicto de interés?**
-
-a) Resolverlo o minimizarlo si puede afectar su independencia u objetividad  
-b) No tiene obligación de comunicarlo al cliente si es inevitable  
-c) Comunicarlo directamente a la CNMV  
-d) Todas las anteriores son incorrectas
-
-## Respuesta 2
-
-**Respuesta correcta: a) Resolverlo o minimizarlo si puede afectar su independencia u objetividad**
-
-### Justificación
-::: {.callout-note}
-El Código Ético de EFPA exige que el asesor financiero gestione los conflictos de interés **evitándolos o reduciéndolos al mínimo**, siempre actuando con honestidad, transparencia e independencia frente al cliente.
-:::
-
-## Pregunta 3
-
-**¿Qué organismo español tiene la función de supervisar el cumplimiento en materia de blanqueo de capitales?**
-
-a) CNMV  
-b) Banco de España  
-c) SEPBLAC  
-d) Agencia Tributaria
-
-## Respuesta 3
-
-**Respuesta correcta: c) SEPBLAC**
-
-### Justificación
-::: {.callout-note}
-El **Servicio Ejecutivo de la Comisión de Prevención del Blanqueo de Capitales e Infracciones Monetarias (SEPBLAC)** es el organismo español responsable de controlar el cumplimiento de la normativa sobre prevención del blanqueo de capitales y financiación del terrorismo.
-:::
-
-## Pregunta 4
-
-**¿Qué entidad europea se encarga de supervisar el cumplimiento normativo en los mercados de valores?**
-
-a) Autoridad Bancaria Europea (EBA)  
-b) Banco Central Europeo (BCE)  
-c) Autoridad Europea de Valores y Mercados (ESMA)  
-d) Tribunal de Cuentas de la UE
-
-## Respuesta 4
-
-**Respuesta correcta: c) Autoridad Europea de Valores y Mercados (ESMA)**
-
-### Justificación
-::: {.callout-note}
-La **ESMA** supervisa los mercados de valores europeos, protege a los inversores y vela por el cumplimiento de normas como MiFID II, SFDR o MAR, coordinando la acción de supervisores nacionales como la CNMV.
-:::
-
-## Pregunta 5
-
-**Según la normativa MiFID II, ¿qué obligación tiene un asesor financiero antes de recomendar un producto?**
-
-a) Identificar al cliente y valorar si es profesional o minorista  
-b) Evaluar la idoneidad del producto en función del perfil del cliente  
-c) Tener en cuenta las preferencias de sostenibilidad del cliente  
-d) Todas las anteriores
-
-## Respuesta 5
-
-**Respuesta correcta: d) Todas las anteriores**
-
-### Justificación
-::: {.callout-note}
-MiFID II exige conocer al cliente (clasificación), evaluar la **idoneidad** y la **conveniencia** del producto ofrecido, y desde 2022, también **considerar sus preferencias ESG** como parte del asesoramiento.
-:::
-
-
-## Actividad 3. Test de evaluación
-
->Abre: domingo, 1 de junio de 2025, 00:00
-
->Cierra: lunes, 2 de junio de 2025, 23:59
-
-## Pregunta 1
-
-**En el ámbito de la prevención del blanqueo de capitales, los sujetos obligados deben identificar formalmente a los clientes con los que vayan a entablar relaciones de negocio. A efectos de identificación formal de clientes que sean personas físicas extranjeras, ¿cuál o cuáles de los siguientes documentos se consideran fehacientes?**
-
-I. El pasaporte  
-II. Un certificado de vacunación vigente  
-III. El permiso de trabajo  
-IV. La tarjeta de identidad de extranjero
-
-a) La I y la IV  
-b) Sólo la I  
-c) I, III y IV  
-d) Sólo la III
+a) La entidad argentina opera en España mediante establecimiento permanente dado que dispone aquí de una explotación forestal.  
+b) Se trata de una instalación situada en España por medio de la cual la entidad no residente opera en España.  
+c) a) y b) son correctas.  
+d) La entidad argentina opera en España mediante establecimiento no permanente.  
 
 ## Respuesta 1
 
-**Respuesta correcta: a) La I y la IV**
+**Respuesta correcta: c) a) y b) son correctas**
 
-### Justificación
 ::: {.callout-note}
-Según el artículo 3 de la Ley 10/2010, los sujetos obligados deben identificar a los intervinientes mediante documentos fehacientes. En el caso de personas físicas extranjeras, se consideran válidos el pasaporte y la tarjeta de identidad de extranjero (NIE).
+Según el artículo 13 del Texto Refundido de la Ley del IRNR y el artículo 5 del Modelo de Convenio de la OCDE, se considera **establecimiento permanente** toda instalación o lugar fijo en España a través del cual el no residente realiza actividades económicas.
+
+Esto incluye expresamente **las explotaciones agrícolas, forestales o pecuarias**. Por tanto, tanto la opción **a)** como la **b)** son correctas, al describir con precisión el concepto de establecimiento permanente. La opción **d)** es incorrecta, ya que no existe la figura de “establecimiento no permanente” en la normativa.
+
+> El establecimiento permanente **no tiene personalidad jurídica propia**, y tributa por las rentas imputables obtenidas en territorio español como si fuese un contribuyente residente, aunque con reglas específicas del IRNR.
 :::
+
+
+## Elementos clave del establecimiento permanente
+
+::: {.callout-tip}
+**¿Qué constituye un establecimiento permanente según el IRNR?**
+:::
+
+
+## Elementos clave del establecimiento permanente
+
+
+| Tipo de instalación o actividad                         | ¿Constituye establecimiento permanente? |
+|----------------------------------------------------------|------------------------------------------|
+| Oficina, sucursal, fábrica o taller                      | ✅ Sí                                     |
+| Almacén o tienda con actividad habitual                  | ✅ Sí                                     |
+| Mina, pozo de petróleo, cantera                          | ✅ Sí                                     |
+| Explotación agrícola, forestal o pecuaria                | ✅ Sí                                     |
+| Obra de construcción o montaje > 6 meses                 | ✅ Sí                                     |
+| Agente autorizado con poderes para contratar habitualmente | ✅ Sí                                     |
+| Tenencia pasiva de bienes sin lugar de trabajo asociado  | ❌ No                                     |
+| Agente independiente actuando en nombre propio           | ❌ No                                     |
+
+
+## Elementos clave del establecimiento permanente
+
+
+::: {.callout-note}
+**Conclusión**: la explotación forestal ubicada en España **sí configura un establecimiento permanente**, ya que implica actividad económica continua en territorio español, con un medio físico de operación.
+:::
+
 
 ## Pregunta 2
 
@@ -353,11 +285,12 @@ d) Rendimiento del capital mobiliario derivado de la cesión a terceros de capit
 
 ## Respuesta 3
 
-**Respuesta correcta: d) Ganancia o pérdida patrimonial**
+**Respuesta correcta: d) Rendimiento del capital mobiliario derivado de la cesión a terceros de capitales propios**
 
-### Justificación
 ::: {.callout-note}
-La transmisión de una obligación cotizada en un mercado secundario organizado (como el AIAF) se considera una variación en el patrimonio del contribuyente y tributa como **Rendimiento del capital mobiliario derivado de la cesión a terceros de capitales propios**, no como rGanancia o pérdida patrimonial .
+La transmisión de una obligación que cotiza en un mercado secundario organizado, como el mercado AIAF de renta fija, genera un **rendimiento del capital mobiliario** si procede de la **cesión a terceros de capitales propios**, conforme al artículo 25.2 de la Ley del IRPF.
+
+> No se considera ganancia o pérdida patrimonial, ya que los rendimientos obtenidos por la transmisión de activos de renta fija que representan deuda (obligaciones, bonos, etc.) **se califican como rendimientos del capital mobiliario** cuando proceden de activos financieros.
 :::
 
 
@@ -365,10 +298,10 @@ La transmisión de una obligación cotizada en un mercado secundario organizado 
 
 **Una sociedad de inversión inmobiliaria (SOCIMI), cotizada:**
 
-- a) Está siempre exenta del impuesto de sociedades  
-- b) Está exenta del impuesto de sociedades si cumple una serie de requisitos  
-- c) No está obligada a repartir dividendos  
-- d) Tiene muy poca liquidez
+a) Está siempre exenta del impuesto de sociedades  
+b) Está exenta del impuesto de sociedades si cumple una serie de requisitos  
+c) No está obligada a repartir dividendos  
+d) Tiene muy poca liquidez
 
 ## Respuesta 4
 
@@ -412,14 +345,20 @@ b) Sólo la III
 c) I, II y III  
 d) I y II
 
-## Respuesta 6
+## Respuesta 4
 
-**Respuesta correcta: a) I y III**
+**Respuesta correcta: b) Sólo la III**
 
-### Justificación
 ::: {.callout-note}
-Las rentas obtenidas en territorio español por un no residente, como **intereses de deuda pública española** o **alquiler de inmuebles situados en España**, están sujetas al IRNR. Los dividendos pagados por empresas extranjeras no tributan en España.
+## Según el régimen general ...:
+
+- ✅ **La renta del alquiler de un apartamento situado en Palma de Mallorca está sujeta a gravamen**, ya que se considera renta obtenida en territorio español (renta inmobiliaria derivada de un bien situado en España).
+
+- ❌ **Los intereses de obligaciones del Estado están exentos** para residentes en Estados de la UE o del EEE con efectivo intercambio de información tributaria, como es el caso de Italia.
+
+- ❌ **Los dividendos pagados por una empresa cotizada en la bolsa de Nueva York no se consideran renta obtenida en territorio español**, y por tanto no tributan en el IRNR español, salvo que procedan de una entidad española (no es el caso).
 :::
+
 
 ## Pregunta 7
 

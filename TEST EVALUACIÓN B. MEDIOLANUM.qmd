@@ -1,0 +1,655 @@
+---
+title: "UEMC online"
+subtitle: "Evaluación para la convocatoria de junio"
+author: "Profesor Alberto Bernat"
+date: last-modified
+date-format: DD/MM/YYYY
+format: 
+  beamer: 
+    aspectratio: 54
+    theme: Madrid
+    colortheme: seahorse
+    lang: "es"
+    colorlinks: true
+    header-includes: |
+      \usepackage{graphicx}
+      \usepackage{amssymb}
+      \usepackage{textcomp}
+      \definecolor{MediolanumBlueLight}{HTML}{1e96d7}
+      \definecolor{MediolanumBlueDark}{HTML}{192d6e}
+      \definecolor{EFPAYellow}{RGB}{255,204,0}
+      \setbeamercolor{title}{fg=MediolanumBlueDark}
+      \setbeamercolor{frametitle}{fg=MediolanumBlueLight}
+      \setbeamercolor{structure}{fg=EFPAYellow}
+      \setbeamercolor{section in toc}{fg=MediolanumBlueDark}
+      \setbeamercolor{footline}{fg=MediolanumBlueDark, bg=white}
+      \setbeamercolor{block title}{fg=white, bg=MediolanumBlueDark}
+      \setbeamercolor{block body}{fg=black, bg=MediolanumBlueLight!20}
+      \setbeamercolor{alerted text}{fg=EFPAYellow}
+      \setbeamercolor{item}{fg=MediolanumBlueDark}
+      \setbeamercolor{subitem}{fg=MediolanumBlueLight}
+      \setbeamercolor{subsubitem}{fg=EFPAYellow}
+      \setbeamercolor{caption name}{fg=MediolanumBlueDark}
+      \setbeamercolor{button}{bg=MediolanumBlueDark, fg=white}
+      \setbeamercolor{button border}{bg=EFPAYellow, fg=EFPAYellow}
+      \setbeamercolor{button text}{fg=white}
+      \setbeamercolor{navigation symbols}{fg=MediolanumBlueLight}
+      \setbeamercolor{palette primary}{bg=MediolanumBlueDark, fg=white}
+      \setbeamercolor{palette secondary}{bg=MediolanumBlueLight, fg=white}
+      \setbeamercolor{palette tertiary}{bg=EFPAYellow, fg=black}
+      \setbeamercolor{palette quaternary}{bg=MediolanumBlueDark, fg=white}
+      \setbeamercolor{section in head/foot}{bg=MediolanumBlueDark, fg=white}
+      \setbeamercolor{subsection in head/foot}{bg=MediolanumBlueLight, fg=white}
+      \setbeamercolor{author in head/foot}{fg=MediolanumBlueDark}
+      \setbeamercolor{institute in head/foot}{fg=MediolanumBlueLight}
+      \setbeamercolor{date in head/foot}{fg=EFPAYellow}
+      \setbeamercolor{title in head/foot}{fg=MediolanumBlueDark}
+      \setbeamercolor{subtitle}{fg=EFPAYellow}
+      \setbeamercolor{logo in head/foot}{bg=white}
+      \setbeamercolor{bibliography entry author}{fg=MediolanumBlueDark}
+      \setbeamercolor{bibliography entry title}{fg=MediolanumBlueLight}
+      \setbeamercolor{bibliography entry location}{fg=EFPAYellow}
+      \setbeamercolor{bibliography entry note}{fg=MediolanumBlueDark}
+      \setbeamercolor{abstract}{fg=MediolanumBlueDark, bg=MediolanumBlueLight!20}
+      \setbeamercolor{abstract title}{fg=white, bg=MediolanumBlueDark}
+      \setbeamercolor{verse}{fg=MediolanumBlueDark, bg=MediolanumBlueLight!20}
+      \setbeamercolor{quotation}{fg=MediolanumBlueDark, bg=MediolanumBlueLight!20}
+      \setbeamercolor{quote}{fg=MediolanumBlueDark, bg=MediolanumBlueLight!20}
+      \setbeamercolor{description item}{fg=MediolanumBlueDark}
+      \setbeamercolor{description item label}{fg=MediolanumBlueLight}
+      \setbeamercolor{description item body}{fg=EFPAYellow}
+      \setbeamercolor{enumerate item}{fg=MediolanumBlueDark}
+      \setbeamercolor{enumerate subitem}{fg=MediolanumBlueLight}
+      \setbeamercolor{enumerate subsubitem}{fg=EFPAYellow}
+      \setbeamercolor{itemize item}{fg=MediolanumBlueDark}
+      \setbeamercolor{itemize subitem}{fg=MediolanumBlueLight}
+      \setbeamercolor{itemize subsubitem}{fg=EFPAYellow}
+      \setbeamercolor{list item}{fg=MediolanumBlueDark}
+---
+
+
+## Evaluación para la convocatoria de junio
+![](images/EFPA_logo-01.jpg)
+
+## Objetivo de la sesión
+
+En esta sesión trabajaremos una **batería de 25 preguntas tipo test** seleccionadas para **evaluar los conocimientos clave** del programa oficial del Nivel II de la certificación **EFA**. Las preguntas abordan temas transversales relacionados con:
+
+- Fiscalidad del ahorro y la inversión  
+- Gestión de carteras y análisis financiero  
+- Instrumentos de renta fija y variable  
+- Productos previsionales y planificación financiera  
+- Normativa y regulación
+
+El objetivo es **prepararte para el examen oficial**, reforzando no solo los contenidos técnicos, sino también la comprensión práctica y el enfoque propio del asesoramiento financiero.
+
+Esta sesión tiene también un valor **evaluativo y orientador**, ya que permite identificar las áreas que debes seguir reforzando en tu estudio individual.
+
+---
+
+## 
+
+
+::: {.callout-note}
+### 🔔 Recuerda
+
+Ya está abierto el plazo de inscripción para la **2ª convocatoria del examen EFA Nivel II (2025)**:
+
+- **Fecha del examen:** 27 de junio de 2025  
+- **Horario:** 15:30 h  
+- **Modalidad:** Online  
+- **Fecha límite de inscripción:** 10 de junio de 2025  
+- **Aforo:** limitado
+
+
+[Puedes inscribirte desde hoy mismo en la web de EFPA](https://www.efpa.es/fechas-examenes)
+:::
+
+
+
+## Pregunta 1
+
+**¿Qué normativa autonómica se aplicará a la liquidación que corresponda efectuar en concepto de Impuesto sobre Sucesiones y Donaciones por la donación recibida?**
+
+Un ciudadano de nacionalidad francesa con residencia fiscal en Barcelona ha recibido, en concepto de donación de su padre (residente fiscal en Mallorca), un inmueble situado en la Comunidad Autónoma de Murcia.
+
+a. Normativa de la Comunidad Autónoma de las Islas Baleares  
+b. Normativa de la Comunidad Autónoma de Murcia  
+c. Normativa de la Comunidad Autónoma de Cataluña  
+d. No se devenga el Impuesto sobre Sucesiones y Donaciones español  
+
+## Respuesta 1
+
+**Respuesta correcta: b. Normativa de la Comunidad Autónoma de Murcia**
+
+::: {.callout-note}
+Se aplicará la normativa autonómica de **Murcia**, por ser la Comunidad Autónoma donde se encuentra situado el inmueble donado. En donaciones de inmuebles, la normativa aplicable es la del territorio donde radique el bien, con independencia de la residencia del donante o donatario.
+:::
+
+---
+
+## Pregunta 2
+
+**¿Qué bienes debe declarar el Sr. McAllister en el Impuesto sobre el Patrimonio en España?**
+
+Residente fiscal en Irlanda. Posee:
+
+I. Vivienda en Dublín (300.000 €)  
+II. Vivienda en Málaga (550.000 €)  
+III. Fondos en banco irlandés (630.000 €)  
+IV. Acciones cotizadas en banco español
+
+a. Solo la II  
+b. II, III y IV  
+c. II y IV  
+d. Solo la IV  
+
+## Respuesta 2
+
+**Respuesta correcta: c. II y IV**
+
+::: {.callout-note}
+Los **no residentes** tributan en el Impuesto sobre el Patrimonio solo por los bienes y derechos situados en territorio español. Por tanto:
+
+- La vivienda en Málaga (bien inmueble en España) y
+- Las acciones depositadas en un banco español
+
+**Sí deben incluirse**. El resto queda excluido.
+:::
+
+---
+
+## Pregunta 3
+
+**¿Cuál es el Alfa de Jensen de una cartera con 12 % de rentabilidad, 8 % de mercado, 2 % libre de riesgo y beta 1,2?**
+
+a. 1,2 %  
+b. 2,8 %  
+c. 3,6 %  
+d. 4,8 %  
+
+## Respuesta 3
+
+**Respuesta correcta: b. 2,8 %**
+
+::: {.callout-note}
+Fórmula del Alfa de Jensen:
+
+$$
+\alpha = R_i - \left[ R_f + \beta_i \cdot (R_m - R_f) \right]
+$$
+
+Sustituyendo:
+
+$$
+\alpha = 12\% - [2\% + 1{,}2 \cdot (8\% - 2\%)] =  2{,}8\%
+$$
+
+Este exceso de rentabilidad se atribuye a la gestión activa de la cartera.
+:::
+
+---
+
+## Pregunta 4
+
+**¿Por qué valor se deben declarar 500 obligaciones del Estado con valor medio de cotización trimestral de 1.050 euros?**
+
+a. 500 x 1.000 = 500.000  
+b. 500 x 1.150 = 575.000  
+c. 500 × 1.050 = 525.000  
+d. 500 x 1.000 x 1,03 = 515.000  
+
+## Respuesta 4
+
+**Respuesta correcta: c. 500 × 1.050 = 525.000**
+
+::: {.callout-note}
+En el Impuesto sobre el Patrimonio, los activos de renta fija cotizados se valoran por el **valor medio de cotización del último trimestre** del año, que en este caso es 1.050 euros por obligación.
+
+$$
+500 \times 1.050 = 525.000
+$$
+:::
+
+---
+
+## Pregunta 5
+
+**¿Qué riesgo asume con mayor frecuencia un fondo estilo Growth Investing?**
+
+a. Volatilidad por expectativas de crecimiento  
+b. Riesgo de divisa  
+c. Riesgo de crédito  
+d. Riesgo de liquidez  
+
+## Respuesta 5
+
+**Respuesta correcta: a. Volatilidad por expectativas de crecimiento**
+
+::: {.callout-note}
+Los fondos de estilo **Growth** invierten en empresas con alto potencial de crecimiento. Estas empresas tienden a ser sensibles a las expectativas del mercado, lo que genera **mayor volatilidad** en sus precios.
+:::
+
+---
+
+## Pregunta 6
+
+**¿Ventaja clave del Earning Yield Gap al evaluar acciones?**
+
+a. Identifica alta rentabilidad sobre activos  
+b. Compara rentabilidad de acciones y bonos  
+c. Predice movimientos en divisas  
+d. Garantiza rentabilidad futura  
+
+## Respuesta 6
+
+**Respuesta correcta: b. Compara rentabilidad de acciones y bonos**
+
+::: {.callout-note}
+El **Earning Yield Gap** compara el beneficio por acción / precio de las acciones con la rentabilidad de la deuda pública. Es útil para detectar si las acciones están caras o baratas respecto al mercado de renta fija.
+:::
+
+---
+
+## Pregunta 7
+
+**¿Qué plazos cubre el EURIBOR?**
+
+a. 1-36 meses  
+b. 1-24 meses  
+c. 1-12 meses  
+d. 6-18 meses  
+
+## Respuesta 7
+
+**Respuesta correcta: c. 1-12 meses**
+
+::: {.callout-note}
+El **EURIBOR** se calcula para préstamos interbancarios en euros a distintos plazos. Los más comunes y estandarizados son desde **1 hasta 12 meses**.
+:::
+
+---
+
+## Pregunta 8
+
+**¿Qué implica que un mercado sea eficiente en su forma fuerte?**
+
+a. No es posible superar al mercado mediante análisis  
+b. La inversión activa es más rentable  
+c. La información privilegiada genera ventaja  
+d. Solo los institucionales pueden batir al mercado  
+
+## Respuesta 8
+
+**Respuesta correcta: a. No es posible superar al mercado mediante análisis**
+
+::: {.callout-note}
+La **eficiencia fuerte** implica que toda la información, incluso la privilegiada, está ya incorporada en los precios. Por tanto, **ni el análisis técnico ni el fundamental** permiten obtener beneficios adicionales sostenibles.
+:::
+
+---
+
+## Pregunta 9
+
+**¿Cuándo no puede una firma declarar cumplimiento GIPS?**
+
+a. Si solo gestiona carteras institucionales  
+b. Si invierte en mercados internacionales  
+c. Si no aplica GIPS a todas sus carteras  
+d. Si usa distintas metodologías para cada cliente  
+
+## Respuesta 9
+
+**Respuesta correcta: c. Si no aplica GIPS a todas sus carteras**
+
+::: {.callout-note}
+Las normas **GIPS** exigen que todas las carteras bajo gestión estén sujetas a los mismos principios de presentación. No se permite declarar conformidad parcial o selectiva.
+:::
+
+---
+
+## Pregunta 10
+
+**¿Qué caracteriza al Value Investing?**
+
+a. Invertir en empresas infravaloradas  
+b. Rotación frecuente de cartera  
+c. Replicar un índice bursátil  
+d. Apostar por alto crecimiento a precios altos  
+
+## Respuesta 10
+
+**Respuesta correcta: a. Invertir en empresas infravaloradas**
+
+::: {.callout-note}
+El **Value investing** se basa en el análisis fundamental para encontrar acciones cuyo **valor intrínseco** es superior al precio actual. Busca comprar barato y obtener rentabilidad cuando el mercado reconozca ese valor.
+:::
+
+---
+
+
+## Pregunta 11
+
+**¿Cuál será la duración corregida de un bono si su precio pasa de 103,40 a 99,89 debido a una subida de la TIR del 3 % al 3,5 %?**
+
+a. 6,78  
+b. 6,40  
+c. 7,30  
+d. 7  
+
+## Respuesta 11
+
+**Respuesta correcta: a. 6,78**
+
+::: {.callout-note}
+Se utiliza la fórmula de duración modificada:
+
+$$
+D = \frac{P_0 - P_1}{P_0 \cdot \Delta \text{TIR}}
+$$
+
+Sustituyendo:
+
+$$
+D = \frac{103{,}40 - 99{,}89}{103{,}40 \cdot 0{,}005} = \frac{3{,}51}{0{,}517} \approx 6{,}78
+$$
+
+Este cálculo permite aproximar la sensibilidad del precio a cambios en la rentabilidad.
+:::
+
+---
+
+## Pregunta 12
+
+**¿Cuál es el principal desafío al segmentar productos de renta fija entre inversores institucionales y minoristas?**
+
+a. Mantener la liquidez en ambos mercados  
+b. Equilibrar rentabilidad y regulación  
+c. Ajustar duración y rendimiento según el horizonte  
+d. Garantizar la transparencia de comisiones  
+
+## Respuesta 12
+
+**Respuesta correcta: c. Ajustar duración y rendimiento según el horizonte**
+
+::: {.callout-note}
+Los **institucionales** suelen tolerar mayores riesgos y horizontes largos, mientras que los **minoristas** prefieren inversiones más estables y líquidas. El reto es diseñar productos con duración y rendimiento adecuados para ambos perfiles.
+:::
+
+---
+
+## Pregunta 13
+
+**¿Qué busca una estrategia de Convertible Arbitrage?**
+
+a. Beneficiarse en mercados alcistas mediante conversión  
+b. Captar dividendos con protección de capital  
+c. Aprovechar diferencias entre precio de bono convertible y acción  
+d. Ganar con fluctuaciones sin exposición direccional  
+
+## Respuesta 13
+
+**Respuesta correcta: c. Aprovechar diferencias entre precio de bono convertible y acción**
+
+::: {.callout-note}
+Esta estrategia busca explotar **ineficiencias temporales** entre el precio del bono convertible y la acción subyacente. Se compra el bono y se vende la acción en corto, obteniendo beneficios del diferencial.
+:::
+
+---
+
+## Pregunta 14
+
+**¿Cuál es la beta de un fondo respecto al NASDAQ si:**
+
+- Correlación = 0,6  
+- Varianza NASDAQ = 0,40  
+- Varianza del fondo = 0,15  
+
+a. 0,15  
+b. 0,225  
+c. 0,30  
+d. 0,367  
+
+## Respuesta 14
+
+**Respuesta correcta: d. 0,367**
+
+::: {.callout-note}
+Se usa la fórmula:
+
+$$
+\beta = \frac{\text{Cov}(f,m)}{\text{Var}(m)} = \frac{\rho \cdot \sigma_f \cdot \sigma_m}{\text{Var}(m)}
+$$
+
+Cálculos:
+
+- $\sigma_f = \sqrt{0{,}15} \approx 0{,}3873$  
+- $\sigma_m = \sqrt{0{,}40} \approx 0{,}6325$  
+
+$$
+\beta = \frac{0{,}6 \cdot 0{,}3873 \cdot 0{,}6325}{0{,}40} \approx 0{,}367
+$$
+:::
+
+---
+
+## Pregunta 15
+
+**¿Cuál es uno de los principales beneficios fiscales de las Sociedades de arrendamiento de vivienda (SAV)?**
+
+a. Exención total sobre el capital  
+b. Bonificación en el IS  
+c. Deducción de todos los gastos  
+d. No tributan por el alquiler  
+
+## Respuesta 15
+
+**Respuesta correcta: b. Bonificación en el IS**
+
+::: {.callout-note}
+Las SAV pueden aplicar una **bonificación del 85 %** en la cuota íntegra del Impuesto sobre Sociedades si cumplen condiciones: número mínimo de viviendas arrendadas, duración mínima, etc.
+:::
+
+---
+
+## Pregunta 16
+
+**¿Qué incluye un plan financiero integral?**
+
+a. Solo jubilación  
+b. Seguros, fiscalidad, inversiones y jubilación  
+c. Productos bancarios básicos  
+d. Solo planificación de la vivienda  
+
+## Respuesta 16
+
+**Respuesta correcta: b. Seguros, fiscalidad, inversiones y jubilación**
+
+::: {.callout-note}
+Un plan financiero integral aborda múltiples áreas clave para el asesoramiento:
+
+- **Protección (seguros)**  
+- **Optimización fiscal**  
+- **Gestión de inversiones**  
+- **Planificación de la jubilación**
+:::
+
+---
+
+## Pregunta 17
+
+**¿Qué estrategia aplica un hedge fund que invierte en deuda de empresas en reestructuración?**
+
+a. Global Macro  
+b. Fixed Income Arbitrage  
+c. Equity Market Neutral  
+d. Distressed Securities  
+
+## Respuesta 17
+
+**Respuesta correcta: d. Distressed Securities**
+
+::: {.callout-note}
+Los fondos **Distressed** invierten en deuda o acciones de empresas en crisis. Apuestan por la recuperación o liquidación favorable, con alta rentabilidad potencial y alto riesgo.
+:::
+
+---
+
+## Pregunta 18
+
+**¿Qué implica una TGR elevada durante un largo periodo?**
+
+a. Desempeño superior ajustado al riesgo  
+b. Rentabilidad debida al mercado  
+c. Asunción de más riesgo que el benchmark  
+d. No garantiza buen desempeño si hay alta volatilidad  
+
+## Respuesta 18
+
+**Respuesta correcta: d. No garantiza buen desempeño si hay alta volatilidad**
+
+::: {.callout-note}
+Una **Tasa Geométrica de Rentabilidad (TGR)** elevada indica crecimiento compuesto, pero **no ajusta por riesgo**. Puede ser resultado de elevada volatilidad.
+:::
+
+---
+
+## Pregunta 19
+
+**¿Qué implica la pendiente de una curva de indiferencia?**
+
+a. Define la frontera eficiente  
+b. Indica la diversificación óptima  
+c. Tasa marginal de sustitución entre rentabilidad y riesgo  
+d. Rendimiento mínimo para mantener liquidez  
+
+## Respuesta 19
+
+**Respuesta correcta: c. Tasa marginal de sustitución entre rentabilidad y riesgo**
+
+::: {.callout-note}
+La pendiente refleja **cuánta rentabilidad adicional** necesita un inversor para aceptar **mayor riesgo**, manteniendo constante su utilidad. Es clave para entender su **aversión al riesgo**.
+:::
+
+---
+
+## Pregunta 20
+
+**¿Cuál es el coeficiente de liquidez anual obligatorio para los FII?**
+
+a. 3 %  
+b. 10 %  
+c. 20 %  
+d. 30 %  
+
+## Respuesta 20
+
+**Respuesta correcta: b. 10 %**
+
+::: {.callout-note}
+Según la **Circular 1/2025 de la CNMV**, los Fondos de Inversión Inmobiliaria deben mantener un **coeficiente de liquidez del 10 %**, calculado como promedio diario de los saldos líquidos del mes en curso.
+
+[BOE-A-2025-5190](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-5190)
+:::
+
+---
+
+
+## Pregunta 21
+
+**¿Cuál es una posible implicación financiera de integrar factores ESG en la construcción de carteras de inversión?**
+
+a. Elimina la necesidad de realizar un análisis fundamental de los activos  
+b. Asegura que la cartera tendrá un menor nivel de riesgo sistemático en cualquier entorno de mercado  
+c. Garantiza automáticamente una mayor rentabilidad a largo plazo  
+d. Puede limitar el universo de inversión, lo que podría afectar la diversificación y el rendimiento potencial
+
+## Respuesta 21
+
+**Respuesta correcta: d. Puede limitar el universo de inversión, lo que podría afectar la diversificación y el rendimiento potencial**
+
+::: {.callout-note}
+Al integrar factores **ESG**, pueden excluirse activos o sectores que no cumplan con criterios ambientales, sociales o de gobernanza. Esto **reduce el universo de inversión disponible**, pudiendo afectar la **diversificación** y el **potencial de rentabilidad**, aunque también puede reducir ciertos riesgos no financieros.
+:::
+
+---
+
+## Pregunta 22
+
+**¿Cuál es una de las principales diferencias legales entre una IIC de inversión libre y una IIC tradicional en términos de liquidez?**
+
+a. Las IIC de inversión libre deben ofrecer liquidez diaria a sus partícipes  
+b. Las IIC de inversión libre pueden establecer ventanas de liquidez más restrictivas  
+c. Ambas deben ofrecer la misma frecuencia de reembolsos según la normativa europea  
+d. Las IIC tradicionales permiten más restricciones de liquidez que las de inversión libre
+
+## Respuesta 22
+
+**Respuesta correcta: b. Las IIC de inversión libre pueden establecer ventanas de liquidez más restrictivas**
+
+::: {.callout-note}
+Las **IIC de inversión libre** (como los hedge funds regulados en España) tienen **mayor flexibilidad normativa** para establecer restricciones de liquidez. Pueden fijar reembolsos mensuales o trimestrales, mientras que las IIC tradicionales deben permitir reembolsos con frecuencia al menos quincenal.
+:::
+
+---
+
+## Pregunta 23
+
+**¿A cuál o cuáles instrumentos podrá movilizar sus derechos económicos un jubilado que aún no ha iniciado el cobro de un plan de pensiones individual?**
+
+I. A un plan de pensiones de empleo  
+II. A un plan de pensiones individual  
+III. A un seguro de vida  
+IV. A un plan de previsión asegurado
+
+a. I y IV  
+b. Sólo la II  
+c. I, II y IV  
+d. Ninguna de las anteriores
+
+## Respuesta 23
+
+**Respuesta correcta: b. Sólo la II**
+
+::: {.callout-note}
+Según el **Reglamento de planes y fondos de pensiones (RD 304/2004)**, los **beneficiarios que no hayan iniciado el cobro de la prestación** pueden movilizar sus derechos económicos **solo dentro del sistema individual**. No es posible traspasarlos a un PPA, seguro de vida tradicional o plan de empleo una vez alcanzada la jubilación.
+:::
+
+---
+
+## Pregunta 24
+
+**¿Qué instrumento de ahorro previsional tiene como característica propia el cobro del ahorro acumulado en forma de renta vitalicia?**
+
+a. Seguro de vida de capital diferido  
+b. Plan individual de ahorro sistemático  
+c. Plan de pensiones individual  
+d. Fondo de inversión
+
+## Respuesta 24
+
+**Respuesta correcta: b. Plan individual de ahorro sistemático**
+
+::: {.callout-note}
+El **PIAS** está diseñado para que, al alcanzar la jubilación, el capital acumulado **se perciba exclusivamente en forma de renta vitalicia asegurada**, si se quieren aplicar los beneficios fiscales. Esta exigencia legal lo diferencia de otros productos como los planes de pensiones o los fondos.
+:::
+
+---
+
+## Pregunta 25
+
+**¿Cuál es el activo menos adecuado para un cliente de 40 años que ahorra para la jubilación?**
+
+a. Fondos monetarios  
+b. Planes de pensiones  
+c. Fondos mixtos de renta variable  
+d. Local comercial para generar rentas tras la jubilación
+
+## Respuesta 25
+
+**Respuesta correcta: a. Fondos monetarios**
+
+::: {.callout-note}
+Los **fondos monetarios** son adecuados para **plazos cortos** y preservación de capital, pero **no ofrecen el potencial de crecimiento** necesario para un horizonte largo como la jubilación. Para un inversor de 40 años, es preferible optar por activos con mayor rentabilidad esperada y exposición al riesgo controlada.
+:::
+

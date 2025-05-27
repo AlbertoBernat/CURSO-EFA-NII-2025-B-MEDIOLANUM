@@ -3,8 +3,24 @@ title: "Sesión 7: Módulo 5 – Pensiones y planificación de jubilación"
 format: html
 ---
 
-::: {.callout-note}
-## Material de la sesión
+#### 🎥 Vídeo de la sesión
 
-Aquí puedes incluir los vídeos, enlaces y materiales descargables.
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/7RbyaEBI60g" title="Vídeo de la sesión" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+::: {.callout-note}
+## 📎 Material de la sesión
+
+<iframe src="https://drive.google.com/file/d/1_YshLTjH-m5yX2kqxMiAK8bgpesepWvK/preview" width="100%" height="800px"></iframe>
+:::
+
+:::{.callout-important}
+## 📝 Test de autoevaluación de la sesión
+
+Haz clic en el siguiente botón para acceder al formulario del test correspondiente a esta clase. Se abrirá en una nueva pestaña.
+
+:::{.text-center}
+[Acceder al test](https://forms.gle/ktcFUeDZRAPfKhtX6){.btn .btn-success style="border-radius: 12px;" target="_blank"}
+:::
 :::
